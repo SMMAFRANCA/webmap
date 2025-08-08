@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([-5309131.141697, -2366641.592486, -5232742.965043, -2320800.587673], map.getSize());
+map.getView().fit([-5299994.380697, -2366524.636720, -5241861.788219, -2320948.261432], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -449,7 +449,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-left-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">SMMA - Web Map</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">FRANCA /SP - Web Map</h2>';
         return titleElement;
     })(),
     target: 'top-left-container'
