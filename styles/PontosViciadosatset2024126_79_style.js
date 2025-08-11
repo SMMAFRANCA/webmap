@@ -6,7 +6,7 @@ function categories_PontosViciadosatset2024126_79(feature, value, size, resoluti
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'Imóvel Privado':
                     return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 6.0 + size,
+        image: new ol.style.Circle({radius: 8.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(216,92,121,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -15,7 +15,7 @@ function categories_PontosViciadosatset2024126_79(feature, value, size, resoluti
                     break;
 case 'Imóvel Público':
                     return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 6.0 + size,
+        image: new ol.style.Circle({radius: 8.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(121,214,92,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,

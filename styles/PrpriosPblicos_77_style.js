@@ -6,7 +6,7 @@ function categories_PrpriosPblicos_77(feature, value, size, resolution, labelTex
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'CONTRATO ESSE':
                     return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 6.0 + size,
+        image: new ol.style.Circle({radius: 8.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(198,223,98,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -15,7 +15,7 @@ function categories_PrpriosPblicos_77(feature, value, size, resolution, labelTex
                     break;
 case 'CONTRATO VPN':
                     return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 6.0 + size,
+        image: new ol.style.Circle({radius: 8.0 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(37,171,205,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
