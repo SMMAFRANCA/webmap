@@ -48,7 +48,7 @@ var lyr_LimiteMunicipaldeFranca_3 = new ol.layer.Vector({
                 source:jsonSource_LimiteMunicipaldeFranca_3, 
                 style: style_LimiteMunicipaldeFranca_3,
                 popuplayertitle: 'Limite Municipal de Franca',
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/LimiteMunicipaldeFranca_3.png" /> Limite Municipal de Franca'
             });
 var format_reaUrbanadeFranca_4 = new ol.format.GeoJSON();
@@ -63,7 +63,7 @@ var lyr_reaUrbanadeFranca_4 = new ol.layer.Vector({
                 source:jsonSource_reaUrbanadeFranca_4, 
                 style: style_reaUrbanadeFranca_4,
                 popuplayertitle: 'Área Urbana de Franca',
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/reaUrbanadeFranca_4.png" /> Área Urbana de Franca'
             });
 var format_RemanescentedaMatrcula11419_5 = new ol.format.GeoJSON();
