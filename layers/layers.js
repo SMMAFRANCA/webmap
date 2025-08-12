@@ -1733,7 +1733,7 @@ var lyr_ResduosInservveis4_115 = new ol.layer.Vector({
             });
 var group_DescarteCorretodeResduos = new ol.layer.Group({
                                 layers: [lyr_ResduosdeConstruoCivil7_99,lyr_ResduosVerdes1_100,lyr_ChapasdeRaioX1_101,lyr_Embalagensvaziasdeagrotxicos1_102,lyr_leodecozinhausado2_103,lyr_leolubrificanteusado1_104,lyr_Latasdetintametlicasvazias2_105,lyr_ResduosPerigosos1_106,lyr_Madeiras1_107,lyr_ResduosdeServiosdeSade21_108,lyr_PilhaseBaterias16_109,lyr_Pneus1_110,lyr_Lmpadas4_111,lyr_ResduosdeCouro1_112,lyr_ResduosEletrnicos2_113,lyr_ResduosReciclveis15_114,lyr_ResduosInservveis4_115,],
-                                fold: 'open',
+                                fold: 'close',
                                 title: 'Descarte Correto de Resíduos'});
 var group_SubregiesContratoESSE = new ol.layer.Group({
                                 layers: [lyr_R01S01_68,lyr_R01S02_69,lyr_R01S03_70,lyr_R01S04_71,lyr_R01S05_72,lyr_R01S06_73,lyr_R01S07_74,lyr_R01S08_75,lyr_R02S01_76,lyr_R02S02_77,lyr_R02S03_78,lyr_R02S04_79,lyr_R02S05_80,lyr_R02S06_81,lyr_R02S07_82,lyr_R02S08_83,lyr_R03S01_84,lyr_R03S02_85,lyr_R03S03_86,lyr_R03S04_87,lyr_R03S05_88,lyr_R03S06_89,lyr_R03S07_90,lyr_R03S08_91,],
