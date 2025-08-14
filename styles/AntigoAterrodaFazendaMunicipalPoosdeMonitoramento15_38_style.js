@@ -9,7 +9,7 @@ var style_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15_38 = function(feat
     
     var labelText = ""; 
     var value = feature.get("");
-    var labelFont = "13.0px \'Open Sans\', sans-serif";
+    var labelFont = "10.4px \'Open Sans\', sans-serif";
     var labelFill = "#323232";
     var bufferColor = "#fafafa";
     var bufferWidth = 3.0;

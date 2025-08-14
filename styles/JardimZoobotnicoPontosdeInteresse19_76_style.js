@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28_33 = function(feature, resolution){
+var style_JardimZoobotnicoPontosdeInteresse19_76 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -17,12 +17,12 @@ var style_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28_33 = function(feat
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-    if (feature.get("Poço") !== null) {
-        labelText = String(feature.get("Poço"));
+    if (feature.get("Legenda") !== null) {
+        labelText = String(feature.get("Legenda"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 8.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(165,39,20,1.0)'})}),
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(89,255,0,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
