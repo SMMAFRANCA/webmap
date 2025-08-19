@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ProgramaAdoteUmaPraa284unid25737300m_111 = function(feature, resolution){
+var style_LotesImvelPrivado47unid_116 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_ProgramaAdoteUmaPraa284unid25737300m_111 = function(feature, resolutio
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(79,200,192,0.5019607843137255)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(253,191,111,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
