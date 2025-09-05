@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_reaVerde1911unid803552878m_25 = function(feature, resolution){
+var style_reaVerde1922unid805661602m_25 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
