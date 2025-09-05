@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ProgramaAdoteUmaPraa293unid27436180m_111 = function(feature, resolution){
+var style_ProgramaAdoteUmaPraa292unid27354594m_111 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
