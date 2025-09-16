@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_EmpreendimentoResidencialNairRetuci_63 = function(feature, resolution){
+var style_EmpreendimentoResidencialNairRetuciII_63 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
