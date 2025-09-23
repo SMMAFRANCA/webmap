@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_EmpreendimentosAprovado24unid_116 = function(feature, resolution){
+var style_EmpreendimentosAprovado26unid_116 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
