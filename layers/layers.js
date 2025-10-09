@@ -4184,6 +4184,18 @@ var group_FazendaMunicipalPousoAlto = new ol.layer.Group({
                                 layers: [lyr_RemanescentedaMatrcula11419_5,lyr_ConjuntoHabitacional_6,lyr_AvdeacessoaoHortoeColgioAgrcola_7,lyr_reaK_8,lyr_reaJ_9,lyr_reaI_10,lyr_reaH_11,lyr_reaG_12,lyr_reaF_13,lyr_reaE_14,lyr_reaD_15,lyr_reaC_16,lyr_reaB_17,lyr_reaA_18,lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_19,lyr_reaaseraverbadaPartedareaG_20,],
                                 fold: 'close',
                                 title: 'Fazenda Municipal Pouso Alto'});
+var group_LoteamentosClandestinos = new ol.layer.Group({
+                                layers: [],
+                                fold: 'close',
+                                title: 'Loteamentos Clandestinos'});
+var group_APOIO = new ol.layer.Group({
+                                layers: [],
+                                fold: 'close',
+                                title: 'APOIO'});
+var group_MapadeLocalizao = new ol.layer.Group({
+                                layers: [],
+                                fold: 'close',
+                                title: 'Mapa de Localização'});
 var group_MapasBase = new ol.layer.Group({
                                 layers: [lyr_GoogleMaps_0,lyr_GoogleSatellite_1,lyr_GoogleSatelliteHybrid_2,],
                                 fold: 'close',
