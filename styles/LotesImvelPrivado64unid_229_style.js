@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_LotesImvelPrivado61unid_229 = function(feature, resolution){
+var style_LotesImvelPrivado64unid_229 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
