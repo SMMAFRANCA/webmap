@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_reaInstitucional242unid136439212m240unid136439095m_32 = function(feature, resolution){
+var style_Lote504unid13809703m_28 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_reaInstitucional242unid136439212m240unid136439095m_32 = function(featu
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.608}),fill: new ol.style.Fill({color: 'rgba(232,246,0,0.5019607843137255)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.608}),fill: new ol.style.Fill({color: 'rgba(255,127,0,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
