@@ -1,5 +1,49 @@
 var size = 0;
 var placement = 'point';
+function categories_EmpreendimentoParquePalmeiraImperial_104(feature, value, size, resolution, labelText,
+                       labelFont, labelFill, bufferColor, bufferWidth,
+                       placement) {
+                var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
+                switch(valueStr) {case '_Haty_Asfalto':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case '_Haty_Institucional':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case '_Haty_Quadras':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case '_Haty_Verde':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'Lotes_Cota':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;}};
 
 var style_EmpreendimentoParquePalmeiraImperial_104 = function(feature, resolution){
     var context = {
@@ -8,7 +52,7 @@ var style_EmpreendimentoParquePalmeiraImperial_104 = function(feature, resolutio
     };
     
     var labelText = ""; 
-    var value = feature.get("");
+    var value = feature.get("layer");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
@@ -16,16 +60,14 @@ var style_EmpreendimentoParquePalmeiraImperial_104 = function(feature, resolutio
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
-    var placement = 'line';
+    var placement = 'point';
     if ("" !== null) {
         labelText = String("");
     }
-    var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
+    
+    var style = categories_EmpreendimentoParquePalmeiraImperial_104(feature, value, size, resolution, labelText,
+                            labelFont, labelFill, bufferColor,
+                            bufferWidth, placement);
 
     return style;
 };
