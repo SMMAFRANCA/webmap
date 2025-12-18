@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ImvelPblico115unid_249 = function(feature, resolution){
+var style_ImvelPblico116unid_249 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
