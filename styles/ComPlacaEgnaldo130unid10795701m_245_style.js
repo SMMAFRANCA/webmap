@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ComPlacaDilu164unid17459463m_244 = function(feature, resolution){
+var style_ComPlacaEgnaldo130unid10795701m_245 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
