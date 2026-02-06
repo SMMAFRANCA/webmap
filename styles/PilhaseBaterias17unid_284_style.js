@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_PilhaseBaterias16unid_284 = function(feature, resolution){
+var style_PilhaseBaterias17unid_284 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
