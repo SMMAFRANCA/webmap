@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_readeUsoEspecial247unid269765616m_40 = function(feature, resolution){
+var style_ComPlacaEgnaldo134unid12211725m_269 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,8 @@ var style_readeUsoEspecial247unid269765616m_40 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(246,8,216,0.5019607843137255)'}),
+        image: new ol.style.Circle({radius: 8.0 + size,
+            displacement: [-8.0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(138,28,217,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
