@@ -1,0 +1,1 @@
+var json_ResduosReciclveis15unid_281 = {"type":"FeatureCollection","name":"ResduosReciclveis15unid_281","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}
