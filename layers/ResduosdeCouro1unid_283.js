@@ -1,1 +1,0 @@
-var json_ResduosdeCouro1unid_283 = {"type":"FeatureCollection","name":"ResduosdeCouro1unid_283","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}
