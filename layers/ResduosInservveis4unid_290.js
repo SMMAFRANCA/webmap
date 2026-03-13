@@ -1,1 +1,0 @@
-var json_ResduosInservveis4unid_290 = {"type":"FeatureCollection","name":"ResduosInservveis4unid_290","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}
