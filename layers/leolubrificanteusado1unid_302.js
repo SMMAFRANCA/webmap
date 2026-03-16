@@ -1,1 +1,0 @@
-var json_leolubrificanteusado1unid_302 = {"type":"FeatureCollection","name":"leolubrificanteusado1unid_302","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}

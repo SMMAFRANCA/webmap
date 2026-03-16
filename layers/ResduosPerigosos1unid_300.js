@@ -1,1 +1,0 @@
-var json_ResduosPerigosos1unid_300 = {"type":"FeatureCollection","name":"ResduosPerigosos1unid_300","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}
