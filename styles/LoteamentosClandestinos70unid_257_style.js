@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_LoteamentosClandestinos77unid_257 = function(feature, resolution){
+var style_LoteamentosClandestinos70unid_257 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
