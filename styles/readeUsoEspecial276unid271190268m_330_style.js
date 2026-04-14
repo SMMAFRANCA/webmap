@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_readeUsoEspecial276unid271190268m_327 = function(feature, resolution){
+var style_readeUsoEspecial276unid271190268m_330 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
