@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_Ecopontos_285 = function(feature, resolution){
+var style_Ecopontos4unid_285 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
