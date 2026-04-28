@@ -763,3 +763,17 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_label_FazendaPalestina114unid_248_eval_expression(context) {
+    // 'Faz. Palestina Matr: ' || matricula
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ('Faz. Palestina Matr: ' + feature.get('matricula') );
+    } else {
+        return ('Faz. Palestina Matr: ' + feature.get('matricula') );
+    }
+}
