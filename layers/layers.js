@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:31983").setExtent([233773.359375, 7700979.946759, 276615.686900, 7740735.890500]);
+//ol.proj.get("EPSG:31983").setExtent([233773.359375, 7700979.946759, 276615.686900, 7740908.029506]);
 var wms_layers = [];
 
 
@@ -2915,3483 +2915,3515 @@ var lyr_RecantoMeneghetti_181 = new ol.layer.Vector({
                 interactive: true,
                 title: '<img src="styles/legend/RecantoMeneghetti_181.png" /> Recanto Meneghetti'
             });
-var format_ProlongamentoSamelPark_182 = new ol.format.GeoJSON();
-var features_ProlongamentoSamelPark_182 = format_ProlongamentoSamelPark_182.readFeatures(json_ProlongamentoSamelPark_182, 
+var format_Quadra18VilaExposio_182 = new ol.format.GeoJSON();
+var features_Quadra18VilaExposio_182 = format_Quadra18VilaExposio_182.readFeatures(json_Quadra18VilaExposio_182, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ProlongamentoSamelPark_182 = new ol.source.Vector({
+var jsonSource_Quadra18VilaExposio_182 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ProlongamentoSamelPark_182.addFeatures(features_ProlongamentoSamelPark_182);
-var lyr_ProlongamentoSamelPark_182 = new ol.layer.Vector({
+jsonSource_Quadra18VilaExposio_182.addFeatures(features_Quadra18VilaExposio_182);
+var lyr_Quadra18VilaExposio_182 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ProlongamentoSamelPark_182, 
-                style: style_ProlongamentoSamelPark_182,
+                source:jsonSource_Quadra18VilaExposio_182, 
+                style: style_Quadra18VilaExposio_182,
+                popuplayertitle: 'Quadra 18 Vila Exposição',
+                interactive: true,
+    title: 'Quadra 18 Vila Exposição<br />\
+    <img src="styles/legend/Quadra18VilaExposio_182_0.png" /> LOTES<br />\
+    <img src="styles/legend/Quadra18VilaExposio_182_1.png" /> PASSSEIO<br />\
+    <img src="styles/legend/Quadra18VilaExposio_182_2.png" /> RUAS<br />' });
+var format_Quadra18VilaExposio_183 = new ol.format.GeoJSON();
+var features_Quadra18VilaExposio_183 = format_Quadra18VilaExposio_183.readFeatures(json_Quadra18VilaExposio_183, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
+var jsonSource_Quadra18VilaExposio_183 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_Quadra18VilaExposio_183.addFeatures(features_Quadra18VilaExposio_183);
+var lyr_Quadra18VilaExposio_183 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_Quadra18VilaExposio_183, 
+                style: style_Quadra18VilaExposio_183,
+                popuplayertitle: 'Quadra 18 Vila Exposição',
+                interactive: true,
+                title: '<img src="styles/legend/Quadra18VilaExposio_183.png" /> Quadra 18 Vila Exposição'
+            });
+var format_ProlongamentoSamelPark_184 = new ol.format.GeoJSON();
+var features_ProlongamentoSamelPark_184 = format_ProlongamentoSamelPark_184.readFeatures(json_ProlongamentoSamelPark_184, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
+var jsonSource_ProlongamentoSamelPark_184 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_ProlongamentoSamelPark_184.addFeatures(features_ProlongamentoSamelPark_184);
+var lyr_ProlongamentoSamelPark_184 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_ProlongamentoSamelPark_184, 
+                style: style_ProlongamentoSamelPark_184,
                 popuplayertitle: 'Prolongamento Samel Park',
                 interactive: true,
     title: 'Prolongamento Samel Park<br />\
-    <img src="styles/legend/ProlongamentoSamelPark_182_0.png" /> APP<br />\
-    <img src="styles/legend/ProlongamentoSamelPark_182_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/ProlongamentoSamelPark_182_2.png" /> AREA NON EDIFICANDI<br />\
-    <img src="styles/legend/ProlongamentoSamelPark_182_3.png" /> AREA VERDE<br />\
-    <img src="styles/legend/ProlongamentoSamelPark_182_4.png" /> LOTES MISTOS<br />\
-    <img src="styles/legend/ProlongamentoSamelPark_182_5.png" /> LOTES RESIDENCIAIS<br />\
-    <img src="styles/legend/ProlongamentoSamelPark_182_6.png" /> PASSSEIO<br />\
-    <img src="styles/legend/ProlongamentoSamelPark_182_7.png" /> RUAS<br />' });
-var format_ProlongamentoSamelPark_183 = new ol.format.GeoJSON();
-var features_ProlongamentoSamelPark_183 = format_ProlongamentoSamelPark_183.readFeatures(json_ProlongamentoSamelPark_183, 
+    <img src="styles/legend/ProlongamentoSamelPark_184_0.png" /> APP<br />\
+    <img src="styles/legend/ProlongamentoSamelPark_184_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/ProlongamentoSamelPark_184_2.png" /> AREA NON EDIFICANDI<br />\
+    <img src="styles/legend/ProlongamentoSamelPark_184_3.png" /> AREA VERDE<br />\
+    <img src="styles/legend/ProlongamentoSamelPark_184_4.png" /> LOTES MISTOS<br />\
+    <img src="styles/legend/ProlongamentoSamelPark_184_5.png" /> LOTES RESIDENCIAIS<br />\
+    <img src="styles/legend/ProlongamentoSamelPark_184_6.png" /> PASSSEIO<br />\
+    <img src="styles/legend/ProlongamentoSamelPark_184_7.png" /> RUAS<br />' });
+var format_ProlongamentoSamelPark_185 = new ol.format.GeoJSON();
+var features_ProlongamentoSamelPark_185 = format_ProlongamentoSamelPark_185.readFeatures(json_ProlongamentoSamelPark_185, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ProlongamentoSamelPark_183 = new ol.source.Vector({
+var jsonSource_ProlongamentoSamelPark_185 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ProlongamentoSamelPark_183.addFeatures(features_ProlongamentoSamelPark_183);
-var lyr_ProlongamentoSamelPark_183 = new ol.layer.Vector({
+jsonSource_ProlongamentoSamelPark_185.addFeatures(features_ProlongamentoSamelPark_185);
+var lyr_ProlongamentoSamelPark_185 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ProlongamentoSamelPark_183, 
-                style: style_ProlongamentoSamelPark_183,
+                source:jsonSource_ProlongamentoSamelPark_185, 
+                style: style_ProlongamentoSamelPark_185,
                 popuplayertitle: 'Prolongamento Samel Park',
                 interactive: true,
-                title: '<img src="styles/legend/ProlongamentoSamelPark_183.png" /> Prolongamento Samel Park'
+                title: '<img src="styles/legend/ProlongamentoSamelPark_185.png" /> Prolongamento Samel Park'
             });
-var format_ParqueVillaLobos_184 = new ol.format.GeoJSON();
-var features_ParqueVillaLobos_184 = format_ParqueVillaLobos_184.readFeatures(json_ParqueVillaLobos_184, 
+var format_ParqueVillaLobos_186 = new ol.format.GeoJSON();
+var features_ParqueVillaLobos_186 = format_ParqueVillaLobos_186.readFeatures(json_ParqueVillaLobos_186, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParqueVillaLobos_184 = new ol.source.Vector({
+var jsonSource_ParqueVillaLobos_186 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParqueVillaLobos_184.addFeatures(features_ParqueVillaLobos_184);
-var lyr_ParqueVillaLobos_184 = new ol.layer.Vector({
+jsonSource_ParqueVillaLobos_186.addFeatures(features_ParqueVillaLobos_186);
+var lyr_ParqueVillaLobos_186 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParqueVillaLobos_184, 
-                style: style_ParqueVillaLobos_184,
+                source:jsonSource_ParqueVillaLobos_186, 
+                style: style_ParqueVillaLobos_186,
                 popuplayertitle: 'Parque Villa-Lobos',
                 interactive: true,
     title: 'Parque Villa-Lobos<br />\
-    <img src="styles/legend/ParqueVillaLobos_184_0.png" /> Ruas<br />\
-    <img src="styles/legend/ParqueVillaLobos_184_1.png" /> Área Institucional<br />\
-    <img src="styles/legend/ParqueVillaLobos_184_2.png" /> Área Verde<br />\
-    <img src="styles/legend/ParqueVillaLobos_184_3.png" /> Lotes Comerciais<br />\
-    <img src="styles/legend/ParqueVillaLobos_184_4.png" /> Passeio<br />\
-    <img src="styles/legend/ParqueVillaLobos_184_5.png" /> Lotes Residenciais<br />' });
-var format_ParqueVillaLobos_185 = new ol.format.GeoJSON();
-var features_ParqueVillaLobos_185 = format_ParqueVillaLobos_185.readFeatures(json_ParqueVillaLobos_185, 
+    <img src="styles/legend/ParqueVillaLobos_186_0.png" /> Ruas<br />\
+    <img src="styles/legend/ParqueVillaLobos_186_1.png" /> Área Institucional<br />\
+    <img src="styles/legend/ParqueVillaLobos_186_2.png" /> Área Verde<br />\
+    <img src="styles/legend/ParqueVillaLobos_186_3.png" /> Lotes Comerciais<br />\
+    <img src="styles/legend/ParqueVillaLobos_186_4.png" /> Passeio<br />\
+    <img src="styles/legend/ParqueVillaLobos_186_5.png" /> Lotes Residenciais<br />' });
+var format_ParqueVillaLobos_187 = new ol.format.GeoJSON();
+var features_ParqueVillaLobos_187 = format_ParqueVillaLobos_187.readFeatures(json_ParqueVillaLobos_187, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParqueVillaLobos_185 = new ol.source.Vector({
+var jsonSource_ParqueVillaLobos_187 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParqueVillaLobos_185.addFeatures(features_ParqueVillaLobos_185);
-var lyr_ParqueVillaLobos_185 = new ol.layer.Vector({
+jsonSource_ParqueVillaLobos_187.addFeatures(features_ParqueVillaLobos_187);
+var lyr_ParqueVillaLobos_187 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParqueVillaLobos_185, 
-                style: style_ParqueVillaLobos_185,
+                source:jsonSource_ParqueVillaLobos_187, 
+                style: style_ParqueVillaLobos_187,
                 popuplayertitle: 'Parque Villa-Lobos',
                 interactive: true,
-                title: '<img src="styles/legend/ParqueVillaLobos_185.png" /> Parque Villa-Lobos'
+                title: '<img src="styles/legend/ParqueVillaLobos_187.png" /> Parque Villa-Lobos'
             });
-var format_ParquePalmeiraImperial_186 = new ol.format.GeoJSON();
-var features_ParquePalmeiraImperial_186 = format_ParquePalmeiraImperial_186.readFeatures(json_ParquePalmeiraImperial_186, 
+var format_ParquePalmeiraImperial_188 = new ol.format.GeoJSON();
+var features_ParquePalmeiraImperial_188 = format_ParquePalmeiraImperial_188.readFeatures(json_ParquePalmeiraImperial_188, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParquePalmeiraImperial_186 = new ol.source.Vector({
+var jsonSource_ParquePalmeiraImperial_188 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParquePalmeiraImperial_186.addFeatures(features_ParquePalmeiraImperial_186);
-var lyr_ParquePalmeiraImperial_186 = new ol.layer.Vector({
+jsonSource_ParquePalmeiraImperial_188.addFeatures(features_ParquePalmeiraImperial_188);
+var lyr_ParquePalmeiraImperial_188 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParquePalmeiraImperial_186, 
-                style: style_ParquePalmeiraImperial_186,
+                source:jsonSource_ParquePalmeiraImperial_188, 
+                style: style_ParquePalmeiraImperial_188,
                 popuplayertitle: 'Parque Palmeira Imperial',
                 interactive: true,
     title: 'Parque Palmeira Imperial<br />\
-    <img src="styles/legend/ParquePalmeiraImperial_186_0.png" /> APP<br />\
-    <img src="styles/legend/ParquePalmeiraImperial_186_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/ParquePalmeiraImperial_186_2.png" /> AREA LAZER<br />\
-    <img src="styles/legend/ParquePalmeiraImperial_186_3.png" /> AREA REMANESCENTE<br />\
-    <img src="styles/legend/ParquePalmeiraImperial_186_4.png" /> AREA VERDE<br />\
-    <img src="styles/legend/ParquePalmeiraImperial_186_5.png" /> LOTES<br />\
-    <img src="styles/legend/ParquePalmeiraImperial_186_6.png" /> PASSEIO<br />\
-    <img src="styles/legend/ParquePalmeiraImperial_186_7.png" /> RUAS<br />' });
-var format_ParquePalmeiraImperial_187 = new ol.format.GeoJSON();
-var features_ParquePalmeiraImperial_187 = format_ParquePalmeiraImperial_187.readFeatures(json_ParquePalmeiraImperial_187, 
+    <img src="styles/legend/ParquePalmeiraImperial_188_0.png" /> APP<br />\
+    <img src="styles/legend/ParquePalmeiraImperial_188_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/ParquePalmeiraImperial_188_2.png" /> AREA LAZER<br />\
+    <img src="styles/legend/ParquePalmeiraImperial_188_3.png" /> AREA REMANESCENTE<br />\
+    <img src="styles/legend/ParquePalmeiraImperial_188_4.png" /> AREA VERDE<br />\
+    <img src="styles/legend/ParquePalmeiraImperial_188_5.png" /> LOTES<br />\
+    <img src="styles/legend/ParquePalmeiraImperial_188_6.png" /> PASSEIO<br />\
+    <img src="styles/legend/ParquePalmeiraImperial_188_7.png" /> RUAS<br />' });
+var format_ParquePalmeiraImperial_189 = new ol.format.GeoJSON();
+var features_ParquePalmeiraImperial_189 = format_ParquePalmeiraImperial_189.readFeatures(json_ParquePalmeiraImperial_189, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParquePalmeiraImperial_187 = new ol.source.Vector({
+var jsonSource_ParquePalmeiraImperial_189 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParquePalmeiraImperial_187.addFeatures(features_ParquePalmeiraImperial_187);
-var lyr_ParquePalmeiraImperial_187 = new ol.layer.Vector({
+jsonSource_ParquePalmeiraImperial_189.addFeatures(features_ParquePalmeiraImperial_189);
+var lyr_ParquePalmeiraImperial_189 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParquePalmeiraImperial_187, 
-                style: style_ParquePalmeiraImperial_187,
+                source:jsonSource_ParquePalmeiraImperial_189, 
+                style: style_ParquePalmeiraImperial_189,
                 popuplayertitle: 'Parque Palmeira Imperial',
                 interactive: true,
-                title: '<img src="styles/legend/ParquePalmeiraImperial_187.png" /> Parque Palmeira Imperial'
+                title: '<img src="styles/legend/ParquePalmeiraImperial_189.png" /> Parque Palmeira Imperial'
             });
-var format_ParqueFlora_188 = new ol.format.GeoJSON();
-var features_ParqueFlora_188 = format_ParqueFlora_188.readFeatures(json_ParqueFlora_188, 
+var format_ParqueFlora_190 = new ol.format.GeoJSON();
+var features_ParqueFlora_190 = format_ParqueFlora_190.readFeatures(json_ParqueFlora_190, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParqueFlora_188 = new ol.source.Vector({
+var jsonSource_ParqueFlora_190 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParqueFlora_188.addFeatures(features_ParqueFlora_188);
-var lyr_ParqueFlora_188 = new ol.layer.Vector({
+jsonSource_ParqueFlora_190.addFeatures(features_ParqueFlora_190);
+var lyr_ParqueFlora_190 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParqueFlora_188, 
-                style: style_ParqueFlora_188,
+                source:jsonSource_ParqueFlora_190, 
+                style: style_ParqueFlora_190,
                 popuplayertitle: 'Parque Flora',
                 interactive: true,
     title: 'Parque Flora<br />\
-    <img src="styles/legend/ParqueFlora_188_0.png" /> APP<br />\
-    <img src="styles/legend/ParqueFlora_188_1.png" /> ÁREA INSTITUCIONAL<br />\
-    <img src="styles/legend/ParqueFlora_188_2.png" /> ÃREA VERDE<br />\
-    <img src="styles/legend/ParqueFlora_188_3.png" /> LOTES<br />\
-    <img src="styles/legend/ParqueFlora_188_4.png" /> PASSSEIO<br />\
-    <img src="styles/legend/ParqueFlora_188_5.png" /> RUAS<br />\
-    <img src="styles/legend/ParqueFlora_188_6.png" /> VIELA<br />' });
-var format_ParqueFlora_189 = new ol.format.GeoJSON();
-var features_ParqueFlora_189 = format_ParqueFlora_189.readFeatures(json_ParqueFlora_189, 
+    <img src="styles/legend/ParqueFlora_190_0.png" /> APP<br />\
+    <img src="styles/legend/ParqueFlora_190_1.png" /> ÁREA INSTITUCIONAL<br />\
+    <img src="styles/legend/ParqueFlora_190_2.png" /> ÃREA VERDE<br />\
+    <img src="styles/legend/ParqueFlora_190_3.png" /> LOTES<br />\
+    <img src="styles/legend/ParqueFlora_190_4.png" /> PASSSEIO<br />\
+    <img src="styles/legend/ParqueFlora_190_5.png" /> RUAS<br />\
+    <img src="styles/legend/ParqueFlora_190_6.png" /> VIELA<br />' });
+var format_ParqueFlora_191 = new ol.format.GeoJSON();
+var features_ParqueFlora_191 = format_ParqueFlora_191.readFeatures(json_ParqueFlora_191, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParqueFlora_189 = new ol.source.Vector({
+var jsonSource_ParqueFlora_191 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParqueFlora_189.addFeatures(features_ParqueFlora_189);
-var lyr_ParqueFlora_189 = new ol.layer.Vector({
+jsonSource_ParqueFlora_191.addFeatures(features_ParqueFlora_191);
+var lyr_ParqueFlora_191 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParqueFlora_189, 
-                style: style_ParqueFlora_189,
+                source:jsonSource_ParqueFlora_191, 
+                style: style_ParqueFlora_191,
                 popuplayertitle: 'Parque Flora',
                 interactive: true,
-                title: '<img src="styles/legend/ParqueFlora_189.png" /> Parque Flora'
+                title: '<img src="styles/legend/ParqueFlora_191.png" /> Parque Flora'
             });
-var format_ParquedosSabias_190 = new ol.format.GeoJSON();
-var features_ParquedosSabias_190 = format_ParquedosSabias_190.readFeatures(json_ParquedosSabias_190, 
+var format_ParquedosSabias_192 = new ol.format.GeoJSON();
+var features_ParquedosSabias_192 = format_ParquedosSabias_192.readFeatures(json_ParquedosSabias_192, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParquedosSabias_190 = new ol.source.Vector({
+var jsonSource_ParquedosSabias_192 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParquedosSabias_190.addFeatures(features_ParquedosSabias_190);
-var lyr_ParquedosSabias_190 = new ol.layer.Vector({
+jsonSource_ParquedosSabias_192.addFeatures(features_ParquedosSabias_192);
+var lyr_ParquedosSabias_192 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParquedosSabias_190, 
-                style: style_ParquedosSabias_190,
+                source:jsonSource_ParquedosSabias_192, 
+                style: style_ParquedosSabias_192,
                 popuplayertitle: 'Parque dos Sabias',
                 interactive: true,
     title: 'Parque dos Sabias<br />\
-    <img src="styles/legend/ParquedosSabias_190_0.png" /> APP<br />\
-    <img src="styles/legend/ParquedosSabias_190_1.png" /> ÁREA INSTITUCIONAL<br />\
-    <img src="styles/legend/ParquedosSabias_190_2.png" /> ÃREA VERDE<br />\
-    <img src="styles/legend/ParquedosSabias_190_3.png" /> LOTES COMERCIAIS<br />\
-    <img src="styles/legend/ParquedosSabias_190_4.png" /> LOTES RESIDENCIAIS<br />\
-    <img src="styles/legend/ParquedosSabias_190_5.png" /> PASSSEIO<br />\
-    <img src="styles/legend/ParquedosSabias_190_6.png" /> RUAS<br />\
-    <img src="styles/legend/ParquedosSabias_190_7.png" /> VIELA<br />' });
-var format_ParquedosSabias_191 = new ol.format.GeoJSON();
-var features_ParquedosSabias_191 = format_ParquedosSabias_191.readFeatures(json_ParquedosSabias_191, 
+    <img src="styles/legend/ParquedosSabias_192_0.png" /> APP<br />\
+    <img src="styles/legend/ParquedosSabias_192_1.png" /> ÁREA INSTITUCIONAL<br />\
+    <img src="styles/legend/ParquedosSabias_192_2.png" /> ÃREA VERDE<br />\
+    <img src="styles/legend/ParquedosSabias_192_3.png" /> LOTES COMERCIAIS<br />\
+    <img src="styles/legend/ParquedosSabias_192_4.png" /> LOTES RESIDENCIAIS<br />\
+    <img src="styles/legend/ParquedosSabias_192_5.png" /> PASSSEIO<br />\
+    <img src="styles/legend/ParquedosSabias_192_6.png" /> RUAS<br />\
+    <img src="styles/legend/ParquedosSabias_192_7.png" /> VIELA<br />' });
+var format_ParquedosSabias_193 = new ol.format.GeoJSON();
+var features_ParquedosSabias_193 = format_ParquedosSabias_193.readFeatures(json_ParquedosSabias_193, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParquedosSabias_191 = new ol.source.Vector({
+var jsonSource_ParquedosSabias_193 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParquedosSabias_191.addFeatures(features_ParquedosSabias_191);
-var lyr_ParquedosSabias_191 = new ol.layer.Vector({
+jsonSource_ParquedosSabias_193.addFeatures(features_ParquedosSabias_193);
+var lyr_ParquedosSabias_193 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParquedosSabias_191, 
-                style: style_ParquedosSabias_191,
+                source:jsonSource_ParquedosSabias_193, 
+                style: style_ParquedosSabias_193,
                 popuplayertitle: 'Parque dos Sabias',
                 interactive: true,
-                title: '<img src="styles/legend/ParquedosSabias_191.png" /> Parque dos Sabias'
+                title: '<img src="styles/legend/ParquedosSabias_193.png" /> Parque dos Sabias'
             });
-var format_ParagonII_192 = new ol.format.GeoJSON();
-var features_ParagonII_192 = format_ParagonII_192.readFeatures(json_ParagonII_192, 
+var format_ParagonII_194 = new ol.format.GeoJSON();
+var features_ParagonII_194 = format_ParagonII_194.readFeatures(json_ParagonII_194, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParagonII_192 = new ol.source.Vector({
+var jsonSource_ParagonII_194 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParagonII_192.addFeatures(features_ParagonII_192);
-var lyr_ParagonII_192 = new ol.layer.Vector({
+jsonSource_ParagonII_194.addFeatures(features_ParagonII_194);
+var lyr_ParagonII_194 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParagonII_192, 
-                style: style_ParagonII_192,
+                source:jsonSource_ParagonII_194, 
+                style: style_ParagonII_194,
                 popuplayertitle: 'Paragon II',
                 interactive: true,
     title: 'Paragon II<br />\
-    <img src="styles/legend/ParagonII_192_0.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/ParagonII_192_1.png" /> AREA LAZER<br />\
-    <img src="styles/legend/ParagonII_192_2.png" /> AREA VERDE<br />\
-    <img src="styles/legend/ParagonII_192_3.png" /> LOTES RESIDENCIAIS<br />\
-    <img src="styles/legend/ParagonII_192_4.png" /> PASSEIO<br />\
-    <img src="styles/legend/ParagonII_192_5.png" /> RUAS<br />' });
-var format_ParagonII_193 = new ol.format.GeoJSON();
-var features_ParagonII_193 = format_ParagonII_193.readFeatures(json_ParagonII_193, 
+    <img src="styles/legend/ParagonII_194_0.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/ParagonII_194_1.png" /> AREA LAZER<br />\
+    <img src="styles/legend/ParagonII_194_2.png" /> AREA VERDE<br />\
+    <img src="styles/legend/ParagonII_194_3.png" /> LOTES RESIDENCIAIS<br />\
+    <img src="styles/legend/ParagonII_194_4.png" /> PASSEIO<br />\
+    <img src="styles/legend/ParagonII_194_5.png" /> RUAS<br />' });
+var format_ParagonII_195 = new ol.format.GeoJSON();
+var features_ParagonII_195 = format_ParagonII_195.readFeatures(json_ParagonII_195, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParagonII_193 = new ol.source.Vector({
+var jsonSource_ParagonII_195 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParagonII_193.addFeatures(features_ParagonII_193);
-var lyr_ParagonII_193 = new ol.layer.Vector({
+jsonSource_ParagonII_195.addFeatures(features_ParagonII_195);
+var lyr_ParagonII_195 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParagonII_193, 
-                style: style_ParagonII_193,
+                source:jsonSource_ParagonII_195, 
+                style: style_ParagonII_195,
                 popuplayertitle: 'Paragon II',
                 interactive: true,
-                title: '<img src="styles/legend/ParagonII_193.png" /> Paragon II'
+                title: '<img src="styles/legend/ParagonII_195.png" /> Paragon II'
             });
-var format_Paragon_194 = new ol.format.GeoJSON();
-var features_Paragon_194 = format_Paragon_194.readFeatures(json_Paragon_194, 
+var format_Paragon_196 = new ol.format.GeoJSON();
+var features_Paragon_196 = format_Paragon_196.readFeatures(json_Paragon_196, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Paragon_194 = new ol.source.Vector({
+var jsonSource_Paragon_196 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Paragon_194.addFeatures(features_Paragon_194);
-var lyr_Paragon_194 = new ol.layer.Vector({
+jsonSource_Paragon_196.addFeatures(features_Paragon_196);
+var lyr_Paragon_196 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Paragon_194, 
-                style: style_Paragon_194,
+                source:jsonSource_Paragon_196, 
+                style: style_Paragon_196,
                 popuplayertitle: 'Paragon',
                 interactive: true,
     title: 'Paragon<br />\
-    <img src="styles/legend/Paragon_194_0.png" /> Ruas<br />\
-    <img src="styles/legend/Paragon_194_1.png" /> Área Institucional<br />\
-    <img src="styles/legend/Paragon_194_2.png" /> Lotes/Quadras<br />\
-    <img src="styles/legend/Paragon_194_3.png" /> Área Verde<br />\
-    <img src="styles/legend/Paragon_194_4.png" /> Viela<br />\
-    <img src="styles/legend/Paragon_194_5.png" /> Área Lazer<br />\
-    <img src="styles/legend/Paragon_194_6.png" /> Passeio<br />' });
-var format_Paragon_195 = new ol.format.GeoJSON();
-var features_Paragon_195 = format_Paragon_195.readFeatures(json_Paragon_195, 
+    <img src="styles/legend/Paragon_196_0.png" /> Ruas<br />\
+    <img src="styles/legend/Paragon_196_1.png" /> Área Institucional<br />\
+    <img src="styles/legend/Paragon_196_2.png" /> Lotes/Quadras<br />\
+    <img src="styles/legend/Paragon_196_3.png" /> Área Verde<br />\
+    <img src="styles/legend/Paragon_196_4.png" /> Viela<br />\
+    <img src="styles/legend/Paragon_196_5.png" /> Área Lazer<br />\
+    <img src="styles/legend/Paragon_196_6.png" /> Passeio<br />' });
+var format_Paragon_197 = new ol.format.GeoJSON();
+var features_Paragon_197 = format_Paragon_197.readFeatures(json_Paragon_197, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Paragon_195 = new ol.source.Vector({
+var jsonSource_Paragon_197 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Paragon_195.addFeatures(features_Paragon_195);
-var lyr_Paragon_195 = new ol.layer.Vector({
+jsonSource_Paragon_197.addFeatures(features_Paragon_197);
+var lyr_Paragon_197 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Paragon_195, 
-                style: style_Paragon_195,
+                source:jsonSource_Paragon_197, 
+                style: style_Paragon_197,
                 popuplayertitle: 'Paragon',
                 interactive: true,
-                title: '<img src="styles/legend/Paragon_195.png" /> Paragon'
+                title: '<img src="styles/legend/Paragon_197.png" /> Paragon'
             });
-var format_PalmeiraReal_196 = new ol.format.GeoJSON();
-var features_PalmeiraReal_196 = format_PalmeiraReal_196.readFeatures(json_PalmeiraReal_196, 
+var format_PalmeiraReal_198 = new ol.format.GeoJSON();
+var features_PalmeiraReal_198 = format_PalmeiraReal_198.readFeatures(json_PalmeiraReal_198, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PalmeiraReal_196 = new ol.source.Vector({
+var jsonSource_PalmeiraReal_198 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PalmeiraReal_196.addFeatures(features_PalmeiraReal_196);
-var lyr_PalmeiraReal_196 = new ol.layer.Vector({
+jsonSource_PalmeiraReal_198.addFeatures(features_PalmeiraReal_198);
+var lyr_PalmeiraReal_198 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PalmeiraReal_196, 
-                style: style_PalmeiraReal_196,
+                source:jsonSource_PalmeiraReal_198, 
+                style: style_PalmeiraReal_198,
                 popuplayertitle: 'Palmeira Real',
                 interactive: true,
     title: 'Palmeira Real<br />\
-    <img src="styles/legend/PalmeiraReal_196_0.png" /> Ruas<br />\
-    <img src="styles/legend/PalmeiraReal_196_1.png" /> Lotes/Quadras<br />\
-    <img src="styles/legend/PalmeiraReal_196_2.png" /> Área Verde<br />\
-    <img src="styles/legend/PalmeiraReal_196_3.png" /> Área Lazer<br />\
-    <img src="styles/legend/PalmeiraReal_196_4.png" /> Passeio<br />\
-    <img src="styles/legend/PalmeiraReal_196_5.png" /> Vagas de Estacionamento<br />' });
-var format_PalmeiraReal_197 = new ol.format.GeoJSON();
-var features_PalmeiraReal_197 = format_PalmeiraReal_197.readFeatures(json_PalmeiraReal_197, 
+    <img src="styles/legend/PalmeiraReal_198_0.png" /> Ruas<br />\
+    <img src="styles/legend/PalmeiraReal_198_1.png" /> Lotes/Quadras<br />\
+    <img src="styles/legend/PalmeiraReal_198_2.png" /> Área Verde<br />\
+    <img src="styles/legend/PalmeiraReal_198_3.png" /> Área Lazer<br />\
+    <img src="styles/legend/PalmeiraReal_198_4.png" /> Passeio<br />\
+    <img src="styles/legend/PalmeiraReal_198_5.png" /> Vagas de Estacionamento<br />' });
+var format_PalmeiraReal_199 = new ol.format.GeoJSON();
+var features_PalmeiraReal_199 = format_PalmeiraReal_199.readFeatures(json_PalmeiraReal_199, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PalmeiraReal_197 = new ol.source.Vector({
+var jsonSource_PalmeiraReal_199 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PalmeiraReal_197.addFeatures(features_PalmeiraReal_197);
-var lyr_PalmeiraReal_197 = new ol.layer.Vector({
+jsonSource_PalmeiraReal_199.addFeatures(features_PalmeiraReal_199);
+var lyr_PalmeiraReal_199 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PalmeiraReal_197, 
-                style: style_PalmeiraReal_197,
+                source:jsonSource_PalmeiraReal_199, 
+                style: style_PalmeiraReal_199,
                 popuplayertitle: 'Palmeira Real',
                 interactive: true,
-                title: '<img src="styles/legend/PalmeiraReal_197.png" /> Palmeira Real'
+                title: '<img src="styles/legend/PalmeiraReal_199.png" /> Palmeira Real'
             });
-var format_MoradadoVerdeII_198 = new ol.format.GeoJSON();
-var features_MoradadoVerdeII_198 = format_MoradadoVerdeII_198.readFeatures(json_MoradadoVerdeII_198, 
+var format_MoradadoVerdeII_200 = new ol.format.GeoJSON();
+var features_MoradadoVerdeII_200 = format_MoradadoVerdeII_200.readFeatures(json_MoradadoVerdeII_200, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MoradadoVerdeII_198 = new ol.source.Vector({
+var jsonSource_MoradadoVerdeII_200 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MoradadoVerdeII_198.addFeatures(features_MoradadoVerdeII_198);
-var lyr_MoradadoVerdeII_198 = new ol.layer.Vector({
+jsonSource_MoradadoVerdeII_200.addFeatures(features_MoradadoVerdeII_200);
+var lyr_MoradadoVerdeII_200 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MoradadoVerdeII_198, 
-                style: style_MoradadoVerdeII_198,
+                source:jsonSource_MoradadoVerdeII_200, 
+                style: style_MoradadoVerdeII_200,
                 popuplayertitle: 'Morada do Verde II',
                 interactive: true,
     title: 'Morada do Verde II<br />\
-    <img src="styles/legend/MoradadoVerdeII_198_0.png" /> Ruas<br />\
-    <img src="styles/legend/MoradadoVerdeII_198_1.png" /> Área Institucional<br />\
-    <img src="styles/legend/MoradadoVerdeII_198_2.png" /> Lotes/Quadras<br />\
-    <img src="styles/legend/MoradadoVerdeII_198_3.png" /> Área Verde<br />\
-    <img src="styles/legend/MoradadoVerdeII_198_4.png" /> Área Lazer<br />\
-    <img src="styles/legend/MoradadoVerdeII_198_5.png" /> Passeio<br />\
-    <img src="styles/legend/MoradadoVerdeII_198_6.png" /> Lotes Mistos<br />' });
-var format_MoradadoVerdeII_199 = new ol.format.GeoJSON();
-var features_MoradadoVerdeII_199 = format_MoradadoVerdeII_199.readFeatures(json_MoradadoVerdeII_199, 
+    <img src="styles/legend/MoradadoVerdeII_200_0.png" /> Ruas<br />\
+    <img src="styles/legend/MoradadoVerdeII_200_1.png" /> Área Institucional<br />\
+    <img src="styles/legend/MoradadoVerdeII_200_2.png" /> Lotes/Quadras<br />\
+    <img src="styles/legend/MoradadoVerdeII_200_3.png" /> Área Verde<br />\
+    <img src="styles/legend/MoradadoVerdeII_200_4.png" /> Área Lazer<br />\
+    <img src="styles/legend/MoradadoVerdeII_200_5.png" /> Passeio<br />\
+    <img src="styles/legend/MoradadoVerdeII_200_6.png" /> Lotes Mistos<br />' });
+var format_MoradadoVerdeII_201 = new ol.format.GeoJSON();
+var features_MoradadoVerdeII_201 = format_MoradadoVerdeII_201.readFeatures(json_MoradadoVerdeII_201, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MoradadoVerdeII_199 = new ol.source.Vector({
+var jsonSource_MoradadoVerdeII_201 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MoradadoVerdeII_199.addFeatures(features_MoradadoVerdeII_199);
-var lyr_MoradadoVerdeII_199 = new ol.layer.Vector({
+jsonSource_MoradadoVerdeII_201.addFeatures(features_MoradadoVerdeII_201);
+var lyr_MoradadoVerdeII_201 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MoradadoVerdeII_199, 
-                style: style_MoradadoVerdeII_199,
+                source:jsonSource_MoradadoVerdeII_201, 
+                style: style_MoradadoVerdeII_201,
                 popuplayertitle: 'Morada do Verde II',
                 interactive: true,
-                title: '<img src="styles/legend/MoradadoVerdeII_199.png" /> Morada do Verde II'
+                title: '<img src="styles/legend/MoradadoVerdeII_201.png" /> Morada do Verde II'
             });
-var format_MoradadaMata_200 = new ol.format.GeoJSON();
-var features_MoradadaMata_200 = format_MoradadaMata_200.readFeatures(json_MoradadaMata_200, 
+var format_MoradadaMata_202 = new ol.format.GeoJSON();
+var features_MoradadaMata_202 = format_MoradadaMata_202.readFeatures(json_MoradadaMata_202, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MoradadaMata_200 = new ol.source.Vector({
+var jsonSource_MoradadaMata_202 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MoradadaMata_200.addFeatures(features_MoradadaMata_200);
-var lyr_MoradadaMata_200 = new ol.layer.Vector({
+jsonSource_MoradadaMata_202.addFeatures(features_MoradadaMata_202);
+var lyr_MoradadaMata_202 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MoradadaMata_200, 
-                style: style_MoradadaMata_200,
+                source:jsonSource_MoradadaMata_202, 
+                style: style_MoradadaMata_202,
                 popuplayertitle: 'Morada da Mata',
                 interactive: true,
     title: 'Morada da Mata<br />\
-    <img src="styles/legend/MoradadaMata_200_0.png" /> APP<br />\
-    <img src="styles/legend/MoradadaMata_200_1.png" /> ÁREA INSTITUCIONAL<br />\
-    <img src="styles/legend/MoradadaMata_200_2.png" /> ÁREA LAZER<br />\
-    <img src="styles/legend/MoradadaMata_200_3.png" /> ÃREA VERDE<br />\
-    <img src="styles/legend/MoradadaMata_200_4.png" /> LOTES COMERCIAIS<br />\
-    <img src="styles/legend/MoradadaMata_200_5.png" /> LOTES RESIDENCIAIS<br />\
-    <img src="styles/legend/MoradadaMata_200_6.png" /> PASSSEIO<br />\
-    <img src="styles/legend/MoradadaMata_200_7.png" /> RUAS<br />' });
-var format_MoradadaMata_201 = new ol.format.GeoJSON();
-var features_MoradadaMata_201 = format_MoradadaMata_201.readFeatures(json_MoradadaMata_201, 
+    <img src="styles/legend/MoradadaMata_202_0.png" /> APP<br />\
+    <img src="styles/legend/MoradadaMata_202_1.png" /> ÁREA INSTITUCIONAL<br />\
+    <img src="styles/legend/MoradadaMata_202_2.png" /> ÁREA LAZER<br />\
+    <img src="styles/legend/MoradadaMata_202_3.png" /> ÃREA VERDE<br />\
+    <img src="styles/legend/MoradadaMata_202_4.png" /> LOTES COMERCIAIS<br />\
+    <img src="styles/legend/MoradadaMata_202_5.png" /> LOTES RESIDENCIAIS<br />\
+    <img src="styles/legend/MoradadaMata_202_6.png" /> PASSSEIO<br />\
+    <img src="styles/legend/MoradadaMata_202_7.png" /> RUAS<br />' });
+var format_MoradadaMata_203 = new ol.format.GeoJSON();
+var features_MoradadaMata_203 = format_MoradadaMata_203.readFeatures(json_MoradadaMata_203, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MoradadaMata_201 = new ol.source.Vector({
+var jsonSource_MoradadaMata_203 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MoradadaMata_201.addFeatures(features_MoradadaMata_201);
-var lyr_MoradadaMata_201 = new ol.layer.Vector({
+jsonSource_MoradadaMata_203.addFeatures(features_MoradadaMata_203);
+var lyr_MoradadaMata_203 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MoradadaMata_201, 
-                style: style_MoradadaMata_201,
+                source:jsonSource_MoradadaMata_203, 
+                style: style_MoradadaMata_203,
                 popuplayertitle: 'Morada da Mata',
                 interactive: true,
-                title: '<img src="styles/legend/MoradadaMata_201.png" /> Morada da Mata'
+                title: '<img src="styles/legend/MoradadaMata_203.png" /> Morada da Mata'
             });
-var format_Monti_202 = new ol.format.GeoJSON();
-var features_Monti_202 = format_Monti_202.readFeatures(json_Monti_202, 
+var format_Monti_204 = new ol.format.GeoJSON();
+var features_Monti_204 = format_Monti_204.readFeatures(json_Monti_204, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Monti_202 = new ol.source.Vector({
+var jsonSource_Monti_204 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Monti_202.addFeatures(features_Monti_202);
-var lyr_Monti_202 = new ol.layer.Vector({
+jsonSource_Monti_204.addFeatures(features_Monti_204);
+var lyr_Monti_204 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Monti_202, 
-                style: style_Monti_202,
+                source:jsonSource_Monti_204, 
+                style: style_Monti_204,
                 popuplayertitle: 'Montié',
                 interactive: true,
     title: 'Montié<br />\
-    <img src="styles/legend/Monti_202_0.png" /> Ruas<br />\
-    <img src="styles/legend/Monti_202_1.png" /> Lotes/Quadras<br />\
-    <img src="styles/legend/Monti_202_2.png" /> Área Verde<br />\
-    <img src="styles/legend/Monti_202_3.png" /> Área Lazer<br />\
-    <img src="styles/legend/Monti_202_4.png" /> Passeio<br />\
-    <img src="styles/legend/Monti_202_5.png" /> Vagas de Estacionamento<br />' });
-var format_Monti_203 = new ol.format.GeoJSON();
-var features_Monti_203 = format_Monti_203.readFeatures(json_Monti_203, 
+    <img src="styles/legend/Monti_204_0.png" /> Ruas<br />\
+    <img src="styles/legend/Monti_204_1.png" /> Lotes/Quadras<br />\
+    <img src="styles/legend/Monti_204_2.png" /> Área Verde<br />\
+    <img src="styles/legend/Monti_204_3.png" /> Área Lazer<br />\
+    <img src="styles/legend/Monti_204_4.png" /> Passeio<br />\
+    <img src="styles/legend/Monti_204_5.png" /> Vagas de Estacionamento<br />' });
+var format_Monti_205 = new ol.format.GeoJSON();
+var features_Monti_205 = format_Monti_205.readFeatures(json_Monti_205, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Monti_203 = new ol.source.Vector({
+var jsonSource_Monti_205 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Monti_203.addFeatures(features_Monti_203);
-var lyr_Monti_203 = new ol.layer.Vector({
+jsonSource_Monti_205.addFeatures(features_Monti_205);
+var lyr_Monti_205 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Monti_203, 
-                style: style_Monti_203,
+                source:jsonSource_Monti_205, 
+                style: style_Monti_205,
                 popuplayertitle: 'Montié',
                 interactive: true,
-                title: '<img src="styles/legend/Monti_203.png" /> Montié'
+                title: '<img src="styles/legend/Monti_205.png" /> Montié'
             });
-var format_MontBlancResidence_204 = new ol.format.GeoJSON();
-var features_MontBlancResidence_204 = format_MontBlancResidence_204.readFeatures(json_MontBlancResidence_204, 
+var format_MontBlancResidence_206 = new ol.format.GeoJSON();
+var features_MontBlancResidence_206 = format_MontBlancResidence_206.readFeatures(json_MontBlancResidence_206, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MontBlancResidence_204 = new ol.source.Vector({
+var jsonSource_MontBlancResidence_206 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MontBlancResidence_204.addFeatures(features_MontBlancResidence_204);
-var lyr_MontBlancResidence_204 = new ol.layer.Vector({
+jsonSource_MontBlancResidence_206.addFeatures(features_MontBlancResidence_206);
+var lyr_MontBlancResidence_206 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MontBlancResidence_204, 
-                style: style_MontBlancResidence_204,
+                source:jsonSource_MontBlancResidence_206, 
+                style: style_MontBlancResidence_206,
                 popuplayertitle: 'Mont Blanc Residence',
                 interactive: true,
-                title: '<img src="styles/legend/MontBlancResidence_204.png" /> Mont Blanc Residence'
+                title: '<img src="styles/legend/MontBlancResidence_206.png" /> Mont Blanc Residence'
             });
-var format_MontBlancResidence_205 = new ol.format.GeoJSON();
-var features_MontBlancResidence_205 = format_MontBlancResidence_205.readFeatures(json_MontBlancResidence_205, 
+var format_MontBlancResidence_207 = new ol.format.GeoJSON();
+var features_MontBlancResidence_207 = format_MontBlancResidence_207.readFeatures(json_MontBlancResidence_207, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MontBlancResidence_205 = new ol.source.Vector({
+var jsonSource_MontBlancResidence_207 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MontBlancResidence_205.addFeatures(features_MontBlancResidence_205);
-var lyr_MontBlancResidence_205 = new ol.layer.Vector({
+jsonSource_MontBlancResidence_207.addFeatures(features_MontBlancResidence_207);
+var lyr_MontBlancResidence_207 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MontBlancResidence_205, 
-                style: style_MontBlancResidence_205,
+                source:jsonSource_MontBlancResidence_207, 
+                style: style_MontBlancResidence_207,
                 popuplayertitle: 'Mont Blanc Residence',
                 interactive: true,
-                title: '<img src="styles/legend/MontBlancResidence_205.png" /> Mont Blanc Residence'
+                title: '<img src="styles/legend/MontBlancResidence_207.png" /> Mont Blanc Residence'
             });
-var format_MarianaAlarcon_206 = new ol.format.GeoJSON();
-var features_MarianaAlarcon_206 = format_MarianaAlarcon_206.readFeatures(json_MarianaAlarcon_206, 
+var format_MarianaAlarcon_208 = new ol.format.GeoJSON();
+var features_MarianaAlarcon_208 = format_MarianaAlarcon_208.readFeatures(json_MarianaAlarcon_208, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MarianaAlarcon_206 = new ol.source.Vector({
+var jsonSource_MarianaAlarcon_208 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MarianaAlarcon_206.addFeatures(features_MarianaAlarcon_206);
-var lyr_MarianaAlarcon_206 = new ol.layer.Vector({
+jsonSource_MarianaAlarcon_208.addFeatures(features_MarianaAlarcon_208);
+var lyr_MarianaAlarcon_208 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MarianaAlarcon_206, 
-                style: style_MarianaAlarcon_206,
+                source:jsonSource_MarianaAlarcon_208, 
+                style: style_MarianaAlarcon_208,
                 popuplayertitle: 'Mariana Alarcon',
                 interactive: true,
     title: 'Mariana Alarcon<br />\
-    <img src="styles/legend/MarianaAlarcon_206_0.png" /> APP<br />\
-    <img src="styles/legend/MarianaAlarcon_206_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/MarianaAlarcon_206_2.png" /> AREA LAZER<br />\
-    <img src="styles/legend/MarianaAlarcon_206_3.png" /> AREA VERDE<br />\
-    <img src="styles/legend/MarianaAlarcon_206_4.png" /> LOTES<br />\
-    <img src="styles/legend/MarianaAlarcon_206_5.png" /> PASSEIO<br />\
-    <img src="styles/legend/MarianaAlarcon_206_6.png" /> RUAS<br />' });
-var format_MarianaAlarcon_207 = new ol.format.GeoJSON();
-var features_MarianaAlarcon_207 = format_MarianaAlarcon_207.readFeatures(json_MarianaAlarcon_207, 
+    <img src="styles/legend/MarianaAlarcon_208_0.png" /> APP<br />\
+    <img src="styles/legend/MarianaAlarcon_208_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/MarianaAlarcon_208_2.png" /> AREA LAZER<br />\
+    <img src="styles/legend/MarianaAlarcon_208_3.png" /> AREA VERDE<br />\
+    <img src="styles/legend/MarianaAlarcon_208_4.png" /> LOTES<br />\
+    <img src="styles/legend/MarianaAlarcon_208_5.png" /> PASSEIO<br />\
+    <img src="styles/legend/MarianaAlarcon_208_6.png" /> RUAS<br />' });
+var format_MarianaAlarcon_209 = new ol.format.GeoJSON();
+var features_MarianaAlarcon_209 = format_MarianaAlarcon_209.readFeatures(json_MarianaAlarcon_209, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MarianaAlarcon_207 = new ol.source.Vector({
+var jsonSource_MarianaAlarcon_209 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MarianaAlarcon_207.addFeatures(features_MarianaAlarcon_207);
-var lyr_MarianaAlarcon_207 = new ol.layer.Vector({
+jsonSource_MarianaAlarcon_209.addFeatures(features_MarianaAlarcon_209);
+var lyr_MarianaAlarcon_209 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MarianaAlarcon_207, 
-                style: style_MarianaAlarcon_207,
+                source:jsonSource_MarianaAlarcon_209, 
+                style: style_MarianaAlarcon_209,
                 popuplayertitle: 'Mariana Alarcon',
                 interactive: true,
-                title: '<img src="styles/legend/MarianaAlarcon_207.png" /> Mariana Alarcon'
+                title: '<img src="styles/legend/MarianaAlarcon_209.png" /> Mariana Alarcon'
             });
-var format_Loteamentolamo_208 = new ol.format.GeoJSON();
-var features_Loteamentolamo_208 = format_Loteamentolamo_208.readFeatures(json_Loteamentolamo_208, 
+var format_Loteamentolamo_210 = new ol.format.GeoJSON();
+var features_Loteamentolamo_210 = format_Loteamentolamo_210.readFeatures(json_Loteamentolamo_210, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Loteamentolamo_208 = new ol.source.Vector({
+var jsonSource_Loteamentolamo_210 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Loteamentolamo_208.addFeatures(features_Loteamentolamo_208);
-var lyr_Loteamentolamo_208 = new ol.layer.Vector({
+jsonSource_Loteamentolamo_210.addFeatures(features_Loteamentolamo_210);
+var lyr_Loteamentolamo_210 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Loteamentolamo_208, 
-                style: style_Loteamentolamo_208,
+                source:jsonSource_Loteamentolamo_210, 
+                style: style_Loteamentolamo_210,
                 popuplayertitle: 'Loteamento Álamo',
                 interactive: true,
     title: 'Loteamento Álamo<br />\
-    <img src="styles/legend/Loteamentolamo_208_0.png" /> APP<br />\
-    <img src="styles/legend/Loteamentolamo_208_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/Loteamentolamo_208_2.png" /> AREA LAZER<br />\
-    <img src="styles/legend/Loteamentolamo_208_3.png" /> AREA NON EDIFICANDI<br />\
-    <img src="styles/legend/Loteamentolamo_208_4.png" /> AREA VERDE<br />\
-    <img src="styles/legend/Loteamentolamo_208_5.png" /> LOTES COMERCIAIS<br />\
-    <img src="styles/legend/Loteamentolamo_208_6.png" /> LOTES MISTOS<br />\
-    <img src="styles/legend/Loteamentolamo_208_7.png" /> LOTES RESIDENCIAIS<br />\
-    <img src="styles/legend/Loteamentolamo_208_8.png" /> PASSEIO<br />\
-    <img src="styles/legend/Loteamentolamo_208_9.png" /> RUAS<br />\
-    <img src="styles/legend/Loteamentolamo_208_10.png" /> VIELA<br />' });
-var format_Loteamentolamo_209 = new ol.format.GeoJSON();
-var features_Loteamentolamo_209 = format_Loteamentolamo_209.readFeatures(json_Loteamentolamo_209, 
+    <img src="styles/legend/Loteamentolamo_210_0.png" /> APP<br />\
+    <img src="styles/legend/Loteamentolamo_210_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/Loteamentolamo_210_2.png" /> AREA LAZER<br />\
+    <img src="styles/legend/Loteamentolamo_210_3.png" /> AREA NON EDIFICANDI<br />\
+    <img src="styles/legend/Loteamentolamo_210_4.png" /> AREA VERDE<br />\
+    <img src="styles/legend/Loteamentolamo_210_5.png" /> LOTES COMERCIAIS<br />\
+    <img src="styles/legend/Loteamentolamo_210_6.png" /> LOTES MISTOS<br />\
+    <img src="styles/legend/Loteamentolamo_210_7.png" /> LOTES RESIDENCIAIS<br />\
+    <img src="styles/legend/Loteamentolamo_210_8.png" /> PASSEIO<br />\
+    <img src="styles/legend/Loteamentolamo_210_9.png" /> RUAS<br />\
+    <img src="styles/legend/Loteamentolamo_210_10.png" /> VIELA<br />' });
+var format_Loteamentolamo_211 = new ol.format.GeoJSON();
+var features_Loteamentolamo_211 = format_Loteamentolamo_211.readFeatures(json_Loteamentolamo_211, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Loteamentolamo_209 = new ol.source.Vector({
+var jsonSource_Loteamentolamo_211 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Loteamentolamo_209.addFeatures(features_Loteamentolamo_209);
-var lyr_Loteamentolamo_209 = new ol.layer.Vector({
+jsonSource_Loteamentolamo_211.addFeatures(features_Loteamentolamo_211);
+var lyr_Loteamentolamo_211 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Loteamentolamo_209, 
-                style: style_Loteamentolamo_209,
+                source:jsonSource_Loteamentolamo_211, 
+                style: style_Loteamentolamo_211,
                 popuplayertitle: 'Loteamento Álamo',
                 interactive: true,
-                title: '<img src="styles/legend/Loteamentolamo_209.png" /> Loteamento Álamo'
+                title: '<img src="styles/legend/Loteamentolamo_211.png" /> Loteamento Álamo'
             });
-var format_JardimMariaLuiza_210 = new ol.format.GeoJSON();
-var features_JardimMariaLuiza_210 = format_JardimMariaLuiza_210.readFeatures(json_JardimMariaLuiza_210, 
+var format_JardimMariaLuiza_212 = new ol.format.GeoJSON();
+var features_JardimMariaLuiza_212 = format_JardimMariaLuiza_212.readFeatures(json_JardimMariaLuiza_212, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_JardimMariaLuiza_210 = new ol.source.Vector({
+var jsonSource_JardimMariaLuiza_212 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_JardimMariaLuiza_210.addFeatures(features_JardimMariaLuiza_210);
-var lyr_JardimMariaLuiza_210 = new ol.layer.Vector({
+jsonSource_JardimMariaLuiza_212.addFeatures(features_JardimMariaLuiza_212);
+var lyr_JardimMariaLuiza_212 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_JardimMariaLuiza_210, 
-                style: style_JardimMariaLuiza_210,
+                source:jsonSource_JardimMariaLuiza_212, 
+                style: style_JardimMariaLuiza_212,
                 popuplayertitle: 'Jardim Maria Luiza',
                 interactive: true,
     title: 'Jardim Maria Luiza<br />\
-    <img src="styles/legend/JardimMariaLuiza_210_0.png" /> Ruas<br />\
-    <img src="styles/legend/JardimMariaLuiza_210_1.png" /> Área Institucional<br />\
-    <img src="styles/legend/JardimMariaLuiza_210_2.png" /> Lotes/Quadras<br />\
-    <img src="styles/legend/JardimMariaLuiza_210_3.png" /> Área Verde<br />\
-    <img src="styles/legend/JardimMariaLuiza_210_4.png" /> Passeio<br />' });
-var format_JardimMariaLuiza_211 = new ol.format.GeoJSON();
-var features_JardimMariaLuiza_211 = format_JardimMariaLuiza_211.readFeatures(json_JardimMariaLuiza_211, 
+    <img src="styles/legend/JardimMariaLuiza_212_0.png" /> Ruas<br />\
+    <img src="styles/legend/JardimMariaLuiza_212_1.png" /> Área Institucional<br />\
+    <img src="styles/legend/JardimMariaLuiza_212_2.png" /> Lotes/Quadras<br />\
+    <img src="styles/legend/JardimMariaLuiza_212_3.png" /> Área Verde<br />\
+    <img src="styles/legend/JardimMariaLuiza_212_4.png" /> Passeio<br />' });
+var format_JardimMariaLuiza_213 = new ol.format.GeoJSON();
+var features_JardimMariaLuiza_213 = format_JardimMariaLuiza_213.readFeatures(json_JardimMariaLuiza_213, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_JardimMariaLuiza_211 = new ol.source.Vector({
+var jsonSource_JardimMariaLuiza_213 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_JardimMariaLuiza_211.addFeatures(features_JardimMariaLuiza_211);
-var lyr_JardimMariaLuiza_211 = new ol.layer.Vector({
+jsonSource_JardimMariaLuiza_213.addFeatures(features_JardimMariaLuiza_213);
+var lyr_JardimMariaLuiza_213 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_JardimMariaLuiza_211, 
-                style: style_JardimMariaLuiza_211,
+                source:jsonSource_JardimMariaLuiza_213, 
+                style: style_JardimMariaLuiza_213,
                 popuplayertitle: 'Jardim Maria Luiza',
                 interactive: true,
-                title: '<img src="styles/legend/JardimMariaLuiza_211.png" /> Jardim Maria Luiza'
+                title: '<img src="styles/legend/JardimMariaLuiza_213.png" /> Jardim Maria Luiza'
             });
-var format_JardimHorizonte_212 = new ol.format.GeoJSON();
-var features_JardimHorizonte_212 = format_JardimHorizonte_212.readFeatures(json_JardimHorizonte_212, 
+var format_JardimHorizonte_214 = new ol.format.GeoJSON();
+var features_JardimHorizonte_214 = format_JardimHorizonte_214.readFeatures(json_JardimHorizonte_214, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_JardimHorizonte_212 = new ol.source.Vector({
+var jsonSource_JardimHorizonte_214 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_JardimHorizonte_212.addFeatures(features_JardimHorizonte_212);
-var lyr_JardimHorizonte_212 = new ol.layer.Vector({
+jsonSource_JardimHorizonte_214.addFeatures(features_JardimHorizonte_214);
+var lyr_JardimHorizonte_214 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_JardimHorizonte_212, 
-                style: style_JardimHorizonte_212,
+                source:jsonSource_JardimHorizonte_214, 
+                style: style_JardimHorizonte_214,
                 popuplayertitle: 'Jardim Horizonte',
                 interactive: true,
     title: 'Jardim Horizonte<br />\
-    <img src="styles/legend/JardimHorizonte_212_0.png" /> Ruas<br />\
-    <img src="styles/legend/JardimHorizonte_212_1.png" /> Área Institucional<br />\
-    <img src="styles/legend/JardimHorizonte_212_2.png" /> Área Verde<br />\
-    <img src="styles/legend/JardimHorizonte_212_3.png" /> Lotes Comerciais<br />\
-    <img src="styles/legend/JardimHorizonte_212_4.png" /> Passeio<br />\
-    <img src="styles/legend/JardimHorizonte_212_5.png" /> Lotes Mistos<br />\
-    <img src="styles/legend/JardimHorizonte_212_6.png" /> Lotes Residenciais<br />' });
-var format_JardimHorizonte_213 = new ol.format.GeoJSON();
-var features_JardimHorizonte_213 = format_JardimHorizonte_213.readFeatures(json_JardimHorizonte_213, 
+    <img src="styles/legend/JardimHorizonte_214_0.png" /> Ruas<br />\
+    <img src="styles/legend/JardimHorizonte_214_1.png" /> Área Institucional<br />\
+    <img src="styles/legend/JardimHorizonte_214_2.png" /> Área Verde<br />\
+    <img src="styles/legend/JardimHorizonte_214_3.png" /> Lotes Comerciais<br />\
+    <img src="styles/legend/JardimHorizonte_214_4.png" /> Passeio<br />\
+    <img src="styles/legend/JardimHorizonte_214_5.png" /> Lotes Mistos<br />\
+    <img src="styles/legend/JardimHorizonte_214_6.png" /> Lotes Residenciais<br />' });
+var format_JardimHorizonte_215 = new ol.format.GeoJSON();
+var features_JardimHorizonte_215 = format_JardimHorizonte_215.readFeatures(json_JardimHorizonte_215, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_JardimHorizonte_213 = new ol.source.Vector({
+var jsonSource_JardimHorizonte_215 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_JardimHorizonte_213.addFeatures(features_JardimHorizonte_213);
-var lyr_JardimHorizonte_213 = new ol.layer.Vector({
+jsonSource_JardimHorizonte_215.addFeatures(features_JardimHorizonte_215);
+var lyr_JardimHorizonte_215 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_JardimHorizonte_213, 
-                style: style_JardimHorizonte_213,
+                source:jsonSource_JardimHorizonte_215, 
+                style: style_JardimHorizonte_215,
                 popuplayertitle: 'Jardim Horizonte',
                 interactive: true,
-                title: '<img src="styles/legend/JardimHorizonte_213.png" /> Jardim Horizonte'
+                title: '<img src="styles/legend/JardimHorizonte_215.png" /> Jardim Horizonte'
             });
-var format_JardimFlora_214 = new ol.format.GeoJSON();
-var features_JardimFlora_214 = format_JardimFlora_214.readFeatures(json_JardimFlora_214, 
+var format_JardimFlora_216 = new ol.format.GeoJSON();
+var features_JardimFlora_216 = format_JardimFlora_216.readFeatures(json_JardimFlora_216, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_JardimFlora_214 = new ol.source.Vector({
+var jsonSource_JardimFlora_216 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_JardimFlora_214.addFeatures(features_JardimFlora_214);
-var lyr_JardimFlora_214 = new ol.layer.Vector({
+jsonSource_JardimFlora_216.addFeatures(features_JardimFlora_216);
+var lyr_JardimFlora_216 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_JardimFlora_214, 
-                style: style_JardimFlora_214,
+                source:jsonSource_JardimFlora_216, 
+                style: style_JardimFlora_216,
                 popuplayertitle: 'Jardim Flora',
                 interactive: true,
     title: 'Jardim Flora<br />\
-    <img src="styles/legend/JardimFlora_214_0.png" /> APP<br />\
-    <img src="styles/legend/JardimFlora_214_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/JardimFlora_214_2.png" /> AREA LAZER<br />\
-    <img src="styles/legend/JardimFlora_214_3.png" /> AREA NON EDIFICANDI<br />\
-    <img src="styles/legend/JardimFlora_214_4.png" /> AREA VERDE<br />\
-    <img src="styles/legend/JardimFlora_214_5.png" /> LOTES COMERCIAIS<br />\
-    <img src="styles/legend/JardimFlora_214_6.png" /> LOTES MISTOS<br />\
-    <img src="styles/legend/JardimFlora_214_7.png" /> PASSEIO<br />\
-    <img src="styles/legend/JardimFlora_214_8.png" /> RUAS<br />' });
-var format_JardimFlora_215 = new ol.format.GeoJSON();
-var features_JardimFlora_215 = format_JardimFlora_215.readFeatures(json_JardimFlora_215, 
+    <img src="styles/legend/JardimFlora_216_0.png" /> APP<br />\
+    <img src="styles/legend/JardimFlora_216_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/JardimFlora_216_2.png" /> AREA LAZER<br />\
+    <img src="styles/legend/JardimFlora_216_3.png" /> AREA NON EDIFICANDI<br />\
+    <img src="styles/legend/JardimFlora_216_4.png" /> AREA VERDE<br />\
+    <img src="styles/legend/JardimFlora_216_5.png" /> LOTES COMERCIAIS<br />\
+    <img src="styles/legend/JardimFlora_216_6.png" /> LOTES MISTOS<br />\
+    <img src="styles/legend/JardimFlora_216_7.png" /> PASSEIO<br />\
+    <img src="styles/legend/JardimFlora_216_8.png" /> RUAS<br />' });
+var format_JardimFlora_217 = new ol.format.GeoJSON();
+var features_JardimFlora_217 = format_JardimFlora_217.readFeatures(json_JardimFlora_217, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_JardimFlora_215 = new ol.source.Vector({
+var jsonSource_JardimFlora_217 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_JardimFlora_215.addFeatures(features_JardimFlora_215);
-var lyr_JardimFlora_215 = new ol.layer.Vector({
+jsonSource_JardimFlora_217.addFeatures(features_JardimFlora_217);
+var lyr_JardimFlora_217 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_JardimFlora_215, 
-                style: style_JardimFlora_215,
+                source:jsonSource_JardimFlora_217, 
+                style: style_JardimFlora_217,
                 popuplayertitle: 'Jardim Flora',
                 interactive: true,
-                title: '<img src="styles/legend/JardimFlora_215.png" /> Jardim Flora'
+                title: '<img src="styles/legend/JardimFlora_217.png" /> Jardim Flora'
             });
-var format_IrineuZanetiII_216 = new ol.format.GeoJSON();
-var features_IrineuZanetiII_216 = format_IrineuZanetiII_216.readFeatures(json_IrineuZanetiII_216, 
+var format_IrineuZanetiII_218 = new ol.format.GeoJSON();
+var features_IrineuZanetiII_218 = format_IrineuZanetiII_218.readFeatures(json_IrineuZanetiII_218, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_IrineuZanetiII_216 = new ol.source.Vector({
+var jsonSource_IrineuZanetiII_218 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_IrineuZanetiII_216.addFeatures(features_IrineuZanetiII_216);
-var lyr_IrineuZanetiII_216 = new ol.layer.Vector({
+jsonSource_IrineuZanetiII_218.addFeatures(features_IrineuZanetiII_218);
+var lyr_IrineuZanetiII_218 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_IrineuZanetiII_216, 
-                style: style_IrineuZanetiII_216,
+                source:jsonSource_IrineuZanetiII_218, 
+                style: style_IrineuZanetiII_218,
                 popuplayertitle: 'Irineu Zaneti II',
                 interactive: true,
     title: 'Irineu Zaneti II<br />\
-    <img src="styles/legend/IrineuZanetiII_216_0.png" /> APP<br />\
-    <img src="styles/legend/IrineuZanetiII_216_1.png" /> ÁREA INSTITUCIONAL<br />\
-    <img src="styles/legend/IrineuZanetiII_216_2.png" /> ÁREA VERDE<br />\
-    <img src="styles/legend/IrineuZanetiII_216_3.png" /> LOTES<br />\
-    <img src="styles/legend/IrineuZanetiII_216_4.png" /> PASSSEIO<br />\
-    <img src="styles/legend/IrineuZanetiII_216_5.png" /> RUAS<br />' });
-var format_IrineuZanetiII_217 = new ol.format.GeoJSON();
-var features_IrineuZanetiII_217 = format_IrineuZanetiII_217.readFeatures(json_IrineuZanetiII_217, 
+    <img src="styles/legend/IrineuZanetiII_218_0.png" /> APP<br />\
+    <img src="styles/legend/IrineuZanetiII_218_1.png" /> ÁREA INSTITUCIONAL<br />\
+    <img src="styles/legend/IrineuZanetiII_218_2.png" /> ÁREA VERDE<br />\
+    <img src="styles/legend/IrineuZanetiII_218_3.png" /> LOTES<br />\
+    <img src="styles/legend/IrineuZanetiII_218_4.png" /> PASSSEIO<br />\
+    <img src="styles/legend/IrineuZanetiII_218_5.png" /> RUAS<br />' });
+var format_IrineuZanetiII_219 = new ol.format.GeoJSON();
+var features_IrineuZanetiII_219 = format_IrineuZanetiII_219.readFeatures(json_IrineuZanetiII_219, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_IrineuZanetiII_217 = new ol.source.Vector({
+var jsonSource_IrineuZanetiII_219 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_IrineuZanetiII_217.addFeatures(features_IrineuZanetiII_217);
-var lyr_IrineuZanetiII_217 = new ol.layer.Vector({
+jsonSource_IrineuZanetiII_219.addFeatures(features_IrineuZanetiII_219);
+var lyr_IrineuZanetiII_219 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_IrineuZanetiII_217, 
-                style: style_IrineuZanetiII_217,
+                source:jsonSource_IrineuZanetiII_219, 
+                style: style_IrineuZanetiII_219,
                 popuplayertitle: 'Irineu Zaneti II',
                 interactive: true,
-                title: '<img src="styles/legend/IrineuZanetiII_217.png" /> Irineu Zaneti II'
+                title: '<img src="styles/legend/IrineuZanetiII_219.png" /> Irineu Zaneti II'
             });
-var format_Infratcnica_218 = new ol.format.GeoJSON();
-var features_Infratcnica_218 = format_Infratcnica_218.readFeatures(json_Infratcnica_218, 
+var format_Infratcnica_220 = new ol.format.GeoJSON();
+var features_Infratcnica_220 = format_Infratcnica_220.readFeatures(json_Infratcnica_220, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Infratcnica_218 = new ol.source.Vector({
+var jsonSource_Infratcnica_220 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Infratcnica_218.addFeatures(features_Infratcnica_218);
-var lyr_Infratcnica_218 = new ol.layer.Vector({
+jsonSource_Infratcnica_220.addFeatures(features_Infratcnica_220);
+var lyr_Infratcnica_220 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Infratcnica_218, 
-                style: style_Infratcnica_218,
+                source:jsonSource_Infratcnica_220, 
+                style: style_Infratcnica_220,
                 popuplayertitle: 'Infratécnica',
                 interactive: true,
     title: 'Infratécnica<br />\
-    <img src="styles/legend/Infratcnica_218_0.png" /> APP<br />\
-    <img src="styles/legend/Infratcnica_218_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/Infratcnica_218_2.png" /> AREA VERDE<br />\
-    <img src="styles/legend/Infratcnica_218_3.png" /> LOTES<br />\
-    <img src="styles/legend/Infratcnica_218_4.png" /> PASSSEIO<br />\
-    <img src="styles/legend/Infratcnica_218_5.png" /> RUAS<br />' });
-var format_Infratcnica_219 = new ol.format.GeoJSON();
-var features_Infratcnica_219 = format_Infratcnica_219.readFeatures(json_Infratcnica_219, 
+    <img src="styles/legend/Infratcnica_220_0.png" /> APP<br />\
+    <img src="styles/legend/Infratcnica_220_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/Infratcnica_220_2.png" /> AREA VERDE<br />\
+    <img src="styles/legend/Infratcnica_220_3.png" /> LOTES<br />\
+    <img src="styles/legend/Infratcnica_220_4.png" /> PASSSEIO<br />\
+    <img src="styles/legend/Infratcnica_220_5.png" /> RUAS<br />' });
+var format_Infratcnica_221 = new ol.format.GeoJSON();
+var features_Infratcnica_221 = format_Infratcnica_221.readFeatures(json_Infratcnica_221, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Infratcnica_219 = new ol.source.Vector({
+var jsonSource_Infratcnica_221 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Infratcnica_219.addFeatures(features_Infratcnica_219);
-var lyr_Infratcnica_219 = new ol.layer.Vector({
+jsonSource_Infratcnica_221.addFeatures(features_Infratcnica_221);
+var lyr_Infratcnica_221 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Infratcnica_219, 
-                style: style_Infratcnica_219,
+                source:jsonSource_Infratcnica_221, 
+                style: style_Infratcnica_221,
                 popuplayertitle: 'Infratécnica',
                 interactive: true,
-                title: '<img src="styles/legend/Infratcnica_219.png" /> Infratécnica'
+                title: '<img src="styles/legend/Infratcnica_221.png" /> Infratécnica'
             });
-var format_HorizResidence_220 = new ol.format.GeoJSON();
-var features_HorizResidence_220 = format_HorizResidence_220.readFeatures(json_HorizResidence_220, 
+var format_HorizResidence_222 = new ol.format.GeoJSON();
+var features_HorizResidence_222 = format_HorizResidence_222.readFeatures(json_HorizResidence_222, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_HorizResidence_220 = new ol.source.Vector({
+var jsonSource_HorizResidence_222 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_HorizResidence_220.addFeatures(features_HorizResidence_220);
-var lyr_HorizResidence_220 = new ol.layer.Vector({
+jsonSource_HorizResidence_222.addFeatures(features_HorizResidence_222);
+var lyr_HorizResidence_222 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_HorizResidence_220, 
-                style: style_HorizResidence_220,
+                source:jsonSource_HorizResidence_222, 
+                style: style_HorizResidence_222,
                 popuplayertitle: 'Horiz Residence',
                 interactive: true,
-                title: '<img src="styles/legend/HorizResidence_220.png" /> Horiz Residence'
+                title: '<img src="styles/legend/HorizResidence_222.png" /> Horiz Residence'
             });
-var format_HorizResidence_221 = new ol.format.GeoJSON();
-var features_HorizResidence_221 = format_HorizResidence_221.readFeatures(json_HorizResidence_221, 
+var format_HorizResidence_223 = new ol.format.GeoJSON();
+var features_HorizResidence_223 = format_HorizResidence_223.readFeatures(json_HorizResidence_223, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_HorizResidence_221 = new ol.source.Vector({
+var jsonSource_HorizResidence_223 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_HorizResidence_221.addFeatures(features_HorizResidence_221);
-var lyr_HorizResidence_221 = new ol.layer.Vector({
+jsonSource_HorizResidence_223.addFeatures(features_HorizResidence_223);
+var lyr_HorizResidence_223 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_HorizResidence_221, 
-                style: style_HorizResidence_221,
+                source:jsonSource_HorizResidence_223, 
+                style: style_HorizResidence_223,
                 popuplayertitle: 'Horiz Residence',
                 interactive: true,
-                title: '<img src="styles/legend/HorizResidence_221.png" /> Horiz Residence'
+                title: '<img src="styles/legend/HorizResidence_223.png" /> Horiz Residence'
             });
-var format_GlebaNossaSenhoraAuxiliadora_222 = new ol.format.GeoJSON();
-var features_GlebaNossaSenhoraAuxiliadora_222 = format_GlebaNossaSenhoraAuxiliadora_222.readFeatures(json_GlebaNossaSenhoraAuxiliadora_222, 
+var format_GlebaNossaSenhoraAuxiliadora_224 = new ol.format.GeoJSON();
+var features_GlebaNossaSenhoraAuxiliadora_224 = format_GlebaNossaSenhoraAuxiliadora_224.readFeatures(json_GlebaNossaSenhoraAuxiliadora_224, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_GlebaNossaSenhoraAuxiliadora_222 = new ol.source.Vector({
+var jsonSource_GlebaNossaSenhoraAuxiliadora_224 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_GlebaNossaSenhoraAuxiliadora_222.addFeatures(features_GlebaNossaSenhoraAuxiliadora_222);
-var lyr_GlebaNossaSenhoraAuxiliadora_222 = new ol.layer.Vector({
+jsonSource_GlebaNossaSenhoraAuxiliadora_224.addFeatures(features_GlebaNossaSenhoraAuxiliadora_224);
+var lyr_GlebaNossaSenhoraAuxiliadora_224 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_GlebaNossaSenhoraAuxiliadora_222, 
-                style: style_GlebaNossaSenhoraAuxiliadora_222,
+                source:jsonSource_GlebaNossaSenhoraAuxiliadora_224, 
+                style: style_GlebaNossaSenhoraAuxiliadora_224,
                 popuplayertitle: 'Gleba Nossa Senhora Auxiliadora',
                 interactive: true,
-                title: '<img src="styles/legend/GlebaNossaSenhoraAuxiliadora_222.png" /> Gleba Nossa Senhora Auxiliadora'
+                title: '<img src="styles/legend/GlebaNossaSenhoraAuxiliadora_224.png" /> Gleba Nossa Senhora Auxiliadora'
             });
-var format_GlebaNossaSenhoraAuxiliadora_223 = new ol.format.GeoJSON();
-var features_GlebaNossaSenhoraAuxiliadora_223 = format_GlebaNossaSenhoraAuxiliadora_223.readFeatures(json_GlebaNossaSenhoraAuxiliadora_223, 
+var format_GlebaNossaSenhoraAuxiliadora_225 = new ol.format.GeoJSON();
+var features_GlebaNossaSenhoraAuxiliadora_225 = format_GlebaNossaSenhoraAuxiliadora_225.readFeatures(json_GlebaNossaSenhoraAuxiliadora_225, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_GlebaNossaSenhoraAuxiliadora_223 = new ol.source.Vector({
+var jsonSource_GlebaNossaSenhoraAuxiliadora_225 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_GlebaNossaSenhoraAuxiliadora_223.addFeatures(features_GlebaNossaSenhoraAuxiliadora_223);
-var lyr_GlebaNossaSenhoraAuxiliadora_223 = new ol.layer.Vector({
+jsonSource_GlebaNossaSenhoraAuxiliadora_225.addFeatures(features_GlebaNossaSenhoraAuxiliadora_225);
+var lyr_GlebaNossaSenhoraAuxiliadora_225 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_GlebaNossaSenhoraAuxiliadora_223, 
-                style: style_GlebaNossaSenhoraAuxiliadora_223,
+                source:jsonSource_GlebaNossaSenhoraAuxiliadora_225, 
+                style: style_GlebaNossaSenhoraAuxiliadora_225,
                 popuplayertitle: 'Gleba Nossa Senhora Auxiliadora',
                 interactive: true,
-                title: '<img src="styles/legend/GlebaNossaSenhoraAuxiliadora_223.png" /> Gleba Nossa Senhora Auxiliadora'
+                title: '<img src="styles/legend/GlebaNossaSenhoraAuxiliadora_225.png" /> Gleba Nossa Senhora Auxiliadora'
             });
-var format_Ferracini_224 = new ol.format.GeoJSON();
-var features_Ferracini_224 = format_Ferracini_224.readFeatures(json_Ferracini_224, 
+var format_Ferracini_226 = new ol.format.GeoJSON();
+var features_Ferracini_226 = format_Ferracini_226.readFeatures(json_Ferracini_226, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Ferracini_224 = new ol.source.Vector({
+var jsonSource_Ferracini_226 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Ferracini_224.addFeatures(features_Ferracini_224);
-var lyr_Ferracini_224 = new ol.layer.Vector({
+jsonSource_Ferracini_226.addFeatures(features_Ferracini_226);
+var lyr_Ferracini_226 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Ferracini_224, 
-                style: style_Ferracini_224,
+                source:jsonSource_Ferracini_226, 
+                style: style_Ferracini_226,
                 popuplayertitle: 'Ferracini',
                 interactive: true,
     title: 'Ferracini<br />\
-    <img src="styles/legend/Ferracini_224_0.png" /> APP<br />\
-    <img src="styles/legend/Ferracini_224_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/Ferracini_224_2.png" /> AREA LAZER<br />\
-    <img src="styles/legend/Ferracini_224_3.png" /> AREA VERDE<br />\
-    <img src="styles/legend/Ferracini_224_4.png" /> LOTES QUADRAS<br />\
-    <img src="styles/legend/Ferracini_224_5.png" /> PASSSEIO<br />\
-    <img src="styles/legend/Ferracini_224_6.png" /> RUAS<br />\
-    <img src="styles/legend/Ferracini_224_7.png" /> VIELA<br />' });
-var format_Ferracini_225 = new ol.format.GeoJSON();
-var features_Ferracini_225 = format_Ferracini_225.readFeatures(json_Ferracini_225, 
+    <img src="styles/legend/Ferracini_226_0.png" /> APP<br />\
+    <img src="styles/legend/Ferracini_226_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/Ferracini_226_2.png" /> AREA LAZER<br />\
+    <img src="styles/legend/Ferracini_226_3.png" /> AREA VERDE<br />\
+    <img src="styles/legend/Ferracini_226_4.png" /> LOTES QUADRAS<br />\
+    <img src="styles/legend/Ferracini_226_5.png" /> PASSSEIO<br />\
+    <img src="styles/legend/Ferracini_226_6.png" /> RUAS<br />\
+    <img src="styles/legend/Ferracini_226_7.png" /> VIELA<br />' });
+var format_Ferracini_227 = new ol.format.GeoJSON();
+var features_Ferracini_227 = format_Ferracini_227.readFeatures(json_Ferracini_227, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Ferracini_225 = new ol.source.Vector({
+var jsonSource_Ferracini_227 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Ferracini_225.addFeatures(features_Ferracini_225);
-var lyr_Ferracini_225 = new ol.layer.Vector({
+jsonSource_Ferracini_227.addFeatures(features_Ferracini_227);
+var lyr_Ferracini_227 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Ferracini_225, 
-                style: style_Ferracini_225,
+                source:jsonSource_Ferracini_227, 
+                style: style_Ferracini_227,
                 popuplayertitle: 'Ferracini',
                 interactive: true,
-                title: '<img src="styles/legend/Ferracini_225.png" /> Ferracini'
+                title: '<img src="styles/legend/Ferracini_227.png" /> Ferracini'
             });
-var format_FrancaB6_226 = new ol.format.GeoJSON();
-var features_FrancaB6_226 = format_FrancaB6_226.readFeatures(json_FrancaB6_226, 
+var format_FrancaB6_228 = new ol.format.GeoJSON();
+var features_FrancaB6_228 = format_FrancaB6_228.readFeatures(json_FrancaB6_228, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FrancaB6_226 = new ol.source.Vector({
+var jsonSource_FrancaB6_228 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FrancaB6_226.addFeatures(features_FrancaB6_226);
-var lyr_FrancaB6_226 = new ol.layer.Vector({
+jsonSource_FrancaB6_228.addFeatures(features_FrancaB6_228);
+var lyr_FrancaB6_228 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FrancaB6_226, 
-                style: style_FrancaB6_226,
+                source:jsonSource_FrancaB6_228, 
+                style: style_FrancaB6_228,
                 popuplayertitle: 'Franca B6',
                 interactive: true,
     title: 'Franca B6<br />\
-    <img src="styles/legend/FrancaB6_226_0.png" /> APP<br />\
-    <img src="styles/legend/FrancaB6_226_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/FrancaB6_226_2.png" /> AREA VERDE<br />\
-    <img src="styles/legend/FrancaB6_226_3.png" /> LOTES<br />\
-    <img src="styles/legend/FrancaB6_226_4.png" /> PASSSEIO<br />\
-    <img src="styles/legend/FrancaB6_226_5.png" /> RUAS<br />' });
-var format_FrancaB6_227 = new ol.format.GeoJSON();
-var features_FrancaB6_227 = format_FrancaB6_227.readFeatures(json_FrancaB6_227, 
+    <img src="styles/legend/FrancaB6_228_0.png" /> APP<br />\
+    <img src="styles/legend/FrancaB6_228_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/FrancaB6_228_2.png" /> AREA VERDE<br />\
+    <img src="styles/legend/FrancaB6_228_3.png" /> LOTES<br />\
+    <img src="styles/legend/FrancaB6_228_4.png" /> PASSSEIO<br />\
+    <img src="styles/legend/FrancaB6_228_5.png" /> RUAS<br />' });
+var format_FrancaB6_229 = new ol.format.GeoJSON();
+var features_FrancaB6_229 = format_FrancaB6_229.readFeatures(json_FrancaB6_229, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FrancaB6_227 = new ol.source.Vector({
+var jsonSource_FrancaB6_229 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FrancaB6_227.addFeatures(features_FrancaB6_227);
-var lyr_FrancaB6_227 = new ol.layer.Vector({
+jsonSource_FrancaB6_229.addFeatures(features_FrancaB6_229);
+var lyr_FrancaB6_229 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FrancaB6_227, 
-                style: style_FrancaB6_227,
+                source:jsonSource_FrancaB6_229, 
+                style: style_FrancaB6_229,
                 popuplayertitle: 'Franca B6',
                 interactive: true,
-                title: '<img src="styles/legend/FrancaB6_227.png" /> Franca B6'
+                title: '<img src="styles/legend/FrancaB6_229.png" /> Franca B6'
             });
-var format_FazendaProgresso_228 = new ol.format.GeoJSON();
-var features_FazendaProgresso_228 = format_FazendaProgresso_228.readFeatures(json_FazendaProgresso_228, 
+var format_FazendaProgresso_230 = new ol.format.GeoJSON();
+var features_FazendaProgresso_230 = format_FazendaProgresso_230.readFeatures(json_FazendaProgresso_230, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FazendaProgresso_228 = new ol.source.Vector({
+var jsonSource_FazendaProgresso_230 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FazendaProgresso_228.addFeatures(features_FazendaProgresso_228);
-var lyr_FazendaProgresso_228 = new ol.layer.Vector({
+jsonSource_FazendaProgresso_230.addFeatures(features_FazendaProgresso_230);
+var lyr_FazendaProgresso_230 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FazendaProgresso_228, 
-                style: style_FazendaProgresso_228,
+                source:jsonSource_FazendaProgresso_230, 
+                style: style_FazendaProgresso_230,
                 popuplayertitle: 'Fazenda Progresso',
                 interactive: true,
-                title: '<img src="styles/legend/FazendaProgresso_228.png" /> Fazenda Progresso'
+                title: '<img src="styles/legend/FazendaProgresso_230.png" /> Fazenda Progresso'
             });
-var format_FazendaProgresso_229 = new ol.format.GeoJSON();
-var features_FazendaProgresso_229 = format_FazendaProgresso_229.readFeatures(json_FazendaProgresso_229, 
+var format_FazendaProgresso_231 = new ol.format.GeoJSON();
+var features_FazendaProgresso_231 = format_FazendaProgresso_231.readFeatures(json_FazendaProgresso_231, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FazendaProgresso_229 = new ol.source.Vector({
+var jsonSource_FazendaProgresso_231 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FazendaProgresso_229.addFeatures(features_FazendaProgresso_229);
-var lyr_FazendaProgresso_229 = new ol.layer.Vector({
+jsonSource_FazendaProgresso_231.addFeatures(features_FazendaProgresso_231);
+var lyr_FazendaProgresso_231 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FazendaProgresso_229, 
-                style: style_FazendaProgresso_229,
+                source:jsonSource_FazendaProgresso_231, 
+                style: style_FazendaProgresso_231,
                 popuplayertitle: 'Fazenda Progresso',
                 interactive: true,
-                title: '<img src="styles/legend/FazendaProgresso_229.png" /> Fazenda Progresso'
+                title: '<img src="styles/legend/FazendaProgresso_231.png" /> Fazenda Progresso'
             });
-var format_FazendaeGranjaSantaRita2_230 = new ol.format.GeoJSON();
-var features_FazendaeGranjaSantaRita2_230 = format_FazendaeGranjaSantaRita2_230.readFeatures(json_FazendaeGranjaSantaRita2_230, 
+var format_FazendaeGranjaSantaRita2_232 = new ol.format.GeoJSON();
+var features_FazendaeGranjaSantaRita2_232 = format_FazendaeGranjaSantaRita2_232.readFeatures(json_FazendaeGranjaSantaRita2_232, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FazendaeGranjaSantaRita2_230 = new ol.source.Vector({
+var jsonSource_FazendaeGranjaSantaRita2_232 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FazendaeGranjaSantaRita2_230.addFeatures(features_FazendaeGranjaSantaRita2_230);
-var lyr_FazendaeGranjaSantaRita2_230 = new ol.layer.Vector({
+jsonSource_FazendaeGranjaSantaRita2_232.addFeatures(features_FazendaeGranjaSantaRita2_232);
+var lyr_FazendaeGranjaSantaRita2_232 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FazendaeGranjaSantaRita2_230, 
-                style: style_FazendaeGranjaSantaRita2_230,
+                source:jsonSource_FazendaeGranjaSantaRita2_232, 
+                style: style_FazendaeGranjaSantaRita2_232,
                 popuplayertitle: 'Fazenda e Granja Santa Rita 2',
                 interactive: true,
-                title: '<img src="styles/legend/FazendaeGranjaSantaRita2_230.png" /> Fazenda e Granja Santa Rita 2'
+                title: '<img src="styles/legend/FazendaeGranjaSantaRita2_232.png" /> Fazenda e Granja Santa Rita 2'
             });
-var format_FazendaeGranjaSantaRita2_231 = new ol.format.GeoJSON();
-var features_FazendaeGranjaSantaRita2_231 = format_FazendaeGranjaSantaRita2_231.readFeatures(json_FazendaeGranjaSantaRita2_231, 
+var format_FazendaeGranjaSantaRita2_233 = new ol.format.GeoJSON();
+var features_FazendaeGranjaSantaRita2_233 = format_FazendaeGranjaSantaRita2_233.readFeatures(json_FazendaeGranjaSantaRita2_233, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FazendaeGranjaSantaRita2_231 = new ol.source.Vector({
+var jsonSource_FazendaeGranjaSantaRita2_233 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FazendaeGranjaSantaRita2_231.addFeatures(features_FazendaeGranjaSantaRita2_231);
-var lyr_FazendaeGranjaSantaRita2_231 = new ol.layer.Vector({
+jsonSource_FazendaeGranjaSantaRita2_233.addFeatures(features_FazendaeGranjaSantaRita2_233);
+var lyr_FazendaeGranjaSantaRita2_233 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FazendaeGranjaSantaRita2_231, 
-                style: style_FazendaeGranjaSantaRita2_231,
+                source:jsonSource_FazendaeGranjaSantaRita2_233, 
+                style: style_FazendaeGranjaSantaRita2_233,
                 popuplayertitle: 'Fazenda e Granja Santa Rita 2',
                 interactive: true,
-                title: '<img src="styles/legend/FazendaeGranjaSantaRita2_231.png" /> Fazenda e Granja Santa Rita 2'
+                title: '<img src="styles/legend/FazendaeGranjaSantaRita2_233.png" /> Fazenda e Granja Santa Rita 2'
             });
-var format_FazendaeGranjaSantaRita_232 = new ol.format.GeoJSON();
-var features_FazendaeGranjaSantaRita_232 = format_FazendaeGranjaSantaRita_232.readFeatures(json_FazendaeGranjaSantaRita_232, 
+var format_FazendaeGranjaSantaRita_234 = new ol.format.GeoJSON();
+var features_FazendaeGranjaSantaRita_234 = format_FazendaeGranjaSantaRita_234.readFeatures(json_FazendaeGranjaSantaRita_234, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FazendaeGranjaSantaRita_232 = new ol.source.Vector({
+var jsonSource_FazendaeGranjaSantaRita_234 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FazendaeGranjaSantaRita_232.addFeatures(features_FazendaeGranjaSantaRita_232);
-var lyr_FazendaeGranjaSantaRita_232 = new ol.layer.Vector({
+jsonSource_FazendaeGranjaSantaRita_234.addFeatures(features_FazendaeGranjaSantaRita_234);
+var lyr_FazendaeGranjaSantaRita_234 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FazendaeGranjaSantaRita_232, 
-                style: style_FazendaeGranjaSantaRita_232,
+                source:jsonSource_FazendaeGranjaSantaRita_234, 
+                style: style_FazendaeGranjaSantaRita_234,
                 popuplayertitle: 'Fazenda e Granja Santa Rita',
                 interactive: true,
-                title: '<img src="styles/legend/FazendaeGranjaSantaRita_232.png" /> Fazenda e Granja Santa Rita'
+                title: '<img src="styles/legend/FazendaeGranjaSantaRita_234.png" /> Fazenda e Granja Santa Rita'
             });
-var format_FazendaeGranjaSantaRita_233 = new ol.format.GeoJSON();
-var features_FazendaeGranjaSantaRita_233 = format_FazendaeGranjaSantaRita_233.readFeatures(json_FazendaeGranjaSantaRita_233, 
+var format_FazendaeGranjaSantaRita_235 = new ol.format.GeoJSON();
+var features_FazendaeGranjaSantaRita_235 = format_FazendaeGranjaSantaRita_235.readFeatures(json_FazendaeGranjaSantaRita_235, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FazendaeGranjaSantaRita_233 = new ol.source.Vector({
+var jsonSource_FazendaeGranjaSantaRita_235 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FazendaeGranjaSantaRita_233.addFeatures(features_FazendaeGranjaSantaRita_233);
-var lyr_FazendaeGranjaSantaRita_233 = new ol.layer.Vector({
+jsonSource_FazendaeGranjaSantaRita_235.addFeatures(features_FazendaeGranjaSantaRita_235);
+var lyr_FazendaeGranjaSantaRita_235 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FazendaeGranjaSantaRita_233, 
-                style: style_FazendaeGranjaSantaRita_233,
+                source:jsonSource_FazendaeGranjaSantaRita_235, 
+                style: style_FazendaeGranjaSantaRita_235,
                 popuplayertitle: 'Fazenda e Granja Santa Rita',
                 interactive: true,
-                title: '<img src="styles/legend/FazendaeGranjaSantaRita_233.png" /> Fazenda e Granja Santa Rita'
+                title: '<img src="styles/legend/FazendaeGranjaSantaRita_235.png" /> Fazenda e Granja Santa Rita'
             });
-var format_Essence_234 = new ol.format.GeoJSON();
-var features_Essence_234 = format_Essence_234.readFeatures(json_Essence_234, 
+var format_Essence_236 = new ol.format.GeoJSON();
+var features_Essence_236 = format_Essence_236.readFeatures(json_Essence_236, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Essence_234 = new ol.source.Vector({
+var jsonSource_Essence_236 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Essence_234.addFeatures(features_Essence_234);
-var lyr_Essence_234 = new ol.layer.Vector({
+jsonSource_Essence_236.addFeatures(features_Essence_236);
+var lyr_Essence_236 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Essence_234, 
-                style: style_Essence_234,
+                source:jsonSource_Essence_236, 
+                style: style_Essence_236,
                 popuplayertitle: 'Essence',
                 interactive: true,
-                title: '<img src="styles/legend/Essence_234.png" /> Essence'
+                title: '<img src="styles/legend/Essence_236.png" /> Essence'
             });
-var format_Essence_235 = new ol.format.GeoJSON();
-var features_Essence_235 = format_Essence_235.readFeatures(json_Essence_235, 
+var format_Essence_237 = new ol.format.GeoJSON();
+var features_Essence_237 = format_Essence_237.readFeatures(json_Essence_237, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Essence_235 = new ol.source.Vector({
+var jsonSource_Essence_237 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Essence_235.addFeatures(features_Essence_235);
-var lyr_Essence_235 = new ol.layer.Vector({
+jsonSource_Essence_237.addFeatures(features_Essence_237);
+var lyr_Essence_237 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Essence_235, 
-                style: style_Essence_235,
+                source:jsonSource_Essence_237, 
+                style: style_Essence_237,
                 popuplayertitle: 'Essence',
                 interactive: true,
-                title: '<img src="styles/legend/Essence_235.png" /> Essence'
+                title: '<img src="styles/legend/Essence_237.png" /> Essence'
             });
-var format_Elias_236 = new ol.format.GeoJSON();
-var features_Elias_236 = format_Elias_236.readFeatures(json_Elias_236, 
+var format_Elias_238 = new ol.format.GeoJSON();
+var features_Elias_238 = format_Elias_238.readFeatures(json_Elias_238, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Elias_236 = new ol.source.Vector({
+var jsonSource_Elias_238 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Elias_236.addFeatures(features_Elias_236);
-var lyr_Elias_236 = new ol.layer.Vector({
+jsonSource_Elias_238.addFeatures(features_Elias_238);
+var lyr_Elias_238 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Elias_236, 
-                style: style_Elias_236,
+                source:jsonSource_Elias_238, 
+                style: style_Elias_238,
                 popuplayertitle: 'Elias',
                 interactive: true,
     title: 'Elias<br />\
-    <img src="styles/legend/Elias_236_0.png" /> Ruas<br />\
-    <img src="styles/legend/Elias_236_1.png" /> Área Institucional<br />\
-    <img src="styles/legend/Elias_236_2.png" /> Lotes/Quadras<br />\
-    <img src="styles/legend/Elias_236_3.png" /> Área Verde<br />\
-    <img src="styles/legend/Elias_236_4.png" /> Área Lazer<br />\
-    <img src="styles/legend/Elias_236_5.png" /> Passeio<br />\
-    <img src="styles/legend/Elias_236_6.png" /> Lotes mistos<br />' });
-var format_Elias_237 = new ol.format.GeoJSON();
-var features_Elias_237 = format_Elias_237.readFeatures(json_Elias_237, 
+    <img src="styles/legend/Elias_238_0.png" /> Ruas<br />\
+    <img src="styles/legend/Elias_238_1.png" /> Área Institucional<br />\
+    <img src="styles/legend/Elias_238_2.png" /> Lotes/Quadras<br />\
+    <img src="styles/legend/Elias_238_3.png" /> Área Verde<br />\
+    <img src="styles/legend/Elias_238_4.png" /> Área Lazer<br />\
+    <img src="styles/legend/Elias_238_5.png" /> Passeio<br />\
+    <img src="styles/legend/Elias_238_6.png" /> Lotes mistos<br />' });
+var format_Elias_239 = new ol.format.GeoJSON();
+var features_Elias_239 = format_Elias_239.readFeatures(json_Elias_239, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Elias_237 = new ol.source.Vector({
+var jsonSource_Elias_239 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Elias_237.addFeatures(features_Elias_237);
-var lyr_Elias_237 = new ol.layer.Vector({
+jsonSource_Elias_239.addFeatures(features_Elias_239);
+var lyr_Elias_239 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Elias_237, 
-                style: style_Elias_237,
+                source:jsonSource_Elias_239, 
+                style: style_Elias_239,
                 popuplayertitle: 'Elias',
                 interactive: true,
-                title: '<img src="styles/legend/Elias_237.png" /> Elias'
+                title: '<img src="styles/legend/Elias_239.png" /> Elias'
             });
-var format_EdifcioSolNascente_238 = new ol.format.GeoJSON();
-var features_EdifcioSolNascente_238 = format_EdifcioSolNascente_238.readFeatures(json_EdifcioSolNascente_238, 
+var format_EdifcioSolNascente_240 = new ol.format.GeoJSON();
+var features_EdifcioSolNascente_240 = format_EdifcioSolNascente_240.readFeatures(json_EdifcioSolNascente_240, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EdifcioSolNascente_238 = new ol.source.Vector({
+var jsonSource_EdifcioSolNascente_240 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EdifcioSolNascente_238.addFeatures(features_EdifcioSolNascente_238);
-var lyr_EdifcioSolNascente_238 = new ol.layer.Vector({
+jsonSource_EdifcioSolNascente_240.addFeatures(features_EdifcioSolNascente_240);
+var lyr_EdifcioSolNascente_240 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EdifcioSolNascente_238, 
-                style: style_EdifcioSolNascente_238,
+                source:jsonSource_EdifcioSolNascente_240, 
+                style: style_EdifcioSolNascente_240,
                 popuplayertitle: 'Edifício Sol Nascente',
                 interactive: true,
-                title: '<img src="styles/legend/EdifcioSolNascente_238.png" /> Edifício Sol Nascente'
+                title: '<img src="styles/legend/EdifcioSolNascente_240.png" /> Edifício Sol Nascente'
             });
-var format_EdifcioSolNascente_239 = new ol.format.GeoJSON();
-var features_EdifcioSolNascente_239 = format_EdifcioSolNascente_239.readFeatures(json_EdifcioSolNascente_239, 
+var format_EdifcioSolNascente_241 = new ol.format.GeoJSON();
+var features_EdifcioSolNascente_241 = format_EdifcioSolNascente_241.readFeatures(json_EdifcioSolNascente_241, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EdifcioSolNascente_239 = new ol.source.Vector({
+var jsonSource_EdifcioSolNascente_241 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EdifcioSolNascente_239.addFeatures(features_EdifcioSolNascente_239);
-var lyr_EdifcioSolNascente_239 = new ol.layer.Vector({
+jsonSource_EdifcioSolNascente_241.addFeatures(features_EdifcioSolNascente_241);
+var lyr_EdifcioSolNascente_241 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EdifcioSolNascente_239, 
-                style: style_EdifcioSolNascente_239,
+                source:jsonSource_EdifcioSolNascente_241, 
+                style: style_EdifcioSolNascente_241,
                 popuplayertitle: 'Edifício Sol Nascente',
                 interactive: true,
-                title: '<img src="styles/legend/EdifcioSolNascente_239.png" /> Edifício Sol Nascente'
+                title: '<img src="styles/legend/EdifcioSolNascente_241.png" /> Edifício Sol Nascente'
             });
-var format_EdifcioRuadoSol_240 = new ol.format.GeoJSON();
-var features_EdifcioRuadoSol_240 = format_EdifcioRuadoSol_240.readFeatures(json_EdifcioRuadoSol_240, 
+var format_EdifcioRuadoSol_242 = new ol.format.GeoJSON();
+var features_EdifcioRuadoSol_242 = format_EdifcioRuadoSol_242.readFeatures(json_EdifcioRuadoSol_242, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EdifcioRuadoSol_240 = new ol.source.Vector({
+var jsonSource_EdifcioRuadoSol_242 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EdifcioRuadoSol_240.addFeatures(features_EdifcioRuadoSol_240);
-var lyr_EdifcioRuadoSol_240 = new ol.layer.Vector({
+jsonSource_EdifcioRuadoSol_242.addFeatures(features_EdifcioRuadoSol_242);
+var lyr_EdifcioRuadoSol_242 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EdifcioRuadoSol_240, 
-                style: style_EdifcioRuadoSol_240,
+                source:jsonSource_EdifcioRuadoSol_242, 
+                style: style_EdifcioRuadoSol_242,
                 popuplayertitle: 'Edifício Rua do Sol',
                 interactive: true,
-                title: '<img src="styles/legend/EdifcioRuadoSol_240.png" /> Edifício Rua do Sol'
+                title: '<img src="styles/legend/EdifcioRuadoSol_242.png" /> Edifício Rua do Sol'
             });
-var format_EdifcioRuadoSol_241 = new ol.format.GeoJSON();
-var features_EdifcioRuadoSol_241 = format_EdifcioRuadoSol_241.readFeatures(json_EdifcioRuadoSol_241, 
+var format_EdifcioRuadoSol_243 = new ol.format.GeoJSON();
+var features_EdifcioRuadoSol_243 = format_EdifcioRuadoSol_243.readFeatures(json_EdifcioRuadoSol_243, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EdifcioRuadoSol_241 = new ol.source.Vector({
+var jsonSource_EdifcioRuadoSol_243 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EdifcioRuadoSol_241.addFeatures(features_EdifcioRuadoSol_241);
-var lyr_EdifcioRuadoSol_241 = new ol.layer.Vector({
+jsonSource_EdifcioRuadoSol_243.addFeatures(features_EdifcioRuadoSol_243);
+var lyr_EdifcioRuadoSol_243 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EdifcioRuadoSol_241, 
-                style: style_EdifcioRuadoSol_241,
+                source:jsonSource_EdifcioRuadoSol_243, 
+                style: style_EdifcioRuadoSol_243,
                 popuplayertitle: 'Edifício Rua do Sol',
                 interactive: true,
-                title: '<img src="styles/legend/EdifcioRuadoSol_241.png" /> Edifício Rua do Sol'
+                title: '<img src="styles/legend/EdifcioRuadoSol_243.png" /> Edifício Rua do Sol'
             });
-var format_EdifcioResidencialHope_242 = new ol.format.GeoJSON();
-var features_EdifcioResidencialHope_242 = format_EdifcioResidencialHope_242.readFeatures(json_EdifcioResidencialHope_242, 
+var format_EdifcioResidencialHope_244 = new ol.format.GeoJSON();
+var features_EdifcioResidencialHope_244 = format_EdifcioResidencialHope_244.readFeatures(json_EdifcioResidencialHope_244, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EdifcioResidencialHope_242 = new ol.source.Vector({
+var jsonSource_EdifcioResidencialHope_244 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EdifcioResidencialHope_242.addFeatures(features_EdifcioResidencialHope_242);
-var lyr_EdifcioResidencialHope_242 = new ol.layer.Vector({
+jsonSource_EdifcioResidencialHope_244.addFeatures(features_EdifcioResidencialHope_244);
+var lyr_EdifcioResidencialHope_244 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EdifcioResidencialHope_242, 
-                style: style_EdifcioResidencialHope_242,
+                source:jsonSource_EdifcioResidencialHope_244, 
+                style: style_EdifcioResidencialHope_244,
                 popuplayertitle: 'Edifício Residencial Hope',
                 interactive: true,
-                title: '<img src="styles/legend/EdifcioResidencialHope_242.png" /> Edifício Residencial Hope'
+                title: '<img src="styles/legend/EdifcioResidencialHope_244.png" /> Edifício Residencial Hope'
             });
-var format_EdifcioResidencialHope_243 = new ol.format.GeoJSON();
-var features_EdifcioResidencialHope_243 = format_EdifcioResidencialHope_243.readFeatures(json_EdifcioResidencialHope_243, 
+var format_EdifcioResidencialHope_245 = new ol.format.GeoJSON();
+var features_EdifcioResidencialHope_245 = format_EdifcioResidencialHope_245.readFeatures(json_EdifcioResidencialHope_245, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EdifcioResidencialHope_243 = new ol.source.Vector({
+var jsonSource_EdifcioResidencialHope_245 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EdifcioResidencialHope_243.addFeatures(features_EdifcioResidencialHope_243);
-var lyr_EdifcioResidencialHope_243 = new ol.layer.Vector({
+jsonSource_EdifcioResidencialHope_245.addFeatures(features_EdifcioResidencialHope_245);
+var lyr_EdifcioResidencialHope_245 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EdifcioResidencialHope_243, 
-                style: style_EdifcioResidencialHope_243,
+                source:jsonSource_EdifcioResidencialHope_245, 
+                style: style_EdifcioResidencialHope_245,
                 popuplayertitle: 'Edifício Residencial Hope',
                 interactive: true,
-                title: '<img src="styles/legend/EdifcioResidencialHope_243.png" /> Edifício Residencial Hope'
+                title: '<img src="styles/legend/EdifcioResidencialHope_245.png" /> Edifício Residencial Hope'
             });
-var format_DiocesedeFranca_244 = new ol.format.GeoJSON();
-var features_DiocesedeFranca_244 = format_DiocesedeFranca_244.readFeatures(json_DiocesedeFranca_244, 
+var format_DiocesedeFranca_246 = new ol.format.GeoJSON();
+var features_DiocesedeFranca_246 = format_DiocesedeFranca_246.readFeatures(json_DiocesedeFranca_246, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_DiocesedeFranca_244 = new ol.source.Vector({
+var jsonSource_DiocesedeFranca_246 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_DiocesedeFranca_244.addFeatures(features_DiocesedeFranca_244);
-var lyr_DiocesedeFranca_244 = new ol.layer.Vector({
+jsonSource_DiocesedeFranca_246.addFeatures(features_DiocesedeFranca_246);
+var lyr_DiocesedeFranca_246 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_DiocesedeFranca_244, 
-                style: style_DiocesedeFranca_244,
+                source:jsonSource_DiocesedeFranca_246, 
+                style: style_DiocesedeFranca_246,
                 popuplayertitle: 'Diocese de Franca',
                 interactive: true,
     title: 'Diocese de Franca<br />\
-    <img src="styles/legend/DiocesedeFranca_244_0.png" /> APP<br />\
-    <img src="styles/legend/DiocesedeFranca_244_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/DiocesedeFranca_244_2.png" /> AREA VERDE<br />\
-    <img src="styles/legend/DiocesedeFranca_244_3.png" /> LOTES COMERCIAIS<br />\
-    <img src="styles/legend/DiocesedeFranca_244_4.png" /> LOTES RESIDENCIAIS<br />\
-    <img src="styles/legend/DiocesedeFranca_244_5.png" /> PASSEIO<br />\
-    <img src="styles/legend/DiocesedeFranca_244_6.png" /> RUAS<br />' });
-var format_DiocesedeFranca_245 = new ol.format.GeoJSON();
-var features_DiocesedeFranca_245 = format_DiocesedeFranca_245.readFeatures(json_DiocesedeFranca_245, 
+    <img src="styles/legend/DiocesedeFranca_246_0.png" /> APP<br />\
+    <img src="styles/legend/DiocesedeFranca_246_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/DiocesedeFranca_246_2.png" /> AREA VERDE<br />\
+    <img src="styles/legend/DiocesedeFranca_246_3.png" /> LOTES COMERCIAIS<br />\
+    <img src="styles/legend/DiocesedeFranca_246_4.png" /> LOTES RESIDENCIAIS<br />\
+    <img src="styles/legend/DiocesedeFranca_246_5.png" /> PASSEIO<br />\
+    <img src="styles/legend/DiocesedeFranca_246_6.png" /> RUAS<br />' });
+var format_DiocesedeFranca_247 = new ol.format.GeoJSON();
+var features_DiocesedeFranca_247 = format_DiocesedeFranca_247.readFeatures(json_DiocesedeFranca_247, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_DiocesedeFranca_245 = new ol.source.Vector({
+var jsonSource_DiocesedeFranca_247 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_DiocesedeFranca_245.addFeatures(features_DiocesedeFranca_245);
-var lyr_DiocesedeFranca_245 = new ol.layer.Vector({
+jsonSource_DiocesedeFranca_247.addFeatures(features_DiocesedeFranca_247);
+var lyr_DiocesedeFranca_247 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_DiocesedeFranca_245, 
-                style: style_DiocesedeFranca_245,
+                source:jsonSource_DiocesedeFranca_247, 
+                style: style_DiocesedeFranca_247,
                 popuplayertitle: 'Diocese de Franca',
                 interactive: true,
-                title: '<img src="styles/legend/DiocesedeFranca_245.png" /> Diocese de Franca'
+                title: '<img src="styles/legend/DiocesedeFranca_247.png" /> Diocese de Franca'
             });
-var format_DaVinci_246 = new ol.format.GeoJSON();
-var features_DaVinci_246 = format_DaVinci_246.readFeatures(json_DaVinci_246, 
+var format_DaVinci_248 = new ol.format.GeoJSON();
+var features_DaVinci_248 = format_DaVinci_248.readFeatures(json_DaVinci_248, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_DaVinci_246 = new ol.source.Vector({
+var jsonSource_DaVinci_248 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_DaVinci_246.addFeatures(features_DaVinci_246);
-var lyr_DaVinci_246 = new ol.layer.Vector({
+jsonSource_DaVinci_248.addFeatures(features_DaVinci_248);
+var lyr_DaVinci_248 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_DaVinci_246, 
-                style: style_DaVinci_246,
+                source:jsonSource_DaVinci_248, 
+                style: style_DaVinci_248,
                 popuplayertitle: 'Da Vinci',
                 interactive: true,
-                title: '<img src="styles/legend/DaVinci_246.png" /> Da Vinci'
+                title: '<img src="styles/legend/DaVinci_248.png" /> Da Vinci'
             });
-var format_DaVinci_247 = new ol.format.GeoJSON();
-var features_DaVinci_247 = format_DaVinci_247.readFeatures(json_DaVinci_247, 
+var format_DaVinci_249 = new ol.format.GeoJSON();
+var features_DaVinci_249 = format_DaVinci_249.readFeatures(json_DaVinci_249, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_DaVinci_247 = new ol.source.Vector({
+var jsonSource_DaVinci_249 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_DaVinci_247.addFeatures(features_DaVinci_247);
-var lyr_DaVinci_247 = new ol.layer.Vector({
+jsonSource_DaVinci_249.addFeatures(features_DaVinci_249);
+var lyr_DaVinci_249 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_DaVinci_247, 
-                style: style_DaVinci_247,
+                source:jsonSource_DaVinci_249, 
+                style: style_DaVinci_249,
                 popuplayertitle: 'Da Vinci',
                 interactive: true,
-                title: '<img src="styles/legend/DaVinci_247.png" /> Da Vinci'
+                title: '<img src="styles/legend/DaVinci_249.png" /> Da Vinci'
             });
-var format_CondomnioIICityPetrpolis_248 = new ol.format.GeoJSON();
-var features_CondomnioIICityPetrpolis_248 = format_CondomnioIICityPetrpolis_248.readFeatures(json_CondomnioIICityPetrpolis_248, 
+var format_CondomnioIICityPetrpolis_250 = new ol.format.GeoJSON();
+var features_CondomnioIICityPetrpolis_250 = format_CondomnioIICityPetrpolis_250.readFeatures(json_CondomnioIICityPetrpolis_250, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_CondomnioIICityPetrpolis_248 = new ol.source.Vector({
+var jsonSource_CondomnioIICityPetrpolis_250 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CondomnioIICityPetrpolis_248.addFeatures(features_CondomnioIICityPetrpolis_248);
-var lyr_CondomnioIICityPetrpolis_248 = new ol.layer.Vector({
+jsonSource_CondomnioIICityPetrpolis_250.addFeatures(features_CondomnioIICityPetrpolis_250);
+var lyr_CondomnioIICityPetrpolis_250 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CondomnioIICityPetrpolis_248, 
-                style: style_CondomnioIICityPetrpolis_248,
+                source:jsonSource_CondomnioIICityPetrpolis_250, 
+                style: style_CondomnioIICityPetrpolis_250,
                 popuplayertitle: 'Condomínio II City Petrópolis',
                 interactive: true,
     title: 'Condomínio II City Petrópolis<br />\
-    <img src="styles/legend/CondomnioIICityPetrpolis_248_0.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/CondomnioIICityPetrpolis_248_1.png" /> AREA LAZER<br />\
-    <img src="styles/legend/CondomnioIICityPetrpolis_248_2.png" /> AREA VERDE<br />\
-    <img src="styles/legend/CondomnioIICityPetrpolis_248_3.png" /> LOTES QUADRAS<br />\
-    <img src="styles/legend/CondomnioIICityPetrpolis_248_4.png" /> PASSEIO<br />\
-    <img src="styles/legend/CondomnioIICityPetrpolis_248_5.png" /> RUAS<br />' });
-var format_CondomnioIICityPetrpolis_249 = new ol.format.GeoJSON();
-var features_CondomnioIICityPetrpolis_249 = format_CondomnioIICityPetrpolis_249.readFeatures(json_CondomnioIICityPetrpolis_249, 
+    <img src="styles/legend/CondomnioIICityPetrpolis_250_0.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/CondomnioIICityPetrpolis_250_1.png" /> AREA LAZER<br />\
+    <img src="styles/legend/CondomnioIICityPetrpolis_250_2.png" /> AREA VERDE<br />\
+    <img src="styles/legend/CondomnioIICityPetrpolis_250_3.png" /> LOTES QUADRAS<br />\
+    <img src="styles/legend/CondomnioIICityPetrpolis_250_4.png" /> PASSEIO<br />\
+    <img src="styles/legend/CondomnioIICityPetrpolis_250_5.png" /> RUAS<br />' });
+var format_CondomnioIICityPetrpolis_251 = new ol.format.GeoJSON();
+var features_CondomnioIICityPetrpolis_251 = format_CondomnioIICityPetrpolis_251.readFeatures(json_CondomnioIICityPetrpolis_251, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_CondomnioIICityPetrpolis_249 = new ol.source.Vector({
+var jsonSource_CondomnioIICityPetrpolis_251 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CondomnioIICityPetrpolis_249.addFeatures(features_CondomnioIICityPetrpolis_249);
-var lyr_CondomnioIICityPetrpolis_249 = new ol.layer.Vector({
+jsonSource_CondomnioIICityPetrpolis_251.addFeatures(features_CondomnioIICityPetrpolis_251);
+var lyr_CondomnioIICityPetrpolis_251 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CondomnioIICityPetrpolis_249, 
-                style: style_CondomnioIICityPetrpolis_249,
+                source:jsonSource_CondomnioIICityPetrpolis_251, 
+                style: style_CondomnioIICityPetrpolis_251,
                 popuplayertitle: 'Condomínio II City Petrópolis',
                 interactive: true,
-                title: '<img src="styles/legend/CondomnioIICityPetrpolis_249.png" /> Condomínio II City Petrópolis'
+                title: '<img src="styles/legend/CondomnioIICityPetrpolis_251.png" /> Condomínio II City Petrópolis'
             });
-var format_CondomnioICityPetrpolis_250 = new ol.format.GeoJSON();
-var features_CondomnioICityPetrpolis_250 = format_CondomnioICityPetrpolis_250.readFeatures(json_CondomnioICityPetrpolis_250, 
+var format_CondomnioICityPetrpolis_252 = new ol.format.GeoJSON();
+var features_CondomnioICityPetrpolis_252 = format_CondomnioICityPetrpolis_252.readFeatures(json_CondomnioICityPetrpolis_252, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_CondomnioICityPetrpolis_250 = new ol.source.Vector({
+var jsonSource_CondomnioICityPetrpolis_252 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CondomnioICityPetrpolis_250.addFeatures(features_CondomnioICityPetrpolis_250);
-var lyr_CondomnioICityPetrpolis_250 = new ol.layer.Vector({
+jsonSource_CondomnioICityPetrpolis_252.addFeatures(features_CondomnioICityPetrpolis_252);
+var lyr_CondomnioICityPetrpolis_252 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CondomnioICityPetrpolis_250, 
-                style: style_CondomnioICityPetrpolis_250,
+                source:jsonSource_CondomnioICityPetrpolis_252, 
+                style: style_CondomnioICityPetrpolis_252,
                 popuplayertitle: 'Condomínio I City Petrópolis',
                 interactive: true,
     title: 'Condomínio I City Petrópolis<br />\
-    <img src="styles/legend/CondomnioICityPetrpolis_250_0.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/CondomnioICityPetrpolis_250_1.png" /> AREA LAZER<br />\
-    <img src="styles/legend/CondomnioICityPetrpolis_250_2.png" /> AREA VERDE<br />\
-    <img src="styles/legend/CondomnioICityPetrpolis_250_3.png" /> LOTES QUADRAS<br />\
-    <img src="styles/legend/CondomnioICityPetrpolis_250_4.png" /> PASSEIO<br />\
-    <img src="styles/legend/CondomnioICityPetrpolis_250_5.png" /> RUAS<br />' });
-var format_CondomnioICityPetrpolis_251 = new ol.format.GeoJSON();
-var features_CondomnioICityPetrpolis_251 = format_CondomnioICityPetrpolis_251.readFeatures(json_CondomnioICityPetrpolis_251, 
+    <img src="styles/legend/CondomnioICityPetrpolis_252_0.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/CondomnioICityPetrpolis_252_1.png" /> AREA LAZER<br />\
+    <img src="styles/legend/CondomnioICityPetrpolis_252_2.png" /> AREA VERDE<br />\
+    <img src="styles/legend/CondomnioICityPetrpolis_252_3.png" /> LOTES QUADRAS<br />\
+    <img src="styles/legend/CondomnioICityPetrpolis_252_4.png" /> PASSEIO<br />\
+    <img src="styles/legend/CondomnioICityPetrpolis_252_5.png" /> RUAS<br />' });
+var format_CondomnioICityPetrpolis_253 = new ol.format.GeoJSON();
+var features_CondomnioICityPetrpolis_253 = format_CondomnioICityPetrpolis_253.readFeatures(json_CondomnioICityPetrpolis_253, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_CondomnioICityPetrpolis_251 = new ol.source.Vector({
+var jsonSource_CondomnioICityPetrpolis_253 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CondomnioICityPetrpolis_251.addFeatures(features_CondomnioICityPetrpolis_251);
-var lyr_CondomnioICityPetrpolis_251 = new ol.layer.Vector({
+jsonSource_CondomnioICityPetrpolis_253.addFeatures(features_CondomnioICityPetrpolis_253);
+var lyr_CondomnioICityPetrpolis_253 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CondomnioICityPetrpolis_251, 
-                style: style_CondomnioICityPetrpolis_251,
+                source:jsonSource_CondomnioICityPetrpolis_253, 
+                style: style_CondomnioICityPetrpolis_253,
                 popuplayertitle: 'Condomínio I City Petrópolis',
                 interactive: true,
-                title: '<img src="styles/legend/CondomnioICityPetrpolis_251.png" /> Condomínio I City Petrópolis'
+                title: '<img src="styles/legend/CondomnioICityPetrpolis_253.png" /> Condomínio I City Petrópolis'
             });
-var format_Colorado_252 = new ol.format.GeoJSON();
-var features_Colorado_252 = format_Colorado_252.readFeatures(json_Colorado_252, 
+var format_Colorado_254 = new ol.format.GeoJSON();
+var features_Colorado_254 = format_Colorado_254.readFeatures(json_Colorado_254, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Colorado_252 = new ol.source.Vector({
+var jsonSource_Colorado_254 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Colorado_252.addFeatures(features_Colorado_252);
-var lyr_Colorado_252 = new ol.layer.Vector({
+jsonSource_Colorado_254.addFeatures(features_Colorado_254);
+var lyr_Colorado_254 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Colorado_252, 
-                style: style_Colorado_252,
+                source:jsonSource_Colorado_254, 
+                style: style_Colorado_254,
                 popuplayertitle: 'Colorado',
                 interactive: true,
     title: 'Colorado<br />\
-    <img src="styles/legend/Colorado_252_0.png" /> APP<br />\
-    <img src="styles/legend/Colorado_252_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/Colorado_252_2.png" /> AREA LAZER<br />\
-    <img src="styles/legend/Colorado_252_3.png" /> AREA VERDE<br />\
-    <img src="styles/legend/Colorado_252_4.png" /> LOTES QUADRAS<br />\
-    <img src="styles/legend/Colorado_252_5.png" /> PASSSEIO<br />\
-    <img src="styles/legend/Colorado_252_6.png" /> RUAS<br />' });
-var format_Colorado_253 = new ol.format.GeoJSON();
-var features_Colorado_253 = format_Colorado_253.readFeatures(json_Colorado_253, 
+    <img src="styles/legend/Colorado_254_0.png" /> APP<br />\
+    <img src="styles/legend/Colorado_254_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/Colorado_254_2.png" /> AREA LAZER<br />\
+    <img src="styles/legend/Colorado_254_3.png" /> AREA VERDE<br />\
+    <img src="styles/legend/Colorado_254_4.png" /> LOTES QUADRAS<br />\
+    <img src="styles/legend/Colorado_254_5.png" /> PASSSEIO<br />\
+    <img src="styles/legend/Colorado_254_6.png" /> RUAS<br />' });
+var format_Colorado_255 = new ol.format.GeoJSON();
+var features_Colorado_255 = format_Colorado_255.readFeatures(json_Colorado_255, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Colorado_253 = new ol.source.Vector({
+var jsonSource_Colorado_255 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Colorado_253.addFeatures(features_Colorado_253);
-var lyr_Colorado_253 = new ol.layer.Vector({
+jsonSource_Colorado_255.addFeatures(features_Colorado_255);
+var lyr_Colorado_255 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Colorado_253, 
-                style: style_Colorado_253,
+                source:jsonSource_Colorado_255, 
+                style: style_Colorado_255,
                 popuplayertitle: 'Colorado',
                 interactive: true,
-                title: '<img src="styles/legend/Colorado_253.png" /> Colorado'
+                title: '<img src="styles/legend/Colorado_255.png" /> Colorado'
             });
-var format_CidadeJardim_254 = new ol.format.GeoJSON();
-var features_CidadeJardim_254 = format_CidadeJardim_254.readFeatures(json_CidadeJardim_254, 
+var format_CidadeJardim_256 = new ol.format.GeoJSON();
+var features_CidadeJardim_256 = format_CidadeJardim_256.readFeatures(json_CidadeJardim_256, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_CidadeJardim_254 = new ol.source.Vector({
+var jsonSource_CidadeJardim_256 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CidadeJardim_254.addFeatures(features_CidadeJardim_254);
-var lyr_CidadeJardim_254 = new ol.layer.Vector({
+jsonSource_CidadeJardim_256.addFeatures(features_CidadeJardim_256);
+var lyr_CidadeJardim_256 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CidadeJardim_254, 
-                style: style_CidadeJardim_254,
+                source:jsonSource_CidadeJardim_256, 
+                style: style_CidadeJardim_256,
                 popuplayertitle: 'Cidade Jardim',
                 interactive: true,
     title: 'Cidade Jardim<br />\
-    <img src="styles/legend/CidadeJardim_254_0.png" /> APP<br />\
-    <img src="styles/legend/CidadeJardim_254_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/CidadeJardim_254_2.png" /> AREA LAZER<br />\
-    <img src="styles/legend/CidadeJardim_254_3.png" /> AREA VERDE<br />\
-    <img src="styles/legend/CidadeJardim_254_4.png" /> LOTES QUADRAS<br />\
-    <img src="styles/legend/CidadeJardim_254_5.png" /> PASSEIO<br />\
-    <img src="styles/legend/CidadeJardim_254_6.png" /> RUAS<br />\
-    <img src="styles/legend/CidadeJardim_254_7.png" /> SERVIDAO<br />' });
-var format_CidadeJardim_255 = new ol.format.GeoJSON();
-var features_CidadeJardim_255 = format_CidadeJardim_255.readFeatures(json_CidadeJardim_255, 
+    <img src="styles/legend/CidadeJardim_256_0.png" /> APP<br />\
+    <img src="styles/legend/CidadeJardim_256_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/CidadeJardim_256_2.png" /> AREA LAZER<br />\
+    <img src="styles/legend/CidadeJardim_256_3.png" /> AREA VERDE<br />\
+    <img src="styles/legend/CidadeJardim_256_4.png" /> LOTES QUADRAS<br />\
+    <img src="styles/legend/CidadeJardim_256_5.png" /> PASSEIO<br />\
+    <img src="styles/legend/CidadeJardim_256_6.png" /> RUAS<br />\
+    <img src="styles/legend/CidadeJardim_256_7.png" /> SERVIDAO<br />' });
+var format_CidadeJardim_257 = new ol.format.GeoJSON();
+var features_CidadeJardim_257 = format_CidadeJardim_257.readFeatures(json_CidadeJardim_257, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_CidadeJardim_255 = new ol.source.Vector({
+var jsonSource_CidadeJardim_257 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CidadeJardim_255.addFeatures(features_CidadeJardim_255);
-var lyr_CidadeJardim_255 = new ol.layer.Vector({
+jsonSource_CidadeJardim_257.addFeatures(features_CidadeJardim_257);
+var lyr_CidadeJardim_257 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CidadeJardim_255, 
-                style: style_CidadeJardim_255,
+                source:jsonSource_CidadeJardim_257, 
+                style: style_CidadeJardim_257,
                 popuplayertitle: 'Cidade Jardim',
                 interactive: true,
-                title: '<img src="styles/legend/CidadeJardim_255.png" /> Cidade Jardim'
+                title: '<img src="styles/legend/CidadeJardim_257.png" /> Cidade Jardim'
             });
-var format_ChacaraOlaria_256 = new ol.format.GeoJSON();
-var features_ChacaraOlaria_256 = format_ChacaraOlaria_256.readFeatures(json_ChacaraOlaria_256, 
+var format_ChacaraOlaria_258 = new ol.format.GeoJSON();
+var features_ChacaraOlaria_258 = format_ChacaraOlaria_258.readFeatures(json_ChacaraOlaria_258, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ChacaraOlaria_256 = new ol.source.Vector({
+var jsonSource_ChacaraOlaria_258 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ChacaraOlaria_256.addFeatures(features_ChacaraOlaria_256);
-var lyr_ChacaraOlaria_256 = new ol.layer.Vector({
+jsonSource_ChacaraOlaria_258.addFeatures(features_ChacaraOlaria_258);
+var lyr_ChacaraOlaria_258 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ChacaraOlaria_256, 
-                style: style_ChacaraOlaria_256,
+                source:jsonSource_ChacaraOlaria_258, 
+                style: style_ChacaraOlaria_258,
                 popuplayertitle: 'Chacara Olaria',
                 interactive: true,
-                title: '<img src="styles/legend/ChacaraOlaria_256.png" /> Chacara Olaria'
+                title: '<img src="styles/legend/ChacaraOlaria_258.png" /> Chacara Olaria'
             });
-var format_ChacaraOlaria_257 = new ol.format.GeoJSON();
-var features_ChacaraOlaria_257 = format_ChacaraOlaria_257.readFeatures(json_ChacaraOlaria_257, 
+var format_ChacaraOlaria_259 = new ol.format.GeoJSON();
+var features_ChacaraOlaria_259 = format_ChacaraOlaria_259.readFeatures(json_ChacaraOlaria_259, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ChacaraOlaria_257 = new ol.source.Vector({
+var jsonSource_ChacaraOlaria_259 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ChacaraOlaria_257.addFeatures(features_ChacaraOlaria_257);
-var lyr_ChacaraOlaria_257 = new ol.layer.Vector({
+jsonSource_ChacaraOlaria_259.addFeatures(features_ChacaraOlaria_259);
+var lyr_ChacaraOlaria_259 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ChacaraOlaria_257, 
-                style: style_ChacaraOlaria_257,
+                source:jsonSource_ChacaraOlaria_259, 
+                style: style_ChacaraOlaria_259,
                 popuplayertitle: 'Chacara Olaria',
                 interactive: true,
-                title: '<img src="styles/legend/ChacaraOlaria_257.png" /> Chacara Olaria'
+                title: '<img src="styles/legend/ChacaraOlaria_259.png" /> Chacara Olaria'
             });
-var format_ChacaraBelaVista_258 = new ol.format.GeoJSON();
-var features_ChacaraBelaVista_258 = format_ChacaraBelaVista_258.readFeatures(json_ChacaraBelaVista_258, 
+var format_ChacaraBelaVista_260 = new ol.format.GeoJSON();
+var features_ChacaraBelaVista_260 = format_ChacaraBelaVista_260.readFeatures(json_ChacaraBelaVista_260, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ChacaraBelaVista_258 = new ol.source.Vector({
+var jsonSource_ChacaraBelaVista_260 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ChacaraBelaVista_258.addFeatures(features_ChacaraBelaVista_258);
-var lyr_ChacaraBelaVista_258 = new ol.layer.Vector({
+jsonSource_ChacaraBelaVista_260.addFeatures(features_ChacaraBelaVista_260);
+var lyr_ChacaraBelaVista_260 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ChacaraBelaVista_258, 
-                style: style_ChacaraBelaVista_258,
+                source:jsonSource_ChacaraBelaVista_260, 
+                style: style_ChacaraBelaVista_260,
                 popuplayertitle: 'Chacara Bela Vista',
                 interactive: true,
     title: 'Chacara Bela Vista<br />\
-    <img src="styles/legend/ChacaraBelaVista_258_0.png" /> APP<br />\
-    <img src="styles/legend/ChacaraBelaVista_258_1.png" /> AREA VERDE<br />\
-    <img src="styles/legend/ChacaraBelaVista_258_2.png" /> LOTES<br />\
-    <img src="styles/legend/ChacaraBelaVista_258_3.png" /> PASSSEIO<br />\
-    <img src="styles/legend/ChacaraBelaVista_258_4.png" /> RUAS<br />' });
-var format_ChacaraBelaVista_259 = new ol.format.GeoJSON();
-var features_ChacaraBelaVista_259 = format_ChacaraBelaVista_259.readFeatures(json_ChacaraBelaVista_259, 
+    <img src="styles/legend/ChacaraBelaVista_260_0.png" /> APP<br />\
+    <img src="styles/legend/ChacaraBelaVista_260_1.png" /> AREA VERDE<br />\
+    <img src="styles/legend/ChacaraBelaVista_260_2.png" /> LOTES<br />\
+    <img src="styles/legend/ChacaraBelaVista_260_3.png" /> PASSSEIO<br />\
+    <img src="styles/legend/ChacaraBelaVista_260_4.png" /> RUAS<br />' });
+var format_ChacaraBelaVista_261 = new ol.format.GeoJSON();
+var features_ChacaraBelaVista_261 = format_ChacaraBelaVista_261.readFeatures(json_ChacaraBelaVista_261, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ChacaraBelaVista_259 = new ol.source.Vector({
+var jsonSource_ChacaraBelaVista_261 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ChacaraBelaVista_259.addFeatures(features_ChacaraBelaVista_259);
-var lyr_ChacaraBelaVista_259 = new ol.layer.Vector({
+jsonSource_ChacaraBelaVista_261.addFeatures(features_ChacaraBelaVista_261);
+var lyr_ChacaraBelaVista_261 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ChacaraBelaVista_259, 
-                style: style_ChacaraBelaVista_259,
+                source:jsonSource_ChacaraBelaVista_261, 
+                style: style_ChacaraBelaVista_261,
                 popuplayertitle: 'Chacara Bela Vista',
                 interactive: true,
-                title: '<img src="styles/legend/ChacaraBelaVista_259.png" /> Chacara Bela Vista'
+                title: '<img src="styles/legend/ChacaraBelaVista_261.png" /> Chacara Bela Vista'
             });
-var format_BordadaMata_260 = new ol.format.GeoJSON();
-var features_BordadaMata_260 = format_BordadaMata_260.readFeatures(json_BordadaMata_260, 
+var format_BordadaMata_262 = new ol.format.GeoJSON();
+var features_BordadaMata_262 = format_BordadaMata_262.readFeatures(json_BordadaMata_262, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_BordadaMata_260 = new ol.source.Vector({
+var jsonSource_BordadaMata_262 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_BordadaMata_260.addFeatures(features_BordadaMata_260);
-var lyr_BordadaMata_260 = new ol.layer.Vector({
+jsonSource_BordadaMata_262.addFeatures(features_BordadaMata_262);
+var lyr_BordadaMata_262 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_BordadaMata_260, 
-                style: style_BordadaMata_260,
+                source:jsonSource_BordadaMata_262, 
+                style: style_BordadaMata_262,
                 popuplayertitle: 'Borda da Mata',
                 interactive: true,
     title: 'Borda da Mata<br />\
-    <img src="styles/legend/BordadaMata_260_0.png" /> Ruas<br />\
-    <img src="styles/legend/BordadaMata_260_1.png" /> Área Institucional<br />\
-    <img src="styles/legend/BordadaMata_260_2.png" /> Lotes/Quadras<br />\
-    <img src="styles/legend/BordadaMata_260_3.png" /> Área Verde<br />\
-    <img src="styles/legend/BordadaMata_260_4.png" /> Área Lazer<br />\
-    <img src="styles/legend/BordadaMata_260_5.png" /> Passeio<br />\
-    <img src="styles/legend/BordadaMata_260_6.png" /> Represa<br />' });
-var format_BordadaMata_261 = new ol.format.GeoJSON();
-var features_BordadaMata_261 = format_BordadaMata_261.readFeatures(json_BordadaMata_261, 
+    <img src="styles/legend/BordadaMata_262_0.png" /> Ruas<br />\
+    <img src="styles/legend/BordadaMata_262_1.png" /> Área Institucional<br />\
+    <img src="styles/legend/BordadaMata_262_2.png" /> Lotes/Quadras<br />\
+    <img src="styles/legend/BordadaMata_262_3.png" /> Área Verde<br />\
+    <img src="styles/legend/BordadaMata_262_4.png" /> Área Lazer<br />\
+    <img src="styles/legend/BordadaMata_262_5.png" /> Passeio<br />\
+    <img src="styles/legend/BordadaMata_262_6.png" /> Represa<br />' });
+var format_BordadaMata_263 = new ol.format.GeoJSON();
+var features_BordadaMata_263 = format_BordadaMata_263.readFeatures(json_BordadaMata_263, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_BordadaMata_261 = new ol.source.Vector({
+var jsonSource_BordadaMata_263 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_BordadaMata_261.addFeatures(features_BordadaMata_261);
-var lyr_BordadaMata_261 = new ol.layer.Vector({
+jsonSource_BordadaMata_263.addFeatures(features_BordadaMata_263);
+var lyr_BordadaMata_263 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_BordadaMata_261, 
-                style: style_BordadaMata_261,
+                source:jsonSource_BordadaMata_263, 
+                style: style_BordadaMata_263,
                 popuplayertitle: 'Borda da Mata',
                 interactive: true,
-                title: '<img src="styles/legend/BordadaMata_261.png" /> Borda da Mata'
+                title: '<img src="styles/legend/BordadaMata_263.png" /> Borda da Mata'
             });
-var format_Arizona_262 = new ol.format.GeoJSON();
-var features_Arizona_262 = format_Arizona_262.readFeatures(json_Arizona_262, 
+var format_Arizona_264 = new ol.format.GeoJSON();
+var features_Arizona_264 = format_Arizona_264.readFeatures(json_Arizona_264, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Arizona_262 = new ol.source.Vector({
+var jsonSource_Arizona_264 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Arizona_262.addFeatures(features_Arizona_262);
-var lyr_Arizona_262 = new ol.layer.Vector({
+jsonSource_Arizona_264.addFeatures(features_Arizona_264);
+var lyr_Arizona_264 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Arizona_262, 
-                style: style_Arizona_262,
+                source:jsonSource_Arizona_264, 
+                style: style_Arizona_264,
                 popuplayertitle: 'Arizona',
                 interactive: true,
     title: 'Arizona<br />\
-    <img src="styles/legend/Arizona_262_0.png" /> APP<br />\
-    <img src="styles/legend/Arizona_262_1.png" /> AREA INSTITUCIONAL<br />\
-    <img src="styles/legend/Arizona_262_2.png" /> AREA VERDE<br />\
-    <img src="styles/legend/Arizona_262_3.png" /> LOTES<br />\
-    <img src="styles/legend/Arizona_262_4.png" /> PASSSEIO<br />\
-    <img src="styles/legend/Arizona_262_5.png" /> RUAS<br />\
-    <img src="styles/legend/Arizona_262_6.png" /> VIELA<br />' });
-var format_Arizona_263 = new ol.format.GeoJSON();
-var features_Arizona_263 = format_Arizona_263.readFeatures(json_Arizona_263, 
+    <img src="styles/legend/Arizona_264_0.png" /> APP<br />\
+    <img src="styles/legend/Arizona_264_1.png" /> AREA INSTITUCIONAL<br />\
+    <img src="styles/legend/Arizona_264_2.png" /> AREA VERDE<br />\
+    <img src="styles/legend/Arizona_264_3.png" /> LOTES<br />\
+    <img src="styles/legend/Arizona_264_4.png" /> PASSSEIO<br />\
+    <img src="styles/legend/Arizona_264_5.png" /> RUAS<br />\
+    <img src="styles/legend/Arizona_264_6.png" /> VIELA<br />' });
+var format_Arizona_265 = new ol.format.GeoJSON();
+var features_Arizona_265 = format_Arizona_265.readFeatures(json_Arizona_265, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Arizona_263 = new ol.source.Vector({
+var jsonSource_Arizona_265 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Arizona_263.addFeatures(features_Arizona_263);
-var lyr_Arizona_263 = new ol.layer.Vector({
+jsonSource_Arizona_265.addFeatures(features_Arizona_265);
+var lyr_Arizona_265 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Arizona_263, 
-                style: style_Arizona_263,
+                source:jsonSource_Arizona_265, 
+                style: style_Arizona_265,
                 popuplayertitle: 'Arizona',
                 interactive: true,
-                title: '<img src="styles/legend/Arizona_263.png" /> Arizona'
+                title: '<img src="styles/legend/Arizona_265.png" /> Arizona'
             });
-var format_Adonis_264 = new ol.format.GeoJSON();
-var features_Adonis_264 = format_Adonis_264.readFeatures(json_Adonis_264, 
+var format_Adonis_266 = new ol.format.GeoJSON();
+var features_Adonis_266 = format_Adonis_266.readFeatures(json_Adonis_266, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Adonis_264 = new ol.source.Vector({
+var jsonSource_Adonis_266 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Adonis_264.addFeatures(features_Adonis_264);
-var lyr_Adonis_264 = new ol.layer.Vector({
+jsonSource_Adonis_266.addFeatures(features_Adonis_266);
+var lyr_Adonis_266 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Adonis_264, 
-                style: style_Adonis_264,
+                source:jsonSource_Adonis_266, 
+                style: style_Adonis_266,
                 popuplayertitle: 'Adonis',
                 interactive: true,
     title: 'Adonis<br />\
-    <img src="styles/legend/Adonis_264_0.png" /> APP<br />\
-    <img src="styles/legend/Adonis_264_1.png" /> ÁREA INSTITUCIONAL<br />\
-    <img src="styles/legend/Adonis_264_2.png" /> ÁREA VERDE<br />\
-    <img src="styles/legend/Adonis_264_3.png" /> LOTES RESIDENCIAIS<br />\
-    <img src="styles/legend/Adonis_264_4.png" /> PASSSEIO<br />\
-    <img src="styles/legend/Adonis_264_5.png" /> RUAS<br />' });
-var format_Adonis_265 = new ol.format.GeoJSON();
-var features_Adonis_265 = format_Adonis_265.readFeatures(json_Adonis_265, 
+    <img src="styles/legend/Adonis_266_0.png" /> APP<br />\
+    <img src="styles/legend/Adonis_266_1.png" /> ÁREA INSTITUCIONAL<br />\
+    <img src="styles/legend/Adonis_266_2.png" /> ÁREA VERDE<br />\
+    <img src="styles/legend/Adonis_266_3.png" /> LOTES RESIDENCIAIS<br />\
+    <img src="styles/legend/Adonis_266_4.png" /> PASSSEIO<br />\
+    <img src="styles/legend/Adonis_266_5.png" /> RUAS<br />' });
+var format_Adonis_267 = new ol.format.GeoJSON();
+var features_Adonis_267 = format_Adonis_267.readFeatures(json_Adonis_267, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Adonis_265 = new ol.source.Vector({
+var jsonSource_Adonis_267 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Adonis_265.addFeatures(features_Adonis_265);
-var lyr_Adonis_265 = new ol.layer.Vector({
+jsonSource_Adonis_267.addFeatures(features_Adonis_267);
+var lyr_Adonis_267 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Adonis_265, 
-                style: style_Adonis_265,
+                source:jsonSource_Adonis_267, 
+                style: style_Adonis_267,
                 popuplayertitle: 'Adonis',
                 interactive: true,
-                title: '<img src="styles/legend/Adonis_265.png" /> Adonis'
+                title: '<img src="styles/legend/Adonis_267.png" /> Adonis'
             });
-var format_AbuDhabiParadiseResortResidence_266 = new ol.format.GeoJSON();
-var features_AbuDhabiParadiseResortResidence_266 = format_AbuDhabiParadiseResortResidence_266.readFeatures(json_AbuDhabiParadiseResortResidence_266, 
+var format_AbuDhabiParadiseResortResidence_268 = new ol.format.GeoJSON();
+var features_AbuDhabiParadiseResortResidence_268 = format_AbuDhabiParadiseResortResidence_268.readFeatures(json_AbuDhabiParadiseResortResidence_268, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AbuDhabiParadiseResortResidence_266 = new ol.source.Vector({
+var jsonSource_AbuDhabiParadiseResortResidence_268 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AbuDhabiParadiseResortResidence_266.addFeatures(features_AbuDhabiParadiseResortResidence_266);
-var lyr_AbuDhabiParadiseResortResidence_266 = new ol.layer.Vector({
+jsonSource_AbuDhabiParadiseResortResidence_268.addFeatures(features_AbuDhabiParadiseResortResidence_268);
+var lyr_AbuDhabiParadiseResortResidence_268 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AbuDhabiParadiseResortResidence_266, 
-                style: style_AbuDhabiParadiseResortResidence_266,
+                source:jsonSource_AbuDhabiParadiseResortResidence_268, 
+                style: style_AbuDhabiParadiseResortResidence_268,
                 popuplayertitle: 'Abu Dhabi Paradise Resort Residence',
                 interactive: true,
     title: 'Abu Dhabi Paradise Resort Residence<br />\
-    <img src="styles/legend/AbuDhabiParadiseResortResidence_266_0.png" /> Ruas<br />\
-    <img src="styles/legend/AbuDhabiParadiseResortResidence_266_1.png" /> Área Institucional<br />\
-    <img src="styles/legend/AbuDhabiParadiseResortResidence_266_2.png" /> Lotes/Quadras<br />\
-    <img src="styles/legend/AbuDhabiParadiseResortResidence_266_3.png" /> Área Verde<br />\
-    <img src="styles/legend/AbuDhabiParadiseResortResidence_266_4.png" /> Área Non Edificandi<br />\
-    <img src="styles/legend/AbuDhabiParadiseResortResidence_266_5.png" /> Ciclovia<br />\
-    <img src="styles/legend/AbuDhabiParadiseResortResidence_266_6.png" /> Passeio<br />' });
-var format_AbuDhabiParadiseResortResidence_267 = new ol.format.GeoJSON();
-var features_AbuDhabiParadiseResortResidence_267 = format_AbuDhabiParadiseResortResidence_267.readFeatures(json_AbuDhabiParadiseResortResidence_267, 
+    <img src="styles/legend/AbuDhabiParadiseResortResidence_268_0.png" /> Ruas<br />\
+    <img src="styles/legend/AbuDhabiParadiseResortResidence_268_1.png" /> Área Institucional<br />\
+    <img src="styles/legend/AbuDhabiParadiseResortResidence_268_2.png" /> Lotes/Quadras<br />\
+    <img src="styles/legend/AbuDhabiParadiseResortResidence_268_3.png" /> Área Verde<br />\
+    <img src="styles/legend/AbuDhabiParadiseResortResidence_268_4.png" /> Área Non Edificandi<br />\
+    <img src="styles/legend/AbuDhabiParadiseResortResidence_268_5.png" /> Ciclovia<br />\
+    <img src="styles/legend/AbuDhabiParadiseResortResidence_268_6.png" /> Passeio<br />' });
+var format_AbuDhabiParadiseResortResidence_269 = new ol.format.GeoJSON();
+var features_AbuDhabiParadiseResortResidence_269 = format_AbuDhabiParadiseResortResidence_269.readFeatures(json_AbuDhabiParadiseResortResidence_269, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AbuDhabiParadiseResortResidence_267 = new ol.source.Vector({
+var jsonSource_AbuDhabiParadiseResortResidence_269 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AbuDhabiParadiseResortResidence_267.addFeatures(features_AbuDhabiParadiseResortResidence_267);
-var lyr_AbuDhabiParadiseResortResidence_267 = new ol.layer.Vector({
+jsonSource_AbuDhabiParadiseResortResidence_269.addFeatures(features_AbuDhabiParadiseResortResidence_269);
+var lyr_AbuDhabiParadiseResortResidence_269 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AbuDhabiParadiseResortResidence_267, 
-                style: style_AbuDhabiParadiseResortResidence_267,
+                source:jsonSource_AbuDhabiParadiseResortResidence_269, 
+                style: style_AbuDhabiParadiseResortResidence_269,
                 popuplayertitle: 'Abu Dhabi Paradise Resort Residence',
                 interactive: true,
-                title: '<img src="styles/legend/AbuDhabiParadiseResortResidence_267.png" /> Abu Dhabi Paradise Resort Residence'
+                title: '<img src="styles/legend/AbuDhabiParadiseResortResidence_269.png" /> Abu Dhabi Paradise Resort Residence'
             });
-var format_EtapaAprovado27unid_268 = new ol.format.GeoJSON();
-var features_EtapaAprovado27unid_268 = format_EtapaAprovado27unid_268.readFeatures(json_EtapaAprovado27unid_268, 
+var format_EtapaAprovado27unid_270 = new ol.format.GeoJSON();
+var features_EtapaAprovado27unid_270 = format_EtapaAprovado27unid_270.readFeatures(json_EtapaAprovado27unid_270, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EtapaAprovado27unid_268 = new ol.source.Vector({
+var jsonSource_EtapaAprovado27unid_270 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EtapaAprovado27unid_268.addFeatures(features_EtapaAprovado27unid_268);
-var lyr_EtapaAprovado27unid_268 = new ol.layer.Vector({
+jsonSource_EtapaAprovado27unid_270.addFeatures(features_EtapaAprovado27unid_270);
+var lyr_EtapaAprovado27unid_270 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EtapaAprovado27unid_268, 
-                style: style_EtapaAprovado27unid_268,
+                source:jsonSource_EtapaAprovado27unid_270, 
+                style: style_EtapaAprovado27unid_270,
                 popuplayertitle: 'Etapa: Aprovado (27 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/EtapaAprovado27unid_268.png" /> Etapa: Aprovado (27 unid.)'
+                title: '<img src="styles/legend/EtapaAprovado27unid_270.png" /> Etapa: Aprovado (27 unid.)'
             });
-var format_EtapaDiretriz22unid_269 = new ol.format.GeoJSON();
-var features_EtapaDiretriz22unid_269 = format_EtapaDiretriz22unid_269.readFeatures(json_EtapaDiretriz22unid_269, 
+var format_EtapaDiretriz22unid_271 = new ol.format.GeoJSON();
+var features_EtapaDiretriz22unid_271 = format_EtapaDiretriz22unid_271.readFeatures(json_EtapaDiretriz22unid_271, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EtapaDiretriz22unid_269 = new ol.source.Vector({
+var jsonSource_EtapaDiretriz22unid_271 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EtapaDiretriz22unid_269.addFeatures(features_EtapaDiretriz22unid_269);
-var lyr_EtapaDiretriz22unid_269 = new ol.layer.Vector({
+jsonSource_EtapaDiretriz22unid_271.addFeatures(features_EtapaDiretriz22unid_271);
+var lyr_EtapaDiretriz22unid_271 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EtapaDiretriz22unid_269, 
-                style: style_EtapaDiretriz22unid_269,
+                source:jsonSource_EtapaDiretriz22unid_271, 
+                style: style_EtapaDiretriz22unid_271,
                 popuplayertitle: 'Etapa: Diretriz (22 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/EtapaDiretriz22unid_269.png" /> Etapa: Diretriz (22 unid.)'
+                title: '<img src="styles/legend/EtapaDiretriz22unid_271.png" /> Etapa: Diretriz (22 unid.)'
             });
-var format_EtapaDefinitiva7unid_270 = new ol.format.GeoJSON();
-var features_EtapaDefinitiva7unid_270 = format_EtapaDefinitiva7unid_270.readFeatures(json_EtapaDefinitiva7unid_270, 
+var format_EtapaDefinitiva7unid_272 = new ol.format.GeoJSON();
+var features_EtapaDefinitiva7unid_272 = format_EtapaDefinitiva7unid_272.readFeatures(json_EtapaDefinitiva7unid_272, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EtapaDefinitiva7unid_270 = new ol.source.Vector({
+var jsonSource_EtapaDefinitiva7unid_272 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EtapaDefinitiva7unid_270.addFeatures(features_EtapaDefinitiva7unid_270);
-var lyr_EtapaDefinitiva7unid_270 = new ol.layer.Vector({
+jsonSource_EtapaDefinitiva7unid_272.addFeatures(features_EtapaDefinitiva7unid_272);
+var lyr_EtapaDefinitiva7unid_272 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EtapaDefinitiva7unid_270, 
-                style: style_EtapaDefinitiva7unid_270,
+                source:jsonSource_EtapaDefinitiva7unid_272, 
+                style: style_EtapaDefinitiva7unid_272,
                 popuplayertitle: 'Etapa: Definitiva (7 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/EtapaDefinitiva7unid_270.png" /> Etapa: Definitiva (7 unid.)'
+                title: '<img src="styles/legend/EtapaDefinitiva7unid_272.png" /> Etapa: Definitiva (7 unid.)'
             });
-var format_EtapaPrvia23unid_271 = new ol.format.GeoJSON();
-var features_EtapaPrvia23unid_271 = format_EtapaPrvia23unid_271.readFeatures(json_EtapaPrvia23unid_271, 
+var format_EtapaPrvia23unid_273 = new ol.format.GeoJSON();
+var features_EtapaPrvia23unid_273 = format_EtapaPrvia23unid_273.readFeatures(json_EtapaPrvia23unid_273, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_EtapaPrvia23unid_271 = new ol.source.Vector({
+var jsonSource_EtapaPrvia23unid_273 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_EtapaPrvia23unid_271.addFeatures(features_EtapaPrvia23unid_271);
-var lyr_EtapaPrvia23unid_271 = new ol.layer.Vector({
+jsonSource_EtapaPrvia23unid_273.addFeatures(features_EtapaPrvia23unid_273);
+var lyr_EtapaPrvia23unid_273 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_EtapaPrvia23unid_271, 
-                style: style_EtapaPrvia23unid_271,
+                source:jsonSource_EtapaPrvia23unid_273, 
+                style: style_EtapaPrvia23unid_273,
                 popuplayertitle: 'Etapa: Prévia (23 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/EtapaPrvia23unid_271.png" /> Etapa: Prévia (23 unid.)'
+                title: '<img src="styles/legend/EtapaPrvia23unid_273.png" /> Etapa: Prévia (23 unid.)'
             });
-var format_LoteamentosClandestinos70unid_272 = new ol.format.GeoJSON();
-var features_LoteamentosClandestinos70unid_272 = format_LoteamentosClandestinos70unid_272.readFeatures(json_LoteamentosClandestinos70unid_272, 
+var format_LoteamentosClandestinos70unid_274 = new ol.format.GeoJSON();
+var features_LoteamentosClandestinos70unid_274 = format_LoteamentosClandestinos70unid_274.readFeatures(json_LoteamentosClandestinos70unid_274, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LoteamentosClandestinos70unid_272 = new ol.source.Vector({
+var jsonSource_LoteamentosClandestinos70unid_274 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LoteamentosClandestinos70unid_272.addFeatures(features_LoteamentosClandestinos70unid_272);
-var lyr_LoteamentosClandestinos70unid_272 = new ol.layer.Vector({
+jsonSource_LoteamentosClandestinos70unid_274.addFeatures(features_LoteamentosClandestinos70unid_274);
+var lyr_LoteamentosClandestinos70unid_274 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LoteamentosClandestinos70unid_272, 
-                style: style_LoteamentosClandestinos70unid_272,
+                source:jsonSource_LoteamentosClandestinos70unid_274, 
+                style: style_LoteamentosClandestinos70unid_274,
                 popuplayertitle: 'Loteamentos Clandestinos (70 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LoteamentosClandestinos70unid_272.png" /> Loteamentos Clandestinos (70 unid.)'
+                title: '<img src="styles/legend/LoteamentosClandestinos70unid_274.png" /> Loteamentos Clandestinos (70 unid.)'
             });
-var format_LoteamentosClandestinos70unid_273 = new ol.format.GeoJSON();
-var features_LoteamentosClandestinos70unid_273 = format_LoteamentosClandestinos70unid_273.readFeatures(json_LoteamentosClandestinos70unid_273, 
+var format_LoteamentosClandestinos70unid_275 = new ol.format.GeoJSON();
+var features_LoteamentosClandestinos70unid_275 = format_LoteamentosClandestinos70unid_275.readFeatures(json_LoteamentosClandestinos70unid_275, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LoteamentosClandestinos70unid_273 = new ol.source.Vector({
+var jsonSource_LoteamentosClandestinos70unid_275 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LoteamentosClandestinos70unid_273.addFeatures(features_LoteamentosClandestinos70unid_273);
-var lyr_LoteamentosClandestinos70unid_273 = new ol.layer.Vector({
+jsonSource_LoteamentosClandestinos70unid_275.addFeatures(features_LoteamentosClandestinos70unid_275);
+var lyr_LoteamentosClandestinos70unid_275 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LoteamentosClandestinos70unid_273, 
-                style: style_LoteamentosClandestinos70unid_273,
+                source:jsonSource_LoteamentosClandestinos70unid_275, 
+                style: style_LoteamentosClandestinos70unid_275,
                 popuplayertitle: 'Loteamentos Clandestinos (70 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LoteamentosClandestinos70unid_273.png" /> Loteamentos Clandestinos (70 unid.)'
+                title: '<img src="styles/legend/LoteamentosClandestinos70unid_275.png" /> Loteamentos Clandestinos (70 unid.)'
             });
-var format_FazendaPalestina105unid_274 = new ol.format.GeoJSON();
-var features_FazendaPalestina105unid_274 = format_FazendaPalestina105unid_274.readFeatures(json_FazendaPalestina105unid_274, 
+var format_FazendaPalestina105unid_276 = new ol.format.GeoJSON();
+var features_FazendaPalestina105unid_276 = format_FazendaPalestina105unid_276.readFeatures(json_FazendaPalestina105unid_276, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FazendaPalestina105unid_274 = new ol.source.Vector({
+var jsonSource_FazendaPalestina105unid_276 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FazendaPalestina105unid_274.addFeatures(features_FazendaPalestina105unid_274);
-var lyr_FazendaPalestina105unid_274 = new ol.layer.Vector({
+jsonSource_FazendaPalestina105unid_276.addFeatures(features_FazendaPalestina105unid_276);
+var lyr_FazendaPalestina105unid_276 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FazendaPalestina105unid_274, 
-                style: style_FazendaPalestina105unid_274,
+                source:jsonSource_FazendaPalestina105unid_276, 
+                style: style_FazendaPalestina105unid_276,
                 popuplayertitle: 'Fazenda Palestina (105 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/FazendaPalestina105unid_274.png" /> Fazenda Palestina (105 unid.)'
+                title: '<img src="styles/legend/FazendaPalestina105unid_276.png" /> Fazenda Palestina (105 unid.)'
             });
-var format_FazendaPalestina105unid_275 = new ol.format.GeoJSON();
-var features_FazendaPalestina105unid_275 = format_FazendaPalestina105unid_275.readFeatures(json_FazendaPalestina105unid_275, 
+var format_FazendaPalestina105unid_277 = new ol.format.GeoJSON();
+var features_FazendaPalestina105unid_277 = format_FazendaPalestina105unid_277.readFeatures(json_FazendaPalestina105unid_277, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_FazendaPalestina105unid_275 = new ol.source.Vector({
+var jsonSource_FazendaPalestina105unid_277 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_FazendaPalestina105unid_275.addFeatures(features_FazendaPalestina105unid_275);
-var lyr_FazendaPalestina105unid_275 = new ol.layer.Vector({
+jsonSource_FazendaPalestina105unid_277.addFeatures(features_FazendaPalestina105unid_277);
+var lyr_FazendaPalestina105unid_277 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_FazendaPalestina105unid_275, 
-                style: style_FazendaPalestina105unid_275,
+                source:jsonSource_FazendaPalestina105unid_277, 
+                style: style_FazendaPalestina105unid_277,
                 popuplayertitle: 'Fazenda Palestina (105 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/FazendaPalestina105unid_275.png" /> Fazenda Palestina (105 unid.)'
+                title: '<img src="styles/legend/FazendaPalestina105unid_277.png" /> Fazenda Palestina (105 unid.)'
             });
-var format_APP1745unid_276 = new ol.format.GeoJSON();
-var features_APP1745unid_276 = format_APP1745unid_276.readFeatures(json_APP1745unid_276, 
+var format_APP1745unid_278 = new ol.format.GeoJSON();
+var features_APP1745unid_278 = format_APP1745unid_278.readFeatures(json_APP1745unid_278, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_APP1745unid_276 = new ol.source.Vector({
+var jsonSource_APP1745unid_278 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_APP1745unid_276.addFeatures(features_APP1745unid_276);
-var lyr_APP1745unid_276 = new ol.layer.Vector({
+jsonSource_APP1745unid_278.addFeatures(features_APP1745unid_278);
+var lyr_APP1745unid_278 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_APP1745unid_276, 
-                style: style_APP1745unid_276,
+                source:jsonSource_APP1745unid_278, 
+                style: style_APP1745unid_278,
                 popuplayertitle: 'APP (1745 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/APP1745unid_276.png" /> APP (1745 unid.)'
+                title: '<img src="styles/legend/APP1745unid_278.png" /> APP (1745 unid.)'
             });
-var format_RiosDuplos84unid_277 = new ol.format.GeoJSON();
-var features_RiosDuplos84unid_277 = format_RiosDuplos84unid_277.readFeatures(json_RiosDuplos84unid_277, 
+var format_RiosDuplos84unid_279 = new ol.format.GeoJSON();
+var features_RiosDuplos84unid_279 = format_RiosDuplos84unid_279.readFeatures(json_RiosDuplos84unid_279, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RiosDuplos84unid_277 = new ol.source.Vector({
+var jsonSource_RiosDuplos84unid_279 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RiosDuplos84unid_277.addFeatures(features_RiosDuplos84unid_277);
-var lyr_RiosDuplos84unid_277 = new ol.layer.Vector({
+jsonSource_RiosDuplos84unid_279.addFeatures(features_RiosDuplos84unid_279);
+var lyr_RiosDuplos84unid_279 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RiosDuplos84unid_277, 
-                style: style_RiosDuplos84unid_277,
+                source:jsonSource_RiosDuplos84unid_279, 
+                style: style_RiosDuplos84unid_279,
                 popuplayertitle: 'Rios Duplos (84 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/RiosDuplos84unid_277.png" /> Rios Duplos (84 unid.)'
+                title: '<img src="styles/legend/RiosDuplos84unid_279.png" /> Rios Duplos (84 unid.)'
             });
-var format_MassasDgua270unid_278 = new ol.format.GeoJSON();
-var features_MassasDgua270unid_278 = format_MassasDgua270unid_278.readFeatures(json_MassasDgua270unid_278, 
+var format_MassasDgua270unid_280 = new ol.format.GeoJSON();
+var features_MassasDgua270unid_280 = format_MassasDgua270unid_280.readFeatures(json_MassasDgua270unid_280, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_MassasDgua270unid_278 = new ol.source.Vector({
+var jsonSource_MassasDgua270unid_280 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_MassasDgua270unid_278.addFeatures(features_MassasDgua270unid_278);
-var lyr_MassasDgua270unid_278 = new ol.layer.Vector({
+jsonSource_MassasDgua270unid_280.addFeatures(features_MassasDgua270unid_280);
+var lyr_MassasDgua270unid_280 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_MassasDgua270unid_278, 
-                style: style_MassasDgua270unid_278,
+                source:jsonSource_MassasDgua270unid_280, 
+                style: style_MassasDgua270unid_280,
                 popuplayertitle: 'Massas D\'água (270 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/MassasDgua270unid_278.png" /> Massas D\'água (270 unid.)'
+                title: '<img src="styles/legend/MassasDgua270unid_280.png" /> Massas D\'água (270 unid.)'
             });
-var format_RiosSimples1842unid_279 = new ol.format.GeoJSON();
-var features_RiosSimples1842unid_279 = format_RiosSimples1842unid_279.readFeatures(json_RiosSimples1842unid_279, 
+var format_RiosSimples1842unid_281 = new ol.format.GeoJSON();
+var features_RiosSimples1842unid_281 = format_RiosSimples1842unid_281.readFeatures(json_RiosSimples1842unid_281, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RiosSimples1842unid_279 = new ol.source.Vector({
+var jsonSource_RiosSimples1842unid_281 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RiosSimples1842unid_279.addFeatures(features_RiosSimples1842unid_279);
-var lyr_RiosSimples1842unid_279 = new ol.layer.Vector({
+jsonSource_RiosSimples1842unid_281.addFeatures(features_RiosSimples1842unid_281);
+var lyr_RiosSimples1842unid_281 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RiosSimples1842unid_279, 
-                style: style_RiosSimples1842unid_279,
+                source:jsonSource_RiosSimples1842unid_281, 
+                style: style_RiosSimples1842unid_281,
                 popuplayertitle: 'Rios Simples (1842 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/RiosSimples1842unid_279.png" /> Rios Simples (1842 unid.)'
+                title: '<img src="styles/legend/RiosSimples1842unid_281.png" /> Rios Simples (1842 unid.)'
             });
-var format_Nascentes821unid_280 = new ol.format.GeoJSON();
-var features_Nascentes821unid_280 = format_Nascentes821unid_280.readFeatures(json_Nascentes821unid_280, 
+var format_Nascentes821unid_282 = new ol.format.GeoJSON();
+var features_Nascentes821unid_282 = format_Nascentes821unid_282.readFeatures(json_Nascentes821unid_282, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Nascentes821unid_280 = new ol.source.Vector({
+var jsonSource_Nascentes821unid_282 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Nascentes821unid_280.addFeatures(features_Nascentes821unid_280);
-var lyr_Nascentes821unid_280 = new ol.layer.Vector({
+jsonSource_Nascentes821unid_282.addFeatures(features_Nascentes821unid_282);
+var lyr_Nascentes821unid_282 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Nascentes821unid_280, 
-                style: style_Nascentes821unid_280,
+                source:jsonSource_Nascentes821unid_282, 
+                style: style_Nascentes821unid_282,
                 popuplayertitle: 'Nascentes (821 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Nascentes821unid_280.png" /> Nascentes (821 unid.)'
+                title: '<img src="styles/legend/Nascentes821unid_282.png" /> Nascentes (821 unid.)'
             });
-var format_AntigoAterrodaFazendaMunicipal_281 = new ol.format.GeoJSON();
-var features_AntigoAterrodaFazendaMunicipal_281 = format_AntigoAterrodaFazendaMunicipal_281.readFeatures(json_AntigoAterrodaFazendaMunicipal_281, 
+var format_AntigoAterrodaFazendaMunicipal_283 = new ol.format.GeoJSON();
+var features_AntigoAterrodaFazendaMunicipal_283 = format_AntigoAterrodaFazendaMunicipal_283.readFeatures(json_AntigoAterrodaFazendaMunicipal_283, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AntigoAterrodaFazendaMunicipal_281 = new ol.source.Vector({
+var jsonSource_AntigoAterrodaFazendaMunicipal_283 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AntigoAterrodaFazendaMunicipal_281.addFeatures(features_AntigoAterrodaFazendaMunicipal_281);
-var lyr_AntigoAterrodaFazendaMunicipal_281 = new ol.layer.Vector({
+jsonSource_AntigoAterrodaFazendaMunicipal_283.addFeatures(features_AntigoAterrodaFazendaMunicipal_283);
+var lyr_AntigoAterrodaFazendaMunicipal_283 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AntigoAterrodaFazendaMunicipal_281, 
-                style: style_AntigoAterrodaFazendaMunicipal_281,
+                source:jsonSource_AntigoAterrodaFazendaMunicipal_283, 
+                style: style_AntigoAterrodaFazendaMunicipal_283,
                 popuplayertitle: 'Antigo Aterro da Fazenda Municipal',
                 interactive: true,
-                title: '<img src="styles/legend/AntigoAterrodaFazendaMunicipal_281.png" /> Antigo Aterro da Fazenda Municipal'
+                title: '<img src="styles/legend/AntigoAterrodaFazendaMunicipal_283.png" /> Antigo Aterro da Fazenda Municipal'
             });
-var format_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282 = new ol.format.GeoJSON();
-var features_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282 = format_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282.readFeatures(json_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282, 
+var format_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284 = new ol.format.GeoJSON();
+var features_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284 = format_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284.readFeatures(json_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282 = new ol.source.Vector({
+var jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282.addFeatures(features_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282);
-var lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282 = new ol.layer.Vector({
+jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284.addFeatures(features_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284);
+var lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282, 
-                style: style_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282,
+                source:jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284, 
+                style: style_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284,
                 popuplayertitle: 'Antigo Aterro da Fazenda Municipal - Poços de Monitoramento AVATZ (6 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282.png" /> Antigo Aterro da Fazenda Municipal - Poços de Monitoramento AVATZ (6 unid.)'
+                title: '<img src="styles/legend/AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284.png" /> Antigo Aterro da Fazenda Municipal - Poços de Monitoramento AVATZ (6 unid.)'
             });
-var format_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283 = new ol.format.GeoJSON();
-var features_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283 = format_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283.readFeatures(json_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283, 
+var format_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285 = new ol.format.GeoJSON();
+var features_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285 = format_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285.readFeatures(json_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283 = new ol.source.Vector({
+var jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283.addFeatures(features_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283);
-var lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283 = new ol.layer.Vector({
+jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285.addFeatures(features_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285);
+var lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283, 
-                style: style_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283,
+                source:jsonSource_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285, 
+                style: style_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285,
                 popuplayertitle: 'Antigo Aterro da Fazenda Municipal - Poços de Monitoramento (15 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283.png" /> Antigo Aterro da Fazenda Municipal - Poços de Monitoramento (15 unid.)'
+                title: '<img src="styles/legend/AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285.png" /> Antigo Aterro da Fazenda Municipal - Poços de Monitoramento (15 unid.)'
             });
-var format_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284 = new ol.format.GeoJSON();
-var features_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284 = format_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284.readFeatures(json_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284, 
+var format_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286 = new ol.format.GeoJSON();
+var features_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286 = format_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286.readFeatures(json_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284 = new ol.source.Vector({
+var jsonSource_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284.addFeatures(features_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284);
-var lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284 = new ol.layer.Vector({
+jsonSource_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286.addFeatures(features_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286);
+var lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284, 
-                style: style_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284,
+                source:jsonSource_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286, 
+                style: style_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286,
                 popuplayertitle: 'Área "B" da Fazenda Municipal - Antiga Área do Clube de Hipismo',
                 interactive: true,
-                title: '<img src="styles/legend/reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284.png" /> Área "B" da Fazenda Municipal - Antiga Área do Clube de Hipismo'
+                title: '<img src="styles/legend/reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286.png" /> Área "B" da Fazenda Municipal - Antiga Área do Clube de Hipismo'
             });
-var format_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285 = new ol.format.GeoJSON();
-var features_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285 = format_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285.readFeatures(json_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285, 
+var format_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287 = new ol.format.GeoJSON();
+var features_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287 = format_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287.readFeatures(json_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285 = new ol.source.Vector({
+var jsonSource_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285.addFeatures(features_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285);
-var lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285 = new ol.layer.Vector({
+jsonSource_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287.addFeatures(features_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287);
+var lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285, 
-                style: style_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285,
+                source:jsonSource_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287, 
+                style: style_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287,
                 popuplayertitle: 'Área "B" da Fazenda Municipal - Poços de Monitoramento Engesolve (7 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285.png" /> Área "B" da Fazenda Municipal - Poços de Monitoramento Engesolve (7 unid.)'
+                title: '<img src="styles/legend/reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287.png" /> Área "B" da Fazenda Municipal - Poços de Monitoramento Engesolve (7 unid.)'
             });
-var format_AntigoAterrodasMaritacas_286 = new ol.format.GeoJSON();
-var features_AntigoAterrodasMaritacas_286 = format_AntigoAterrodasMaritacas_286.readFeatures(json_AntigoAterrodasMaritacas_286, 
+var format_AntigoAterrodasMaritacas_288 = new ol.format.GeoJSON();
+var features_AntigoAterrodasMaritacas_288 = format_AntigoAterrodasMaritacas_288.readFeatures(json_AntigoAterrodasMaritacas_288, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AntigoAterrodasMaritacas_286 = new ol.source.Vector({
+var jsonSource_AntigoAterrodasMaritacas_288 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AntigoAterrodasMaritacas_286.addFeatures(features_AntigoAterrodasMaritacas_286);
-var lyr_AntigoAterrodasMaritacas_286 = new ol.layer.Vector({
+jsonSource_AntigoAterrodasMaritacas_288.addFeatures(features_AntigoAterrodasMaritacas_288);
+var lyr_AntigoAterrodasMaritacas_288 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AntigoAterrodasMaritacas_286, 
-                style: style_AntigoAterrodasMaritacas_286,
+                source:jsonSource_AntigoAterrodasMaritacas_288, 
+                style: style_AntigoAterrodasMaritacas_288,
                 popuplayertitle: 'Antigo Aterro das Maritacas',
                 interactive: true,
-                title: '<img src="styles/legend/AntigoAterrodasMaritacas_286.png" /> Antigo Aterro das Maritacas'
+                title: '<img src="styles/legend/AntigoAterrodasMaritacas_288.png" /> Antigo Aterro das Maritacas'
             });
-var format_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287 = new ol.format.GeoJSON();
-var features_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287 = format_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287.readFeatures(json_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287, 
+var format_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289 = new ol.format.GeoJSON();
+var features_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289 = format_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289.readFeatures(json_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287 = new ol.source.Vector({
+var jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287.addFeatures(features_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287);
-var lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287 = new ol.layer.Vector({
+jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289.addFeatures(features_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289);
+var lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287, 
-                style: style_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287,
+                source:jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289, 
+                style: style_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289,
                 popuplayertitle: 'Antigo Aterro das Maritacas - Poços de Monitoramento 1ª Etapa (28 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287.png" /> Antigo Aterro das Maritacas - Poços de Monitoramento 1ª Etapa (28 unid.)'
+                title: '<img src="styles/legend/AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289.png" /> Antigo Aterro das Maritacas - Poços de Monitoramento 1ª Etapa (28 unid.)'
             });
-var format_ParqueZumbidosPalmares_288 = new ol.format.GeoJSON();
-var features_ParqueZumbidosPalmares_288 = format_ParqueZumbidosPalmares_288.readFeatures(json_ParqueZumbidosPalmares_288, 
+var format_ParqueZumbidosPalmares_290 = new ol.format.GeoJSON();
+var features_ParqueZumbidosPalmares_290 = format_ParqueZumbidosPalmares_290.readFeatures(json_ParqueZumbidosPalmares_290, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ParqueZumbidosPalmares_288 = new ol.source.Vector({
+var jsonSource_ParqueZumbidosPalmares_290 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ParqueZumbidosPalmares_288.addFeatures(features_ParqueZumbidosPalmares_288);
-var lyr_ParqueZumbidosPalmares_288 = new ol.layer.Vector({
+jsonSource_ParqueZumbidosPalmares_290.addFeatures(features_ParqueZumbidosPalmares_290);
+var lyr_ParqueZumbidosPalmares_290 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ParqueZumbidosPalmares_288, 
-                style: style_ParqueZumbidosPalmares_288,
+                source:jsonSource_ParqueZumbidosPalmares_290, 
+                style: style_ParqueZumbidosPalmares_290,
                 popuplayertitle: 'Parque Zumbi dos Palmares',
                 interactive: true,
-                title: '<img src="styles/legend/ParqueZumbidosPalmares_288.png" /> Parque Zumbi dos Palmares'
+                title: '<img src="styles/legend/ParqueZumbidosPalmares_290.png" /> Parque Zumbi dos Palmares'
             });
-var format_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289 = new ol.format.GeoJSON();
-var features_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289 = format_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289.readFeatures(json_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289, 
+var format_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291 = new ol.format.GeoJSON();
+var features_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291 = format_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291.readFeatures(json_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289 = new ol.source.Vector({
+var jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289.addFeatures(features_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289);
-var lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289 = new ol.layer.Vector({
+jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291.addFeatures(features_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291);
+var lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289, 
-                style: style_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289,
+                source:jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291, 
+                style: style_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291,
                 popuplayertitle: 'Antigo Aterro das Maritacas - Poços de Monitoramento 3ª Etapa (5 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289.png" /> Antigo Aterro das Maritacas - Poços de Monitoramento 3ª Etapa (5 unid.)'
+                title: '<img src="styles/legend/AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291.png" /> Antigo Aterro das Maritacas - Poços de Monitoramento 3ª Etapa (5 unid.)'
             });
-var format_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290 = new ol.format.GeoJSON();
-var features_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290 = format_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290.readFeatures(json_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290, 
+var format_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292 = new ol.format.GeoJSON();
+var features_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292 = format_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292.readFeatures(json_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290 = new ol.source.Vector({
+var jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290.addFeatures(features_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290);
-var lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290 = new ol.layer.Vector({
+jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292.addFeatures(features_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292);
+var lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290, 
-                style: style_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290,
+                source:jsonSource_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292, 
+                style: style_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292,
                 popuplayertitle: 'Antigo Aterro das Maritacas - Poços de Monitoramento 2ª Etapa (41 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290.png" /> Antigo Aterro das Maritacas - Poços de Monitoramento 2ª Etapa (41 unid.)'
+                title: '<img src="styles/legend/AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292.png" /> Antigo Aterro das Maritacas - Poços de Monitoramento 2ª Etapa (41 unid.)'
             });
-var format_reaN2_291 = new ol.format.GeoJSON();
-var features_reaN2_291 = format_reaN2_291.readFeatures(json_reaN2_291, 
+var format_reaN2_293 = new ol.format.GeoJSON();
+var features_reaN2_293 = format_reaN2_293.readFeatures(json_reaN2_293, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaN2_291 = new ol.source.Vector({
+var jsonSource_reaN2_293 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaN2_291.addFeatures(features_reaN2_291);
-var lyr_reaN2_291 = new ol.layer.Vector({
+jsonSource_reaN2_293.addFeatures(features_reaN2_293);
+var lyr_reaN2_293 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaN2_291, 
-                style: style_reaN2_291,
+                source:jsonSource_reaN2_293, 
+                style: style_reaN2_293,
                 popuplayertitle: 'Área N2',
                 interactive: true,
-                title: '<img src="styles/legend/reaN2_291.png" /> Área N2'
+                title: '<img src="styles/legend/reaN2_293.png" /> Área N2'
             });
-var format_reaN1_292 = new ol.format.GeoJSON();
-var features_reaN1_292 = format_reaN1_292.readFeatures(json_reaN1_292, 
+var format_reaN1_294 = new ol.format.GeoJSON();
+var features_reaN1_294 = format_reaN1_294.readFeatures(json_reaN1_294, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaN1_292 = new ol.source.Vector({
+var jsonSource_reaN1_294 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaN1_292.addFeatures(features_reaN1_292);
-var lyr_reaN1_292 = new ol.layer.Vector({
+jsonSource_reaN1_294.addFeatures(features_reaN1_294);
+var lyr_reaN1_294 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaN1_292, 
-                style: style_reaN1_292,
+                source:jsonSource_reaN1_294, 
+                style: style_reaN1_294,
                 popuplayertitle: 'Área N1',
                 interactive: true,
-                title: '<img src="styles/legend/reaN1_292.png" /> Área N1'
+                title: '<img src="styles/legend/reaN1_294.png" /> Área N1'
             });
-var format_reaN_293 = new ol.format.GeoJSON();
-var features_reaN_293 = format_reaN_293.readFeatures(json_reaN_293, 
+var format_reaN_295 = new ol.format.GeoJSON();
+var features_reaN_295 = format_reaN_295.readFeatures(json_reaN_295, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaN_293 = new ol.source.Vector({
+var jsonSource_reaN_295 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaN_293.addFeatures(features_reaN_293);
-var lyr_reaN_293 = new ol.layer.Vector({
+jsonSource_reaN_295.addFeatures(features_reaN_295);
+var lyr_reaN_295 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaN_293, 
-                style: style_reaN_293,
+                source:jsonSource_reaN_295, 
+                style: style_reaN_295,
                 popuplayertitle: 'Área N',
                 interactive: true,
-                title: '<img src="styles/legend/reaN_293.png" /> Área N'
+                title: '<img src="styles/legend/reaN_295.png" /> Área N'
             });
-var format_ConjuntoHabitacional_294 = new ol.format.GeoJSON();
-var features_ConjuntoHabitacional_294 = format_ConjuntoHabitacional_294.readFeatures(json_ConjuntoHabitacional_294, 
+var format_ConjuntoHabitacional_296 = new ol.format.GeoJSON();
+var features_ConjuntoHabitacional_296 = format_ConjuntoHabitacional_296.readFeatures(json_ConjuntoHabitacional_296, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ConjuntoHabitacional_294 = new ol.source.Vector({
+var jsonSource_ConjuntoHabitacional_296 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ConjuntoHabitacional_294.addFeatures(features_ConjuntoHabitacional_294);
-var lyr_ConjuntoHabitacional_294 = new ol.layer.Vector({
+jsonSource_ConjuntoHabitacional_296.addFeatures(features_ConjuntoHabitacional_296);
+var lyr_ConjuntoHabitacional_296 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ConjuntoHabitacional_294, 
-                style: style_ConjuntoHabitacional_294,
+                source:jsonSource_ConjuntoHabitacional_296, 
+                style: style_ConjuntoHabitacional_296,
                 popuplayertitle: 'Conjunto Habitacional',
                 interactive: true,
-                title: '<img src="styles/legend/ConjuntoHabitacional_294.png" /> Conjunto Habitacional'
+                title: '<img src="styles/legend/ConjuntoHabitacional_296.png" /> Conjunto Habitacional'
             });
-var format_AvdeacessoaoHortoeColgioAgrcola_295 = new ol.format.GeoJSON();
-var features_AvdeacessoaoHortoeColgioAgrcola_295 = format_AvdeacessoaoHortoeColgioAgrcola_295.readFeatures(json_AvdeacessoaoHortoeColgioAgrcola_295, 
+var format_AvdeacessoaoHortoeColgioAgrcola_297 = new ol.format.GeoJSON();
+var features_AvdeacessoaoHortoeColgioAgrcola_297 = format_AvdeacessoaoHortoeColgioAgrcola_297.readFeatures(json_AvdeacessoaoHortoeColgioAgrcola_297, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AvdeacessoaoHortoeColgioAgrcola_295 = new ol.source.Vector({
+var jsonSource_AvdeacessoaoHortoeColgioAgrcola_297 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AvdeacessoaoHortoeColgioAgrcola_295.addFeatures(features_AvdeacessoaoHortoeColgioAgrcola_295);
-var lyr_AvdeacessoaoHortoeColgioAgrcola_295 = new ol.layer.Vector({
+jsonSource_AvdeacessoaoHortoeColgioAgrcola_297.addFeatures(features_AvdeacessoaoHortoeColgioAgrcola_297);
+var lyr_AvdeacessoaoHortoeColgioAgrcola_297 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AvdeacessoaoHortoeColgioAgrcola_295, 
-                style: style_AvdeacessoaoHortoeColgioAgrcola_295,
+                source:jsonSource_AvdeacessoaoHortoeColgioAgrcola_297, 
+                style: style_AvdeacessoaoHortoeColgioAgrcola_297,
                 popuplayertitle: 'Av. de acesso ao Horto e Colégio Agrícola',
                 interactive: true,
-                title: '<img src="styles/legend/AvdeacessoaoHortoeColgioAgrcola_295.png" /> Av. de acesso ao Horto e Colégio Agrícola'
+                title: '<img src="styles/legend/AvdeacessoaoHortoeColgioAgrcola_297.png" /> Av. de acesso ao Horto e Colégio Agrícola'
             });
-var format_reaK_296 = new ol.format.GeoJSON();
-var features_reaK_296 = format_reaK_296.readFeatures(json_reaK_296, 
+var format_reaK_298 = new ol.format.GeoJSON();
+var features_reaK_298 = format_reaK_298.readFeatures(json_reaK_298, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaK_296 = new ol.source.Vector({
+var jsonSource_reaK_298 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaK_296.addFeatures(features_reaK_296);
-var lyr_reaK_296 = new ol.layer.Vector({
+jsonSource_reaK_298.addFeatures(features_reaK_298);
+var lyr_reaK_298 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaK_296, 
-                style: style_reaK_296,
+                source:jsonSource_reaK_298, 
+                style: style_reaK_298,
                 popuplayertitle: 'Área K',
                 interactive: true,
-                title: '<img src="styles/legend/reaK_296.png" /> Área K'
+                title: '<img src="styles/legend/reaK_298.png" /> Área K'
             });
-var format_reaJ_297 = new ol.format.GeoJSON();
-var features_reaJ_297 = format_reaJ_297.readFeatures(json_reaJ_297, 
+var format_reaJ_299 = new ol.format.GeoJSON();
+var features_reaJ_299 = format_reaJ_299.readFeatures(json_reaJ_299, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaJ_297 = new ol.source.Vector({
+var jsonSource_reaJ_299 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaJ_297.addFeatures(features_reaJ_297);
-var lyr_reaJ_297 = new ol.layer.Vector({
+jsonSource_reaJ_299.addFeatures(features_reaJ_299);
+var lyr_reaJ_299 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaJ_297, 
-                style: style_reaJ_297,
+                source:jsonSource_reaJ_299, 
+                style: style_reaJ_299,
                 popuplayertitle: 'Área J',
                 interactive: true,
-                title: '<img src="styles/legend/reaJ_297.png" /> Área J'
+                title: '<img src="styles/legend/reaJ_299.png" /> Área J'
             });
-var format_reaI_298 = new ol.format.GeoJSON();
-var features_reaI_298 = format_reaI_298.readFeatures(json_reaI_298, 
+var format_reaI_300 = new ol.format.GeoJSON();
+var features_reaI_300 = format_reaI_300.readFeatures(json_reaI_300, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaI_298 = new ol.source.Vector({
+var jsonSource_reaI_300 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaI_298.addFeatures(features_reaI_298);
-var lyr_reaI_298 = new ol.layer.Vector({
+jsonSource_reaI_300.addFeatures(features_reaI_300);
+var lyr_reaI_300 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaI_298, 
-                style: style_reaI_298,
+                source:jsonSource_reaI_300, 
+                style: style_reaI_300,
                 popuplayertitle: 'Área I',
                 interactive: true,
-                title: '<img src="styles/legend/reaI_298.png" /> Área I'
+                title: '<img src="styles/legend/reaI_300.png" /> Área I'
             });
-var format_reaH_299 = new ol.format.GeoJSON();
-var features_reaH_299 = format_reaH_299.readFeatures(json_reaH_299, 
+var format_reaH_301 = new ol.format.GeoJSON();
+var features_reaH_301 = format_reaH_301.readFeatures(json_reaH_301, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaH_299 = new ol.source.Vector({
+var jsonSource_reaH_301 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaH_299.addFeatures(features_reaH_299);
-var lyr_reaH_299 = new ol.layer.Vector({
+jsonSource_reaH_301.addFeatures(features_reaH_301);
+var lyr_reaH_301 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaH_299, 
-                style: style_reaH_299,
+                source:jsonSource_reaH_301, 
+                style: style_reaH_301,
                 popuplayertitle: 'Área H',
                 interactive: true,
-                title: '<img src="styles/legend/reaH_299.png" /> Área H'
+                title: '<img src="styles/legend/reaH_301.png" /> Área H'
             });
-var format_reaG_300 = new ol.format.GeoJSON();
-var features_reaG_300 = format_reaG_300.readFeatures(json_reaG_300, 
+var format_reaG_302 = new ol.format.GeoJSON();
+var features_reaG_302 = format_reaG_302.readFeatures(json_reaG_302, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaG_300 = new ol.source.Vector({
+var jsonSource_reaG_302 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaG_300.addFeatures(features_reaG_300);
-var lyr_reaG_300 = new ol.layer.Vector({
+jsonSource_reaG_302.addFeatures(features_reaG_302);
+var lyr_reaG_302 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaG_300, 
-                style: style_reaG_300,
+                source:jsonSource_reaG_302, 
+                style: style_reaG_302,
                 popuplayertitle: 'Área G',
                 interactive: true,
-                title: '<img src="styles/legend/reaG_300.png" /> Área G'
+                title: '<img src="styles/legend/reaG_302.png" /> Área G'
             });
-var format_reaF_301 = new ol.format.GeoJSON();
-var features_reaF_301 = format_reaF_301.readFeatures(json_reaF_301, 
+var format_reaF_303 = new ol.format.GeoJSON();
+var features_reaF_303 = format_reaF_303.readFeatures(json_reaF_303, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaF_301 = new ol.source.Vector({
+var jsonSource_reaF_303 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaF_301.addFeatures(features_reaF_301);
-var lyr_reaF_301 = new ol.layer.Vector({
+jsonSource_reaF_303.addFeatures(features_reaF_303);
+var lyr_reaF_303 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaF_301, 
-                style: style_reaF_301,
+                source:jsonSource_reaF_303, 
+                style: style_reaF_303,
                 popuplayertitle: 'Área F',
                 interactive: true,
-                title: '<img src="styles/legend/reaF_301.png" /> Área F'
+                title: '<img src="styles/legend/reaF_303.png" /> Área F'
             });
-var format_reaE_302 = new ol.format.GeoJSON();
-var features_reaE_302 = format_reaE_302.readFeatures(json_reaE_302, 
+var format_reaE_304 = new ol.format.GeoJSON();
+var features_reaE_304 = format_reaE_304.readFeatures(json_reaE_304, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaE_302 = new ol.source.Vector({
+var jsonSource_reaE_304 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaE_302.addFeatures(features_reaE_302);
-var lyr_reaE_302 = new ol.layer.Vector({
+jsonSource_reaE_304.addFeatures(features_reaE_304);
+var lyr_reaE_304 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaE_302, 
-                style: style_reaE_302,
+                source:jsonSource_reaE_304, 
+                style: style_reaE_304,
                 popuplayertitle: 'Área E',
                 interactive: true,
-                title: '<img src="styles/legend/reaE_302.png" /> Área E'
+                title: '<img src="styles/legend/reaE_304.png" /> Área E'
             });
-var format_reaD_303 = new ol.format.GeoJSON();
-var features_reaD_303 = format_reaD_303.readFeatures(json_reaD_303, 
+var format_reaD_305 = new ol.format.GeoJSON();
+var features_reaD_305 = format_reaD_305.readFeatures(json_reaD_305, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaD_303 = new ol.source.Vector({
+var jsonSource_reaD_305 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaD_303.addFeatures(features_reaD_303);
-var lyr_reaD_303 = new ol.layer.Vector({
+jsonSource_reaD_305.addFeatures(features_reaD_305);
+var lyr_reaD_305 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaD_303, 
-                style: style_reaD_303,
+                source:jsonSource_reaD_305, 
+                style: style_reaD_305,
                 popuplayertitle: 'Área D',
                 interactive: true,
-                title: '<img src="styles/legend/reaD_303.png" /> Área D'
+                title: '<img src="styles/legend/reaD_305.png" /> Área D'
             });
-var format_reaC_304 = new ol.format.GeoJSON();
-var features_reaC_304 = format_reaC_304.readFeatures(json_reaC_304, 
+var format_reaC_306 = new ol.format.GeoJSON();
+var features_reaC_306 = format_reaC_306.readFeatures(json_reaC_306, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaC_304 = new ol.source.Vector({
+var jsonSource_reaC_306 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaC_304.addFeatures(features_reaC_304);
-var lyr_reaC_304 = new ol.layer.Vector({
+jsonSource_reaC_306.addFeatures(features_reaC_306);
+var lyr_reaC_306 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaC_304, 
-                style: style_reaC_304,
+                source:jsonSource_reaC_306, 
+                style: style_reaC_306,
                 popuplayertitle: 'Área C',
                 interactive: true,
-                title: '<img src="styles/legend/reaC_304.png" /> Área C'
+                title: '<img src="styles/legend/reaC_306.png" /> Área C'
             });
-var format_reaB_305 = new ol.format.GeoJSON();
-var features_reaB_305 = format_reaB_305.readFeatures(json_reaB_305, 
+var format_reaB_307 = new ol.format.GeoJSON();
+var features_reaB_307 = format_reaB_307.readFeatures(json_reaB_307, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaB_305 = new ol.source.Vector({
+var jsonSource_reaB_307 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaB_305.addFeatures(features_reaB_305);
-var lyr_reaB_305 = new ol.layer.Vector({
+jsonSource_reaB_307.addFeatures(features_reaB_307);
+var lyr_reaB_307 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaB_305, 
-                style: style_reaB_305,
+                source:jsonSource_reaB_307, 
+                style: style_reaB_307,
                 popuplayertitle: 'Área B',
                 interactive: true,
-                title: '<img src="styles/legend/reaB_305.png" /> Área B'
+                title: '<img src="styles/legend/reaB_307.png" /> Área B'
             });
-var format_reaA_306 = new ol.format.GeoJSON();
-var features_reaA_306 = format_reaA_306.readFeatures(json_reaA_306, 
+var format_reaA_308 = new ol.format.GeoJSON();
+var features_reaA_308 = format_reaA_308.readFeatures(json_reaA_308, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaA_306 = new ol.source.Vector({
+var jsonSource_reaA_308 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaA_306.addFeatures(features_reaA_306);
-var lyr_reaA_306 = new ol.layer.Vector({
+jsonSource_reaA_308.addFeatures(features_reaA_308);
+var lyr_reaA_308 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaA_306, 
-                style: style_reaA_306,
+                source:jsonSource_reaA_308, 
+                style: style_reaA_308,
                 popuplayertitle: 'Área A',
                 interactive: true,
-                title: '<img src="styles/legend/reaA_306.png" /> Área A'
+                title: '<img src="styles/legend/reaA_308.png" /> Área A'
             });
-var format_reaAverbada355235ReservaFlorestalLegalPartedareaG_307 = new ol.format.GeoJSON();
-var features_reaAverbada355235ReservaFlorestalLegalPartedareaG_307 = format_reaAverbada355235ReservaFlorestalLegalPartedareaG_307.readFeatures(json_reaAverbada355235ReservaFlorestalLegalPartedareaG_307, 
+var format_reaAverbada355235ReservaFlorestalLegalPartedareaG_309 = new ol.format.GeoJSON();
+var features_reaAverbada355235ReservaFlorestalLegalPartedareaG_309 = format_reaAverbada355235ReservaFlorestalLegalPartedareaG_309.readFeatures(json_reaAverbada355235ReservaFlorestalLegalPartedareaG_309, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaAverbada355235ReservaFlorestalLegalPartedareaG_307 = new ol.source.Vector({
+var jsonSource_reaAverbada355235ReservaFlorestalLegalPartedareaG_309 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaAverbada355235ReservaFlorestalLegalPartedareaG_307.addFeatures(features_reaAverbada355235ReservaFlorestalLegalPartedareaG_307);
-var lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_307 = new ol.layer.Vector({
+jsonSource_reaAverbada355235ReservaFlorestalLegalPartedareaG_309.addFeatures(features_reaAverbada355235ReservaFlorestalLegalPartedareaG_309);
+var lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_309 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaAverbada355235ReservaFlorestalLegalPartedareaG_307, 
-                style: style_reaAverbada355235ReservaFlorestalLegalPartedareaG_307,
+                source:jsonSource_reaAverbada355235ReservaFlorestalLegalPartedareaG_309, 
+                style: style_reaAverbada355235ReservaFlorestalLegalPartedareaG_309,
                 popuplayertitle: 'Área Averbada 3/55235 (Reserva Florestal Legal - Parte da Área G)',
                 interactive: true,
-                title: '<img src="styles/legend/reaAverbada355235ReservaFlorestalLegalPartedareaG_307.png" /> Área Averbada 3/55235 (Reserva Florestal Legal - Parte da Área G)'
+                title: '<img src="styles/legend/reaAverbada355235ReservaFlorestalLegalPartedareaG_309.png" /> Área Averbada 3/55235 (Reserva Florestal Legal - Parte da Área G)'
             });
-var format_reaaseraverbadaPartedareaG_308 = new ol.format.GeoJSON();
-var features_reaaseraverbadaPartedareaG_308 = format_reaaseraverbadaPartedareaG_308.readFeatures(json_reaaseraverbadaPartedareaG_308, 
+var format_reaaseraverbadaPartedareaG_310 = new ol.format.GeoJSON();
+var features_reaaseraverbadaPartedareaG_310 = format_reaaseraverbadaPartedareaG_310.readFeatures(json_reaaseraverbadaPartedareaG_310, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaaseraverbadaPartedareaG_308 = new ol.source.Vector({
+var jsonSource_reaaseraverbadaPartedareaG_310 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaaseraverbadaPartedareaG_308.addFeatures(features_reaaseraverbadaPartedareaG_308);
-var lyr_reaaseraverbadaPartedareaG_308 = new ol.layer.Vector({
+jsonSource_reaaseraverbadaPartedareaG_310.addFeatures(features_reaaseraverbadaPartedareaG_310);
+var lyr_reaaseraverbadaPartedareaG_310 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaaseraverbadaPartedareaG_308, 
-                style: style_reaaseraverbadaPartedareaG_308,
+                source:jsonSource_reaaseraverbadaPartedareaG_310, 
+                style: style_reaaseraverbadaPartedareaG_310,
                 popuplayertitle: 'Área a ser averbada (Parte da Área G)',
                 interactive: true,
-                title: '<img src="styles/legend/reaaseraverbadaPartedareaG_308.png" /> Área a ser averbada (Parte da Área G)'
+                title: '<img src="styles/legend/reaaseraverbadaPartedareaG_310.png" /> Área a ser averbada (Parte da Área G)'
             });
-var format_Voorocas26unid_309 = new ol.format.GeoJSON();
-var features_Voorocas26unid_309 = format_Voorocas26unid_309.readFeatures(json_Voorocas26unid_309, 
+var format_Voorocas26unid_311 = new ol.format.GeoJSON();
+var features_Voorocas26unid_311 = format_Voorocas26unid_311.readFeatures(json_Voorocas26unid_311, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Voorocas26unid_309 = new ol.source.Vector({
+var jsonSource_Voorocas26unid_311 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Voorocas26unid_309.addFeatures(features_Voorocas26unid_309);
-var lyr_Voorocas26unid_309 = new ol.layer.Vector({
+jsonSource_Voorocas26unid_311.addFeatures(features_Voorocas26unid_311);
+var lyr_Voorocas26unid_311 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Voorocas26unid_309, 
-                style: style_Voorocas26unid_309,
+                source:jsonSource_Voorocas26unid_311, 
+                style: style_Voorocas26unid_311,
                 popuplayertitle: 'Voçorocas (26 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Voorocas26unid_309.png" /> Voçorocas (26 unid.)'
+                title: '<img src="styles/legend/Voorocas26unid_311.png" /> Voçorocas (26 unid.)'
             });
-var format_LocaisdeDifcilAcessoereasRurais12unid_310 = new ol.format.GeoJSON();
-var features_LocaisdeDifcilAcessoereasRurais12unid_310 = format_LocaisdeDifcilAcessoereasRurais12unid_310.readFeatures(json_LocaisdeDifcilAcessoereasRurais12unid_310, 
+var format_LocaisdeDifcilAcessoereasRurais12unid_312 = new ol.format.GeoJSON();
+var features_LocaisdeDifcilAcessoereasRurais12unid_312 = format_LocaisdeDifcilAcessoereasRurais12unid_312.readFeatures(json_LocaisdeDifcilAcessoereasRurais12unid_312, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LocaisdeDifcilAcessoereasRurais12unid_310 = new ol.source.Vector({
+var jsonSource_LocaisdeDifcilAcessoereasRurais12unid_312 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LocaisdeDifcilAcessoereasRurais12unid_310.addFeatures(features_LocaisdeDifcilAcessoereasRurais12unid_310);
-var lyr_LocaisdeDifcilAcessoereasRurais12unid_310 = new ol.layer.Vector({
+jsonSource_LocaisdeDifcilAcessoereasRurais12unid_312.addFeatures(features_LocaisdeDifcilAcessoereasRurais12unid_312);
+var lyr_LocaisdeDifcilAcessoereasRurais12unid_312 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LocaisdeDifcilAcessoereasRurais12unid_310, 
-                style: style_LocaisdeDifcilAcessoereasRurais12unid_310,
+                source:jsonSource_LocaisdeDifcilAcessoereasRurais12unid_312, 
+                style: style_LocaisdeDifcilAcessoereasRurais12unid_312,
                 popuplayertitle: 'Locais de Difícil Acesso e Áreas Rurais (12 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LocaisdeDifcilAcessoereasRurais12unid_310.png" /> Locais de Difícil Acesso e Áreas Rurais (12 unid.)'
+                title: '<img src="styles/legend/LocaisdeDifcilAcessoereasRurais12unid_312.png" /> Locais de Difícil Acesso e Áreas Rurais (12 unid.)'
             });
-var format_Contineres286unid_311 = new ol.format.GeoJSON();
-var features_Contineres286unid_311 = format_Contineres286unid_311.readFeatures(json_Contineres286unid_311, 
+var format_Contineres286unid_313 = new ol.format.GeoJSON();
+var features_Contineres286unid_313 = format_Contineres286unid_313.readFeatures(json_Contineres286unid_313, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Contineres286unid_311 = new ol.source.Vector({
+var jsonSource_Contineres286unid_313 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Contineres286unid_311.addFeatures(features_Contineres286unid_311);
-var lyr_Contineres286unid_311 = new ol.layer.Vector({
+jsonSource_Contineres286unid_313.addFeatures(features_Contineres286unid_313);
+var lyr_Contineres286unid_313 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Contineres286unid_311, 
-                style: style_Contineres286unid_311,
+                source:jsonSource_Contineres286unid_313, 
+                style: style_Contineres286unid_313,
                 popuplayertitle: 'Contêineres (286 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Contineres286unid_311.png" /> Contêineres (286 unid.)'
+                title: '<img src="styles/legend/Contineres286unid_313.png" /> Contêineres (286 unid.)'
             });
-var format_rvoreImuneaoCorte9unid_312 = new ol.format.GeoJSON();
-var features_rvoreImuneaoCorte9unid_312 = format_rvoreImuneaoCorte9unid_312.readFeatures(json_rvoreImuneaoCorte9unid_312, 
+var format_rvoreImuneaoCorte9unid_314 = new ol.format.GeoJSON();
+var features_rvoreImuneaoCorte9unid_314 = format_rvoreImuneaoCorte9unid_314.readFeatures(json_rvoreImuneaoCorte9unid_314, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_rvoreImuneaoCorte9unid_312 = new ol.source.Vector({
+var jsonSource_rvoreImuneaoCorte9unid_314 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_rvoreImuneaoCorte9unid_312.addFeatures(features_rvoreImuneaoCorte9unid_312);
-var lyr_rvoreImuneaoCorte9unid_312 = new ol.layer.Vector({
+jsonSource_rvoreImuneaoCorte9unid_314.addFeatures(features_rvoreImuneaoCorte9unid_314);
+var lyr_rvoreImuneaoCorte9unid_314 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_rvoreImuneaoCorte9unid_312, 
-                style: style_rvoreImuneaoCorte9unid_312,
+                source:jsonSource_rvoreImuneaoCorte9unid_314, 
+                style: style_rvoreImuneaoCorte9unid_314,
                 popuplayertitle: 'Árvore Imune ao Corte (9 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/rvoreImuneaoCorte9unid_312.png" /> Árvore Imune ao Corte (9 unid.)'
+                title: '<img src="styles/legend/rvoreImuneaoCorte9unid_314.png" /> Árvore Imune ao Corte (9 unid.)'
             });
-var format_AcademiasaoArLivre84unid_313 = new ol.format.GeoJSON();
-var features_AcademiasaoArLivre84unid_313 = format_AcademiasaoArLivre84unid_313.readFeatures(json_AcademiasaoArLivre84unid_313, 
+var format_AcademiasaoArLivre84unid_315 = new ol.format.GeoJSON();
+var features_AcademiasaoArLivre84unid_315 = format_AcademiasaoArLivre84unid_315.readFeatures(json_AcademiasaoArLivre84unid_315, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AcademiasaoArLivre84unid_313 = new ol.source.Vector({
+var jsonSource_AcademiasaoArLivre84unid_315 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AcademiasaoArLivre84unid_313.addFeatures(features_AcademiasaoArLivre84unid_313);
-var lyr_AcademiasaoArLivre84unid_313 = new ol.layer.Vector({
+jsonSource_AcademiasaoArLivre84unid_315.addFeatures(features_AcademiasaoArLivre84unid_315);
+var lyr_AcademiasaoArLivre84unid_315 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AcademiasaoArLivre84unid_313, 
-                style: style_AcademiasaoArLivre84unid_313,
+                source:jsonSource_AcademiasaoArLivre84unid_315, 
+                style: style_AcademiasaoArLivre84unid_315,
                 popuplayertitle: 'Academias ao Ar Livre (84 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/AcademiasaoArLivre84unid_313.png" /> Academias ao Ar Livre (84 unid.)'
+                title: '<img src="styles/legend/AcademiasaoArLivre84unid_315.png" /> Academias ao Ar Livre (84 unid.)'
             });
-var format_Ecopontos4unid_314 = new ol.format.GeoJSON();
-var features_Ecopontos4unid_314 = format_Ecopontos4unid_314.readFeatures(json_Ecopontos4unid_314, 
+var format_Ecopontos4unid_316 = new ol.format.GeoJSON();
+var features_Ecopontos4unid_316 = format_Ecopontos4unid_316.readFeatures(json_Ecopontos4unid_316, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Ecopontos4unid_314 = new ol.source.Vector({
+var jsonSource_Ecopontos4unid_316 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Ecopontos4unid_314.addFeatures(features_Ecopontos4unid_314);
-var lyr_Ecopontos4unid_314 = new ol.layer.Vector({
+jsonSource_Ecopontos4unid_316.addFeatures(features_Ecopontos4unid_316);
+var lyr_Ecopontos4unid_316 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Ecopontos4unid_314, 
-                style: style_Ecopontos4unid_314,
+                source:jsonSource_Ecopontos4unid_316, 
+                style: style_Ecopontos4unid_316,
                 popuplayertitle: 'Ecopontos (4 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Ecopontos4unid_314.png" /> Ecopontos (4 unid.)'
+                title: '<img src="styles/legend/Ecopontos4unid_316.png" /> Ecopontos (4 unid.)'
             });
-var format_Gesso1unid_315 = new ol.format.GeoJSON();
-var features_Gesso1unid_315 = format_Gesso1unid_315.readFeatures(json_Gesso1unid_315, 
+var format_Gesso1unid_317 = new ol.format.GeoJSON();
+var features_Gesso1unid_317 = format_Gesso1unid_317.readFeatures(json_Gesso1unid_317, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Gesso1unid_315 = new ol.source.Vector({
+var jsonSource_Gesso1unid_317 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Gesso1unid_315.addFeatures(features_Gesso1unid_315);
-var lyr_Gesso1unid_315 = new ol.layer.Vector({
+jsonSource_Gesso1unid_317.addFeatures(features_Gesso1unid_317);
+var lyr_Gesso1unid_317 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Gesso1unid_315, 
-                style: style_Gesso1unid_315,
+                source:jsonSource_Gesso1unid_317, 
+                style: style_Gesso1unid_317,
                 popuplayertitle: 'Gesso (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Gesso1unid_315.png" /> Gesso (1 unid.)'
+                title: '<img src="styles/legend/Gesso1unid_317.png" /> Gesso (1 unid.)'
             });
-var format_ResduosdeConstruoCivil7unid_316 = new ol.format.GeoJSON();
-var features_ResduosdeConstruoCivil7unid_316 = format_ResduosdeConstruoCivil7unid_316.readFeatures(json_ResduosdeConstruoCivil7unid_316, 
+var format_ResduosdeConstruoCivil7unid_318 = new ol.format.GeoJSON();
+var features_ResduosdeConstruoCivil7unid_318 = format_ResduosdeConstruoCivil7unid_318.readFeatures(json_ResduosdeConstruoCivil7unid_318, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ResduosdeConstruoCivil7unid_316 = new ol.source.Vector({
+var jsonSource_ResduosdeConstruoCivil7unid_318 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ResduosdeConstruoCivil7unid_316.addFeatures(features_ResduosdeConstruoCivil7unid_316);
-var lyr_ResduosdeConstruoCivil7unid_316 = new ol.layer.Vector({
+jsonSource_ResduosdeConstruoCivil7unid_318.addFeatures(features_ResduosdeConstruoCivil7unid_318);
+var lyr_ResduosdeConstruoCivil7unid_318 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ResduosdeConstruoCivil7unid_316, 
-                style: style_ResduosdeConstruoCivil7unid_316,
+                source:jsonSource_ResduosdeConstruoCivil7unid_318, 
+                style: style_ResduosdeConstruoCivil7unid_318,
                 popuplayertitle: 'Resíduos de Construção Civil (7 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ResduosdeConstruoCivil7unid_316.png" /> Resíduos de Construção Civil (7 unid.)'
+                title: '<img src="styles/legend/ResduosdeConstruoCivil7unid_318.png" /> Resíduos de Construção Civil (7 unid.)'
             });
-var format_ResduosVerdes1unid_317 = new ol.format.GeoJSON();
-var features_ResduosVerdes1unid_317 = format_ResduosVerdes1unid_317.readFeatures(json_ResduosVerdes1unid_317, 
+var format_ResduosVerdes1unid_319 = new ol.format.GeoJSON();
+var features_ResduosVerdes1unid_319 = format_ResduosVerdes1unid_319.readFeatures(json_ResduosVerdes1unid_319, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ResduosVerdes1unid_317 = new ol.source.Vector({
+var jsonSource_ResduosVerdes1unid_319 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ResduosVerdes1unid_317.addFeatures(features_ResduosVerdes1unid_317);
-var lyr_ResduosVerdes1unid_317 = new ol.layer.Vector({
+jsonSource_ResduosVerdes1unid_319.addFeatures(features_ResduosVerdes1unid_319);
+var lyr_ResduosVerdes1unid_319 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ResduosVerdes1unid_317, 
-                style: style_ResduosVerdes1unid_317,
+                source:jsonSource_ResduosVerdes1unid_319, 
+                style: style_ResduosVerdes1unid_319,
                 popuplayertitle: 'Resíduos "Verdes" (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ResduosVerdes1unid_317.png" /> Resíduos "Verdes" (1 unid.)'
+                title: '<img src="styles/legend/ResduosVerdes1unid_319.png" /> Resíduos "Verdes" (1 unid.)'
             });
-var format_ChapasdeRaioX1unid_318 = new ol.format.GeoJSON();
-var features_ChapasdeRaioX1unid_318 = format_ChapasdeRaioX1unid_318.readFeatures(json_ChapasdeRaioX1unid_318, 
+var format_ChapasdeRaioX1unid_320 = new ol.format.GeoJSON();
+var features_ChapasdeRaioX1unid_320 = format_ChapasdeRaioX1unid_320.readFeatures(json_ChapasdeRaioX1unid_320, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ChapasdeRaioX1unid_318 = new ol.source.Vector({
+var jsonSource_ChapasdeRaioX1unid_320 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ChapasdeRaioX1unid_318.addFeatures(features_ChapasdeRaioX1unid_318);
-var lyr_ChapasdeRaioX1unid_318 = new ol.layer.Vector({
+jsonSource_ChapasdeRaioX1unid_320.addFeatures(features_ChapasdeRaioX1unid_320);
+var lyr_ChapasdeRaioX1unid_320 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ChapasdeRaioX1unid_318, 
-                style: style_ChapasdeRaioX1unid_318,
+                source:jsonSource_ChapasdeRaioX1unid_320, 
+                style: style_ChapasdeRaioX1unid_320,
                 popuplayertitle: 'Chapas de Raio-X (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ChapasdeRaioX1unid_318.png" /> Chapas de Raio-X (1 unid.)'
+                title: '<img src="styles/legend/ChapasdeRaioX1unid_320.png" /> Chapas de Raio-X (1 unid.)'
             });
-var format_Embalagensvaziasdeagrotxicos1unid_319 = new ol.format.GeoJSON();
-var features_Embalagensvaziasdeagrotxicos1unid_319 = format_Embalagensvaziasdeagrotxicos1unid_319.readFeatures(json_Embalagensvaziasdeagrotxicos1unid_319, 
+var format_Embalagensvaziasdeagrotxicos1unid_321 = new ol.format.GeoJSON();
+var features_Embalagensvaziasdeagrotxicos1unid_321 = format_Embalagensvaziasdeagrotxicos1unid_321.readFeatures(json_Embalagensvaziasdeagrotxicos1unid_321, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Embalagensvaziasdeagrotxicos1unid_319 = new ol.source.Vector({
+var jsonSource_Embalagensvaziasdeagrotxicos1unid_321 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Embalagensvaziasdeagrotxicos1unid_319.addFeatures(features_Embalagensvaziasdeagrotxicos1unid_319);
-var lyr_Embalagensvaziasdeagrotxicos1unid_319 = new ol.layer.Vector({
+jsonSource_Embalagensvaziasdeagrotxicos1unid_321.addFeatures(features_Embalagensvaziasdeagrotxicos1unid_321);
+var lyr_Embalagensvaziasdeagrotxicos1unid_321 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Embalagensvaziasdeagrotxicos1unid_319, 
-                style: style_Embalagensvaziasdeagrotxicos1unid_319,
+                source:jsonSource_Embalagensvaziasdeagrotxicos1unid_321, 
+                style: style_Embalagensvaziasdeagrotxicos1unid_321,
                 popuplayertitle: 'Embalagens vazias de agrotóxicos (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Embalagensvaziasdeagrotxicos1unid_319.png" /> Embalagens vazias de agrotóxicos (1 unid.)'
+                title: '<img src="styles/legend/Embalagensvaziasdeagrotxicos1unid_321.png" /> Embalagens vazias de agrotóxicos (1 unid.)'
             });
-var format_leodecozinhausado2unid_320 = new ol.format.GeoJSON();
-var features_leodecozinhausado2unid_320 = format_leodecozinhausado2unid_320.readFeatures(json_leodecozinhausado2unid_320, 
+var format_leodecozinhausado2unid_322 = new ol.format.GeoJSON();
+var features_leodecozinhausado2unid_322 = format_leodecozinhausado2unid_322.readFeatures(json_leodecozinhausado2unid_322, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_leodecozinhausado2unid_320 = new ol.source.Vector({
+var jsonSource_leodecozinhausado2unid_322 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_leodecozinhausado2unid_320.addFeatures(features_leodecozinhausado2unid_320);
-var lyr_leodecozinhausado2unid_320 = new ol.layer.Vector({
+jsonSource_leodecozinhausado2unid_322.addFeatures(features_leodecozinhausado2unid_322);
+var lyr_leodecozinhausado2unid_322 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_leodecozinhausado2unid_320, 
-                style: style_leodecozinhausado2unid_320,
+                source:jsonSource_leodecozinhausado2unid_322, 
+                style: style_leodecozinhausado2unid_322,
                 popuplayertitle: 'Óleo de cozinha usado (2 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/leodecozinhausado2unid_320.png" /> Óleo de cozinha usado (2 unid.)'
+                title: '<img src="styles/legend/leodecozinhausado2unid_322.png" /> Óleo de cozinha usado (2 unid.)'
             });
-var format_leolubrificanteusado1unid_321 = new ol.format.GeoJSON();
-var features_leolubrificanteusado1unid_321 = format_leolubrificanteusado1unid_321.readFeatures(json_leolubrificanteusado1unid_321, 
+var format_leolubrificanteusado1unid_323 = new ol.format.GeoJSON();
+var features_leolubrificanteusado1unid_323 = format_leolubrificanteusado1unid_323.readFeatures(json_leolubrificanteusado1unid_323, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_leolubrificanteusado1unid_321 = new ol.source.Vector({
+var jsonSource_leolubrificanteusado1unid_323 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_leolubrificanteusado1unid_321.addFeatures(features_leolubrificanteusado1unid_321);
-var lyr_leolubrificanteusado1unid_321 = new ol.layer.Vector({
+jsonSource_leolubrificanteusado1unid_323.addFeatures(features_leolubrificanteusado1unid_323);
+var lyr_leolubrificanteusado1unid_323 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_leolubrificanteusado1unid_321, 
-                style: style_leolubrificanteusado1unid_321,
+                source:jsonSource_leolubrificanteusado1unid_323, 
+                style: style_leolubrificanteusado1unid_323,
                 popuplayertitle: 'Óleo lubrificante usado (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/leolubrificanteusado1unid_321.png" /> Óleo lubrificante usado (1 unid.)'
+                title: '<img src="styles/legend/leolubrificanteusado1unid_323.png" /> Óleo lubrificante usado (1 unid.)'
             });
-var format_Latasdetintametlicasvazias2unid_322 = new ol.format.GeoJSON();
-var features_Latasdetintametlicasvazias2unid_322 = format_Latasdetintametlicasvazias2unid_322.readFeatures(json_Latasdetintametlicasvazias2unid_322, 
+var format_Latasdetintametlicasvazias2unid_324 = new ol.format.GeoJSON();
+var features_Latasdetintametlicasvazias2unid_324 = format_Latasdetintametlicasvazias2unid_324.readFeatures(json_Latasdetintametlicasvazias2unid_324, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Latasdetintametlicasvazias2unid_322 = new ol.source.Vector({
+var jsonSource_Latasdetintametlicasvazias2unid_324 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Latasdetintametlicasvazias2unid_322.addFeatures(features_Latasdetintametlicasvazias2unid_322);
-var lyr_Latasdetintametlicasvazias2unid_322 = new ol.layer.Vector({
+jsonSource_Latasdetintametlicasvazias2unid_324.addFeatures(features_Latasdetintametlicasvazias2unid_324);
+var lyr_Latasdetintametlicasvazias2unid_324 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Latasdetintametlicasvazias2unid_322, 
-                style: style_Latasdetintametlicasvazias2unid_322,
+                source:jsonSource_Latasdetintametlicasvazias2unid_324, 
+                style: style_Latasdetintametlicasvazias2unid_324,
                 popuplayertitle: 'Latas de tinta metálicas vazias (2 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Latasdetintametlicasvazias2unid_322.png" /> Latas de tinta metálicas vazias (2 unid.)'
+                title: '<img src="styles/legend/Latasdetintametlicasvazias2unid_324.png" /> Latas de tinta metálicas vazias (2 unid.)'
             });
-var format_ResduosPerigosos1unid_323 = new ol.format.GeoJSON();
-var features_ResduosPerigosos1unid_323 = format_ResduosPerigosos1unid_323.readFeatures(json_ResduosPerigosos1unid_323, 
+var format_ResduosPerigosos1unid_325 = new ol.format.GeoJSON();
+var features_ResduosPerigosos1unid_325 = format_ResduosPerigosos1unid_325.readFeatures(json_ResduosPerigosos1unid_325, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ResduosPerigosos1unid_323 = new ol.source.Vector({
+var jsonSource_ResduosPerigosos1unid_325 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ResduosPerigosos1unid_323.addFeatures(features_ResduosPerigosos1unid_323);
-var lyr_ResduosPerigosos1unid_323 = new ol.layer.Vector({
+jsonSource_ResduosPerigosos1unid_325.addFeatures(features_ResduosPerigosos1unid_325);
+var lyr_ResduosPerigosos1unid_325 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ResduosPerigosos1unid_323, 
-                style: style_ResduosPerigosos1unid_323,
+                source:jsonSource_ResduosPerigosos1unid_325, 
+                style: style_ResduosPerigosos1unid_325,
                 popuplayertitle: 'Resíduos Perigosos (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ResduosPerigosos1unid_323.png" /> Resíduos Perigosos (1 unid.)'
+                title: '<img src="styles/legend/ResduosPerigosos1unid_325.png" /> Resíduos Perigosos (1 unid.)'
             });
-var format_Madeiras1unid_324 = new ol.format.GeoJSON();
-var features_Madeiras1unid_324 = format_Madeiras1unid_324.readFeatures(json_Madeiras1unid_324, 
+var format_Madeiras1unid_326 = new ol.format.GeoJSON();
+var features_Madeiras1unid_326 = format_Madeiras1unid_326.readFeatures(json_Madeiras1unid_326, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Madeiras1unid_324 = new ol.source.Vector({
+var jsonSource_Madeiras1unid_326 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Madeiras1unid_324.addFeatures(features_Madeiras1unid_324);
-var lyr_Madeiras1unid_324 = new ol.layer.Vector({
+jsonSource_Madeiras1unid_326.addFeatures(features_Madeiras1unid_326);
+var lyr_Madeiras1unid_326 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Madeiras1unid_324, 
-                style: style_Madeiras1unid_324,
+                source:jsonSource_Madeiras1unid_326, 
+                style: style_Madeiras1unid_326,
                 popuplayertitle: 'Madeiras (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Madeiras1unid_324.png" /> Madeiras (1 unid.)'
+                title: '<img src="styles/legend/Madeiras1unid_326.png" /> Madeiras (1 unid.)'
             });
-var format_ResduosdeServiosdeSade21unid_325 = new ol.format.GeoJSON();
-var features_ResduosdeServiosdeSade21unid_325 = format_ResduosdeServiosdeSade21unid_325.readFeatures(json_ResduosdeServiosdeSade21unid_325, 
+var format_ResduosdeServiosdeSade21unid_327 = new ol.format.GeoJSON();
+var features_ResduosdeServiosdeSade21unid_327 = format_ResduosdeServiosdeSade21unid_327.readFeatures(json_ResduosdeServiosdeSade21unid_327, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ResduosdeServiosdeSade21unid_325 = new ol.source.Vector({
+var jsonSource_ResduosdeServiosdeSade21unid_327 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ResduosdeServiosdeSade21unid_325.addFeatures(features_ResduosdeServiosdeSade21unid_325);
-var lyr_ResduosdeServiosdeSade21unid_325 = new ol.layer.Vector({
+jsonSource_ResduosdeServiosdeSade21unid_327.addFeatures(features_ResduosdeServiosdeSade21unid_327);
+var lyr_ResduosdeServiosdeSade21unid_327 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ResduosdeServiosdeSade21unid_325, 
-                style: style_ResduosdeServiosdeSade21unid_325,
+                source:jsonSource_ResduosdeServiosdeSade21unid_327, 
+                style: style_ResduosdeServiosdeSade21unid_327,
                 popuplayertitle: 'Resíduos de Serviços de Saúde (21 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ResduosdeServiosdeSade21unid_325.png" /> Resíduos de Serviços de Saúde (21 unid.)'
+                title: '<img src="styles/legend/ResduosdeServiosdeSade21unid_327.png" /> Resíduos de Serviços de Saúde (21 unid.)'
             });
-var format_PilhaseBaterias17unid_326 = new ol.format.GeoJSON();
-var features_PilhaseBaterias17unid_326 = format_PilhaseBaterias17unid_326.readFeatures(json_PilhaseBaterias17unid_326, 
+var format_PilhaseBaterias17unid_328 = new ol.format.GeoJSON();
+var features_PilhaseBaterias17unid_328 = format_PilhaseBaterias17unid_328.readFeatures(json_PilhaseBaterias17unid_328, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PilhaseBaterias17unid_326 = new ol.source.Vector({
+var jsonSource_PilhaseBaterias17unid_328 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PilhaseBaterias17unid_326.addFeatures(features_PilhaseBaterias17unid_326);
-var lyr_PilhaseBaterias17unid_326 = new ol.layer.Vector({
+jsonSource_PilhaseBaterias17unid_328.addFeatures(features_PilhaseBaterias17unid_328);
+var lyr_PilhaseBaterias17unid_328 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PilhaseBaterias17unid_326, 
-                style: style_PilhaseBaterias17unid_326,
+                source:jsonSource_PilhaseBaterias17unid_328, 
+                style: style_PilhaseBaterias17unid_328,
                 popuplayertitle: 'Pilhas e Baterias (17 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/PilhaseBaterias17unid_326.png" /> Pilhas e Baterias (17 unid.)'
+                title: '<img src="styles/legend/PilhaseBaterias17unid_328.png" /> Pilhas e Baterias (17 unid.)'
             });
-var format_Pneus1unid_327 = new ol.format.GeoJSON();
-var features_Pneus1unid_327 = format_Pneus1unid_327.readFeatures(json_Pneus1unid_327, 
+var format_Pneus1unid_329 = new ol.format.GeoJSON();
+var features_Pneus1unid_329 = format_Pneus1unid_329.readFeatures(json_Pneus1unid_329, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Pneus1unid_327 = new ol.source.Vector({
+var jsonSource_Pneus1unid_329 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Pneus1unid_327.addFeatures(features_Pneus1unid_327);
-var lyr_Pneus1unid_327 = new ol.layer.Vector({
+jsonSource_Pneus1unid_329.addFeatures(features_Pneus1unid_329);
+var lyr_Pneus1unid_329 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Pneus1unid_327, 
-                style: style_Pneus1unid_327,
+                source:jsonSource_Pneus1unid_329, 
+                style: style_Pneus1unid_329,
                 popuplayertitle: 'Pneus (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Pneus1unid_327.png" /> Pneus (1 unid.)'
+                title: '<img src="styles/legend/Pneus1unid_329.png" /> Pneus (1 unid.)'
             });
-var format_Lmpadas4unid_328 = new ol.format.GeoJSON();
-var features_Lmpadas4unid_328 = format_Lmpadas4unid_328.readFeatures(json_Lmpadas4unid_328, 
+var format_Lmpadas4unid_330 = new ol.format.GeoJSON();
+var features_Lmpadas4unid_330 = format_Lmpadas4unid_330.readFeatures(json_Lmpadas4unid_330, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Lmpadas4unid_328 = new ol.source.Vector({
+var jsonSource_Lmpadas4unid_330 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Lmpadas4unid_328.addFeatures(features_Lmpadas4unid_328);
-var lyr_Lmpadas4unid_328 = new ol.layer.Vector({
+jsonSource_Lmpadas4unid_330.addFeatures(features_Lmpadas4unid_330);
+var lyr_Lmpadas4unid_330 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Lmpadas4unid_328, 
-                style: style_Lmpadas4unid_328,
+                source:jsonSource_Lmpadas4unid_330, 
+                style: style_Lmpadas4unid_330,
                 popuplayertitle: 'Lâmpadas (4 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Lmpadas4unid_328.png" /> Lâmpadas (4 unid.)'
+                title: '<img src="styles/legend/Lmpadas4unid_330.png" /> Lâmpadas (4 unid.)'
             });
-var format_ResduosdeCouro1unid_329 = new ol.format.GeoJSON();
-var features_ResduosdeCouro1unid_329 = format_ResduosdeCouro1unid_329.readFeatures(json_ResduosdeCouro1unid_329, 
+var format_ResduosdeCouro1unid_331 = new ol.format.GeoJSON();
+var features_ResduosdeCouro1unid_331 = format_ResduosdeCouro1unid_331.readFeatures(json_ResduosdeCouro1unid_331, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ResduosdeCouro1unid_329 = new ol.source.Vector({
+var jsonSource_ResduosdeCouro1unid_331 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ResduosdeCouro1unid_329.addFeatures(features_ResduosdeCouro1unid_329);
-var lyr_ResduosdeCouro1unid_329 = new ol.layer.Vector({
+jsonSource_ResduosdeCouro1unid_331.addFeatures(features_ResduosdeCouro1unid_331);
+var lyr_ResduosdeCouro1unid_331 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ResduosdeCouro1unid_329, 
-                style: style_ResduosdeCouro1unid_329,
+                source:jsonSource_ResduosdeCouro1unid_331, 
+                style: style_ResduosdeCouro1unid_331,
                 popuplayertitle: 'Resíduos de Couro (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ResduosdeCouro1unid_329.png" /> Resíduos de Couro (1 unid.)'
+                title: '<img src="styles/legend/ResduosdeCouro1unid_331.png" /> Resíduos de Couro (1 unid.)'
             });
-var format_ResduosEletrnicos2unid_330 = new ol.format.GeoJSON();
-var features_ResduosEletrnicos2unid_330 = format_ResduosEletrnicos2unid_330.readFeatures(json_ResduosEletrnicos2unid_330, 
+var format_ResduosEletrnicos2unid_332 = new ol.format.GeoJSON();
+var features_ResduosEletrnicos2unid_332 = format_ResduosEletrnicos2unid_332.readFeatures(json_ResduosEletrnicos2unid_332, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ResduosEletrnicos2unid_330 = new ol.source.Vector({
+var jsonSource_ResduosEletrnicos2unid_332 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ResduosEletrnicos2unid_330.addFeatures(features_ResduosEletrnicos2unid_330);
-var lyr_ResduosEletrnicos2unid_330 = new ol.layer.Vector({
+jsonSource_ResduosEletrnicos2unid_332.addFeatures(features_ResduosEletrnicos2unid_332);
+var lyr_ResduosEletrnicos2unid_332 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ResduosEletrnicos2unid_330, 
-                style: style_ResduosEletrnicos2unid_330,
+                source:jsonSource_ResduosEletrnicos2unid_332, 
+                style: style_ResduosEletrnicos2unid_332,
                 popuplayertitle: 'Resíduos Eletrônicos (2 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ResduosEletrnicos2unid_330.png" /> Resíduos Eletrônicos (2 unid.)'
+                title: '<img src="styles/legend/ResduosEletrnicos2unid_332.png" /> Resíduos Eletrônicos (2 unid.)'
             });
-var format_ResduosReciclveis15unid_331 = new ol.format.GeoJSON();
-var features_ResduosReciclveis15unid_331 = format_ResduosReciclveis15unid_331.readFeatures(json_ResduosReciclveis15unid_331, 
+var format_ResduosReciclveis15unid_333 = new ol.format.GeoJSON();
+var features_ResduosReciclveis15unid_333 = format_ResduosReciclveis15unid_333.readFeatures(json_ResduosReciclveis15unid_333, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ResduosReciclveis15unid_331 = new ol.source.Vector({
+var jsonSource_ResduosReciclveis15unid_333 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ResduosReciclveis15unid_331.addFeatures(features_ResduosReciclveis15unid_331);
-var lyr_ResduosReciclveis15unid_331 = new ol.layer.Vector({
+jsonSource_ResduosReciclveis15unid_333.addFeatures(features_ResduosReciclveis15unid_333);
+var lyr_ResduosReciclveis15unid_333 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ResduosReciclveis15unid_331, 
-                style: style_ResduosReciclveis15unid_331,
+                source:jsonSource_ResduosReciclveis15unid_333, 
+                style: style_ResduosReciclveis15unid_333,
                 popuplayertitle: 'Resíduos Recicláveis (15 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ResduosReciclveis15unid_331.png" /> Resíduos Recicláveis (15 unid.)'
+                title: '<img src="styles/legend/ResduosReciclveis15unid_333.png" /> Resíduos Recicláveis (15 unid.)'
             });
-var format_ResduosInservveis4unid_332 = new ol.format.GeoJSON();
-var features_ResduosInservveis4unid_332 = format_ResduosInservveis4unid_332.readFeatures(json_ResduosInservveis4unid_332, 
+var format_ResduosInservveis4unid_334 = new ol.format.GeoJSON();
+var features_ResduosInservveis4unid_334 = format_ResduosInservveis4unid_334.readFeatures(json_ResduosInservveis4unid_334, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ResduosInservveis4unid_332 = new ol.source.Vector({
+var jsonSource_ResduosInservveis4unid_334 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ResduosInservveis4unid_332.addFeatures(features_ResduosInservveis4unid_332);
-var lyr_ResduosInservveis4unid_332 = new ol.layer.Vector({
+jsonSource_ResduosInservveis4unid_334.addFeatures(features_ResduosInservveis4unid_334);
+var lyr_ResduosInservveis4unid_334 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ResduosInservveis4unid_332, 
-                style: style_ResduosInservveis4unid_332,
+                source:jsonSource_ResduosInservveis4unid_334, 
+                style: style_ResduosInservveis4unid_334,
                 popuplayertitle: 'Resíduos Inservíveis (4 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/ResduosInservveis4unid_332.png" /> Resíduos Inservíveis (4 unid.)'
+                title: '<img src="styles/legend/ResduosInservveis4unid_334.png" /> Resíduos Inservíveis (4 unid.)'
             });
-var format_PBZPAEdifcioPrimeHELIPONTO_333 = new ol.format.GeoJSON();
-var features_PBZPAEdifcioPrimeHELIPONTO_333 = format_PBZPAEdifcioPrimeHELIPONTO_333.readFeatures(json_PBZPAEdifcioPrimeHELIPONTO_333, 
+var format_PBZPAEdifcioPrimeHELIPONTO_335 = new ol.format.GeoJSON();
+var features_PBZPAEdifcioPrimeHELIPONTO_335 = format_PBZPAEdifcioPrimeHELIPONTO_335.readFeatures(json_PBZPAEdifcioPrimeHELIPONTO_335, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PBZPAEdifcioPrimeHELIPONTO_333 = new ol.source.Vector({
+var jsonSource_PBZPAEdifcioPrimeHELIPONTO_335 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PBZPAEdifcioPrimeHELIPONTO_333.addFeatures(features_PBZPAEdifcioPrimeHELIPONTO_333);
-var lyr_PBZPAEdifcioPrimeHELIPONTO_333 = new ol.layer.Vector({
+jsonSource_PBZPAEdifcioPrimeHELIPONTO_335.addFeatures(features_PBZPAEdifcioPrimeHELIPONTO_335);
+var lyr_PBZPAEdifcioPrimeHELIPONTO_335 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PBZPAEdifcioPrimeHELIPONTO_333, 
-                style: style_PBZPAEdifcioPrimeHELIPONTO_333,
+                source:jsonSource_PBZPAEdifcioPrimeHELIPONTO_335, 
+                style: style_PBZPAEdifcioPrimeHELIPONTO_335,
                 popuplayertitle: 'PBZPA - Edifício Prime (HELIPONTO)',
                 interactive: true,
-                title: '<img src="styles/legend/PBZPAEdifcioPrimeHELIPONTO_333.png" /> PBZPA - Edifício Prime (HELIPONTO)'
+                title: '<img src="styles/legend/PBZPAEdifcioPrimeHELIPONTO_335.png" /> PBZPA - Edifício Prime (HELIPONTO)'
             });
-var format_PBZPAEdifcioPrimeHELIPONTO_334 = new ol.format.GeoJSON();
-var features_PBZPAEdifcioPrimeHELIPONTO_334 = format_PBZPAEdifcioPrimeHELIPONTO_334.readFeatures(json_PBZPAEdifcioPrimeHELIPONTO_334, 
+var format_PBZPAEdifcioPrimeHELIPONTO_336 = new ol.format.GeoJSON();
+var features_PBZPAEdifcioPrimeHELIPONTO_336 = format_PBZPAEdifcioPrimeHELIPONTO_336.readFeatures(json_PBZPAEdifcioPrimeHELIPONTO_336, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PBZPAEdifcioPrimeHELIPONTO_334 = new ol.source.Vector({
+var jsonSource_PBZPAEdifcioPrimeHELIPONTO_336 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PBZPAEdifcioPrimeHELIPONTO_334.addFeatures(features_PBZPAEdifcioPrimeHELIPONTO_334);
-var lyr_PBZPAEdifcioPrimeHELIPONTO_334 = new ol.layer.Vector({
+jsonSource_PBZPAEdifcioPrimeHELIPONTO_336.addFeatures(features_PBZPAEdifcioPrimeHELIPONTO_336);
+var lyr_PBZPAEdifcioPrimeHELIPONTO_336 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PBZPAEdifcioPrimeHELIPONTO_334, 
-                style: style_PBZPAEdifcioPrimeHELIPONTO_334,
+                source:jsonSource_PBZPAEdifcioPrimeHELIPONTO_336, 
+                style: style_PBZPAEdifcioPrimeHELIPONTO_336,
                 popuplayertitle: 'PBZPA - Edifício Prime (HELIPONTO)',
                 interactive: true,
     title: 'PBZPA - Edifício Prime (HELIPONTO)<br />\
-    <img src="styles/legend/PBZPAEdifcioPrimeHELIPONTO_334_0.png" /> HELIPONTO<br />\
-    <img src="styles/legend/PBZPAEdifcioPrimeHELIPONTO_334_1.png" /> RAMPA<br />' });
-var format_PBZPAHospitalHELIPONTO_335 = new ol.format.GeoJSON();
-var features_PBZPAHospitalHELIPONTO_335 = format_PBZPAHospitalHELIPONTO_335.readFeatures(json_PBZPAHospitalHELIPONTO_335, 
+    <img src="styles/legend/PBZPAEdifcioPrimeHELIPONTO_336_0.png" /> HELIPONTO<br />\
+    <img src="styles/legend/PBZPAEdifcioPrimeHELIPONTO_336_1.png" /> RAMPA<br />' });
+var format_PBZPAHospitalHELIPONTO_337 = new ol.format.GeoJSON();
+var features_PBZPAHospitalHELIPONTO_337 = format_PBZPAHospitalHELIPONTO_337.readFeatures(json_PBZPAHospitalHELIPONTO_337, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PBZPAHospitalHELIPONTO_335 = new ol.source.Vector({
+var jsonSource_PBZPAHospitalHELIPONTO_337 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PBZPAHospitalHELIPONTO_335.addFeatures(features_PBZPAHospitalHELIPONTO_335);
-var lyr_PBZPAHospitalHELIPONTO_335 = new ol.layer.Vector({
+jsonSource_PBZPAHospitalHELIPONTO_337.addFeatures(features_PBZPAHospitalHELIPONTO_337);
+var lyr_PBZPAHospitalHELIPONTO_337 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PBZPAHospitalHELIPONTO_335, 
-                style: style_PBZPAHospitalHELIPONTO_335,
+                source:jsonSource_PBZPAHospitalHELIPONTO_337, 
+                style: style_PBZPAHospitalHELIPONTO_337,
                 popuplayertitle: 'PBZPA - Hospital (HELIPONTO)',
                 interactive: true,
     title: 'PBZPA - Hospital (HELIPONTO)<br />\
-    <img src="styles/legend/PBZPAHospitalHELIPONTO_335_0.png" /> Aproximação 1 seção 1<br />\
-    <img src="styles/legend/PBZPAHospitalHELIPONTO_335_1.png" /> Aproximação 2 seção 1<br />\
-    <img src="styles/legend/PBZPAHospitalHELIPONTO_335_2.png" /> Area de Segurança 1<br />\
-    <img src="styles/legend/PBZPAHospitalHELIPONTO_335_3.png" /> Decolagem 1 seção 1<br />\
-    <img src="styles/legend/PBZPAHospitalHELIPONTO_335_4.png" /> Decolagem 2 seção 1<br />\
-    <img src="styles/legend/PBZPAHospitalHELIPONTO_335_5.png" /> FATO 1<br />\
-    <img src="styles/legend/PBZPAHospitalHELIPONTO_335_6.png" /> TLOF 1<br />' });
-var format_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336 = new ol.format.GeoJSON();
-var features_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336 = format_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336.readFeatures(json_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336, 
+    <img src="styles/legend/PBZPAHospitalHELIPONTO_337_0.png" /> Aproximação 1 seção 1<br />\
+    <img src="styles/legend/PBZPAHospitalHELIPONTO_337_1.png" /> Aproximação 2 seção 1<br />\
+    <img src="styles/legend/PBZPAHospitalHELIPONTO_337_2.png" /> Area de Segurança 1<br />\
+    <img src="styles/legend/PBZPAHospitalHELIPONTO_337_3.png" /> Decolagem 1 seção 1<br />\
+    <img src="styles/legend/PBZPAHospitalHELIPONTO_337_4.png" /> Decolagem 2 seção 1<br />\
+    <img src="styles/legend/PBZPAHospitalHELIPONTO_337_5.png" /> FATO 1<br />\
+    <img src="styles/legend/PBZPAHospitalHELIPONTO_337_6.png" /> TLOF 1<br />' });
+var format_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338 = new ol.format.GeoJSON();
+var features_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338 = format_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338.readFeatures(json_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336 = new ol.source.Vector({
+var jsonSource_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336.addFeatures(features_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336);
-var lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336 = new ol.layer.Vector({
+jsonSource_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338.addFeatures(features_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338);
+var lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336, 
-                style: style_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336,
+                source:jsonSource_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338, 
+                style: style_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338,
                 popuplayertitle: 'Plano Básico de Zona de Proteção de Aeródromo (PBZPA)',
                 interactive: true,
     title: 'Plano Básico de Zona de Proteção de Aeródromo (PBZPA)<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_0.png" /> Aproximação 1 Cab 1<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_1.png" /> Aproximação 1 Cab 2<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_2.png" /> Cônica<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_3.png" /> Decolagem Cab 1<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_4.png" /> Decolagem Cab 2<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_5.png" /> Faixa de Pista<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_6.png" /> Horizontal Interna<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_7.png" /> Linha entre cabeceiras<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_8.png" /> Pista<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_9.png" /> SPVV 1<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_10.png" /> SPVV 2<br />\
-    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_336_11.png" /> Transição<br />' });
-var format_ClasseVB_337 = new ol.format.GeoJSON();
-var features_ClasseVB_337 = format_ClasseVB_337.readFeatures(json_ClasseVB_337, 
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_0.png" /> Aproximação 1 Cab 1<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_1.png" /> Aproximação 1 Cab 2<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_2.png" /> Cônica<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_3.png" /> Decolagem Cab 1<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_4.png" /> Decolagem Cab 2<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_5.png" /> Faixa de Pista<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_6.png" /> Horizontal Interna<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_7.png" /> Linha entre cabeceiras<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_8.png" /> Pista<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_9.png" /> SPVV 1<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_10.png" /> SPVV 2<br />\
+    <img src="styles/legend/PlanoBsicodeZonadeProteodeAerdromoPBZPA_338_11.png" /> Transição<br />' });
+var format_ClasseVB_339 = new ol.format.GeoJSON();
+var features_ClasseVB_339 = format_ClasseVB_339.readFeatures(json_ClasseVB_339, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseVB_337 = new ol.source.Vector({
+var jsonSource_ClasseVB_339 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseVB_337.addFeatures(features_ClasseVB_337);
-var lyr_ClasseVB_337 = new ol.layer.Vector({
+jsonSource_ClasseVB_339.addFeatures(features_ClasseVB_339);
+var lyr_ClasseVB_339 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseVB_337, 
-                style: style_ClasseVB_337,
+                source:jsonSource_ClasseVB_339, 
+                style: style_ClasseVB_339,
                 popuplayertitle: 'Classe VB',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseVB_337.png" /> Classe VB'
+                title: '<img src="styles/legend/ClasseVB_339.png" /> Classe VB'
             });
-var format_ClasseVA_338 = new ol.format.GeoJSON();
-var features_ClasseVA_338 = format_ClasseVA_338.readFeatures(json_ClasseVA_338, 
+var format_ClasseVA_340 = new ol.format.GeoJSON();
+var features_ClasseVA_340 = format_ClasseVA_340.readFeatures(json_ClasseVA_340, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseVA_338 = new ol.source.Vector({
+var jsonSource_ClasseVA_340 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseVA_338.addFeatures(features_ClasseVA_338);
-var lyr_ClasseVA_338 = new ol.layer.Vector({
+jsonSource_ClasseVA_340.addFeatures(features_ClasseVA_340);
+var lyr_ClasseVA_340 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseVA_338, 
-                style: style_ClasseVA_338,
+                source:jsonSource_ClasseVA_340, 
+                style: style_ClasseVA_340,
                 popuplayertitle: 'Classe VA',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseVA_338.png" /> Classe VA'
+                title: '<img src="styles/legend/ClasseVA_340.png" /> Classe VA'
             });
-var format_ClasseIVC_339 = new ol.format.GeoJSON();
-var features_ClasseIVC_339 = format_ClasseIVC_339.readFeatures(json_ClasseIVC_339, 
+var format_ClasseIVC_341 = new ol.format.GeoJSON();
+var features_ClasseIVC_341 = format_ClasseIVC_341.readFeatures(json_ClasseIVC_341, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseIVC_339 = new ol.source.Vector({
+var jsonSource_ClasseIVC_341 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseIVC_339.addFeatures(features_ClasseIVC_339);
-var lyr_ClasseIVC_339 = new ol.layer.Vector({
+jsonSource_ClasseIVC_341.addFeatures(features_ClasseIVC_341);
+var lyr_ClasseIVC_341 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseIVC_339, 
-                style: style_ClasseIVC_339,
+                source:jsonSource_ClasseIVC_341, 
+                style: style_ClasseIVC_341,
                 popuplayertitle: 'Classe IVC',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseIVC_339.png" /> Classe IVC'
+                title: '<img src="styles/legend/ClasseIVC_341.png" /> Classe IVC'
             });
-var format_ClasseIVB_340 = new ol.format.GeoJSON();
-var features_ClasseIVB_340 = format_ClasseIVB_340.readFeatures(json_ClasseIVB_340, 
+var format_ClasseIVB_342 = new ol.format.GeoJSON();
+var features_ClasseIVB_342 = format_ClasseIVB_342.readFeatures(json_ClasseIVB_342, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseIVB_340 = new ol.source.Vector({
+var jsonSource_ClasseIVB_342 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseIVB_340.addFeatures(features_ClasseIVB_340);
-var lyr_ClasseIVB_340 = new ol.layer.Vector({
+jsonSource_ClasseIVB_342.addFeatures(features_ClasseIVB_342);
+var lyr_ClasseIVB_342 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseIVB_340, 
-                style: style_ClasseIVB_340,
+                source:jsonSource_ClasseIVB_342, 
+                style: style_ClasseIVB_342,
                 popuplayertitle: 'Classe IVB',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseIVB_340.png" /> Classe IVB'
+                title: '<img src="styles/legend/ClasseIVB_342.png" /> Classe IVB'
             });
-var format_ClasseIVA_341 = new ol.format.GeoJSON();
-var features_ClasseIVA_341 = format_ClasseIVA_341.readFeatures(json_ClasseIVA_341, 
+var format_ClasseIVA_343 = new ol.format.GeoJSON();
+var features_ClasseIVA_343 = format_ClasseIVA_343.readFeatures(json_ClasseIVA_343, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseIVA_341 = new ol.source.Vector({
+var jsonSource_ClasseIVA_343 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseIVA_341.addFeatures(features_ClasseIVA_341);
-var lyr_ClasseIVA_341 = new ol.layer.Vector({
+jsonSource_ClasseIVA_343.addFeatures(features_ClasseIVA_343);
+var lyr_ClasseIVA_343 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseIVA_341, 
-                style: style_ClasseIVA_341,
+                source:jsonSource_ClasseIVA_343, 
+                style: style_ClasseIVA_343,
                 popuplayertitle: 'Classe IVA',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseIVA_341.png" /> Classe IVA'
+                title: '<img src="styles/legend/ClasseIVA_343.png" /> Classe IVA'
             });
-var format_ClasseIIIC_342 = new ol.format.GeoJSON();
-var features_ClasseIIIC_342 = format_ClasseIIIC_342.readFeatures(json_ClasseIIIC_342, 
+var format_ClasseIIIC_344 = new ol.format.GeoJSON();
+var features_ClasseIIIC_344 = format_ClasseIIIC_344.readFeatures(json_ClasseIIIC_344, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseIIIC_342 = new ol.source.Vector({
+var jsonSource_ClasseIIIC_344 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseIIIC_342.addFeatures(features_ClasseIIIC_342);
-var lyr_ClasseIIIC_342 = new ol.layer.Vector({
+jsonSource_ClasseIIIC_344.addFeatures(features_ClasseIIIC_344);
+var lyr_ClasseIIIC_344 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseIIIC_342, 
-                style: style_ClasseIIIC_342,
+                source:jsonSource_ClasseIIIC_344, 
+                style: style_ClasseIIIC_344,
                 popuplayertitle: 'Classe IIIC',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseIIIC_342.png" /> Classe IIIC'
+                title: '<img src="styles/legend/ClasseIIIC_344.png" /> Classe IIIC'
             });
-var format_ClasseIIIB_343 = new ol.format.GeoJSON();
-var features_ClasseIIIB_343 = format_ClasseIIIB_343.readFeatures(json_ClasseIIIB_343, 
+var format_ClasseIIIB_345 = new ol.format.GeoJSON();
+var features_ClasseIIIB_345 = format_ClasseIIIB_345.readFeatures(json_ClasseIIIB_345, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseIIIB_343 = new ol.source.Vector({
+var jsonSource_ClasseIIIB_345 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseIIIB_343.addFeatures(features_ClasseIIIB_343);
-var lyr_ClasseIIIB_343 = new ol.layer.Vector({
+jsonSource_ClasseIIIB_345.addFeatures(features_ClasseIIIB_345);
+var lyr_ClasseIIIB_345 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseIIIB_343, 
-                style: style_ClasseIIIB_343,
+                source:jsonSource_ClasseIIIB_345, 
+                style: style_ClasseIIIB_345,
                 popuplayertitle: 'Classe IIIB',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseIIIB_343.png" /> Classe IIIB'
+                title: '<img src="styles/legend/ClasseIIIB_345.png" /> Classe IIIB'
             });
-var format_ClasseIIIA_344 = new ol.format.GeoJSON();
-var features_ClasseIIIA_344 = format_ClasseIIIA_344.readFeatures(json_ClasseIIIA_344, 
+var format_ClasseIIIA_346 = new ol.format.GeoJSON();
+var features_ClasseIIIA_346 = format_ClasseIIIA_346.readFeatures(json_ClasseIIIA_346, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseIIIA_344 = new ol.source.Vector({
+var jsonSource_ClasseIIIA_346 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseIIIA_344.addFeatures(features_ClasseIIIA_344);
-var lyr_ClasseIIIA_344 = new ol.layer.Vector({
+jsonSource_ClasseIIIA_346.addFeatures(features_ClasseIIIA_346);
+var lyr_ClasseIIIA_346 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseIIIA_344, 
-                style: style_ClasseIIIA_344,
+                source:jsonSource_ClasseIIIA_346, 
+                style: style_ClasseIIIA_346,
                 popuplayertitle: 'Classe IIIA',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseIIIA_344.png" /> Classe IIIA'
+                title: '<img src="styles/legend/ClasseIIIA_346.png" /> Classe IIIA'
             });
-var format_ClasseII_345 = new ol.format.GeoJSON();
-var features_ClasseII_345 = format_ClasseII_345.readFeatures(json_ClasseII_345, 
+var format_ClasseII_347 = new ol.format.GeoJSON();
+var features_ClasseII_347 = format_ClasseII_347.readFeatures(json_ClasseII_347, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseII_345 = new ol.source.Vector({
+var jsonSource_ClasseII_347 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseII_345.addFeatures(features_ClasseII_345);
-var lyr_ClasseII_345 = new ol.layer.Vector({
+jsonSource_ClasseII_347.addFeatures(features_ClasseII_347);
+var lyr_ClasseII_347 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseII_345, 
-                style: style_ClasseII_345,
+                source:jsonSource_ClasseII_347, 
+                style: style_ClasseII_347,
                 popuplayertitle: 'Classe II',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseII_345.png" /> Classe II'
+                title: '<img src="styles/legend/ClasseII_347.png" /> Classe II'
             });
-var format_ClasseI_346 = new ol.format.GeoJSON();
-var features_ClasseI_346 = format_ClasseI_346.readFeatures(json_ClasseI_346, 
+var format_ClasseI_348 = new ol.format.GeoJSON();
+var features_ClasseI_348 = format_ClasseI_348.readFeatures(json_ClasseI_348, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ClasseI_346 = new ol.source.Vector({
+var jsonSource_ClasseI_348 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ClasseI_346.addFeatures(features_ClasseI_346);
-var lyr_ClasseI_346 = new ol.layer.Vector({
+jsonSource_ClasseI_348.addFeatures(features_ClasseI_348);
+var lyr_ClasseI_348 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ClasseI_346, 
-                style: style_ClasseI_346,
+                source:jsonSource_ClasseI_348, 
+                style: style_ClasseI_348,
                 popuplayertitle: 'Classe I',
                 interactive: true,
-                title: '<img src="styles/legend/ClasseI_346.png" /> Classe I'
+                title: '<img src="styles/legend/ClasseI_348.png" /> Classe I'
             });
-var format_RegioCentroLeste42unid675453694m_347 = new ol.format.GeoJSON();
-var features_RegioCentroLeste42unid675453694m_347 = format_RegioCentroLeste42unid675453694m_347.readFeatures(json_RegioCentroLeste42unid675453694m_347, 
+var format_RegioCentroLeste42unid675453694m_349 = new ol.format.GeoJSON();
+var features_RegioCentroLeste42unid675453694m_349 = format_RegioCentroLeste42unid675453694m_349.readFeatures(json_RegioCentroLeste42unid675453694m_349, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioCentroLeste42unid675453694m_347 = new ol.source.Vector({
+var jsonSource_RegioCentroLeste42unid675453694m_349 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioCentroLeste42unid675453694m_347.addFeatures(features_RegioCentroLeste42unid675453694m_347);
-var lyr_RegioCentroLeste42unid675453694m_347 = new ol.layer.Vector({
+jsonSource_RegioCentroLeste42unid675453694m_349.addFeatures(features_RegioCentroLeste42unid675453694m_349);
+var lyr_RegioCentroLeste42unid675453694m_349 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioCentroLeste42unid675453694m_347, 
-                style: style_RegioCentroLeste42unid675453694m_347,
+                source:jsonSource_RegioCentroLeste42unid675453694m_349, 
+                style: style_RegioCentroLeste42unid675453694m_349,
                 popuplayertitle: 'Região Centro Leste (42 unid. / 6.754.536,94 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioCentroLeste42unid675453694m_347.png" /> Região Centro Leste (42 unid. / 6.754.536,94 m²)'
+                title: '<img src="styles/legend/RegioCentroLeste42unid675453694m_349.png" /> Região Centro Leste (42 unid. / 6.754.536,94 m²)'
             });
-var format_RegioLesteNordeste50unid1233454938m_348 = new ol.format.GeoJSON();
-var features_RegioLesteNordeste50unid1233454938m_348 = format_RegioLesteNordeste50unid1233454938m_348.readFeatures(json_RegioLesteNordeste50unid1233454938m_348, 
+var format_RegioLesteNordeste50unid1233454938m_350 = new ol.format.GeoJSON();
+var features_RegioLesteNordeste50unid1233454938m_350 = format_RegioLesteNordeste50unid1233454938m_350.readFeatures(json_RegioLesteNordeste50unid1233454938m_350, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioLesteNordeste50unid1233454938m_348 = new ol.source.Vector({
+var jsonSource_RegioLesteNordeste50unid1233454938m_350 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioLesteNordeste50unid1233454938m_348.addFeatures(features_RegioLesteNordeste50unid1233454938m_348);
-var lyr_RegioLesteNordeste50unid1233454938m_348 = new ol.layer.Vector({
+jsonSource_RegioLesteNordeste50unid1233454938m_350.addFeatures(features_RegioLesteNordeste50unid1233454938m_350);
+var lyr_RegioLesteNordeste50unid1233454938m_350 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioLesteNordeste50unid1233454938m_348, 
-                style: style_RegioLesteNordeste50unid1233454938m_348,
+                source:jsonSource_RegioLesteNordeste50unid1233454938m_350, 
+                style: style_RegioLesteNordeste50unid1233454938m_350,
                 popuplayertitle: 'Região Leste Nordeste (50 unid. / 12.334.549,38 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioLesteNordeste50unid1233454938m_348.png" /> Região Leste Nordeste (50 unid. / 12.334.549,38 m²)'
+                title: '<img src="styles/legend/RegioLesteNordeste50unid1233454938m_350.png" /> Região Leste Nordeste (50 unid. / 12.334.549,38 m²)'
             });
-var format_RegioNorteI45unid1043752016m_349 = new ol.format.GeoJSON();
-var features_RegioNorteI45unid1043752016m_349 = format_RegioNorteI45unid1043752016m_349.readFeatures(json_RegioNorteI45unid1043752016m_349, 
+var format_RegioNorteI45unid1043752016m_351 = new ol.format.GeoJSON();
+var features_RegioNorteI45unid1043752016m_351 = format_RegioNorteI45unid1043752016m_351.readFeatures(json_RegioNorteI45unid1043752016m_351, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioNorteI45unid1043752016m_349 = new ol.source.Vector({
+var jsonSource_RegioNorteI45unid1043752016m_351 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioNorteI45unid1043752016m_349.addFeatures(features_RegioNorteI45unid1043752016m_349);
-var lyr_RegioNorteI45unid1043752016m_349 = new ol.layer.Vector({
+jsonSource_RegioNorteI45unid1043752016m_351.addFeatures(features_RegioNorteI45unid1043752016m_351);
+var lyr_RegioNorteI45unid1043752016m_351 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioNorteI45unid1043752016m_349, 
-                style: style_RegioNorteI45unid1043752016m_349,
+                source:jsonSource_RegioNorteI45unid1043752016m_351, 
+                style: style_RegioNorteI45unid1043752016m_351,
                 popuplayertitle: 'Região Norte I (45 unid. / 10.437.520,16 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioNorteI45unid1043752016m_349.png" /> Região Norte I (45 unid. / 10.437.520,16 m²)'
+                title: '<img src="styles/legend/RegioNorteI45unid1043752016m_351.png" /> Região Norte I (45 unid. / 10.437.520,16 m²)'
             });
-var format_RegioNorteII36unid859331837m_350 = new ol.format.GeoJSON();
-var features_RegioNorteII36unid859331837m_350 = format_RegioNorteII36unid859331837m_350.readFeatures(json_RegioNorteII36unid859331837m_350, 
+var format_RegioNorteII36unid859331837m_352 = new ol.format.GeoJSON();
+var features_RegioNorteII36unid859331837m_352 = format_RegioNorteII36unid859331837m_352.readFeatures(json_RegioNorteII36unid859331837m_352, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioNorteII36unid859331837m_350 = new ol.source.Vector({
+var jsonSource_RegioNorteII36unid859331837m_352 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioNorteII36unid859331837m_350.addFeatures(features_RegioNorteII36unid859331837m_350);
-var lyr_RegioNorteII36unid859331837m_350 = new ol.layer.Vector({
+jsonSource_RegioNorteII36unid859331837m_352.addFeatures(features_RegioNorteII36unid859331837m_352);
+var lyr_RegioNorteII36unid859331837m_352 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioNorteII36unid859331837m_350, 
-                style: style_RegioNorteII36unid859331837m_350,
+                source:jsonSource_RegioNorteII36unid859331837m_352, 
+                style: style_RegioNorteII36unid859331837m_352,
                 popuplayertitle: 'Região Norte II (36 unid. / 8.593.318,37 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioNorteII36unid859331837m_350.png" /> Região Norte II (36 unid. / 8.593.318,37 m²)'
+                title: '<img src="styles/legend/RegioNorteII36unid859331837m_352.png" /> Região Norte II (36 unid. / 8.593.318,37 m²)'
             });
-var format_RegioOesteI65unid1245065890m_351 = new ol.format.GeoJSON();
-var features_RegioOesteI65unid1245065890m_351 = format_RegioOesteI65unid1245065890m_351.readFeatures(json_RegioOesteI65unid1245065890m_351, 
+var format_RegioOesteI65unid1245065890m_353 = new ol.format.GeoJSON();
+var features_RegioOesteI65unid1245065890m_353 = format_RegioOesteI65unid1245065890m_353.readFeatures(json_RegioOesteI65unid1245065890m_353, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioOesteI65unid1245065890m_351 = new ol.source.Vector({
+var jsonSource_RegioOesteI65unid1245065890m_353 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioOesteI65unid1245065890m_351.addFeatures(features_RegioOesteI65unid1245065890m_351);
-var lyr_RegioOesteI65unid1245065890m_351 = new ol.layer.Vector({
+jsonSource_RegioOesteI65unid1245065890m_353.addFeatures(features_RegioOesteI65unid1245065890m_353);
+var lyr_RegioOesteI65unid1245065890m_353 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioOesteI65unid1245065890m_351, 
-                style: style_RegioOesteI65unid1245065890m_351,
+                source:jsonSource_RegioOesteI65unid1245065890m_353, 
+                style: style_RegioOesteI65unid1245065890m_353,
                 popuplayertitle: 'Região Oeste I (65 unid. / 12.450.658,90 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioOesteI65unid1245065890m_351.png" /> Região Oeste I (65 unid. / 12.450.658,90 m²)'
+                title: '<img src="styles/legend/RegioOesteI65unid1245065890m_353.png" /> Região Oeste I (65 unid. / 12.450.658,90 m²)'
             });
-var format_RegioOesteII43unid599615871m_352 = new ol.format.GeoJSON();
-var features_RegioOesteII43unid599615871m_352 = format_RegioOesteII43unid599615871m_352.readFeatures(json_RegioOesteII43unid599615871m_352, 
+var format_RegioOesteII43unid599615871m_354 = new ol.format.GeoJSON();
+var features_RegioOesteII43unid599615871m_354 = format_RegioOesteII43unid599615871m_354.readFeatures(json_RegioOesteII43unid599615871m_354, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioOesteII43unid599615871m_352 = new ol.source.Vector({
+var jsonSource_RegioOesteII43unid599615871m_354 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioOesteII43unid599615871m_352.addFeatures(features_RegioOesteII43unid599615871m_352);
-var lyr_RegioOesteII43unid599615871m_352 = new ol.layer.Vector({
+jsonSource_RegioOesteII43unid599615871m_354.addFeatures(features_RegioOesteII43unid599615871m_354);
+var lyr_RegioOesteII43unid599615871m_354 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioOesteII43unid599615871m_352, 
-                style: style_RegioOesteII43unid599615871m_352,
+                source:jsonSource_RegioOesteII43unid599615871m_354, 
+                style: style_RegioOesteII43unid599615871m_354,
                 popuplayertitle: 'Região Oeste II (43 unid. / 5.996.158,71 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioOesteII43unid599615871m_352.png" /> Região Oeste II (43 unid. / 5.996.158,71 m²)'
+                title: '<img src="styles/legend/RegioOesteII43unid599615871m_354.png" /> Região Oeste II (43 unid. / 5.996.158,71 m²)'
             });
-var format_RegioSudeste38unid579321135m_353 = new ol.format.GeoJSON();
-var features_RegioSudeste38unid579321135m_353 = format_RegioSudeste38unid579321135m_353.readFeatures(json_RegioSudeste38unid579321135m_353, 
+var format_RegioSudeste38unid579321135m_355 = new ol.format.GeoJSON();
+var features_RegioSudeste38unid579321135m_355 = format_RegioSudeste38unid579321135m_355.readFeatures(json_RegioSudeste38unid579321135m_355, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioSudeste38unid579321135m_353 = new ol.source.Vector({
+var jsonSource_RegioSudeste38unid579321135m_355 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioSudeste38unid579321135m_353.addFeatures(features_RegioSudeste38unid579321135m_353);
-var lyr_RegioSudeste38unid579321135m_353 = new ol.layer.Vector({
+jsonSource_RegioSudeste38unid579321135m_355.addFeatures(features_RegioSudeste38unid579321135m_355);
+var lyr_RegioSudeste38unid579321135m_355 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioSudeste38unid579321135m_353, 
-                style: style_RegioSudeste38unid579321135m_353,
+                source:jsonSource_RegioSudeste38unid579321135m_355, 
+                style: style_RegioSudeste38unid579321135m_355,
                 popuplayertitle: 'Região Sudeste (38 unid. / 5.793.211,35 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioSudeste38unid579321135m_353.png" /> Região Sudeste (38 unid. / 5.793.211,35 m²)'
+                title: '<img src="styles/legend/RegioSudeste38unid579321135m_355.png" /> Região Sudeste (38 unid. / 5.793.211,35 m²)'
             });
-var format_RegioSudesteSul44unid830633497m_354 = new ol.format.GeoJSON();
-var features_RegioSudesteSul44unid830633497m_354 = format_RegioSudesteSul44unid830633497m_354.readFeatures(json_RegioSudesteSul44unid830633497m_354, 
+var format_RegioSudesteSul44unid830633497m_356 = new ol.format.GeoJSON();
+var features_RegioSudesteSul44unid830633497m_356 = format_RegioSudesteSul44unid830633497m_356.readFeatures(json_RegioSudesteSul44unid830633497m_356, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioSudesteSul44unid830633497m_354 = new ol.source.Vector({
+var jsonSource_RegioSudesteSul44unid830633497m_356 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioSudesteSul44unid830633497m_354.addFeatures(features_RegioSudesteSul44unid830633497m_354);
-var lyr_RegioSudesteSul44unid830633497m_354 = new ol.layer.Vector({
+jsonSource_RegioSudesteSul44unid830633497m_356.addFeatures(features_RegioSudesteSul44unid830633497m_356);
+var lyr_RegioSudesteSul44unid830633497m_356 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioSudesteSul44unid830633497m_354, 
-                style: style_RegioSudesteSul44unid830633497m_354,
+                source:jsonSource_RegioSudesteSul44unid830633497m_356, 
+                style: style_RegioSudesteSul44unid830633497m_356,
                 popuplayertitle: 'Região Sudeste Sul (44 unid. / 8.306.334,97 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioSudesteSul44unid830633497m_354.png" /> Região Sudeste Sul (44 unid. / 8.306.334,97 m²)'
+                title: '<img src="styles/legend/RegioSudesteSul44unid830633497m_356.png" /> Região Sudeste Sul (44 unid. / 8.306.334,97 m²)'
             });
-var format_RegioSul20unid639964086m_355 = new ol.format.GeoJSON();
-var features_RegioSul20unid639964086m_355 = format_RegioSul20unid639964086m_355.readFeatures(json_RegioSul20unid639964086m_355, 
+var format_RegioSul20unid639964086m_357 = new ol.format.GeoJSON();
+var features_RegioSul20unid639964086m_357 = format_RegioSul20unid639964086m_357.readFeatures(json_RegioSul20unid639964086m_357, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_RegioSul20unid639964086m_355 = new ol.source.Vector({
+var jsonSource_RegioSul20unid639964086m_357 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RegioSul20unid639964086m_355.addFeatures(features_RegioSul20unid639964086m_355);
-var lyr_RegioSul20unid639964086m_355 = new ol.layer.Vector({
+jsonSource_RegioSul20unid639964086m_357.addFeatures(features_RegioSul20unid639964086m_357);
+var lyr_RegioSul20unid639964086m_357 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RegioSul20unid639964086m_355, 
-                style: style_RegioSul20unid639964086m_355,
+                source:jsonSource_RegioSul20unid639964086m_357, 
+                style: style_RegioSul20unid639964086m_357,
                 popuplayertitle: 'Região Sul (20 unid. / 6.399.640,86 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/RegioSul20unid639964086m_355.png" /> Região Sul (20 unid. / 6.399.640,86 m²)'
+                title: '<img src="styles/legend/RegioSul20unid639964086m_357.png" /> Região Sul (20 unid. / 6.399.640,86 m²)'
             });
-var format_APP156unid230392892m_356 = new ol.format.GeoJSON();
-var features_APP156unid230392892m_356 = format_APP156unid230392892m_356.readFeatures(json_APP156unid230392892m_356, 
+var format_APP156unid230392892m_358 = new ol.format.GeoJSON();
+var features_APP156unid230392892m_358 = format_APP156unid230392892m_358.readFeatures(json_APP156unid230392892m_358, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_APP156unid230392892m_356 = new ol.source.Vector({
+var jsonSource_APP156unid230392892m_358 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_APP156unid230392892m_356.addFeatures(features_APP156unid230392892m_356);
-var lyr_APP156unid230392892m_356 = new ol.layer.Vector({
+jsonSource_APP156unid230392892m_358.addFeatures(features_APP156unid230392892m_358);
+var lyr_APP156unid230392892m_358 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_APP156unid230392892m_356, 
-                style: style_APP156unid230392892m_356,
+                source:jsonSource_APP156unid230392892m_358, 
+                style: style_APP156unid230392892m_358,
                 popuplayertitle: 'APP (156 unid. / 2.303.928,92 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/APP156unid230392892m_356.png" /> APP (156 unid. / 2.303.928,92 m²)'
+                title: '<img src="styles/legend/APP156unid230392892m_358.png" /> APP (156 unid. / 2.303.928,92 m²)'
             });
-var format_reaInstitucional224unid133042345m_357 = new ol.format.GeoJSON();
-var features_reaInstitucional224unid133042345m_357 = format_reaInstitucional224unid133042345m_357.readFeatures(json_reaInstitucional224unid133042345m_357, 
+var format_reaInstitucional224unid133042345m_359 = new ol.format.GeoJSON();
+var features_reaInstitucional224unid133042345m_359 = format_reaInstitucional224unid133042345m_359.readFeatures(json_reaInstitucional224unid133042345m_359, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaInstitucional224unid133042345m_357 = new ol.source.Vector({
+var jsonSource_reaInstitucional224unid133042345m_359 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaInstitucional224unid133042345m_357.addFeatures(features_reaInstitucional224unid133042345m_357);
-var lyr_reaInstitucional224unid133042345m_357 = new ol.layer.Vector({
+jsonSource_reaInstitucional224unid133042345m_359.addFeatures(features_reaInstitucional224unid133042345m_359);
+var lyr_reaInstitucional224unid133042345m_359 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaInstitucional224unid133042345m_357, 
-                style: style_reaInstitucional224unid133042345m_357,
+                source:jsonSource_reaInstitucional224unid133042345m_359, 
+                style: style_reaInstitucional224unid133042345m_359,
                 popuplayertitle: 'Área Institucional (224 unid. / 1.330.423,45 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/reaInstitucional224unid133042345m_357.png" /> Área Institucional (224 unid. / 1.330.423,45 m²)'
+                title: '<img src="styles/legend/reaInstitucional224unid133042345m_359.png" /> Área Institucional (224 unid. / 1.330.423,45 m²)'
             });
-var format_reaPatrimonial33unid15776685m_358 = new ol.format.GeoJSON();
-var features_reaPatrimonial33unid15776685m_358 = format_reaPatrimonial33unid15776685m_358.readFeatures(json_reaPatrimonial33unid15776685m_358, 
+var format_reaPatrimonial33unid15776685m_360 = new ol.format.GeoJSON();
+var features_reaPatrimonial33unid15776685m_360 = format_reaPatrimonial33unid15776685m_360.readFeatures(json_reaPatrimonial33unid15776685m_360, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaPatrimonial33unid15776685m_358 = new ol.source.Vector({
+var jsonSource_reaPatrimonial33unid15776685m_360 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaPatrimonial33unid15776685m_358.addFeatures(features_reaPatrimonial33unid15776685m_358);
-var lyr_reaPatrimonial33unid15776685m_358 = new ol.layer.Vector({
+jsonSource_reaPatrimonial33unid15776685m_360.addFeatures(features_reaPatrimonial33unid15776685m_360);
+var lyr_reaPatrimonial33unid15776685m_360 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaPatrimonial33unid15776685m_358, 
-                style: style_reaPatrimonial33unid15776685m_358,
+                source:jsonSource_reaPatrimonial33unid15776685m_360, 
+                style: style_reaPatrimonial33unid15776685m_360,
                 popuplayertitle: 'Área Patrimonial (33 unid. / 157.766,85 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/reaPatrimonial33unid15776685m_358.png" /> Área Patrimonial (33 unid. / 157.766,85 m²)'
+                title: '<img src="styles/legend/reaPatrimonial33unid15776685m_360.png" /> Área Patrimonial (33 unid. / 157.766,85 m²)'
             });
-var format_reaVerde1946unid805735618m_359 = new ol.format.GeoJSON();
-var features_reaVerde1946unid805735618m_359 = format_reaVerde1946unid805735618m_359.readFeatures(json_reaVerde1946unid805735618m_359, 
+var format_reaVerde1946unid805735618m_361 = new ol.format.GeoJSON();
+var features_reaVerde1946unid805735618m_361 = format_reaVerde1946unid805735618m_361.readFeatures(json_reaVerde1946unid805735618m_361, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_reaVerde1946unid805735618m_359 = new ol.source.Vector({
+var jsonSource_reaVerde1946unid805735618m_361 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_reaVerde1946unid805735618m_359.addFeatures(features_reaVerde1946unid805735618m_359);
-var lyr_reaVerde1946unid805735618m_359 = new ol.layer.Vector({
+jsonSource_reaVerde1946unid805735618m_361.addFeatures(features_reaVerde1946unid805735618m_361);
+var lyr_reaVerde1946unid805735618m_361 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_reaVerde1946unid805735618m_359, 
-                style: style_reaVerde1946unid805735618m_359,
+                source:jsonSource_reaVerde1946unid805735618m_361, 
+                style: style_reaVerde1946unid805735618m_361,
                 popuplayertitle: 'Área Verde (1.946 unid. / 8.057.356,18 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/reaVerde1946unid805735618m_359.png" /> Área Verde (1.946 unid. / 8.057.356,18 m²)'
+                title: '<img src="styles/legend/reaVerde1946unid805735618m_361.png" /> Área Verde (1.946 unid. / 8.057.356,18 m²)'
             });
-var format_readeUsoEspecial276unid271190268m_360 = new ol.format.GeoJSON();
-var features_readeUsoEspecial276unid271190268m_360 = format_readeUsoEspecial276unid271190268m_360.readFeatures(json_readeUsoEspecial276unid271190268m_360, 
+var format_readeUsoEspecial276unid271190268m_362 = new ol.format.GeoJSON();
+var features_readeUsoEspecial276unid271190268m_362 = format_readeUsoEspecial276unid271190268m_362.readFeatures(json_readeUsoEspecial276unid271190268m_362, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_readeUsoEspecial276unid271190268m_360 = new ol.source.Vector({
+var jsonSource_readeUsoEspecial276unid271190268m_362 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_readeUsoEspecial276unid271190268m_360.addFeatures(features_readeUsoEspecial276unid271190268m_360);
-var lyr_readeUsoEspecial276unid271190268m_360 = new ol.layer.Vector({
+jsonSource_readeUsoEspecial276unid271190268m_362.addFeatures(features_readeUsoEspecial276unid271190268m_362);
+var lyr_readeUsoEspecial276unid271190268m_362 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_readeUsoEspecial276unid271190268m_360, 
-                style: style_readeUsoEspecial276unid271190268m_360,
+                source:jsonSource_readeUsoEspecial276unid271190268m_362, 
+                style: style_readeUsoEspecial276unid271190268m_362,
                 popuplayertitle: 'Área de Uso Especial (276 unid. / 2.711.902,68 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/readeUsoEspecial276unid271190268m_360.png" /> Área de Uso Especial (276 unid. / 2.711.902,68 m²)'
+                title: '<img src="styles/legend/readeUsoEspecial276unid271190268m_362.png" /> Área de Uso Especial (276 unid. / 2.711.902,68 m²)'
             });
-var format_LoteamentoFechado115unid52603608m_361 = new ol.format.GeoJSON();
-var features_LoteamentoFechado115unid52603608m_361 = format_LoteamentoFechado115unid52603608m_361.readFeatures(json_LoteamentoFechado115unid52603608m_361, 
+var format_LoteamentoFechado115unid52603608m_363 = new ol.format.GeoJSON();
+var features_LoteamentoFechado115unid52603608m_363 = format_LoteamentoFechado115unid52603608m_363.readFeatures(json_LoteamentoFechado115unid52603608m_363, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LoteamentoFechado115unid52603608m_361 = new ol.source.Vector({
+var jsonSource_LoteamentoFechado115unid52603608m_363 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LoteamentoFechado115unid52603608m_361.addFeatures(features_LoteamentoFechado115unid52603608m_361);
-var lyr_LoteamentoFechado115unid52603608m_361 = new ol.layer.Vector({
+jsonSource_LoteamentoFechado115unid52603608m_363.addFeatures(features_LoteamentoFechado115unid52603608m_363);
+var lyr_LoteamentoFechado115unid52603608m_363 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LoteamentoFechado115unid52603608m_361, 
-                style: style_LoteamentoFechado115unid52603608m_361,
+                source:jsonSource_LoteamentoFechado115unid52603608m_363, 
+                style: style_LoteamentoFechado115unid52603608m_363,
                 popuplayertitle: 'Loteamento Fechado (115 unid. / 526.036,08 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/LoteamentoFechado115unid52603608m_361.png" /> Loteamento Fechado (115 unid. / 526.036,08 m²)'
+                title: '<img src="styles/legend/LoteamentoFechado115unid52603608m_363.png" /> Loteamento Fechado (115 unid. / 526.036,08 m²)'
             });
-var format_Lote252unid7530210m_362 = new ol.format.GeoJSON();
-var features_Lote252unid7530210m_362 = format_Lote252unid7530210m_362.readFeatures(json_Lote252unid7530210m_362, 
+var format_Lote252unid7530210m_364 = new ol.format.GeoJSON();
+var features_Lote252unid7530210m_364 = format_Lote252unid7530210m_364.readFeatures(json_Lote252unid7530210m_364, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Lote252unid7530210m_362 = new ol.source.Vector({
+var jsonSource_Lote252unid7530210m_364 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Lote252unid7530210m_362.addFeatures(features_Lote252unid7530210m_362);
-var lyr_Lote252unid7530210m_362 = new ol.layer.Vector({
+jsonSource_Lote252unid7530210m_364.addFeatures(features_Lote252unid7530210m_364);
+var lyr_Lote252unid7530210m_364 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Lote252unid7530210m_362, 
-                style: style_Lote252unid7530210m_362,
+                source:jsonSource_Lote252unid7530210m_364, 
+                style: style_Lote252unid7530210m_364,
                 popuplayertitle: 'Lote (252 unid. / 75.302,10 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/Lote252unid7530210m_362.png" /> Lote (252 unid. / 75.302,10 m²)'
+                title: '<img src="styles/legend/Lote252unid7530210m_364.png" /> Lote (252 unid. / 75.302,10 m²)'
             });
-var format_Lote252unid_363 = new ol.format.GeoJSON();
-var features_Lote252unid_363 = format_Lote252unid_363.readFeatures(json_Lote252unid_363, 
+var format_Lote252unid_365 = new ol.format.GeoJSON();
+var features_Lote252unid_365 = format_Lote252unid_365.readFeatures(json_Lote252unid_365, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_Lote252unid_363 = new ol.source.Vector({
+var jsonSource_Lote252unid_365 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Lote252unid_363.addFeatures(features_Lote252unid_363);
-var lyr_Lote252unid_363 = new ol.layer.Vector({
+jsonSource_Lote252unid_365.addFeatures(features_Lote252unid_365);
+var lyr_Lote252unid_365 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Lote252unid_363, 
-                style: style_Lote252unid_363,
+                source:jsonSource_Lote252unid_365, 
+                style: style_Lote252unid_365,
                 popuplayertitle: 'Lote (252 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/Lote252unid_363.png" /> Lote (252 unid.)'
+                title: '<img src="styles/legend/Lote252unid_365.png" /> Lote (252 unid.)'
             });
-var format_LoteEdificao20unid508062m_364 = new ol.format.GeoJSON();
-var features_LoteEdificao20unid508062m_364 = format_LoteEdificao20unid508062m_364.readFeatures(json_LoteEdificao20unid508062m_364, 
+var format_LoteEdificao20unid508062m_366 = new ol.format.GeoJSON();
+var features_LoteEdificao20unid508062m_366 = format_LoteEdificao20unid508062m_366.readFeatures(json_LoteEdificao20unid508062m_366, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LoteEdificao20unid508062m_364 = new ol.source.Vector({
+var jsonSource_LoteEdificao20unid508062m_366 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LoteEdificao20unid508062m_364.addFeatures(features_LoteEdificao20unid508062m_364);
-var lyr_LoteEdificao20unid508062m_364 = new ol.layer.Vector({
+jsonSource_LoteEdificao20unid508062m_366.addFeatures(features_LoteEdificao20unid508062m_366);
+var lyr_LoteEdificao20unid508062m_366 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LoteEdificao20unid508062m_364, 
-                style: style_LoteEdificao20unid508062m_364,
+                source:jsonSource_LoteEdificao20unid508062m_366, 
+                style: style_LoteEdificao20unid508062m_366,
                 popuplayertitle: 'Lote/Edificação (20 unid. / 5.080,62 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/LoteEdificao20unid508062m_364.png" /> Lote/Edificação (20 unid. / 5.080,62 m²)'
+                title: '<img src="styles/legend/LoteEdificao20unid508062m_366.png" /> Lote/Edificação (20 unid. / 5.080,62 m²)'
             });
-var format_LoteEdificao20unid_365 = new ol.format.GeoJSON();
-var features_LoteEdificao20unid_365 = format_LoteEdificao20unid_365.readFeatures(json_LoteEdificao20unid_365, 
+var format_LoteEdificao20unid_367 = new ol.format.GeoJSON();
+var features_LoteEdificao20unid_367 = format_LoteEdificao20unid_367.readFeatures(json_LoteEdificao20unid_367, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LoteEdificao20unid_365 = new ol.source.Vector({
+var jsonSource_LoteEdificao20unid_367 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LoteEdificao20unid_365.addFeatures(features_LoteEdificao20unid_365);
-var lyr_LoteEdificao20unid_365 = new ol.layer.Vector({
+jsonSource_LoteEdificao20unid_367.addFeatures(features_LoteEdificao20unid_367);
+var lyr_LoteEdificao20unid_367 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LoteEdificao20unid_365, 
-                style: style_LoteEdificao20unid_365,
+                source:jsonSource_LoteEdificao20unid_367, 
+                style: style_LoteEdificao20unid_367,
                 popuplayertitle: 'Lote/Edificação (20 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LoteEdificao20unid_365.png" /> Lote/Edificação (20 unid.)'
+                title: '<img src="styles/legend/LoteEdificao20unid_367.png" /> Lote/Edificação (20 unid.)'
             });
-var format_LeiloLEIN97542025Homologado4unid334770m_366 = new ol.format.GeoJSON();
-var features_LeiloLEIN97542025Homologado4unid334770m_366 = format_LeiloLEIN97542025Homologado4unid334770m_366.readFeatures(json_LeiloLEIN97542025Homologado4unid334770m_366, 
+var format_LeiloLEIN97542025Homologado4unid334770m_368 = new ol.format.GeoJSON();
+var features_LeiloLEIN97542025Homologado4unid334770m_368 = format_LeiloLEIN97542025Homologado4unid334770m_368.readFeatures(json_LeiloLEIN97542025Homologado4unid334770m_368, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LeiloLEIN97542025Homologado4unid334770m_366 = new ol.source.Vector({
+var jsonSource_LeiloLEIN97542025Homologado4unid334770m_368 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LeiloLEIN97542025Homologado4unid334770m_366.addFeatures(features_LeiloLEIN97542025Homologado4unid334770m_366);
-var lyr_LeiloLEIN97542025Homologado4unid334770m_366 = new ol.layer.Vector({
+jsonSource_LeiloLEIN97542025Homologado4unid334770m_368.addFeatures(features_LeiloLEIN97542025Homologado4unid334770m_368);
+var lyr_LeiloLEIN97542025Homologado4unid334770m_368 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LeiloLEIN97542025Homologado4unid334770m_366, 
-                style: style_LeiloLEIN97542025Homologado4unid334770m_366,
+                source:jsonSource_LeiloLEIN97542025Homologado4unid334770m_368, 
+                style: style_LeiloLEIN97542025Homologado4unid334770m_368,
                 popuplayertitle: 'Leilão - LEI Nº 9.754/2025 - Homologado (4 unid. / 3.347,70 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/LeiloLEIN97542025Homologado4unid334770m_366.png" /> Leilão - LEI Nº 9.754/2025 - Homologado (4 unid. / 3.347,70 m²)'
+                title: '<img src="styles/legend/LeiloLEIN97542025Homologado4unid334770m_368.png" /> Leilão - LEI Nº 9.754/2025 - Homologado (4 unid. / 3.347,70 m²)'
             });
-var format_LeiloLEIN97542025Homologado4unid_367 = new ol.format.GeoJSON();
-var features_LeiloLEIN97542025Homologado4unid_367 = format_LeiloLEIN97542025Homologado4unid_367.readFeatures(json_LeiloLEIN97542025Homologado4unid_367, 
+var format_LeiloLEIN97542025Homologado4unid_369 = new ol.format.GeoJSON();
+var features_LeiloLEIN97542025Homologado4unid_369 = format_LeiloLEIN97542025Homologado4unid_369.readFeatures(json_LeiloLEIN97542025Homologado4unid_369, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LeiloLEIN97542025Homologado4unid_367 = new ol.source.Vector({
+var jsonSource_LeiloLEIN97542025Homologado4unid_369 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LeiloLEIN97542025Homologado4unid_367.addFeatures(features_LeiloLEIN97542025Homologado4unid_367);
-var lyr_LeiloLEIN97542025Homologado4unid_367 = new ol.layer.Vector({
+jsonSource_LeiloLEIN97542025Homologado4unid_369.addFeatures(features_LeiloLEIN97542025Homologado4unid_369);
+var lyr_LeiloLEIN97542025Homologado4unid_369 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LeiloLEIN97542025Homologado4unid_367, 
-                style: style_LeiloLEIN97542025Homologado4unid_367,
+                source:jsonSource_LeiloLEIN97542025Homologado4unid_369, 
+                style: style_LeiloLEIN97542025Homologado4unid_369,
                 popuplayertitle: 'Leilão - LEI Nº 9.754/2025 - Homologado (4 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LeiloLEIN97542025Homologado4unid_367.png" /> Leilão - LEI Nº 9.754/2025 - Homologado (4 unid.)'
+                title: '<img src="styles/legend/LeiloLEIN97542025Homologado4unid_369.png" /> Leilão - LEI Nº 9.754/2025 - Homologado (4 unid.)'
             });
-var format_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368 = new ol.format.GeoJSON();
-var features_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368 = format_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368.readFeatures(json_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368, 
+var format_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370 = new ol.format.GeoJSON();
+var features_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370 = format_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370.readFeatures(json_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368 = new ol.source.Vector({
+var jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368.addFeatures(features_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368);
-var lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368 = new ol.layer.Vector({
+jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370.addFeatures(features_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370);
+var lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368, 
-                style: style_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368,
+                source:jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370, 
+                style: style_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370,
                 popuplayertitle: 'Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00026525/2025-69 (22 unid. / 3.520,00 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00026525/2025-69 (22 unid. / 3.520,00 m²)'
+                title: '<img src="styles/legend/LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00026525/2025-69 (22 unid. / 3.520,00 m²)'
             });
-var format_LeiloLEIN97542025Proc35162004100002652520256922unid_369 = new ol.format.GeoJSON();
-var features_LeiloLEIN97542025Proc35162004100002652520256922unid_369 = format_LeiloLEIN97542025Proc35162004100002652520256922unid_369.readFeatures(json_LeiloLEIN97542025Proc35162004100002652520256922unid_369, 
+var format_LeiloLEIN97542025Proc35162004100002652520256922unid_371 = new ol.format.GeoJSON();
+var features_LeiloLEIN97542025Proc35162004100002652520256922unid_371 = format_LeiloLEIN97542025Proc35162004100002652520256922unid_371.readFeatures(json_LeiloLEIN97542025Proc35162004100002652520256922unid_371, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid_369 = new ol.source.Vector({
+var jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid_371 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid_369.addFeatures(features_LeiloLEIN97542025Proc35162004100002652520256922unid_369);
-var lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_369 = new ol.layer.Vector({
+jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid_371.addFeatures(features_LeiloLEIN97542025Proc35162004100002652520256922unid_371);
+var lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_371 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid_369, 
-                style: style_LeiloLEIN97542025Proc35162004100002652520256922unid_369,
+                source:jsonSource_LeiloLEIN97542025Proc35162004100002652520256922unid_371, 
+                style: style_LeiloLEIN97542025Proc35162004100002652520256922unid_371,
                 popuplayertitle: 'Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00026525/2025-69 (22 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LeiloLEIN97542025Proc35162004100002652520256922unid_369.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00026525/2025-69 (22 unid.)'
+                title: '<img src="styles/legend/LeiloLEIN97542025Proc35162004100002652520256922unid_371.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00026525/2025-69 (22 unid.)'
             });
-var format_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370 = new ol.format.GeoJSON();
-var features_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370 = format_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370.readFeatures(json_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370, 
+var format_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372 = new ol.format.GeoJSON();
+var features_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372 = format_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372.readFeatures(json_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370 = new ol.source.Vector({
+var jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370.addFeatures(features_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370);
-var lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370 = new ol.layer.Vector({
+jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372.addFeatures(features_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372);
+var lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370, 
-                style: style_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370,
+                source:jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372, 
+                style: style_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372,
                 popuplayertitle: 'Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00007954/2025-37 (196 unid. / 32.404,62 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00007954/2025-37 (196 unid. / 32.404,62 m²)'
+                title: '<img src="styles/legend/LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00007954/2025-37 (196 unid. / 32.404,62 m²)'
             });
-var format_LeiloLEIN97542025Proc351620041000007954202537196unid_371 = new ol.format.GeoJSON();
-var features_LeiloLEIN97542025Proc351620041000007954202537196unid_371 = format_LeiloLEIN97542025Proc351620041000007954202537196unid_371.readFeatures(json_LeiloLEIN97542025Proc351620041000007954202537196unid_371, 
+var format_LeiloLEIN97542025Proc351620041000007954202537196unid_373 = new ol.format.GeoJSON();
+var features_LeiloLEIN97542025Proc351620041000007954202537196unid_373 = format_LeiloLEIN97542025Proc351620041000007954202537196unid_373.readFeatures(json_LeiloLEIN97542025Proc351620041000007954202537196unid_373, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid_371 = new ol.source.Vector({
+var jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid_373 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid_371.addFeatures(features_LeiloLEIN97542025Proc351620041000007954202537196unid_371);
-var lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_371 = new ol.layer.Vector({
+jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid_373.addFeatures(features_LeiloLEIN97542025Proc351620041000007954202537196unid_373);
+var lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_373 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid_371, 
-                style: style_LeiloLEIN97542025Proc351620041000007954202537196unid_371,
+                source:jsonSource_LeiloLEIN97542025Proc351620041000007954202537196unid_373, 
+                style: style_LeiloLEIN97542025Proc351620041000007954202537196unid_373,
                 popuplayertitle: 'Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00007954/2025-37 (196 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LeiloLEIN97542025Proc351620041000007954202537196unid_371.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00007954/2025-37 (196 unid.)'
+                title: '<img src="styles/legend/LeiloLEIN97542025Proc351620041000007954202537196unid_373.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00007954/2025-37 (196 unid.)'
             });
-var format_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372 = new ol.format.GeoJSON();
-var features_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372 = format_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372.readFeatures(json_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372, 
+var format_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374 = new ol.format.GeoJSON();
+var features_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374 = format_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374.readFeatures(json_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372 = new ol.source.Vector({
+var jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372.addFeatures(features_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372);
-var lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372 = new ol.layer.Vector({
+jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374.addFeatures(features_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374);
+var lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372, 
-                style: style_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372,
+                source:jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374, 
+                style: style_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374,
                 popuplayertitle: 'Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00021986/2025-45 (18 unid. / 20.920,83 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00021986/2025-45 (18 unid. / 20.920,83 m²)'
+                title: '<img src="styles/legend/LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00021986/2025-45 (18 unid. / 20.920,83 m²)'
             });
-var format_LeiloLEIN97542025Proc35162004100002198620254518unid_373 = new ol.format.GeoJSON();
-var features_LeiloLEIN97542025Proc35162004100002198620254518unid_373 = format_LeiloLEIN97542025Proc35162004100002198620254518unid_373.readFeatures(json_LeiloLEIN97542025Proc35162004100002198620254518unid_373, 
+var format_LeiloLEIN97542025Proc35162004100002198620254518unid_375 = new ol.format.GeoJSON();
+var features_LeiloLEIN97542025Proc35162004100002198620254518unid_375 = format_LeiloLEIN97542025Proc35162004100002198620254518unid_375.readFeatures(json_LeiloLEIN97542025Proc35162004100002198620254518unid_375, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid_373 = new ol.source.Vector({
+var jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid_375 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid_373.addFeatures(features_LeiloLEIN97542025Proc35162004100002198620254518unid_373);
-var lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_373 = new ol.layer.Vector({
+jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid_375.addFeatures(features_LeiloLEIN97542025Proc35162004100002198620254518unid_375);
+var lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_375 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid_373, 
-                style: style_LeiloLEIN97542025Proc35162004100002198620254518unid_373,
+                source:jsonSource_LeiloLEIN97542025Proc35162004100002198620254518unid_375, 
+                style: style_LeiloLEIN97542025Proc35162004100002198620254518unid_375,
                 popuplayertitle: 'Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00021986/2025-45 (18 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LeiloLEIN97542025Proc35162004100002198620254518unid_373.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00021986/2025-45 (18 unid.)'
+                title: '<img src="styles/legend/LeiloLEIN97542025Proc35162004100002198620254518unid_375.png" /> Leilão - LEI Nº 9.754/2025 - Proc 3516200.410.00021986/2025-45 (18 unid.)'
             });
-var format_LoteEMDEF10unid218783m_374 = new ol.format.GeoJSON();
-var features_LoteEMDEF10unid218783m_374 = format_LoteEMDEF10unid218783m_374.readFeatures(json_LoteEMDEF10unid218783m_374, 
+var format_LoteEMDEF10unid218783m_376 = new ol.format.GeoJSON();
+var features_LoteEMDEF10unid218783m_376 = format_LoteEMDEF10unid218783m_376.readFeatures(json_LoteEMDEF10unid218783m_376, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LoteEMDEF10unid218783m_374 = new ol.source.Vector({
+var jsonSource_LoteEMDEF10unid218783m_376 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LoteEMDEF10unid218783m_374.addFeatures(features_LoteEMDEF10unid218783m_374);
-var lyr_LoteEMDEF10unid218783m_374 = new ol.layer.Vector({
+jsonSource_LoteEMDEF10unid218783m_376.addFeatures(features_LoteEMDEF10unid218783m_376);
+var lyr_LoteEMDEF10unid218783m_376 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LoteEMDEF10unid218783m_374, 
-                style: style_LoteEMDEF10unid218783m_374,
+                source:jsonSource_LoteEMDEF10unid218783m_376, 
+                style: style_LoteEMDEF10unid218783m_376,
                 popuplayertitle: 'Lote EMDEF (10 unid. / 2.187,83 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/LoteEMDEF10unid218783m_374.png" /> Lote EMDEF (10 unid. / 2.187,83 m²)'
+                title: '<img src="styles/legend/LoteEMDEF10unid218783m_376.png" /> Lote EMDEF (10 unid. / 2.187,83 m²)'
             });
-var format_LoteEMDEF10unid_375 = new ol.format.GeoJSON();
-var features_LoteEMDEF10unid_375 = format_LoteEMDEF10unid_375.readFeatures(json_LoteEMDEF10unid_375, 
+var format_LoteEMDEF10unid_377 = new ol.format.GeoJSON();
+var features_LoteEMDEF10unid_377 = format_LoteEMDEF10unid_377.readFeatures(json_LoteEMDEF10unid_377, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_LoteEMDEF10unid_375 = new ol.source.Vector({
+var jsonSource_LoteEMDEF10unid_377 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_LoteEMDEF10unid_375.addFeatures(features_LoteEMDEF10unid_375);
-var lyr_LoteEMDEF10unid_375 = new ol.layer.Vector({
+jsonSource_LoteEMDEF10unid_377.addFeatures(features_LoteEMDEF10unid_377);
+var lyr_LoteEMDEF10unid_377 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_LoteEMDEF10unid_375, 
-                style: style_LoteEMDEF10unid_375,
+                source:jsonSource_LoteEMDEF10unid_377, 
+                style: style_LoteEMDEF10unid_377,
                 popuplayertitle: 'Lote EMDEF (10 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/LoteEMDEF10unid_375.png" /> Lote EMDEF (10 unid.)'
+                title: '<img src="styles/legend/LoteEMDEF10unid_377.png" /> Lote EMDEF (10 unid.)'
             });
-var format_TRPRLCETESB2unid_376 = new ol.format.GeoJSON();
-var features_TRPRLCETESB2unid_376 = format_TRPRLCETESB2unid_376.readFeatures(json_TRPRLCETESB2unid_376, 
+var format_TRPRLCETESB2unid_378 = new ol.format.GeoJSON();
+var features_TRPRLCETESB2unid_378 = format_TRPRLCETESB2unid_378.readFeatures(json_TRPRLCETESB2unid_378, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TRPRLCETESB2unid_376 = new ol.source.Vector({
+var jsonSource_TRPRLCETESB2unid_378 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TRPRLCETESB2unid_376.addFeatures(features_TRPRLCETESB2unid_376);
-var lyr_TRPRLCETESB2unid_376 = new ol.layer.Vector({
+jsonSource_TRPRLCETESB2unid_378.addFeatures(features_TRPRLCETESB2unid_378);
+var lyr_TRPRLCETESB2unid_378 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TRPRLCETESB2unid_376, 
-                style: style_TRPRLCETESB2unid_376,
+                source:jsonSource_TRPRLCETESB2unid_378, 
+                style: style_TRPRLCETESB2unid_378,
                 popuplayertitle: 'TRPRL CETESB (2 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TRPRLCETESB2unid_376.png" /> TRPRL CETESB (2 unid.)'
+                title: '<img src="styles/legend/TRPRLCETESB2unid_378.png" /> TRPRL CETESB (2 unid.)'
             });
-var format_TRPRLCETESB2unid_377 = new ol.format.GeoJSON();
-var features_TRPRLCETESB2unid_377 = format_TRPRLCETESB2unid_377.readFeatures(json_TRPRLCETESB2unid_377, 
+var format_TRPRLCETESB2unid_379 = new ol.format.GeoJSON();
+var features_TRPRLCETESB2unid_379 = format_TRPRLCETESB2unid_379.readFeatures(json_TRPRLCETESB2unid_379, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TRPRLCETESB2unid_377 = new ol.source.Vector({
+var jsonSource_TRPRLCETESB2unid_379 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TRPRLCETESB2unid_377.addFeatures(features_TRPRLCETESB2unid_377);
-var lyr_TRPRLCETESB2unid_377 = new ol.layer.Vector({
+jsonSource_TRPRLCETESB2unid_379.addFeatures(features_TRPRLCETESB2unid_379);
+var lyr_TRPRLCETESB2unid_379 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TRPRLCETESB2unid_377, 
-                style: style_TRPRLCETESB2unid_377,
+                source:jsonSource_TRPRLCETESB2unid_379, 
+                style: style_TRPRLCETESB2unid_379,
                 popuplayertitle: 'TRPRL CETESB (2 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TRPRLCETESB2unid_377.png" /> TRPRL CETESB (2 unid.)'
+                title: '<img src="styles/legend/TRPRLCETESB2unid_379.png" /> TRPRL CETESB (2 unid.)'
             });
-var format_TCRAMunicipal14unid_378 = new ol.format.GeoJSON();
-var features_TCRAMunicipal14unid_378 = format_TCRAMunicipal14unid_378.readFeatures(json_TCRAMunicipal14unid_378, 
+var format_TCRAMunicipal14unid_380 = new ol.format.GeoJSON();
+var features_TCRAMunicipal14unid_380 = format_TCRAMunicipal14unid_380.readFeatures(json_TCRAMunicipal14unid_380, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TCRAMunicipal14unid_378 = new ol.source.Vector({
+var jsonSource_TCRAMunicipal14unid_380 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TCRAMunicipal14unid_378.addFeatures(features_TCRAMunicipal14unid_378);
-var lyr_TCRAMunicipal14unid_378 = new ol.layer.Vector({
+jsonSource_TCRAMunicipal14unid_380.addFeatures(features_TCRAMunicipal14unid_380);
+var lyr_TCRAMunicipal14unid_380 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TCRAMunicipal14unid_378, 
-                style: style_TCRAMunicipal14unid_378,
+                source:jsonSource_TCRAMunicipal14unid_380, 
+                style: style_TCRAMunicipal14unid_380,
                 popuplayertitle: 'TCRA Municipal (14 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TCRAMunicipal14unid_378.png" /> TCRA Municipal (14 unid.)'
+                title: '<img src="styles/legend/TCRAMunicipal14unid_380.png" /> TCRA Municipal (14 unid.)'
             });
-var format_TCRAMunicipal14unid_379 = new ol.format.GeoJSON();
-var features_TCRAMunicipal14unid_379 = format_TCRAMunicipal14unid_379.readFeatures(json_TCRAMunicipal14unid_379, 
+var format_TCRAMunicipal14unid_381 = new ol.format.GeoJSON();
+var features_TCRAMunicipal14unid_381 = format_TCRAMunicipal14unid_381.readFeatures(json_TCRAMunicipal14unid_381, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TCRAMunicipal14unid_379 = new ol.source.Vector({
+var jsonSource_TCRAMunicipal14unid_381 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TCRAMunicipal14unid_379.addFeatures(features_TCRAMunicipal14unid_379);
-var lyr_TCRAMunicipal14unid_379 = new ol.layer.Vector({
+jsonSource_TCRAMunicipal14unid_381.addFeatures(features_TCRAMunicipal14unid_381);
+var lyr_TCRAMunicipal14unid_381 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TCRAMunicipal14unid_379, 
-                style: style_TCRAMunicipal14unid_379,
+                source:jsonSource_TCRAMunicipal14unid_381, 
+                style: style_TCRAMunicipal14unid_381,
                 popuplayertitle: 'TCRA Municipal (14 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TCRAMunicipal14unid_379.png" /> TCRA Municipal (14 unid.)'
+                title: '<img src="styles/legend/TCRAMunicipal14unid_381.png" /> TCRA Municipal (14 unid.)'
             });
-var format_TCRACETESBPARCELAMENTO32unid_380 = new ol.format.GeoJSON();
-var features_TCRACETESBPARCELAMENTO32unid_380 = format_TCRACETESBPARCELAMENTO32unid_380.readFeatures(json_TCRACETESBPARCELAMENTO32unid_380, 
+var format_TCRACETESBPARCELAMENTO32unid_382 = new ol.format.GeoJSON();
+var features_TCRACETESBPARCELAMENTO32unid_382 = format_TCRACETESBPARCELAMENTO32unid_382.readFeatures(json_TCRACETESBPARCELAMENTO32unid_382, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TCRACETESBPARCELAMENTO32unid_380 = new ol.source.Vector({
+var jsonSource_TCRACETESBPARCELAMENTO32unid_382 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TCRACETESBPARCELAMENTO32unid_380.addFeatures(features_TCRACETESBPARCELAMENTO32unid_380);
-var lyr_TCRACETESBPARCELAMENTO32unid_380 = new ol.layer.Vector({
+jsonSource_TCRACETESBPARCELAMENTO32unid_382.addFeatures(features_TCRACETESBPARCELAMENTO32unid_382);
+var lyr_TCRACETESBPARCELAMENTO32unid_382 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TCRACETESBPARCELAMENTO32unid_380, 
-                style: style_TCRACETESBPARCELAMENTO32unid_380,
+                source:jsonSource_TCRACETESBPARCELAMENTO32unid_382, 
+                style: style_TCRACETESBPARCELAMENTO32unid_382,
                 popuplayertitle: 'TCRA CETESB / PARCELAMENTO (32 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TCRACETESBPARCELAMENTO32unid_380.png" /> TCRA CETESB / PARCELAMENTO (32 unid.)'
+                title: '<img src="styles/legend/TCRACETESBPARCELAMENTO32unid_382.png" /> TCRA CETESB / PARCELAMENTO (32 unid.)'
             });
-var format_TCRACETESBPARCELAMENTO32unid_381 = new ol.format.GeoJSON();
-var features_TCRACETESBPARCELAMENTO32unid_381 = format_TCRACETESBPARCELAMENTO32unid_381.readFeatures(json_TCRACETESBPARCELAMENTO32unid_381, 
+var format_TCRACETESBPARCELAMENTO32unid_383 = new ol.format.GeoJSON();
+var features_TCRACETESBPARCELAMENTO32unid_383 = format_TCRACETESBPARCELAMENTO32unid_383.readFeatures(json_TCRACETESBPARCELAMENTO32unid_383, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TCRACETESBPARCELAMENTO32unid_381 = new ol.source.Vector({
+var jsonSource_TCRACETESBPARCELAMENTO32unid_383 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TCRACETESBPARCELAMENTO32unid_381.addFeatures(features_TCRACETESBPARCELAMENTO32unid_381);
-var lyr_TCRACETESBPARCELAMENTO32unid_381 = new ol.layer.Vector({
+jsonSource_TCRACETESBPARCELAMENTO32unid_383.addFeatures(features_TCRACETESBPARCELAMENTO32unid_383);
+var lyr_TCRACETESBPARCELAMENTO32unid_383 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TCRACETESBPARCELAMENTO32unid_381, 
-                style: style_TCRACETESBPARCELAMENTO32unid_381,
+                source:jsonSource_TCRACETESBPARCELAMENTO32unid_383, 
+                style: style_TCRACETESBPARCELAMENTO32unid_383,
                 popuplayertitle: 'TCRA CETESB / PARCELAMENTO (32 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TCRACETESBPARCELAMENTO32unid_381.png" /> TCRA CETESB / PARCELAMENTO (32 unid.)'
+                title: '<img src="styles/legend/TCRACETESBPARCELAMENTO32unid_383.png" /> TCRA CETESB / PARCELAMENTO (32 unid.)'
             });
-var format_TCRACETESB28unid_382 = new ol.format.GeoJSON();
-var features_TCRACETESB28unid_382 = format_TCRACETESB28unid_382.readFeatures(json_TCRACETESB28unid_382, 
+var format_TCRACETESB28unid_384 = new ol.format.GeoJSON();
+var features_TCRACETESB28unid_384 = format_TCRACETESB28unid_384.readFeatures(json_TCRACETESB28unid_384, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TCRACETESB28unid_382 = new ol.source.Vector({
+var jsonSource_TCRACETESB28unid_384 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TCRACETESB28unid_382.addFeatures(features_TCRACETESB28unid_382);
-var lyr_TCRACETESB28unid_382 = new ol.layer.Vector({
+jsonSource_TCRACETESB28unid_384.addFeatures(features_TCRACETESB28unid_384);
+var lyr_TCRACETESB28unid_384 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TCRACETESB28unid_382, 
-                style: style_TCRACETESB28unid_382,
+                source:jsonSource_TCRACETESB28unid_384, 
+                style: style_TCRACETESB28unid_384,
                 popuplayertitle: 'TCRA CETESB (28 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TCRACETESB28unid_382.png" /> TCRA CETESB (28 unid.)'
+                title: '<img src="styles/legend/TCRACETESB28unid_384.png" /> TCRA CETESB (28 unid.)'
             });
-var format_TCRACETESB28unid_383 = new ol.format.GeoJSON();
-var features_TCRACETESB28unid_383 = format_TCRACETESB28unid_383.readFeatures(json_TCRACETESB28unid_383, 
+var format_TCRACETESB28unid_385 = new ol.format.GeoJSON();
+var features_TCRACETESB28unid_385 = format_TCRACETESB28unid_385.readFeatures(json_TCRACETESB28unid_385, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TCRACETESB28unid_383 = new ol.source.Vector({
+var jsonSource_TCRACETESB28unid_385 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TCRACETESB28unid_383.addFeatures(features_TCRACETESB28unid_383);
-var lyr_TCRACETESB28unid_383 = new ol.layer.Vector({
+jsonSource_TCRACETESB28unid_385.addFeatures(features_TCRACETESB28unid_385);
+var lyr_TCRACETESB28unid_385 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TCRACETESB28unid_383, 
-                style: style_TCRACETESB28unid_383,
+                source:jsonSource_TCRACETESB28unid_385, 
+                style: style_TCRACETESB28unid_385,
                 popuplayertitle: 'TCRA CETESB (28 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TCRACETESB28unid_383.png" /> TCRA CETESB (28 unid.)'
+                title: '<img src="styles/legend/TCRACETESB28unid_385.png" /> TCRA CETESB (28 unid.)'
             });
-var format_TACMinistrioPblico9unid_384 = new ol.format.GeoJSON();
-var features_TACMinistrioPblico9unid_384 = format_TACMinistrioPblico9unid_384.readFeatures(json_TACMinistrioPblico9unid_384, 
+var format_TACMinistrioPblico9unid_386 = new ol.format.GeoJSON();
+var features_TACMinistrioPblico9unid_386 = format_TACMinistrioPblico9unid_386.readFeatures(json_TACMinistrioPblico9unid_386, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TACMinistrioPblico9unid_384 = new ol.source.Vector({
+var jsonSource_TACMinistrioPblico9unid_386 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TACMinistrioPblico9unid_384.addFeatures(features_TACMinistrioPblico9unid_384);
-var lyr_TACMinistrioPblico9unid_384 = new ol.layer.Vector({
+jsonSource_TACMinistrioPblico9unid_386.addFeatures(features_TACMinistrioPblico9unid_386);
+var lyr_TACMinistrioPblico9unid_386 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TACMinistrioPblico9unid_384, 
-                style: style_TACMinistrioPblico9unid_384,
+                source:jsonSource_TACMinistrioPblico9unid_386, 
+                style: style_TACMinistrioPblico9unid_386,
                 popuplayertitle: 'TAC Ministério Público (9 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TACMinistrioPblico9unid_384.png" /> TAC Ministério Público (9 unid.)'
+                title: '<img src="styles/legend/TACMinistrioPblico9unid_386.png" /> TAC Ministério Público (9 unid.)'
             });
-var format_TACMinistrioPblico9unid_385 = new ol.format.GeoJSON();
-var features_TACMinistrioPblico9unid_385 = format_TACMinistrioPblico9unid_385.readFeatures(json_TACMinistrioPblico9unid_385, 
+var format_TACMinistrioPblico9unid_387 = new ol.format.GeoJSON();
+var features_TACMinistrioPblico9unid_387 = format_TACMinistrioPblico9unid_387.readFeatures(json_TACMinistrioPblico9unid_387, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_TACMinistrioPblico9unid_385 = new ol.source.Vector({
+var jsonSource_TACMinistrioPblico9unid_387 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TACMinistrioPblico9unid_385.addFeatures(features_TACMinistrioPblico9unid_385);
-var lyr_TACMinistrioPblico9unid_385 = new ol.layer.Vector({
+jsonSource_TACMinistrioPblico9unid_387.addFeatures(features_TACMinistrioPblico9unid_387);
+var lyr_TACMinistrioPblico9unid_387 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TACMinistrioPblico9unid_385, 
-                style: style_TACMinistrioPblico9unid_385,
+                source:jsonSource_TACMinistrioPblico9unid_387, 
+                style: style_TACMinistrioPblico9unid_387,
                 popuplayertitle: 'TAC Ministério Público (9 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/TACMinistrioPblico9unid_385.png" /> TAC Ministério Público (9 unid.)'
+                title: '<img src="styles/legend/TACMinistrioPblico9unid_387.png" /> TAC Ministério Público (9 unid.)'
             });
-var format_PlantioVoluntrio1unid_386 = new ol.format.GeoJSON();
-var features_PlantioVoluntrio1unid_386 = format_PlantioVoluntrio1unid_386.readFeatures(json_PlantioVoluntrio1unid_386, 
+var format_PlantioVoluntrio1unid_388 = new ol.format.GeoJSON();
+var features_PlantioVoluntrio1unid_388 = format_PlantioVoluntrio1unid_388.readFeatures(json_PlantioVoluntrio1unid_388, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PlantioVoluntrio1unid_386 = new ol.source.Vector({
+var jsonSource_PlantioVoluntrio1unid_388 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PlantioVoluntrio1unid_386.addFeatures(features_PlantioVoluntrio1unid_386);
-var lyr_PlantioVoluntrio1unid_386 = new ol.layer.Vector({
+jsonSource_PlantioVoluntrio1unid_388.addFeatures(features_PlantioVoluntrio1unid_388);
+var lyr_PlantioVoluntrio1unid_388 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PlantioVoluntrio1unid_386, 
-                style: style_PlantioVoluntrio1unid_386,
+                source:jsonSource_PlantioVoluntrio1unid_388, 
+                style: style_PlantioVoluntrio1unid_388,
                 popuplayertitle: 'Plantio Voluntário (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/PlantioVoluntrio1unid_386.png" /> Plantio Voluntário (1 unid.)'
+                title: '<img src="styles/legend/PlantioVoluntrio1unid_388.png" /> Plantio Voluntário (1 unid.)'
             });
-var format_PlantioVoluntrio1unid_387 = new ol.format.GeoJSON();
-var features_PlantioVoluntrio1unid_387 = format_PlantioVoluntrio1unid_387.readFeatures(json_PlantioVoluntrio1unid_387, 
+var format_PlantioVoluntrio1unid_389 = new ol.format.GeoJSON();
+var features_PlantioVoluntrio1unid_389 = format_PlantioVoluntrio1unid_389.readFeatures(json_PlantioVoluntrio1unid_389, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_PlantioVoluntrio1unid_387 = new ol.source.Vector({
+var jsonSource_PlantioVoluntrio1unid_389 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_PlantioVoluntrio1unid_387.addFeatures(features_PlantioVoluntrio1unid_387);
-var lyr_PlantioVoluntrio1unid_387 = new ol.layer.Vector({
+jsonSource_PlantioVoluntrio1unid_389.addFeatures(features_PlantioVoluntrio1unid_389);
+var lyr_PlantioVoluntrio1unid_389 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_PlantioVoluntrio1unid_387, 
-                style: style_PlantioVoluntrio1unid_387,
+                source:jsonSource_PlantioVoluntrio1unid_389, 
+                style: style_PlantioVoluntrio1unid_389,
                 popuplayertitle: 'Plantio Voluntário (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/PlantioVoluntrio1unid_387.png" /> Plantio Voluntário (1 unid.)'
+                title: '<img src="styles/legend/PlantioVoluntrio1unid_389.png" /> Plantio Voluntário (1 unid.)'
             });
-var format_CartaAnuncia20unid_388 = new ol.format.GeoJSON();
-var features_CartaAnuncia20unid_388 = format_CartaAnuncia20unid_388.readFeatures(json_CartaAnuncia20unid_388, 
+var format_CartaAnuncia20unid_390 = new ol.format.GeoJSON();
+var features_CartaAnuncia20unid_390 = format_CartaAnuncia20unid_390.readFeatures(json_CartaAnuncia20unid_390, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_CartaAnuncia20unid_388 = new ol.source.Vector({
+var jsonSource_CartaAnuncia20unid_390 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CartaAnuncia20unid_388.addFeatures(features_CartaAnuncia20unid_388);
-var lyr_CartaAnuncia20unid_388 = new ol.layer.Vector({
+jsonSource_CartaAnuncia20unid_390.addFeatures(features_CartaAnuncia20unid_390);
+var lyr_CartaAnuncia20unid_390 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CartaAnuncia20unid_388, 
-                style: style_CartaAnuncia20unid_388,
+                source:jsonSource_CartaAnuncia20unid_390, 
+                style: style_CartaAnuncia20unid_390,
                 popuplayertitle: 'Carta Anuência (20 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/CartaAnuncia20unid_388.png" /> Carta Anuência (20 unid.)'
+                title: '<img src="styles/legend/CartaAnuncia20unid_390.png" /> Carta Anuência (20 unid.)'
             });
-var format_CartaAnuncia20unid_389 = new ol.format.GeoJSON();
-var features_CartaAnuncia20unid_389 = format_CartaAnuncia20unid_389.readFeatures(json_CartaAnuncia20unid_389, 
+var format_CartaAnuncia20unid_391 = new ol.format.GeoJSON();
+var features_CartaAnuncia20unid_391 = format_CartaAnuncia20unid_391.readFeatures(json_CartaAnuncia20unid_391, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_CartaAnuncia20unid_389 = new ol.source.Vector({
+var jsonSource_CartaAnuncia20unid_391 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CartaAnuncia20unid_389.addFeatures(features_CartaAnuncia20unid_389);
-var lyr_CartaAnuncia20unid_389 = new ol.layer.Vector({
+jsonSource_CartaAnuncia20unid_391.addFeatures(features_CartaAnuncia20unid_391);
+var lyr_CartaAnuncia20unid_391 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CartaAnuncia20unid_389, 
-                style: style_CartaAnuncia20unid_389,
+                source:jsonSource_CartaAnuncia20unid_391, 
+                style: style_CartaAnuncia20unid_391,
                 popuplayertitle: 'Carta Anuência (20 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/CartaAnuncia20unid_389.png" /> Carta Anuência (20 unid.)'
+                title: '<img src="styles/legend/CartaAnuncia20unid_391.png" /> Carta Anuência (20 unid.)'
             });
-var format_AoCivilPblica1unid_390 = new ol.format.GeoJSON();
-var features_AoCivilPblica1unid_390 = format_AoCivilPblica1unid_390.readFeatures(json_AoCivilPblica1unid_390, 
+var format_AoCivilPblica1unid_392 = new ol.format.GeoJSON();
+var features_AoCivilPblica1unid_392 = format_AoCivilPblica1unid_392.readFeatures(json_AoCivilPblica1unid_392, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AoCivilPblica1unid_390 = new ol.source.Vector({
+var jsonSource_AoCivilPblica1unid_392 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AoCivilPblica1unid_390.addFeatures(features_AoCivilPblica1unid_390);
-var lyr_AoCivilPblica1unid_390 = new ol.layer.Vector({
+jsonSource_AoCivilPblica1unid_392.addFeatures(features_AoCivilPblica1unid_392);
+var lyr_AoCivilPblica1unid_392 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AoCivilPblica1unid_390, 
-                style: style_AoCivilPblica1unid_390,
+                source:jsonSource_AoCivilPblica1unid_392, 
+                style: style_AoCivilPblica1unid_392,
                 popuplayertitle: 'Ação Civil Pública (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/AoCivilPblica1unid_390.png" /> Ação Civil Pública (1 unid.)'
+                title: '<img src="styles/legend/AoCivilPblica1unid_392.png" /> Ação Civil Pública (1 unid.)'
             });
-var format_AoCivilPblica1unid_391 = new ol.format.GeoJSON();
-var features_AoCivilPblica1unid_391 = format_AoCivilPblica1unid_391.readFeatures(json_AoCivilPblica1unid_391, 
+var format_AoCivilPblica1unid_393 = new ol.format.GeoJSON();
+var features_AoCivilPblica1unid_393 = format_AoCivilPblica1unid_393.readFeatures(json_AoCivilPblica1unid_393, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_AoCivilPblica1unid_391 = new ol.source.Vector({
+var jsonSource_AoCivilPblica1unid_393 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_AoCivilPblica1unid_391.addFeatures(features_AoCivilPblica1unid_391);
-var lyr_AoCivilPblica1unid_391 = new ol.layer.Vector({
+jsonSource_AoCivilPblica1unid_393.addFeatures(features_AoCivilPblica1unid_393);
+var lyr_AoCivilPblica1unid_393 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_AoCivilPblica1unid_391, 
-                style: style_AoCivilPblica1unid_391,
+                source:jsonSource_AoCivilPblica1unid_393, 
+                style: style_AoCivilPblica1unid_393,
                 popuplayertitle: 'Ação Civil Pública (1 unid.)',
                 interactive: true,
-                title: '<img src="styles/legend/AoCivilPblica1unid_391.png" /> Ação Civil Pública (1 unid.)'
+                title: '<img src="styles/legend/AoCivilPblica1unid_393.png" /> Ação Civil Pública (1 unid.)'
             });
-var format_ProgramaAdoteUmaPraa315unid30277327m_392 = new ol.format.GeoJSON();
-var features_ProgramaAdoteUmaPraa315unid30277327m_392 = format_ProgramaAdoteUmaPraa315unid30277327m_392.readFeatures(json_ProgramaAdoteUmaPraa315unid30277327m_392, 
+var format_ProgramaAdoteUmaPraa315unid30277327m_394 = new ol.format.GeoJSON();
+var features_ProgramaAdoteUmaPraa315unid30277327m_394 = format_ProgramaAdoteUmaPraa315unid30277327m_394.readFeatures(json_ProgramaAdoteUmaPraa315unid30277327m_394, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ProgramaAdoteUmaPraa315unid30277327m_392 = new ol.source.Vector({
+var jsonSource_ProgramaAdoteUmaPraa315unid30277327m_394 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ProgramaAdoteUmaPraa315unid30277327m_392.addFeatures(features_ProgramaAdoteUmaPraa315unid30277327m_392);
-var lyr_ProgramaAdoteUmaPraa315unid30277327m_392 = new ol.layer.Vector({
+jsonSource_ProgramaAdoteUmaPraa315unid30277327m_394.addFeatures(features_ProgramaAdoteUmaPraa315unid30277327m_394);
+var lyr_ProgramaAdoteUmaPraa315unid30277327m_394 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ProgramaAdoteUmaPraa315unid30277327m_392, 
-                style: style_ProgramaAdoteUmaPraa315unid30277327m_392,
+                source:jsonSource_ProgramaAdoteUmaPraa315unid30277327m_394, 
+                style: style_ProgramaAdoteUmaPraa315unid30277327m_394,
                 popuplayertitle: 'Programa Adote Uma Praça (315 unid. / 302.773,27 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/ProgramaAdoteUmaPraa315unid30277327m_392.png" /> Programa Adote Uma Praça (315 unid. / 302.773,27 m²)'
+                title: '<img src="styles/legend/ProgramaAdoteUmaPraa315unid30277327m_394.png" /> Programa Adote Uma Praça (315 unid. / 302.773,27 m²)'
             });
-var format_ComPlacaDilu161unid17007212m_393 = new ol.format.GeoJSON();
-var features_ComPlacaDilu161unid17007212m_393 = format_ComPlacaDilu161unid17007212m_393.readFeatures(json_ComPlacaDilu161unid17007212m_393, 
+var format_ComPlacaDilu161unid17007212m_395 = new ol.format.GeoJSON();
+var features_ComPlacaDilu161unid17007212m_395 = format_ComPlacaDilu161unid17007212m_395.readFeatures(json_ComPlacaDilu161unid17007212m_395, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ComPlacaDilu161unid17007212m_393 = new ol.source.Vector({
+var jsonSource_ComPlacaDilu161unid17007212m_395 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ComPlacaDilu161unid17007212m_393.addFeatures(features_ComPlacaDilu161unid17007212m_393);
-var lyr_ComPlacaDilu161unid17007212m_393 = new ol.layer.Vector({
+jsonSource_ComPlacaDilu161unid17007212m_395.addFeatures(features_ComPlacaDilu161unid17007212m_395);
+var lyr_ComPlacaDilu161unid17007212m_395 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ComPlacaDilu161unid17007212m_393, 
-                style: style_ComPlacaDilu161unid17007212m_393,
+                source:jsonSource_ComPlacaDilu161unid17007212m_395, 
+                style: style_ComPlacaDilu161unid17007212m_395,
                 popuplayertitle: 'Com Placa - Dilu (161 unid. / 170.072,12 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/ComPlacaDilu161unid17007212m_393.png" /> Com Placa - Dilu (161 unid. / 170.072,12 m²)'
+                title: '<img src="styles/legend/ComPlacaDilu161unid17007212m_395.png" /> Com Placa - Dilu (161 unid. / 170.072,12 m²)'
             });
-var format_ComPlacaEgnaldo134unid12211725m_394 = new ol.format.GeoJSON();
-var features_ComPlacaEgnaldo134unid12211725m_394 = format_ComPlacaEgnaldo134unid12211725m_394.readFeatures(json_ComPlacaEgnaldo134unid12211725m_394, 
+var format_ComPlacaEgnaldo134unid12211725m_396 = new ol.format.GeoJSON();
+var features_ComPlacaEgnaldo134unid12211725m_396 = format_ComPlacaEgnaldo134unid12211725m_396.readFeatures(json_ComPlacaEgnaldo134unid12211725m_396, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_ComPlacaEgnaldo134unid12211725m_394 = new ol.source.Vector({
+var jsonSource_ComPlacaEgnaldo134unid12211725m_396 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_ComPlacaEgnaldo134unid12211725m_394.addFeatures(features_ComPlacaEgnaldo134unid12211725m_394);
-var lyr_ComPlacaEgnaldo134unid12211725m_394 = new ol.layer.Vector({
+jsonSource_ComPlacaEgnaldo134unid12211725m_396.addFeatures(features_ComPlacaEgnaldo134unid12211725m_396);
+var lyr_ComPlacaEgnaldo134unid12211725m_396 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_ComPlacaEgnaldo134unid12211725m_394, 
-                style: style_ComPlacaEgnaldo134unid12211725m_394,
+                source:jsonSource_ComPlacaEgnaldo134unid12211725m_396, 
+                style: style_ComPlacaEgnaldo134unid12211725m_396,
                 popuplayertitle: 'Com Placa - Egnaldo (134 unid. / 122.117,25 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/ComPlacaEgnaldo134unid12211725m_394.png" /> Com Placa - Egnaldo (134 unid. / 122.117,25 m²)'
+                title: '<img src="styles/legend/ComPlacaEgnaldo134unid12211725m_396.png" /> Com Placa - Egnaldo (134 unid. / 122.117,25 m²)'
             });
-var format_SemPlacaDilu16unid774541m_395 = new ol.format.GeoJSON();
-var features_SemPlacaDilu16unid774541m_395 = format_SemPlacaDilu16unid774541m_395.readFeatures(json_SemPlacaDilu16unid774541m_395, 
+var format_SemPlacaDilu16unid774541m_397 = new ol.format.GeoJSON();
+var features_SemPlacaDilu16unid774541m_397 = format_SemPlacaDilu16unid774541m_397.readFeatures(json_SemPlacaDilu16unid774541m_397, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_SemPlacaDilu16unid774541m_395 = new ol.source.Vector({
+var jsonSource_SemPlacaDilu16unid774541m_397 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SemPlacaDilu16unid774541m_395.addFeatures(features_SemPlacaDilu16unid774541m_395);
-var lyr_SemPlacaDilu16unid774541m_395 = new ol.layer.Vector({
+jsonSource_SemPlacaDilu16unid774541m_397.addFeatures(features_SemPlacaDilu16unid774541m_397);
+var lyr_SemPlacaDilu16unid774541m_397 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SemPlacaDilu16unid774541m_395, 
-                style: style_SemPlacaDilu16unid774541m_395,
+                source:jsonSource_SemPlacaDilu16unid774541m_397, 
+                style: style_SemPlacaDilu16unid774541m_397,
                 popuplayertitle: 'Sem Placa - Dilu (16 unid. / 7.745,41 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/SemPlacaDilu16unid774541m_395.png" /> Sem Placa - Dilu (16 unid. / 7.745,41 m²)'
+                title: '<img src="styles/legend/SemPlacaDilu16unid774541m_397.png" /> Sem Placa - Dilu (16 unid. / 7.745,41 m²)'
             });
-var format_SemPlacaEgnaldo4unid86447m_396 = new ol.format.GeoJSON();
-var features_SemPlacaEgnaldo4unid86447m_396 = format_SemPlacaEgnaldo4unid86447m_396.readFeatures(json_SemPlacaEgnaldo4unid86447m_396, 
+var format_SemPlacaEgnaldo4unid86447m_398 = new ol.format.GeoJSON();
+var features_SemPlacaEgnaldo4unid86447m_398 = format_SemPlacaEgnaldo4unid86447m_398.readFeatures(json_SemPlacaEgnaldo4unid86447m_398, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});
-var jsonSource_SemPlacaEgnaldo4unid86447m_396 = new ol.source.Vector({
+var jsonSource_SemPlacaEgnaldo4unid86447m_398 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SemPlacaEgnaldo4unid86447m_396.addFeatures(features_SemPlacaEgnaldo4unid86447m_396);
-var lyr_SemPlacaEgnaldo4unid86447m_396 = new ol.layer.Vector({
+jsonSource_SemPlacaEgnaldo4unid86447m_398.addFeatures(features_SemPlacaEgnaldo4unid86447m_398);
+var lyr_SemPlacaEgnaldo4unid86447m_398 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_SemPlacaEgnaldo4unid86447m_396, 
-                style: style_SemPlacaEgnaldo4unid86447m_396,
+                source:jsonSource_SemPlacaEgnaldo4unid86447m_398, 
+                style: style_SemPlacaEgnaldo4unid86447m_398,
                 popuplayertitle: 'Sem Placa - Egnaldo (4 unid. / 864,47 m²)',
                 interactive: true,
-                title: '<img src="styles/legend/SemPlacaEgnaldo4unid86447m_396.png" /> Sem Placa - Egnaldo (4 unid. / 864,47 m²)'
+                title: '<img src="styles/legend/SemPlacaEgnaldo4unid86447m_398.png" /> Sem Placa - Egnaldo (4 unid. / 864,47 m²)'
             });
 var group_AdoteUmaPraa = new ol.layer.Group({
-                                layers: [lyr_ProgramaAdoteUmaPraa315unid30277327m_392,lyr_ComPlacaDilu161unid17007212m_393,lyr_ComPlacaEgnaldo134unid12211725m_394,lyr_SemPlacaDilu16unid774541m_395,lyr_SemPlacaEgnaldo4unid86447m_396,],
+                                layers: [lyr_ProgramaAdoteUmaPraa315unid30277327m_394,lyr_ComPlacaDilu161unid17007212m_395,lyr_ComPlacaEgnaldo134unid12211725m_396,lyr_SemPlacaDilu16unid774541m_397,lyr_SemPlacaEgnaldo4unid86447m_398,],
                                 fold: 'close',
                                 title: 'Adote Uma Praça'});
 var group_reasCompromissadas = new ol.layer.Group({
-                                layers: [lyr_TRPRLCETESB2unid_376,lyr_TRPRLCETESB2unid_377,lyr_TCRAMunicipal14unid_378,lyr_TCRAMunicipal14unid_379,lyr_TCRACETESBPARCELAMENTO32unid_380,lyr_TCRACETESBPARCELAMENTO32unid_381,lyr_TCRACETESB28unid_382,lyr_TCRACETESB28unid_383,lyr_TACMinistrioPblico9unid_384,lyr_TACMinistrioPblico9unid_385,lyr_PlantioVoluntrio1unid_386,lyr_PlantioVoluntrio1unid_387,lyr_CartaAnuncia20unid_388,lyr_CartaAnuncia20unid_389,lyr_AoCivilPblica1unid_390,lyr_AoCivilPblica1unid_391,],
+                                layers: [lyr_TRPRLCETESB2unid_378,lyr_TRPRLCETESB2unid_379,lyr_TCRAMunicipal14unid_380,lyr_TCRAMunicipal14unid_381,lyr_TCRACETESBPARCELAMENTO32unid_382,lyr_TCRACETESBPARCELAMENTO32unid_383,lyr_TCRACETESB28unid_384,lyr_TCRACETESB28unid_385,lyr_TACMinistrioPblico9unid_386,lyr_TACMinistrioPblico9unid_387,lyr_PlantioVoluntrio1unid_388,lyr_PlantioVoluntrio1unid_389,lyr_CartaAnuncia20unid_390,lyr_CartaAnuncia20unid_391,lyr_AoCivilPblica1unid_392,lyr_AoCivilPblica1unid_393,],
                                 fold: 'close',
                                 title: 'Áreas Compromissadas'});
 var group_reasPblicas = new ol.layer.Group({
-                                layers: [lyr_APP156unid230392892m_356,lyr_reaInstitucional224unid133042345m_357,lyr_reaPatrimonial33unid15776685m_358,lyr_reaVerde1946unid805735618m_359,lyr_readeUsoEspecial276unid271190268m_360,lyr_LoteamentoFechado115unid52603608m_361,lyr_Lote252unid7530210m_362,lyr_Lote252unid_363,lyr_LoteEdificao20unid508062m_364,lyr_LoteEdificao20unid_365,lyr_LeiloLEIN97542025Homologado4unid334770m_366,lyr_LeiloLEIN97542025Homologado4unid_367,lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368,lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_369,lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370,lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_371,lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372,lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_373,lyr_LoteEMDEF10unid218783m_374,lyr_LoteEMDEF10unid_375,],
+                                layers: [lyr_APP156unid230392892m_358,lyr_reaInstitucional224unid133042345m_359,lyr_reaPatrimonial33unid15776685m_360,lyr_reaVerde1946unid805735618m_361,lyr_readeUsoEspecial276unid271190268m_362,lyr_LoteamentoFechado115unid52603608m_363,lyr_Lote252unid7530210m_364,lyr_Lote252unid_365,lyr_LoteEdificao20unid508062m_366,lyr_LoteEdificao20unid_367,lyr_LeiloLEIN97542025Homologado4unid334770m_368,lyr_LeiloLEIN97542025Homologado4unid_369,lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370,lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_371,lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372,lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_373,lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374,lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_375,lyr_LoteEMDEF10unid218783m_376,lyr_LoteEMDEF10unid_377,],
                                 fold: 'close',
                                 title: 'Áreas Públicas'});
 var group_Bairros383unidRegies9unid = new ol.layer.Group({
-                                layers: [lyr_RegioCentroLeste42unid675453694m_347,lyr_RegioLesteNordeste50unid1233454938m_348,lyr_RegioNorteI45unid1043752016m_349,lyr_RegioNorteII36unid859331837m_350,lyr_RegioOesteI65unid1245065890m_351,lyr_RegioOesteII43unid599615871m_352,lyr_RegioSudeste38unid579321135m_353,lyr_RegioSudesteSul44unid830633497m_354,lyr_RegioSul20unid639964086m_355,],
+                                layers: [lyr_RegioCentroLeste42unid675453694m_349,lyr_RegioLesteNordeste50unid1233454938m_350,lyr_RegioNorteI45unid1043752016m_351,lyr_RegioNorteII36unid859331837m_352,lyr_RegioOesteI65unid1245065890m_353,lyr_RegioOesteII43unid599615871m_354,lyr_RegioSudeste38unid579321135m_355,lyr_RegioSudesteSul44unid830633497m_356,lyr_RegioSul20unid639964086m_357,],
                                 fold: 'close',
                                 title: 'Bairros (383 unid.) / Regiões (9 unid.)'});
 var group_ClassesdeRiscoIPT = new ol.layer.Group({
-                                layers: [lyr_ClasseVB_337,lyr_ClasseVA_338,lyr_ClasseIVC_339,lyr_ClasseIVB_340,lyr_ClasseIVA_341,lyr_ClasseIIIC_342,lyr_ClasseIIIB_343,lyr_ClasseIIIA_344,lyr_ClasseII_345,lyr_ClasseI_346,],
+                                layers: [lyr_ClasseVB_339,lyr_ClasseVA_340,lyr_ClasseIVC_341,lyr_ClasseIVB_342,lyr_ClasseIVA_343,lyr_ClasseIIIC_344,lyr_ClasseIIIB_345,lyr_ClasseIIIA_346,lyr_ClasseII_347,lyr_ClasseI_348,],
                                 fold: 'close',
                                 title: 'Classes de Risco IPT'});
 var group_ControleAreoPlanoBsicodeZonadeProteodeAerdromo = new ol.layer.Group({
-                                layers: [lyr_PBZPAEdifcioPrimeHELIPONTO_333,lyr_PBZPAEdifcioPrimeHELIPONTO_334,lyr_PBZPAHospitalHELIPONTO_335,lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336,],
+                                layers: [lyr_PBZPAEdifcioPrimeHELIPONTO_335,lyr_PBZPAEdifcioPrimeHELIPONTO_336,lyr_PBZPAHospitalHELIPONTO_337,lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338,],
                                 fold: 'close',
                                 title: 'Controle Aéreo – Plano Básico de Zona de Proteção de Aeródromo'});
 var group_DescarteCorretodeResduos = new ol.layer.Group({
-                                layers: [lyr_Gesso1unid_315,lyr_ResduosdeConstruoCivil7unid_316,lyr_ResduosVerdes1unid_317,lyr_ChapasdeRaioX1unid_318,lyr_Embalagensvaziasdeagrotxicos1unid_319,lyr_leodecozinhausado2unid_320,lyr_leolubrificanteusado1unid_321,lyr_Latasdetintametlicasvazias2unid_322,lyr_ResduosPerigosos1unid_323,lyr_Madeiras1unid_324,lyr_ResduosdeServiosdeSade21unid_325,lyr_PilhaseBaterias17unid_326,lyr_Pneus1unid_327,lyr_Lmpadas4unid_328,lyr_ResduosdeCouro1unid_329,lyr_ResduosEletrnicos2unid_330,lyr_ResduosReciclveis15unid_331,lyr_ResduosInservveis4unid_332,],
+                                layers: [lyr_Gesso1unid_317,lyr_ResduosdeConstruoCivil7unid_318,lyr_ResduosVerdes1unid_319,lyr_ChapasdeRaioX1unid_320,lyr_Embalagensvaziasdeagrotxicos1unid_321,lyr_leodecozinhausado2unid_322,lyr_leolubrificanteusado1unid_323,lyr_Latasdetintametlicasvazias2unid_324,lyr_ResduosPerigosos1unid_325,lyr_Madeiras1unid_326,lyr_ResduosdeServiosdeSade21unid_327,lyr_PilhaseBaterias17unid_328,lyr_Pneus1unid_329,lyr_Lmpadas4unid_330,lyr_ResduosdeCouro1unid_331,lyr_ResduosEletrnicos2unid_332,lyr_ResduosReciclveis15unid_333,lyr_ResduosInservveis4unid_334,],
                                 fold: 'close',
                                 title: 'Descarte Correto de Resíduos'});
 var group_Diversos = new ol.layer.Group({
-                                layers: [lyr_Voorocas26unid_309,lyr_LocaisdeDifcilAcessoereasRurais12unid_310,lyr_Contineres286unid_311,lyr_rvoreImuneaoCorte9unid_312,lyr_AcademiasaoArLivre84unid_313,lyr_Ecopontos4unid_314,],
+                                layers: [lyr_Voorocas26unid_311,lyr_LocaisdeDifcilAcessoereasRurais12unid_312,lyr_Contineres286unid_313,lyr_rvoreImuneaoCorte9unid_314,lyr_AcademiasaoArLivre84unid_315,lyr_Ecopontos4unid_316,],
                                 fold: 'close',
                                 title: 'Diversos'});
 var group_FazendaMunicipalPousoAlto = new ol.layer.Group({
-                                layers: [lyr_reaN2_291,lyr_reaN1_292,lyr_reaN_293,lyr_ConjuntoHabitacional_294,lyr_AvdeacessoaoHortoeColgioAgrcola_295,lyr_reaK_296,lyr_reaJ_297,lyr_reaI_298,lyr_reaH_299,lyr_reaG_300,lyr_reaF_301,lyr_reaE_302,lyr_reaD_303,lyr_reaC_304,lyr_reaB_305,lyr_reaA_306,lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_307,lyr_reaaseraverbadaPartedareaG_308,],
+                                layers: [lyr_reaN2_293,lyr_reaN1_294,lyr_reaN_295,lyr_ConjuntoHabitacional_296,lyr_AvdeacessoaoHortoeColgioAgrcola_297,lyr_reaK_298,lyr_reaJ_299,lyr_reaI_300,lyr_reaH_301,lyr_reaG_302,lyr_reaF_303,lyr_reaE_304,lyr_reaD_305,lyr_reaC_306,lyr_reaB_307,lyr_reaA_308,lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_309,lyr_reaaseraverbadaPartedareaG_310,],
                                 fold: 'close',
                                 title: 'Fazenda Municipal Pouso Alto'});
 var group_GerenciamentodereasContaminadas = new ol.layer.Group({
-                                layers: [lyr_AntigoAterrodaFazendaMunicipal_281,lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282,lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283,lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284,lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285,lyr_AntigoAterrodasMaritacas_286,lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287,lyr_ParqueZumbidosPalmares_288,lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289,lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290,],
+                                layers: [lyr_AntigoAterrodaFazendaMunicipal_283,lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284,lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285,lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286,lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287,lyr_AntigoAterrodasMaritacas_288,lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289,lyr_ParqueZumbidosPalmares_290,lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291,lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292,],
                                 fold: 'close',
                                 title: 'Gerenciamento de Áreas Contaminadas'});
 var group_HidrografiaFBDS2025 = new ol.layer.Group({
-                                layers: [lyr_APP1745unid_276,lyr_RiosDuplos84unid_277,lyr_MassasDgua270unid_278,lyr_RiosSimples1842unid_279,lyr_Nascentes821unid_280,],
+                                layers: [lyr_APP1745unid_278,lyr_RiosDuplos84unid_279,lyr_MassasDgua270unid_280,lyr_RiosSimples1842unid_281,lyr_Nascentes821unid_282,],
                                 fold: 'close',
                                 title: 'Hidrografia FBDS 2025'});
 var group_LoteamentosClandestinos = new ol.layer.Group({
-                                layers: [lyr_LoteamentosClandestinos70unid_272,lyr_LoteamentosClandestinos70unid_273,lyr_FazendaPalestina105unid_274,lyr_FazendaPalestina105unid_275,],
+                                layers: [lyr_LoteamentosClandestinos70unid_274,lyr_LoteamentosClandestinos70unid_275,lyr_FazendaPalestina105unid_276,lyr_FazendaPalestina105unid_277,],
                                 fold: 'close',
                                 title: 'Loteamentos Clandestinos'});
 var group_LoteamentosCondomniosParcelamentodoSolo = new ol.layer.Group({
-                                layers: [lyr_Vivenna_104,lyr_Vivenna_105,lyr_VittaSoVicente_106,lyr_VittaSoVicente_107,lyr_VittaAlvorada_108,lyr_VittaAlvorada_109,lyr_VilaDiEspanha_110,lyr_VilaDiEspanha_111,lyr_VillaPucci_112,lyr_VillaPucci_113,lyr_VillaDoratta_114,lyr_VillaDoratta_115,lyr_VillaBella_116,lyr_VillaBella_117,lyr_Versalhes_118,lyr_Versalhes_119,lyr_TorontoResidence_120,lyr_TorontoResidence_121,lyr_TerraNova_122,lyr_TerraNova_123,lyr_Sonetto_124,lyr_Sonetto_125,lyr_SmartCityEixoResidencial_126,lyr_SmartCityEixoResidencial_127,lyr_SmartCityEixoEmpresarial_128,lyr_SmartCityEixoEmpresarial_129,lyr_SoCarlosII_130,lyr_SoCarlosII_131,lyr_ServidoRamal138kVFranca4Guanabara_132,lyr_ServidoRamal138kVFranca4Guanabara_133,lyr_SantaLina_134,lyr_SantaLina_135,lyr_SantAnita_136,lyr_SantAnita_137,lyr_ResidencialValeVerde_138,lyr_ResidencialValeVerde_139,lyr_ResidencialYasminTorres_140,lyr_ResidencialYasminTorres_141,lyr_ResidencialSoCarlosI_142,lyr_ResidencialSoCarlosI_143,lyr_ResidencialSantaIns_144,lyr_ResidencialSantaIns_145,lyr_ResidencialSantaF_146,lyr_ResidencialSantaF_147,lyr_ResidencialQuintadosOitis_148,lyr_ResidencialQuintadosOitis_149,lyr_ResidencialQuintadoSol_150,lyr_ResidencialQuintadoSol_151,lyr_ResidencialPousoAlegreII_152,lyr_ResidencialPousoAlegreII_153,lyr_ResidencialPousoAlegre_154,lyr_ResidencialPousoAlegre_155,lyr_ResicencialNairRetuciII_156,lyr_ResicencialNairRetuciII_157,lyr_ResicencialNairRetuci_158,lyr_ResicencialNairRetuci_159,lyr_ResidencialMoradadoBosque_160,lyr_ResidencialMoradadoBosque_161,lyr_ResidencialMarthaHelena_162,lyr_ResidencialMarthaHelena_163,lyr_ResidencialMarioTasso_164,lyr_ResidencialMarioTasso_165,lyr_ResidencialJardimCanada_166,lyr_ResidencialJardimCanada_167,lyr_ResidencialJabuticabeiras_168,lyr_ResidencialJabuticabeiras_169,lyr_ResidencialEssenza_170,lyr_ResidencialEssenza_171,lyr_ResidencialDomingosJardini_172,lyr_ResidencialDomingosJardini_173,lyr_ResidencialCintraAlves_174,lyr_ResidencialCintraAlves_175,lyr_ResidencialBoaVista_176,lyr_ResidencialBoaVista_177,lyr_ResidencialAltodaFazenda_178,lyr_ResidencialAltodaFazenda_179,lyr_RecantoMeneghetti_180,lyr_RecantoMeneghetti_181,lyr_ProlongamentoSamelPark_182,lyr_ProlongamentoSamelPark_183,lyr_ParqueVillaLobos_184,lyr_ParqueVillaLobos_185,lyr_ParquePalmeiraImperial_186,lyr_ParquePalmeiraImperial_187,lyr_ParqueFlora_188,lyr_ParqueFlora_189,lyr_ParquedosSabias_190,lyr_ParquedosSabias_191,lyr_ParagonII_192,lyr_ParagonII_193,lyr_Paragon_194,lyr_Paragon_195,lyr_PalmeiraReal_196,lyr_PalmeiraReal_197,lyr_MoradadoVerdeII_198,lyr_MoradadoVerdeII_199,lyr_MoradadaMata_200,lyr_MoradadaMata_201,lyr_Monti_202,lyr_Monti_203,lyr_MontBlancResidence_204,lyr_MontBlancResidence_205,lyr_MarianaAlarcon_206,lyr_MarianaAlarcon_207,lyr_Loteamentolamo_208,lyr_Loteamentolamo_209,lyr_JardimMariaLuiza_210,lyr_JardimMariaLuiza_211,lyr_JardimHorizonte_212,lyr_JardimHorizonte_213,lyr_JardimFlora_214,lyr_JardimFlora_215,lyr_IrineuZanetiII_216,lyr_IrineuZanetiII_217,lyr_Infratcnica_218,lyr_Infratcnica_219,lyr_HorizResidence_220,lyr_HorizResidence_221,lyr_GlebaNossaSenhoraAuxiliadora_222,lyr_GlebaNossaSenhoraAuxiliadora_223,lyr_Ferracini_224,lyr_Ferracini_225,lyr_FrancaB6_226,lyr_FrancaB6_227,lyr_FazendaProgresso_228,lyr_FazendaProgresso_229,lyr_FazendaeGranjaSantaRita2_230,lyr_FazendaeGranjaSantaRita2_231,lyr_FazendaeGranjaSantaRita_232,lyr_FazendaeGranjaSantaRita_233,lyr_Essence_234,lyr_Essence_235,lyr_Elias_236,lyr_Elias_237,lyr_EdifcioSolNascente_238,lyr_EdifcioSolNascente_239,lyr_EdifcioRuadoSol_240,lyr_EdifcioRuadoSol_241,lyr_EdifcioResidencialHope_242,lyr_EdifcioResidencialHope_243,lyr_DiocesedeFranca_244,lyr_DiocesedeFranca_245,lyr_DaVinci_246,lyr_DaVinci_247,lyr_CondomnioIICityPetrpolis_248,lyr_CondomnioIICityPetrpolis_249,lyr_CondomnioICityPetrpolis_250,lyr_CondomnioICityPetrpolis_251,lyr_Colorado_252,lyr_Colorado_253,lyr_CidadeJardim_254,lyr_CidadeJardim_255,lyr_ChacaraOlaria_256,lyr_ChacaraOlaria_257,lyr_ChacaraBelaVista_258,lyr_ChacaraBelaVista_259,lyr_BordadaMata_260,lyr_BordadaMata_261,lyr_Arizona_262,lyr_Arizona_263,lyr_Adonis_264,lyr_Adonis_265,lyr_AbuDhabiParadiseResortResidence_266,lyr_AbuDhabiParadiseResortResidence_267,lyr_EtapaAprovado27unid_268,lyr_EtapaDiretriz22unid_269,lyr_EtapaDefinitiva7unid_270,lyr_EtapaPrvia23unid_271,],
+                                layers: [lyr_Vivenna_104,lyr_Vivenna_105,lyr_VittaSoVicente_106,lyr_VittaSoVicente_107,lyr_VittaAlvorada_108,lyr_VittaAlvorada_109,lyr_VilaDiEspanha_110,lyr_VilaDiEspanha_111,lyr_VillaPucci_112,lyr_VillaPucci_113,lyr_VillaDoratta_114,lyr_VillaDoratta_115,lyr_VillaBella_116,lyr_VillaBella_117,lyr_Versalhes_118,lyr_Versalhes_119,lyr_TorontoResidence_120,lyr_TorontoResidence_121,lyr_TerraNova_122,lyr_TerraNova_123,lyr_Sonetto_124,lyr_Sonetto_125,lyr_SmartCityEixoResidencial_126,lyr_SmartCityEixoResidencial_127,lyr_SmartCityEixoEmpresarial_128,lyr_SmartCityEixoEmpresarial_129,lyr_SoCarlosII_130,lyr_SoCarlosII_131,lyr_ServidoRamal138kVFranca4Guanabara_132,lyr_ServidoRamal138kVFranca4Guanabara_133,lyr_SantaLina_134,lyr_SantaLina_135,lyr_SantAnita_136,lyr_SantAnita_137,lyr_ResidencialValeVerde_138,lyr_ResidencialValeVerde_139,lyr_ResidencialYasminTorres_140,lyr_ResidencialYasminTorres_141,lyr_ResidencialSoCarlosI_142,lyr_ResidencialSoCarlosI_143,lyr_ResidencialSantaIns_144,lyr_ResidencialSantaIns_145,lyr_ResidencialSantaF_146,lyr_ResidencialSantaF_147,lyr_ResidencialQuintadosOitis_148,lyr_ResidencialQuintadosOitis_149,lyr_ResidencialQuintadoSol_150,lyr_ResidencialQuintadoSol_151,lyr_ResidencialPousoAlegreII_152,lyr_ResidencialPousoAlegreII_153,lyr_ResidencialPousoAlegre_154,lyr_ResidencialPousoAlegre_155,lyr_ResicencialNairRetuciII_156,lyr_ResicencialNairRetuciII_157,lyr_ResicencialNairRetuci_158,lyr_ResicencialNairRetuci_159,lyr_ResidencialMoradadoBosque_160,lyr_ResidencialMoradadoBosque_161,lyr_ResidencialMarthaHelena_162,lyr_ResidencialMarthaHelena_163,lyr_ResidencialMarioTasso_164,lyr_ResidencialMarioTasso_165,lyr_ResidencialJardimCanada_166,lyr_ResidencialJardimCanada_167,lyr_ResidencialJabuticabeiras_168,lyr_ResidencialJabuticabeiras_169,lyr_ResidencialEssenza_170,lyr_ResidencialEssenza_171,lyr_ResidencialDomingosJardini_172,lyr_ResidencialDomingosJardini_173,lyr_ResidencialCintraAlves_174,lyr_ResidencialCintraAlves_175,lyr_ResidencialBoaVista_176,lyr_ResidencialBoaVista_177,lyr_ResidencialAltodaFazenda_178,lyr_ResidencialAltodaFazenda_179,lyr_RecantoMeneghetti_180,lyr_RecantoMeneghetti_181,lyr_Quadra18VilaExposio_182,lyr_Quadra18VilaExposio_183,lyr_ProlongamentoSamelPark_184,lyr_ProlongamentoSamelPark_185,lyr_ParqueVillaLobos_186,lyr_ParqueVillaLobos_187,lyr_ParquePalmeiraImperial_188,lyr_ParquePalmeiraImperial_189,lyr_ParqueFlora_190,lyr_ParqueFlora_191,lyr_ParquedosSabias_192,lyr_ParquedosSabias_193,lyr_ParagonII_194,lyr_ParagonII_195,lyr_Paragon_196,lyr_Paragon_197,lyr_PalmeiraReal_198,lyr_PalmeiraReal_199,lyr_MoradadoVerdeII_200,lyr_MoradadoVerdeII_201,lyr_MoradadaMata_202,lyr_MoradadaMata_203,lyr_Monti_204,lyr_Monti_205,lyr_MontBlancResidence_206,lyr_MontBlancResidence_207,lyr_MarianaAlarcon_208,lyr_MarianaAlarcon_209,lyr_Loteamentolamo_210,lyr_Loteamentolamo_211,lyr_JardimMariaLuiza_212,lyr_JardimMariaLuiza_213,lyr_JardimHorizonte_214,lyr_JardimHorizonte_215,lyr_JardimFlora_216,lyr_JardimFlora_217,lyr_IrineuZanetiII_218,lyr_IrineuZanetiII_219,lyr_Infratcnica_220,lyr_Infratcnica_221,lyr_HorizResidence_222,lyr_HorizResidence_223,lyr_GlebaNossaSenhoraAuxiliadora_224,lyr_GlebaNossaSenhoraAuxiliadora_225,lyr_Ferracini_226,lyr_Ferracini_227,lyr_FrancaB6_228,lyr_FrancaB6_229,lyr_FazendaProgresso_230,lyr_FazendaProgresso_231,lyr_FazendaeGranjaSantaRita2_232,lyr_FazendaeGranjaSantaRita2_233,lyr_FazendaeGranjaSantaRita_234,lyr_FazendaeGranjaSantaRita_235,lyr_Essence_236,lyr_Essence_237,lyr_Elias_238,lyr_Elias_239,lyr_EdifcioSolNascente_240,lyr_EdifcioSolNascente_241,lyr_EdifcioRuadoSol_242,lyr_EdifcioRuadoSol_243,lyr_EdifcioResidencialHope_244,lyr_EdifcioResidencialHope_245,lyr_DiocesedeFranca_246,lyr_DiocesedeFranca_247,lyr_DaVinci_248,lyr_DaVinci_249,lyr_CondomnioIICityPetrpolis_250,lyr_CondomnioIICityPetrpolis_251,lyr_CondomnioICityPetrpolis_252,lyr_CondomnioICityPetrpolis_253,lyr_Colorado_254,lyr_Colorado_255,lyr_CidadeJardim_256,lyr_CidadeJardim_257,lyr_ChacaraOlaria_258,lyr_ChacaraOlaria_259,lyr_ChacaraBelaVista_260,lyr_ChacaraBelaVista_261,lyr_BordadaMata_262,lyr_BordadaMata_263,lyr_Arizona_264,lyr_Arizona_265,lyr_Adonis_266,lyr_Adonis_267,lyr_AbuDhabiParadiseResortResidence_268,lyr_AbuDhabiParadiseResortResidence_269,lyr_EtapaAprovado27unid_270,lyr_EtapaDiretriz22unid_271,lyr_EtapaDefinitiva7unid_272,lyr_EtapaPrvia23unid_273,],
                                 fold: 'close',
                                 title: 'Loteamentos/Condomínios – Parcelamento do Solo'});
 var group_LoteamentosRegularizadosREURB = new ol.layer.Group({
@@ -6439,7 +6471,7 @@ var group_ZonaCartogrficaMapaBase = new ol.layer.Group({
                                 fold: 'close',
                                 title: 'Zona Cartográfica / Mapa Base'});
 
-lyr_GoogleMaps_0.setVisible(false);lyr_GoogleSatellite_1.setVisible(true);lyr_GoogleSatelliteHybrid_2.setVisible(false);lyr_LimiteMunicipaldeFranca_3.setVisible(true);lyr_reaUrbanadeFranca_4.setVisible(true);lyr_ARORemanescentesFlorestais_5.setVisible(false);lyr_AROreadeAmortecimento_6.setVisible(false);lyr_AROFaixadeCuestas_7.setVisible(false);lyr_AROAPP_8.setVisible(false);lyr_ARAIncongrunciasemAPP_9.setVisible(false);lyr_ARAETELagoas_10.setVisible(false);lyr_ARAAterros_11.setVisible(false);lyr_AODreaUrbanaConsolidada_12.setVisible(false);lyr_AODBaixaDensidadeNvel3_13.setVisible(false);lyr_AODBaixaDensidadeNvel2_14.setVisible(false);lyr_AODBaixaDensidadeNvel1_15.setVisible(false);lyr_AODAUSFase2_16.setVisible(false);lyr_AODAUSFase1_17.setVisible(false);lyr_LimitedaBaciadoRioCanoasLeiC4322024_18.setVisible(false);lyr_LimitedaBaciadoRioCanoasLeiC1002006_19.setVisible(false);lyr_DelimitaodaBaciadoRibeirodaOna_20.setVisible(false);lyr_ZonasEspeciaisAEISreaEspecialdeInteresseSocial_21.setVisible(false);lyr_ZonasEspeciaisAEPIreaEspecialPreferencialmenteIndustrialeLogstica_22.setVisible(false);lyr_ZonasEspeciaisAERUreaEspecialResidenciasUnifamiliares_23.setVisible(false);lyr_ZonasEspeciaisreaEspecialDestinadaaoLazeredeInteresseTursticoeCultural_24.setVisible(false);lyr_MacrozonasMacrozonadoRioCanoas_25.setVisible(false);lyr_MacrozonasSubMacrozonadeExpansoUrbana_26.setVisible(false);lyr_MacrozonasSubMacrozonadeOcupaoPreferencial_27.setVisible(false);lyr_MacrozonasSubMacrozonadeOcupaoRestrita_28.setVisible(false);lyr_ExpansoUrbanaLCN0502003_29.setVisible(false);lyr_ExpansoUrbanaLCN1402009_30.setVisible(false);lyr_ExpansoUrbanaLCN2352013_31.setVisible(false);lyr_ExpansoUrbanaLCN3242019_32.setVisible(false);lyr_ExpansoUrbanaBACIASDOCANOASEPOUSOALEGRELeis4240199244201994eLC1002006_33.setVisible(false);lyr_SistemaVirioExpansodosistemavirio_34.setVisible(false);lyr_SistemaVirioRodovias_35.setVisible(false);lyr_SistemaVirioRodoviasViasarteriais_36.setVisible(false);lyr_SistemaVirioSistemavirioprincipal_37.setVisible(false);lyr_PlanoVirioZonaSulAVENIDAEXISTENTE_38.setVisible(false);lyr_PlanoVirioZonaSulDIRETRIZAVENIDA_39.setVisible(false);lyr_PlanoVirioZonaSulDIRETRIZCOLETORA_40.setVisible(false);lyr_PlanoVirioZonaSulVIAEXPRESSAEXISTENTE_41.setVisible(false);lyr_PlanoVirioZonaSulDIRETRIZVIAPARQUE_42.setVisible(false);lyr_PrprioPblicoMunicipalAtenoPrimria24unid_43.setVisible(false);lyr_PrprioPblicoMunicipalGestoAdministrativo3unid_44.setVisible(false);lyr_PrprioPblicoMunicipalUnidadedeUrgnciaeEmergncia8unid_45.setVisible(false);lyr_PrprioPblicoMunicipalServiodeEspecialidadesDiagnstico14unid_46.setVisible(false);lyr_PrprioPblicoMunicipalVigilnciaemSade5unid_47.setVisible(false);lyr_PrprioPblicoMunicipalArena3unid_48.setVisible(false);lyr_PrprioPblicoMunicipalBiblioteca1unid_49.setVisible(false);lyr_PrprioPblicoMunicipalCampo18unid_50.setVisible(false);lyr_PrprioPblicoMunicipalCasa1unid_51.setVisible(false);lyr_PrprioPblicoMunicipalCentro4unid_52.setVisible(false);lyr_PrprioPblicoMunicipalCEPEL12unid_53.setVisible(false);lyr_PrprioPblicoMunicipalConjunto4unid_54.setVisible(false);lyr_PrprioPblicoMunicipalEstadio1unid_55.setVisible(false);lyr_PrprioPblicoMunicipalGinsio5unid_56.setVisible(false);lyr_PrprioPblicoMunicipalMuseu2unid_57.setVisible(false);lyr_PrprioPblicoMunicipalParque2unid_58.setVisible(false);lyr_PrprioPblicoMunicipalPavilho1unid_59.setVisible(false);lyr_PrprioPblicoMunicipalPinacoteca1unid_60.setVisible(false);lyr_PrprioPblicoMunicipalPiscina1unid_61.setVisible(false);lyr_PrprioPblicoMunicipalPista1unid_62.setVisible(false);lyr_PrprioPblicoMunicipalPraa3unid_63.setVisible(false);lyr_PrprioPblicoMunicipalQuadra3unid_64.setVisible(false);lyr_PrprioPblicoMunicipalSecretaria1unid_65.setVisible(false);lyr_PrprioPblicoMunicipalTeatro2unid_66.setVisible(false);lyr_UnidadesEscolaresAlfabetizaaodeJovenseAdultos15unid_67.setVisible(false);lyr_UnidadesEscolaresAlmoxarifadoEducao1unid_68.setVisible(false);lyr_UnidadesEscolaresCEICentrodeEducaoIntegradaGustavoChereghiniBichuette1unid_69.setVisible(false);lyr_UnidadesEscolaresCreche35unid_70.setVisible(false);lyr_UnidadesEscolaresCrechePrEscola45unid_71.setVisible(false);lyr_UnidadesEscolaresEdInfantil9unid_72.setVisible(false);lyr_UnidadesEscolaresEdInfantilEnsFundamental39unid_73.setVisible(false);lyr_UnidadesEscolaresEJA3unid_74.setVisible(false);lyr_UnidadesEscolaresEnsFundamental3unid_75.setVisible(false);lyr_UnidadesEscolaresEspaodeDifusoCientfica1unid_76.setVisible(false);lyr_UnidadesEscolaresSecretariaMunicipaldeEducao1unid_77.setVisible(false);lyr_UnidadesEscolaresSetordeMerenda1unid_78.setVisible(false);lyr_UnidadesEscolaresUniversidadeAbertadoBrasilUAB1unid_79.setVisible(false);lyr_RodoviasEstaduais4unid_80.setVisible(false);lyr_EstradasRuraisMunicipais34unid_81.setVisible(false);lyr_RodoviasMunicipais8unid_82.setVisible(false);lyr_LotesImvelPrivado95unid_83.setVisible(false);lyr_ImvelPrivado95unid_84.setVisible(false);lyr_ImvelRural1unid_85.setVisible(false);lyr_ImvelPblico118unid_86.setVisible(false);lyr_FaixadeDomnioViapaulista_87.setVisible(false);lyr_ParqueAmbientalLuprcioTaveira_88.setVisible(false);lyr_ParqueAmbientalLuprcioTaveira_89.setVisible(false);lyr_ParqueAmbientalSebastioAlvesBranquinhoBosquedosAngicos_90.setVisible(false);lyr_ParqueAmbientalSebastioAlvesBranquinhoBosquedosAngicos_91.setVisible(false);lyr_ParquedeExposiesFernandoCosta_92.setVisible(false);lyr_ParquedeExposiesFernandoCosta_93.setVisible(false);lyr_ParqueCaxambu_94.setVisible(false);lyr_ParqueCaxambu_95.setVisible(false);lyr_ComplexoPoliesportivo_96.setVisible(false);lyr_ComplexoPoliesportivo_97.setVisible(false);lyr_ParquedosTrabalhadores_98.setVisible(false);lyr_ParquedosTrabalhadores_99.setVisible(false);lyr_JardimZoobotnico_100.setVisible(false);lyr_JardimZoobotnico_101.setVisible(false);lyr_LoteamentosRegularizados9unid_102.setVisible(false);lyr_LoteamentosRegularizados9unid_103.setVisible(false);lyr_Vivenna_104.setVisible(false);lyr_Vivenna_105.setVisible(false);lyr_VittaSoVicente_106.setVisible(false);lyr_VittaSoVicente_107.setVisible(false);lyr_VittaAlvorada_108.setVisible(false);lyr_VittaAlvorada_109.setVisible(false);lyr_VilaDiEspanha_110.setVisible(false);lyr_VilaDiEspanha_111.setVisible(false);lyr_VillaPucci_112.setVisible(false);lyr_VillaPucci_113.setVisible(false);lyr_VillaDoratta_114.setVisible(false);lyr_VillaDoratta_115.setVisible(false);lyr_VillaBella_116.setVisible(false);lyr_VillaBella_117.setVisible(false);lyr_Versalhes_118.setVisible(false);lyr_Versalhes_119.setVisible(false);lyr_TorontoResidence_120.setVisible(false);lyr_TorontoResidence_121.setVisible(false);lyr_TerraNova_122.setVisible(false);lyr_TerraNova_123.setVisible(false);lyr_Sonetto_124.setVisible(false);lyr_Sonetto_125.setVisible(false);lyr_SmartCityEixoResidencial_126.setVisible(false);lyr_SmartCityEixoResidencial_127.setVisible(false);lyr_SmartCityEixoEmpresarial_128.setVisible(false);lyr_SmartCityEixoEmpresarial_129.setVisible(false);lyr_SoCarlosII_130.setVisible(false);lyr_SoCarlosII_131.setVisible(false);lyr_ServidoRamal138kVFranca4Guanabara_132.setVisible(false);lyr_ServidoRamal138kVFranca4Guanabara_133.setVisible(false);lyr_SantaLina_134.setVisible(false);lyr_SantaLina_135.setVisible(false);lyr_SantAnita_136.setVisible(false);lyr_SantAnita_137.setVisible(false);lyr_ResidencialValeVerde_138.setVisible(false);lyr_ResidencialValeVerde_139.setVisible(false);lyr_ResidencialYasminTorres_140.setVisible(false);lyr_ResidencialYasminTorres_141.setVisible(false);lyr_ResidencialSoCarlosI_142.setVisible(false);lyr_ResidencialSoCarlosI_143.setVisible(false);lyr_ResidencialSantaIns_144.setVisible(false);lyr_ResidencialSantaIns_145.setVisible(false);lyr_ResidencialSantaF_146.setVisible(false);lyr_ResidencialSantaF_147.setVisible(false);lyr_ResidencialQuintadosOitis_148.setVisible(false);lyr_ResidencialQuintadosOitis_149.setVisible(false);lyr_ResidencialQuintadoSol_150.setVisible(false);lyr_ResidencialQuintadoSol_151.setVisible(false);lyr_ResidencialPousoAlegreII_152.setVisible(false);lyr_ResidencialPousoAlegreII_153.setVisible(false);lyr_ResidencialPousoAlegre_154.setVisible(false);lyr_ResidencialPousoAlegre_155.setVisible(false);lyr_ResicencialNairRetuciII_156.setVisible(false);lyr_ResicencialNairRetuciII_157.setVisible(false);lyr_ResicencialNairRetuci_158.setVisible(false);lyr_ResicencialNairRetuci_159.setVisible(false);lyr_ResidencialMoradadoBosque_160.setVisible(false);lyr_ResidencialMoradadoBosque_161.setVisible(false);lyr_ResidencialMarthaHelena_162.setVisible(false);lyr_ResidencialMarthaHelena_163.setVisible(false);lyr_ResidencialMarioTasso_164.setVisible(false);lyr_ResidencialMarioTasso_165.setVisible(false);lyr_ResidencialJardimCanada_166.setVisible(false);lyr_ResidencialJardimCanada_167.setVisible(false);lyr_ResidencialJabuticabeiras_168.setVisible(false);lyr_ResidencialJabuticabeiras_169.setVisible(false);lyr_ResidencialEssenza_170.setVisible(false);lyr_ResidencialEssenza_171.setVisible(false);lyr_ResidencialDomingosJardini_172.setVisible(false);lyr_ResidencialDomingosJardini_173.setVisible(false);lyr_ResidencialCintraAlves_174.setVisible(false);lyr_ResidencialCintraAlves_175.setVisible(false);lyr_ResidencialBoaVista_176.setVisible(false);lyr_ResidencialBoaVista_177.setVisible(false);lyr_ResidencialAltodaFazenda_178.setVisible(false);lyr_ResidencialAltodaFazenda_179.setVisible(false);lyr_RecantoMeneghetti_180.setVisible(false);lyr_RecantoMeneghetti_181.setVisible(false);lyr_ProlongamentoSamelPark_182.setVisible(false);lyr_ProlongamentoSamelPark_183.setVisible(false);lyr_ParqueVillaLobos_184.setVisible(false);lyr_ParqueVillaLobos_185.setVisible(false);lyr_ParquePalmeiraImperial_186.setVisible(false);lyr_ParquePalmeiraImperial_187.setVisible(false);lyr_ParqueFlora_188.setVisible(false);lyr_ParqueFlora_189.setVisible(false);lyr_ParquedosSabias_190.setVisible(false);lyr_ParquedosSabias_191.setVisible(false);lyr_ParagonII_192.setVisible(false);lyr_ParagonII_193.setVisible(false);lyr_Paragon_194.setVisible(false);lyr_Paragon_195.setVisible(false);lyr_PalmeiraReal_196.setVisible(false);lyr_PalmeiraReal_197.setVisible(false);lyr_MoradadoVerdeII_198.setVisible(false);lyr_MoradadoVerdeII_199.setVisible(false);lyr_MoradadaMata_200.setVisible(false);lyr_MoradadaMata_201.setVisible(false);lyr_Monti_202.setVisible(false);lyr_Monti_203.setVisible(false);lyr_MontBlancResidence_204.setVisible(false);lyr_MontBlancResidence_205.setVisible(false);lyr_MarianaAlarcon_206.setVisible(false);lyr_MarianaAlarcon_207.setVisible(false);lyr_Loteamentolamo_208.setVisible(false);lyr_Loteamentolamo_209.setVisible(false);lyr_JardimMariaLuiza_210.setVisible(false);lyr_JardimMariaLuiza_211.setVisible(false);lyr_JardimHorizonte_212.setVisible(false);lyr_JardimHorizonte_213.setVisible(false);lyr_JardimFlora_214.setVisible(false);lyr_JardimFlora_215.setVisible(false);lyr_IrineuZanetiII_216.setVisible(false);lyr_IrineuZanetiII_217.setVisible(false);lyr_Infratcnica_218.setVisible(false);lyr_Infratcnica_219.setVisible(false);lyr_HorizResidence_220.setVisible(false);lyr_HorizResidence_221.setVisible(false);lyr_GlebaNossaSenhoraAuxiliadora_222.setVisible(false);lyr_GlebaNossaSenhoraAuxiliadora_223.setVisible(false);lyr_Ferracini_224.setVisible(false);lyr_Ferracini_225.setVisible(false);lyr_FrancaB6_226.setVisible(false);lyr_FrancaB6_227.setVisible(false);lyr_FazendaProgresso_228.setVisible(false);lyr_FazendaProgresso_229.setVisible(false);lyr_FazendaeGranjaSantaRita2_230.setVisible(false);lyr_FazendaeGranjaSantaRita2_231.setVisible(false);lyr_FazendaeGranjaSantaRita_232.setVisible(false);lyr_FazendaeGranjaSantaRita_233.setVisible(false);lyr_Essence_234.setVisible(false);lyr_Essence_235.setVisible(false);lyr_Elias_236.setVisible(false);lyr_Elias_237.setVisible(false);lyr_EdifcioSolNascente_238.setVisible(false);lyr_EdifcioSolNascente_239.setVisible(false);lyr_EdifcioRuadoSol_240.setVisible(false);lyr_EdifcioRuadoSol_241.setVisible(false);lyr_EdifcioResidencialHope_242.setVisible(false);lyr_EdifcioResidencialHope_243.setVisible(false);lyr_DiocesedeFranca_244.setVisible(false);lyr_DiocesedeFranca_245.setVisible(false);lyr_DaVinci_246.setVisible(false);lyr_DaVinci_247.setVisible(false);lyr_CondomnioIICityPetrpolis_248.setVisible(false);lyr_CondomnioIICityPetrpolis_249.setVisible(false);lyr_CondomnioICityPetrpolis_250.setVisible(false);lyr_CondomnioICityPetrpolis_251.setVisible(false);lyr_Colorado_252.setVisible(false);lyr_Colorado_253.setVisible(false);lyr_CidadeJardim_254.setVisible(false);lyr_CidadeJardim_255.setVisible(false);lyr_ChacaraOlaria_256.setVisible(false);lyr_ChacaraOlaria_257.setVisible(false);lyr_ChacaraBelaVista_258.setVisible(false);lyr_ChacaraBelaVista_259.setVisible(false);lyr_BordadaMata_260.setVisible(false);lyr_BordadaMata_261.setVisible(false);lyr_Arizona_262.setVisible(false);lyr_Arizona_263.setVisible(false);lyr_Adonis_264.setVisible(false);lyr_Adonis_265.setVisible(false);lyr_AbuDhabiParadiseResortResidence_266.setVisible(false);lyr_AbuDhabiParadiseResortResidence_267.setVisible(false);lyr_EtapaAprovado27unid_268.setVisible(false);lyr_EtapaDiretriz22unid_269.setVisible(false);lyr_EtapaDefinitiva7unid_270.setVisible(false);lyr_EtapaPrvia23unid_271.setVisible(false);lyr_LoteamentosClandestinos70unid_272.setVisible(false);lyr_LoteamentosClandestinos70unid_273.setVisible(false);lyr_FazendaPalestina105unid_274.setVisible(false);lyr_FazendaPalestina105unid_275.setVisible(false);lyr_APP1745unid_276.setVisible(false);lyr_RiosDuplos84unid_277.setVisible(false);lyr_MassasDgua270unid_278.setVisible(false);lyr_RiosSimples1842unid_279.setVisible(false);lyr_Nascentes821unid_280.setVisible(false);lyr_AntigoAterrodaFazendaMunicipal_281.setVisible(false);lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282.setVisible(false);lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283.setVisible(false);lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284.setVisible(false);lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285.setVisible(false);lyr_AntigoAterrodasMaritacas_286.setVisible(false);lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287.setVisible(false);lyr_ParqueZumbidosPalmares_288.setVisible(false);lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289.setVisible(false);lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290.setVisible(false);lyr_reaN2_291.setVisible(false);lyr_reaN1_292.setVisible(false);lyr_reaN_293.setVisible(false);lyr_ConjuntoHabitacional_294.setVisible(false);lyr_AvdeacessoaoHortoeColgioAgrcola_295.setVisible(false);lyr_reaK_296.setVisible(false);lyr_reaJ_297.setVisible(false);lyr_reaI_298.setVisible(false);lyr_reaH_299.setVisible(false);lyr_reaG_300.setVisible(false);lyr_reaF_301.setVisible(false);lyr_reaE_302.setVisible(false);lyr_reaD_303.setVisible(false);lyr_reaC_304.setVisible(false);lyr_reaB_305.setVisible(false);lyr_reaA_306.setVisible(false);lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_307.setVisible(false);lyr_reaaseraverbadaPartedareaG_308.setVisible(false);lyr_Voorocas26unid_309.setVisible(false);lyr_LocaisdeDifcilAcessoereasRurais12unid_310.setVisible(false);lyr_Contineres286unid_311.setVisible(false);lyr_rvoreImuneaoCorte9unid_312.setVisible(false);lyr_AcademiasaoArLivre84unid_313.setVisible(false);lyr_Ecopontos4unid_314.setVisible(false);lyr_Gesso1unid_315.setVisible(false);lyr_ResduosdeConstruoCivil7unid_316.setVisible(false);lyr_ResduosVerdes1unid_317.setVisible(false);lyr_ChapasdeRaioX1unid_318.setVisible(false);lyr_Embalagensvaziasdeagrotxicos1unid_319.setVisible(false);lyr_leodecozinhausado2unid_320.setVisible(false);lyr_leolubrificanteusado1unid_321.setVisible(false);lyr_Latasdetintametlicasvazias2unid_322.setVisible(false);lyr_ResduosPerigosos1unid_323.setVisible(false);lyr_Madeiras1unid_324.setVisible(false);lyr_ResduosdeServiosdeSade21unid_325.setVisible(false);lyr_PilhaseBaterias17unid_326.setVisible(false);lyr_Pneus1unid_327.setVisible(false);lyr_Lmpadas4unid_328.setVisible(false);lyr_ResduosdeCouro1unid_329.setVisible(false);lyr_ResduosEletrnicos2unid_330.setVisible(false);lyr_ResduosReciclveis15unid_331.setVisible(false);lyr_ResduosInservveis4unid_332.setVisible(false);lyr_PBZPAEdifcioPrimeHELIPONTO_333.setVisible(false);lyr_PBZPAEdifcioPrimeHELIPONTO_334.setVisible(false);lyr_PBZPAHospitalHELIPONTO_335.setVisible(false);lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336.setVisible(false);lyr_ClasseVB_337.setVisible(false);lyr_ClasseVA_338.setVisible(false);lyr_ClasseIVC_339.setVisible(false);lyr_ClasseIVB_340.setVisible(false);lyr_ClasseIVA_341.setVisible(false);lyr_ClasseIIIC_342.setVisible(false);lyr_ClasseIIIB_343.setVisible(false);lyr_ClasseIIIA_344.setVisible(false);lyr_ClasseII_345.setVisible(false);lyr_ClasseI_346.setVisible(false);lyr_RegioCentroLeste42unid675453694m_347.setVisible(false);lyr_RegioLesteNordeste50unid1233454938m_348.setVisible(false);lyr_RegioNorteI45unid1043752016m_349.setVisible(false);lyr_RegioNorteII36unid859331837m_350.setVisible(false);lyr_RegioOesteI65unid1245065890m_351.setVisible(false);lyr_RegioOesteII43unid599615871m_352.setVisible(false);lyr_RegioSudeste38unid579321135m_353.setVisible(false);lyr_RegioSudesteSul44unid830633497m_354.setVisible(false);lyr_RegioSul20unid639964086m_355.setVisible(false);lyr_APP156unid230392892m_356.setVisible(false);lyr_reaInstitucional224unid133042345m_357.setVisible(false);lyr_reaPatrimonial33unid15776685m_358.setVisible(false);lyr_reaVerde1946unid805735618m_359.setVisible(false);lyr_readeUsoEspecial276unid271190268m_360.setVisible(false);lyr_LoteamentoFechado115unid52603608m_361.setVisible(false);lyr_Lote252unid7530210m_362.setVisible(false);lyr_Lote252unid_363.setVisible(false);lyr_LoteEdificao20unid508062m_364.setVisible(false);lyr_LoteEdificao20unid_365.setVisible(false);lyr_LeiloLEIN97542025Homologado4unid334770m_366.setVisible(false);lyr_LeiloLEIN97542025Homologado4unid_367.setVisible(false);lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368.setVisible(false);lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_369.setVisible(false);lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370.setVisible(false);lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_371.setVisible(false);lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372.setVisible(false);lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_373.setVisible(false);lyr_LoteEMDEF10unid218783m_374.setVisible(false);lyr_LoteEMDEF10unid_375.setVisible(false);lyr_TRPRLCETESB2unid_376.setVisible(false);lyr_TRPRLCETESB2unid_377.setVisible(false);lyr_TCRAMunicipal14unid_378.setVisible(false);lyr_TCRAMunicipal14unid_379.setVisible(false);lyr_TCRACETESBPARCELAMENTO32unid_380.setVisible(false);lyr_TCRACETESBPARCELAMENTO32unid_381.setVisible(false);lyr_TCRACETESB28unid_382.setVisible(false);lyr_TCRACETESB28unid_383.setVisible(false);lyr_TACMinistrioPblico9unid_384.setVisible(false);lyr_TACMinistrioPblico9unid_385.setVisible(false);lyr_PlantioVoluntrio1unid_386.setVisible(false);lyr_PlantioVoluntrio1unid_387.setVisible(false);lyr_CartaAnuncia20unid_388.setVisible(false);lyr_CartaAnuncia20unid_389.setVisible(false);lyr_AoCivilPblica1unid_390.setVisible(false);lyr_AoCivilPblica1unid_391.setVisible(false);lyr_ProgramaAdoteUmaPraa315unid30277327m_392.setVisible(false);lyr_ComPlacaDilu161unid17007212m_393.setVisible(false);lyr_ComPlacaEgnaldo134unid12211725m_394.setVisible(false);lyr_SemPlacaDilu16unid774541m_395.setVisible(false);lyr_SemPlacaEgnaldo4unid86447m_396.setVisible(false);
+lyr_GoogleMaps_0.setVisible(false);lyr_GoogleSatellite_1.setVisible(true);lyr_GoogleSatelliteHybrid_2.setVisible(false);lyr_LimiteMunicipaldeFranca_3.setVisible(true);lyr_reaUrbanadeFranca_4.setVisible(true);lyr_ARORemanescentesFlorestais_5.setVisible(false);lyr_AROreadeAmortecimento_6.setVisible(false);lyr_AROFaixadeCuestas_7.setVisible(false);lyr_AROAPP_8.setVisible(false);lyr_ARAIncongrunciasemAPP_9.setVisible(false);lyr_ARAETELagoas_10.setVisible(false);lyr_ARAAterros_11.setVisible(false);lyr_AODreaUrbanaConsolidada_12.setVisible(false);lyr_AODBaixaDensidadeNvel3_13.setVisible(false);lyr_AODBaixaDensidadeNvel2_14.setVisible(false);lyr_AODBaixaDensidadeNvel1_15.setVisible(false);lyr_AODAUSFase2_16.setVisible(false);lyr_AODAUSFase1_17.setVisible(false);lyr_LimitedaBaciadoRioCanoasLeiC4322024_18.setVisible(false);lyr_LimitedaBaciadoRioCanoasLeiC1002006_19.setVisible(false);lyr_DelimitaodaBaciadoRibeirodaOna_20.setVisible(false);lyr_ZonasEspeciaisAEISreaEspecialdeInteresseSocial_21.setVisible(false);lyr_ZonasEspeciaisAEPIreaEspecialPreferencialmenteIndustrialeLogstica_22.setVisible(false);lyr_ZonasEspeciaisAERUreaEspecialResidenciasUnifamiliares_23.setVisible(false);lyr_ZonasEspeciaisreaEspecialDestinadaaoLazeredeInteresseTursticoeCultural_24.setVisible(false);lyr_MacrozonasMacrozonadoRioCanoas_25.setVisible(false);lyr_MacrozonasSubMacrozonadeExpansoUrbana_26.setVisible(false);lyr_MacrozonasSubMacrozonadeOcupaoPreferencial_27.setVisible(false);lyr_MacrozonasSubMacrozonadeOcupaoRestrita_28.setVisible(false);lyr_ExpansoUrbanaLCN0502003_29.setVisible(false);lyr_ExpansoUrbanaLCN1402009_30.setVisible(false);lyr_ExpansoUrbanaLCN2352013_31.setVisible(false);lyr_ExpansoUrbanaLCN3242019_32.setVisible(false);lyr_ExpansoUrbanaBACIASDOCANOASEPOUSOALEGRELeis4240199244201994eLC1002006_33.setVisible(false);lyr_SistemaVirioExpansodosistemavirio_34.setVisible(false);lyr_SistemaVirioRodovias_35.setVisible(false);lyr_SistemaVirioRodoviasViasarteriais_36.setVisible(false);lyr_SistemaVirioSistemavirioprincipal_37.setVisible(false);lyr_PlanoVirioZonaSulAVENIDAEXISTENTE_38.setVisible(false);lyr_PlanoVirioZonaSulDIRETRIZAVENIDA_39.setVisible(false);lyr_PlanoVirioZonaSulDIRETRIZCOLETORA_40.setVisible(false);lyr_PlanoVirioZonaSulVIAEXPRESSAEXISTENTE_41.setVisible(false);lyr_PlanoVirioZonaSulDIRETRIZVIAPARQUE_42.setVisible(false);lyr_PrprioPblicoMunicipalAtenoPrimria24unid_43.setVisible(false);lyr_PrprioPblicoMunicipalGestoAdministrativo3unid_44.setVisible(false);lyr_PrprioPblicoMunicipalUnidadedeUrgnciaeEmergncia8unid_45.setVisible(false);lyr_PrprioPblicoMunicipalServiodeEspecialidadesDiagnstico14unid_46.setVisible(false);lyr_PrprioPblicoMunicipalVigilnciaemSade5unid_47.setVisible(false);lyr_PrprioPblicoMunicipalArena3unid_48.setVisible(false);lyr_PrprioPblicoMunicipalBiblioteca1unid_49.setVisible(false);lyr_PrprioPblicoMunicipalCampo18unid_50.setVisible(false);lyr_PrprioPblicoMunicipalCasa1unid_51.setVisible(false);lyr_PrprioPblicoMunicipalCentro4unid_52.setVisible(false);lyr_PrprioPblicoMunicipalCEPEL12unid_53.setVisible(false);lyr_PrprioPblicoMunicipalConjunto4unid_54.setVisible(false);lyr_PrprioPblicoMunicipalEstadio1unid_55.setVisible(false);lyr_PrprioPblicoMunicipalGinsio5unid_56.setVisible(false);lyr_PrprioPblicoMunicipalMuseu2unid_57.setVisible(false);lyr_PrprioPblicoMunicipalParque2unid_58.setVisible(false);lyr_PrprioPblicoMunicipalPavilho1unid_59.setVisible(false);lyr_PrprioPblicoMunicipalPinacoteca1unid_60.setVisible(false);lyr_PrprioPblicoMunicipalPiscina1unid_61.setVisible(false);lyr_PrprioPblicoMunicipalPista1unid_62.setVisible(false);lyr_PrprioPblicoMunicipalPraa3unid_63.setVisible(false);lyr_PrprioPblicoMunicipalQuadra3unid_64.setVisible(false);lyr_PrprioPblicoMunicipalSecretaria1unid_65.setVisible(false);lyr_PrprioPblicoMunicipalTeatro2unid_66.setVisible(false);lyr_UnidadesEscolaresAlfabetizaaodeJovenseAdultos15unid_67.setVisible(false);lyr_UnidadesEscolaresAlmoxarifadoEducao1unid_68.setVisible(false);lyr_UnidadesEscolaresCEICentrodeEducaoIntegradaGustavoChereghiniBichuette1unid_69.setVisible(false);lyr_UnidadesEscolaresCreche35unid_70.setVisible(false);lyr_UnidadesEscolaresCrechePrEscola45unid_71.setVisible(false);lyr_UnidadesEscolaresEdInfantil9unid_72.setVisible(false);lyr_UnidadesEscolaresEdInfantilEnsFundamental39unid_73.setVisible(false);lyr_UnidadesEscolaresEJA3unid_74.setVisible(false);lyr_UnidadesEscolaresEnsFundamental3unid_75.setVisible(false);lyr_UnidadesEscolaresEspaodeDifusoCientfica1unid_76.setVisible(false);lyr_UnidadesEscolaresSecretariaMunicipaldeEducao1unid_77.setVisible(false);lyr_UnidadesEscolaresSetordeMerenda1unid_78.setVisible(false);lyr_UnidadesEscolaresUniversidadeAbertadoBrasilUAB1unid_79.setVisible(false);lyr_RodoviasEstaduais4unid_80.setVisible(false);lyr_EstradasRuraisMunicipais34unid_81.setVisible(false);lyr_RodoviasMunicipais8unid_82.setVisible(false);lyr_LotesImvelPrivado95unid_83.setVisible(false);lyr_ImvelPrivado95unid_84.setVisible(false);lyr_ImvelRural1unid_85.setVisible(false);lyr_ImvelPblico118unid_86.setVisible(false);lyr_FaixadeDomnioViapaulista_87.setVisible(false);lyr_ParqueAmbientalLuprcioTaveira_88.setVisible(false);lyr_ParqueAmbientalLuprcioTaveira_89.setVisible(false);lyr_ParqueAmbientalSebastioAlvesBranquinhoBosquedosAngicos_90.setVisible(false);lyr_ParqueAmbientalSebastioAlvesBranquinhoBosquedosAngicos_91.setVisible(false);lyr_ParquedeExposiesFernandoCosta_92.setVisible(false);lyr_ParquedeExposiesFernandoCosta_93.setVisible(false);lyr_ParqueCaxambu_94.setVisible(false);lyr_ParqueCaxambu_95.setVisible(false);lyr_ComplexoPoliesportivo_96.setVisible(false);lyr_ComplexoPoliesportivo_97.setVisible(false);lyr_ParquedosTrabalhadores_98.setVisible(false);lyr_ParquedosTrabalhadores_99.setVisible(false);lyr_JardimZoobotnico_100.setVisible(false);lyr_JardimZoobotnico_101.setVisible(false);lyr_LoteamentosRegularizados9unid_102.setVisible(false);lyr_LoteamentosRegularizados9unid_103.setVisible(false);lyr_Vivenna_104.setVisible(false);lyr_Vivenna_105.setVisible(false);lyr_VittaSoVicente_106.setVisible(false);lyr_VittaSoVicente_107.setVisible(false);lyr_VittaAlvorada_108.setVisible(false);lyr_VittaAlvorada_109.setVisible(false);lyr_VilaDiEspanha_110.setVisible(false);lyr_VilaDiEspanha_111.setVisible(false);lyr_VillaPucci_112.setVisible(false);lyr_VillaPucci_113.setVisible(false);lyr_VillaDoratta_114.setVisible(false);lyr_VillaDoratta_115.setVisible(false);lyr_VillaBella_116.setVisible(false);lyr_VillaBella_117.setVisible(false);lyr_Versalhes_118.setVisible(false);lyr_Versalhes_119.setVisible(false);lyr_TorontoResidence_120.setVisible(false);lyr_TorontoResidence_121.setVisible(false);lyr_TerraNova_122.setVisible(false);lyr_TerraNova_123.setVisible(false);lyr_Sonetto_124.setVisible(false);lyr_Sonetto_125.setVisible(false);lyr_SmartCityEixoResidencial_126.setVisible(false);lyr_SmartCityEixoResidencial_127.setVisible(false);lyr_SmartCityEixoEmpresarial_128.setVisible(false);lyr_SmartCityEixoEmpresarial_129.setVisible(false);lyr_SoCarlosII_130.setVisible(false);lyr_SoCarlosII_131.setVisible(false);lyr_ServidoRamal138kVFranca4Guanabara_132.setVisible(false);lyr_ServidoRamal138kVFranca4Guanabara_133.setVisible(false);lyr_SantaLina_134.setVisible(false);lyr_SantaLina_135.setVisible(false);lyr_SantAnita_136.setVisible(false);lyr_SantAnita_137.setVisible(false);lyr_ResidencialValeVerde_138.setVisible(false);lyr_ResidencialValeVerde_139.setVisible(false);lyr_ResidencialYasminTorres_140.setVisible(false);lyr_ResidencialYasminTorres_141.setVisible(false);lyr_ResidencialSoCarlosI_142.setVisible(false);lyr_ResidencialSoCarlosI_143.setVisible(false);lyr_ResidencialSantaIns_144.setVisible(false);lyr_ResidencialSantaIns_145.setVisible(false);lyr_ResidencialSantaF_146.setVisible(false);lyr_ResidencialSantaF_147.setVisible(false);lyr_ResidencialQuintadosOitis_148.setVisible(false);lyr_ResidencialQuintadosOitis_149.setVisible(false);lyr_ResidencialQuintadoSol_150.setVisible(false);lyr_ResidencialQuintadoSol_151.setVisible(false);lyr_ResidencialPousoAlegreII_152.setVisible(false);lyr_ResidencialPousoAlegreII_153.setVisible(false);lyr_ResidencialPousoAlegre_154.setVisible(false);lyr_ResidencialPousoAlegre_155.setVisible(false);lyr_ResicencialNairRetuciII_156.setVisible(false);lyr_ResicencialNairRetuciII_157.setVisible(false);lyr_ResicencialNairRetuci_158.setVisible(false);lyr_ResicencialNairRetuci_159.setVisible(false);lyr_ResidencialMoradadoBosque_160.setVisible(false);lyr_ResidencialMoradadoBosque_161.setVisible(false);lyr_ResidencialMarthaHelena_162.setVisible(false);lyr_ResidencialMarthaHelena_163.setVisible(false);lyr_ResidencialMarioTasso_164.setVisible(false);lyr_ResidencialMarioTasso_165.setVisible(false);lyr_ResidencialJardimCanada_166.setVisible(false);lyr_ResidencialJardimCanada_167.setVisible(false);lyr_ResidencialJabuticabeiras_168.setVisible(false);lyr_ResidencialJabuticabeiras_169.setVisible(false);lyr_ResidencialEssenza_170.setVisible(false);lyr_ResidencialEssenza_171.setVisible(false);lyr_ResidencialDomingosJardini_172.setVisible(false);lyr_ResidencialDomingosJardini_173.setVisible(false);lyr_ResidencialCintraAlves_174.setVisible(false);lyr_ResidencialCintraAlves_175.setVisible(false);lyr_ResidencialBoaVista_176.setVisible(false);lyr_ResidencialBoaVista_177.setVisible(false);lyr_ResidencialAltodaFazenda_178.setVisible(false);lyr_ResidencialAltodaFazenda_179.setVisible(false);lyr_RecantoMeneghetti_180.setVisible(false);lyr_RecantoMeneghetti_181.setVisible(false);lyr_Quadra18VilaExposio_182.setVisible(false);lyr_Quadra18VilaExposio_183.setVisible(false);lyr_ProlongamentoSamelPark_184.setVisible(false);lyr_ProlongamentoSamelPark_185.setVisible(false);lyr_ParqueVillaLobos_186.setVisible(false);lyr_ParqueVillaLobos_187.setVisible(false);lyr_ParquePalmeiraImperial_188.setVisible(false);lyr_ParquePalmeiraImperial_189.setVisible(false);lyr_ParqueFlora_190.setVisible(false);lyr_ParqueFlora_191.setVisible(false);lyr_ParquedosSabias_192.setVisible(false);lyr_ParquedosSabias_193.setVisible(false);lyr_ParagonII_194.setVisible(false);lyr_ParagonII_195.setVisible(false);lyr_Paragon_196.setVisible(false);lyr_Paragon_197.setVisible(false);lyr_PalmeiraReal_198.setVisible(false);lyr_PalmeiraReal_199.setVisible(false);lyr_MoradadoVerdeII_200.setVisible(false);lyr_MoradadoVerdeII_201.setVisible(false);lyr_MoradadaMata_202.setVisible(false);lyr_MoradadaMata_203.setVisible(false);lyr_Monti_204.setVisible(false);lyr_Monti_205.setVisible(false);lyr_MontBlancResidence_206.setVisible(false);lyr_MontBlancResidence_207.setVisible(false);lyr_MarianaAlarcon_208.setVisible(false);lyr_MarianaAlarcon_209.setVisible(false);lyr_Loteamentolamo_210.setVisible(false);lyr_Loteamentolamo_211.setVisible(false);lyr_JardimMariaLuiza_212.setVisible(false);lyr_JardimMariaLuiza_213.setVisible(false);lyr_JardimHorizonte_214.setVisible(false);lyr_JardimHorizonte_215.setVisible(false);lyr_JardimFlora_216.setVisible(false);lyr_JardimFlora_217.setVisible(false);lyr_IrineuZanetiII_218.setVisible(false);lyr_IrineuZanetiII_219.setVisible(false);lyr_Infratcnica_220.setVisible(false);lyr_Infratcnica_221.setVisible(false);lyr_HorizResidence_222.setVisible(false);lyr_HorizResidence_223.setVisible(false);lyr_GlebaNossaSenhoraAuxiliadora_224.setVisible(false);lyr_GlebaNossaSenhoraAuxiliadora_225.setVisible(false);lyr_Ferracini_226.setVisible(false);lyr_Ferracini_227.setVisible(false);lyr_FrancaB6_228.setVisible(false);lyr_FrancaB6_229.setVisible(false);lyr_FazendaProgresso_230.setVisible(false);lyr_FazendaProgresso_231.setVisible(false);lyr_FazendaeGranjaSantaRita2_232.setVisible(false);lyr_FazendaeGranjaSantaRita2_233.setVisible(false);lyr_FazendaeGranjaSantaRita_234.setVisible(false);lyr_FazendaeGranjaSantaRita_235.setVisible(false);lyr_Essence_236.setVisible(false);lyr_Essence_237.setVisible(false);lyr_Elias_238.setVisible(false);lyr_Elias_239.setVisible(false);lyr_EdifcioSolNascente_240.setVisible(false);lyr_EdifcioSolNascente_241.setVisible(false);lyr_EdifcioRuadoSol_242.setVisible(false);lyr_EdifcioRuadoSol_243.setVisible(false);lyr_EdifcioResidencialHope_244.setVisible(false);lyr_EdifcioResidencialHope_245.setVisible(false);lyr_DiocesedeFranca_246.setVisible(false);lyr_DiocesedeFranca_247.setVisible(false);lyr_DaVinci_248.setVisible(false);lyr_DaVinci_249.setVisible(false);lyr_CondomnioIICityPetrpolis_250.setVisible(false);lyr_CondomnioIICityPetrpolis_251.setVisible(false);lyr_CondomnioICityPetrpolis_252.setVisible(false);lyr_CondomnioICityPetrpolis_253.setVisible(false);lyr_Colorado_254.setVisible(false);lyr_Colorado_255.setVisible(false);lyr_CidadeJardim_256.setVisible(false);lyr_CidadeJardim_257.setVisible(false);lyr_ChacaraOlaria_258.setVisible(false);lyr_ChacaraOlaria_259.setVisible(false);lyr_ChacaraBelaVista_260.setVisible(false);lyr_ChacaraBelaVista_261.setVisible(false);lyr_BordadaMata_262.setVisible(false);lyr_BordadaMata_263.setVisible(false);lyr_Arizona_264.setVisible(false);lyr_Arizona_265.setVisible(false);lyr_Adonis_266.setVisible(false);lyr_Adonis_267.setVisible(false);lyr_AbuDhabiParadiseResortResidence_268.setVisible(false);lyr_AbuDhabiParadiseResortResidence_269.setVisible(false);lyr_EtapaAprovado27unid_270.setVisible(false);lyr_EtapaDiretriz22unid_271.setVisible(false);lyr_EtapaDefinitiva7unid_272.setVisible(false);lyr_EtapaPrvia23unid_273.setVisible(false);lyr_LoteamentosClandestinos70unid_274.setVisible(false);lyr_LoteamentosClandestinos70unid_275.setVisible(false);lyr_FazendaPalestina105unid_276.setVisible(false);lyr_FazendaPalestina105unid_277.setVisible(false);lyr_APP1745unid_278.setVisible(false);lyr_RiosDuplos84unid_279.setVisible(false);lyr_MassasDgua270unid_280.setVisible(false);lyr_RiosSimples1842unid_281.setVisible(false);lyr_Nascentes821unid_282.setVisible(false);lyr_AntigoAterrodaFazendaMunicipal_283.setVisible(false);lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284.setVisible(false);lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285.setVisible(false);lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286.setVisible(false);lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287.setVisible(false);lyr_AntigoAterrodasMaritacas_288.setVisible(false);lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289.setVisible(false);lyr_ParqueZumbidosPalmares_290.setVisible(false);lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291.setVisible(false);lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292.setVisible(false);lyr_reaN2_293.setVisible(false);lyr_reaN1_294.setVisible(false);lyr_reaN_295.setVisible(false);lyr_ConjuntoHabitacional_296.setVisible(false);lyr_AvdeacessoaoHortoeColgioAgrcola_297.setVisible(false);lyr_reaK_298.setVisible(false);lyr_reaJ_299.setVisible(false);lyr_reaI_300.setVisible(false);lyr_reaH_301.setVisible(false);lyr_reaG_302.setVisible(false);lyr_reaF_303.setVisible(false);lyr_reaE_304.setVisible(false);lyr_reaD_305.setVisible(false);lyr_reaC_306.setVisible(false);lyr_reaB_307.setVisible(false);lyr_reaA_308.setVisible(false);lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_309.setVisible(false);lyr_reaaseraverbadaPartedareaG_310.setVisible(false);lyr_Voorocas26unid_311.setVisible(false);lyr_LocaisdeDifcilAcessoereasRurais12unid_312.setVisible(false);lyr_Contineres286unid_313.setVisible(false);lyr_rvoreImuneaoCorte9unid_314.setVisible(false);lyr_AcademiasaoArLivre84unid_315.setVisible(false);lyr_Ecopontos4unid_316.setVisible(false);lyr_Gesso1unid_317.setVisible(false);lyr_ResduosdeConstruoCivil7unid_318.setVisible(false);lyr_ResduosVerdes1unid_319.setVisible(false);lyr_ChapasdeRaioX1unid_320.setVisible(false);lyr_Embalagensvaziasdeagrotxicos1unid_321.setVisible(false);lyr_leodecozinhausado2unid_322.setVisible(false);lyr_leolubrificanteusado1unid_323.setVisible(false);lyr_Latasdetintametlicasvazias2unid_324.setVisible(false);lyr_ResduosPerigosos1unid_325.setVisible(false);lyr_Madeiras1unid_326.setVisible(false);lyr_ResduosdeServiosdeSade21unid_327.setVisible(false);lyr_PilhaseBaterias17unid_328.setVisible(false);lyr_Pneus1unid_329.setVisible(false);lyr_Lmpadas4unid_330.setVisible(false);lyr_ResduosdeCouro1unid_331.setVisible(false);lyr_ResduosEletrnicos2unid_332.setVisible(false);lyr_ResduosReciclveis15unid_333.setVisible(false);lyr_ResduosInservveis4unid_334.setVisible(false);lyr_PBZPAEdifcioPrimeHELIPONTO_335.setVisible(false);lyr_PBZPAEdifcioPrimeHELIPONTO_336.setVisible(false);lyr_PBZPAHospitalHELIPONTO_337.setVisible(false);lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338.setVisible(false);lyr_ClasseVB_339.setVisible(false);lyr_ClasseVA_340.setVisible(false);lyr_ClasseIVC_341.setVisible(false);lyr_ClasseIVB_342.setVisible(false);lyr_ClasseIVA_343.setVisible(false);lyr_ClasseIIIC_344.setVisible(false);lyr_ClasseIIIB_345.setVisible(false);lyr_ClasseIIIA_346.setVisible(false);lyr_ClasseII_347.setVisible(false);lyr_ClasseI_348.setVisible(false);lyr_RegioCentroLeste42unid675453694m_349.setVisible(false);lyr_RegioLesteNordeste50unid1233454938m_350.setVisible(false);lyr_RegioNorteI45unid1043752016m_351.setVisible(false);lyr_RegioNorteII36unid859331837m_352.setVisible(false);lyr_RegioOesteI65unid1245065890m_353.setVisible(false);lyr_RegioOesteII43unid599615871m_354.setVisible(false);lyr_RegioSudeste38unid579321135m_355.setVisible(false);lyr_RegioSudesteSul44unid830633497m_356.setVisible(false);lyr_RegioSul20unid639964086m_357.setVisible(false);lyr_APP156unid230392892m_358.setVisible(false);lyr_reaInstitucional224unid133042345m_359.setVisible(false);lyr_reaPatrimonial33unid15776685m_360.setVisible(false);lyr_reaVerde1946unid805735618m_361.setVisible(false);lyr_readeUsoEspecial276unid271190268m_362.setVisible(false);lyr_LoteamentoFechado115unid52603608m_363.setVisible(false);lyr_Lote252unid7530210m_364.setVisible(false);lyr_Lote252unid_365.setVisible(false);lyr_LoteEdificao20unid508062m_366.setVisible(false);lyr_LoteEdificao20unid_367.setVisible(false);lyr_LeiloLEIN97542025Homologado4unid334770m_368.setVisible(false);lyr_LeiloLEIN97542025Homologado4unid_369.setVisible(false);lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370.setVisible(false);lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_371.setVisible(false);lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372.setVisible(false);lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_373.setVisible(false);lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374.setVisible(false);lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_375.setVisible(false);lyr_LoteEMDEF10unid218783m_376.setVisible(false);lyr_LoteEMDEF10unid_377.setVisible(false);lyr_TRPRLCETESB2unid_378.setVisible(false);lyr_TRPRLCETESB2unid_379.setVisible(false);lyr_TCRAMunicipal14unid_380.setVisible(false);lyr_TCRAMunicipal14unid_381.setVisible(false);lyr_TCRACETESBPARCELAMENTO32unid_382.setVisible(false);lyr_TCRACETESBPARCELAMENTO32unid_383.setVisible(false);lyr_TCRACETESB28unid_384.setVisible(false);lyr_TCRACETESB28unid_385.setVisible(false);lyr_TACMinistrioPblico9unid_386.setVisible(false);lyr_TACMinistrioPblico9unid_387.setVisible(false);lyr_PlantioVoluntrio1unid_388.setVisible(false);lyr_PlantioVoluntrio1unid_389.setVisible(false);lyr_CartaAnuncia20unid_390.setVisible(false);lyr_CartaAnuncia20unid_391.setVisible(false);lyr_AoCivilPblica1unid_392.setVisible(false);lyr_AoCivilPblica1unid_393.setVisible(false);lyr_ProgramaAdoteUmaPraa315unid30277327m_394.setVisible(false);lyr_ComPlacaDilu161unid17007212m_395.setVisible(false);lyr_ComPlacaEgnaldo134unid12211725m_396.setVisible(false);lyr_SemPlacaDilu16unid774541m_397.setVisible(false);lyr_SemPlacaEgnaldo4unid86447m_398.setVisible(false);
 var layersList = [group_ZonaCartogrficaMapaBase,group_ZoneamentoAmbientaldaBaciadoRioCanoas,group_Zoneamento,group_SistemaVirio,group_SecretariadeSade,group_SecretariadeEsporteeCultura,group_SecretariadeEducaoUnidadesEscolares,group_RodoviaseEstradas,group_PontosViciados,group_ParquesdeFranca,group_LoteamentosRegularizadosREURB,group_LoteamentosCondomniosParcelamentodoSolo,group_LoteamentosClandestinos,group_HidrografiaFBDS2025,group_GerenciamentodereasContaminadas,group_FazendaMunicipalPousoAlto,group_Diversos,group_DescarteCorretodeResduos,group_ControleAreoPlanoBsicodeZonadeProteodeAerdromo,group_ClassesdeRiscoIPT,group_Bairros383unidRegies9unid,group_reasPblicas,group_reasCompromissadas,group_AdoteUmaPraa];
 lyr_LimiteMunicipaldeFranca_3.set('fieldAliases', {'fid': 'fid', 'CD_MUN': 'CD_MUN', 'NM_MUN': 'NM_MUN', 'CD_RGI': 'CD_RGI', 'NM_RGI': 'NM_RGI', 'CD_RGINT': 'CD_RGINT', 'NM_RGINT': 'NM_RGINT', 'CD_UF': 'CD_UF', 'NM_UF': 'NM_UF', 'SIGLA_UF': 'SIGLA_UF', 'CD_REGIA': 'CD_REGIA', 'NM_REGIA': 'NM_REGIA', 'SIGLA_RG': 'SIGLA_RG', 'CD_CONCU': 'CD_CONCU', 'NM_CONCU': 'NM_CONCU', 'AREA_KM2': 'AREA_KM2', });
 lyr_reaUrbanadeFranca_4.set('fieldAliases', {'fid': 'fid', 'Código do Município': 'Código do Município', 'Nome do Município': 'Nome do Município', 'UF': 'UF', 'Código da UF': 'Código da UF', 'Classe de Uso': 'Classe de Uso', 'Área (ha)': 'Área (ha)', 'Área (km²)': 'Área (km²)', });
@@ -6620,221 +6652,223 @@ lyr_ResidencialAltodaFazenda_178.set('fieldAliases', {'fid': 'fid', 'layer': 'la
 lyr_ResidencialAltodaFazenda_179.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
 lyr_RecantoMeneghetti_180.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
 lyr_RecantoMeneghetti_181.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ProlongamentoSamelPark_182.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ProlongamentoSamelPark_183.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParqueVillaLobos_184.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParqueVillaLobos_185.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParquePalmeiraImperial_186.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParquePalmeiraImperial_187.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParqueFlora_188.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParqueFlora_189.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParquedosSabias_190.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParquedosSabias_191.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParagonII_192.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ParagonII_193.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Paragon_194.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Paragon_195.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_PalmeiraReal_196.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_PalmeiraReal_197.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', 'path': 'path', });
-lyr_MoradadoVerdeII_198.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_MoradadoVerdeII_199.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_MoradadaMata_200.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_MoradadaMata_201.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Monti_202.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Monti_203.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', 'path': 'path', });
-lyr_MontBlancResidence_204.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_MontBlancResidence_205.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_MarianaAlarcon_206.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_MarianaAlarcon_207.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Loteamentolamo_208.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Loteamentolamo_209.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_JardimMariaLuiza_210.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_JardimMariaLuiza_211.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_JardimHorizonte_212.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_JardimHorizonte_213.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_JardimFlora_214.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_JardimFlora_215.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_IrineuZanetiII_216.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_IrineuZanetiII_217.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Infratcnica_218.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Infratcnica_219.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_HorizResidence_220.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_HorizResidence_221.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_GlebaNossaSenhoraAuxiliadora_222.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_GlebaNossaSenhoraAuxiliadora_223.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Ferracini_224.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Ferracini_225.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_FrancaB6_226.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_FrancaB6_227.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_FazendaProgresso_228.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_FazendaProgresso_229.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_FazendaeGranjaSantaRita2_230.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_FazendaeGranjaSantaRita2_231.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_FazendaeGranjaSantaRita_232.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_FazendaeGranjaSantaRita_233.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Essence_234.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Essence_235.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Elias_236.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Elias_237.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', 'path': 'path', });
-lyr_EdifcioSolNascente_238.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_EdifcioSolNascente_239.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', 'path': 'path', });
-lyr_EdifcioRuadoSol_240.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_EdifcioRuadoSol_241.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_EdifcioResidencialHope_242.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_EdifcioResidencialHope_243.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_DiocesedeFranca_244.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_DiocesedeFranca_245.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_DaVinci_246.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_DaVinci_247.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_CondomnioIICityPetrpolis_248.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_CondomnioIICityPetrpolis_249.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_CondomnioICityPetrpolis_250.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_CondomnioICityPetrpolis_251.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Colorado_252.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Colorado_253.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_CidadeJardim_254.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_CidadeJardim_255.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ChacaraOlaria_256.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ChacaraOlaria_257.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ChacaraBelaVista_258.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_ChacaraBelaVista_259.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_BordadaMata_260.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_BordadaMata_261.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Arizona_262.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Arizona_263.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Adonis_264.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_Adonis_265.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_AbuDhabiParadiseResortResidence_266.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_AbuDhabiParadiseResortResidence_267.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
-lyr_EtapaAprovado27unid_268.set('fieldAliases', {'fid': 'fid', 'cadastro_imobiliario': 'Cadastro Imobiliário', 'latitude': 'latitude', 'longitude': 'longitude', 'unidade_municipal': 'Unidade Municipal', 'etapa': 'Etapa', 'decreto': 'Decreto', 'tipologia': 'Tipologia', 'matricula': 'Matrícula', 'processo': 'Processo', 'proprietarios': 'Proprietarios', 'nome_empreendimento': 'Nome do Empreendimento', 'zoneamento': 'Zoneamento', 'area_verde_m2': 'Área Verde (m²)', 'area_institucional_m2': 'Área Institucional (m²)', 'area_lazer_m2': 'Área Lazer (m²)', 'lotes_m2': 'Lotes (m²)', 'unidades_lotes': 'Lotes (unid)', 'unidades_lotes_misto': 'Lotes Mistos (unid)', 'unidades_lotes_residenciais': 'Lotes Residenciais (unid)', 'lotes_comerciais': 'Lotes Comerciais', });
-lyr_EtapaDiretriz22unid_269.set('fieldAliases', {'fid': 'fid', 'cadastro_imobiliario': 'Cadastro Imobiliário', 'latitude': 'latitude', 'longitude': 'longitude', 'unidade_municipal': 'Unidade Municipal', 'etapa': 'Etapa', 'decreto': 'Decreto', 'tipologia': 'Tipologia', 'matricula': 'Matrícula', 'processo': 'Processo', 'proprietarios': 'Proprietarios', 'nome_empreendimento': 'Nome do Empreendimento', 'zoneamento': 'Zoneamento', 'area_verde_m2': 'Área Verde (m²)', 'area_institucional_m2': 'Área Institucional (m²)', 'area_lazer_m2': 'Área Lazer (m²)', 'lotes_m2': 'Lotes (m²)', 'unidades_lotes': 'Lotes (unid)', 'unidades_lotes_misto': 'Lotes Mistos (unid)', 'unidades_lotes_residenciais': 'Lotes Residenciais (unid)', 'lotes_comerciais': 'Lotes Comerciais', });
-lyr_EtapaDefinitiva7unid_270.set('fieldAliases', {'fid': 'fid', 'cadastro_imobiliario': 'Cadastro Imobiliário', 'latitude': 'latitude', 'longitude': 'longitude', 'unidade_municipal': 'Unidade Municipal', 'etapa': 'Etapa', 'decreto': 'Decreto', 'tipologia': 'Tipologia', 'matricula': 'Matrícula', 'processo': 'Processo', 'proprietarios': 'Proprietarios', 'nome_empreendimento': 'Nome do Empreendimento', 'zoneamento': 'Zoneamento', 'area_verde_m2': 'Área Verde (m²)', 'area_institucional_m2': 'Área Institucional (m²)', 'area_lazer_m2': 'Área Lazer (m²)', 'lotes_m2': 'Lotes (m²)', 'unidades_lotes': 'Lotes (unid)', 'unidades_lotes_misto': 'Lotes Mistos (unid)', 'unidades_lotes_residenciais': 'Lotes Residenciais (unid)', 'lotes_comerciais': 'Lotes Comerciais', });
-lyr_EtapaPrvia23unid_271.set('fieldAliases', {'fid': 'fid', 'cadastro_imobiliario': 'Cadastro Imobiliário', 'latitude': 'latitude', 'longitude': 'longitude', 'unidade_municipal': 'Unidade Municipal', 'etapa': 'Etapa', 'decreto': 'Decreto', 'tipologia': 'Tipologia', 'matricula': 'Matrícula', 'processo': 'Processo', 'proprietarios': 'Proprietarios', 'nome_empreendimento': 'Nome do Empreendimento', 'zoneamento': 'Zoneamento', 'area_verde_m2': 'Área Verde (m²)', 'area_institucional_m2': 'Área Institucional (m²)', 'area_lazer_m2': 'Área Lazer (m²)', 'lotes_m2': 'Lotes (m²)', 'unidades_lotes': 'Lotes (unid)', 'unidades_lotes_misto': 'Lotes Mistos (unid)', 'unidades_lotes_residenciais': 'Lotes Residenciais (unid)', 'lotes_comerciais': 'Lotes Comerciais', });
-lyr_LoteamentosClandestinos70unid_272.set('fieldAliases', {'fid': 'fid', 'processo': 'processo', 'modalidade': 'modalidade', 'nome_loteamento': 'Nome do Loteamento', 'observacao': 'Observação', 'matricula': 'Matrícula', 'quant_lotes': 'Nº de Lotes', 'area_total_m2': 'Área Total (m²)', 'decreto_reurb': 'Decreto REURB', 'situacao': 'Situação', });
-lyr_LoteamentosClandestinos70unid_273.set('fieldAliases', {'fid': 'fid', 'processo': 'processo', 'modalidade': 'modalidade', 'nome_loteamento': 'Nome do Loteamento', 'observacao': 'Observação', 'matricula': 'Matrícula', 'quant_lotes': 'Nº de Lotes', 'area_total_m2': 'Área Total (m²)', 'decreto_reurb': 'Decreto REURB', 'situacao': 'Situação', });
-lyr_FazendaPalestina105unid_274.set('fieldAliases', {'fid': 'fid', 'matricula': 'Matrícula', 'nome_loteamento': 'Nome do Loteamento', });
-lyr_FazendaPalestina105unid_275.set('fieldAliases', {'fid': 'fid', 'matricula': 'Matrícula', 'nome_loteamento': 'Nome do Loteamento', });
-lyr_APP1745unid_276.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', 'APP_M': 'APP (m)', 'AREA_HA': 'ÁREA (ha)', });
-lyr_RiosDuplos84unid_277.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', 'AREA_HA': 'ÁREA (ha)', });
-lyr_MassasDgua270unid_278.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', 'NATUREZA': 'NATUREZA', 'RIO': 'RIO', 'SETOR': 'SETOR', 'AREA_HA': 'ÁREA (ha)', });
-lyr_RiosSimples1842unid_279.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', 'COMP_KM': 'EXTENSÃO (km)', });
-lyr_Nascentes821unid_280.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', });
-lyr_AntigoAterrodaFazendaMunicipal_281.set('fieldAliases', {'fid': 'fid', 'Nome': 'Nome', 'Área (m²)': 'Área (m²)', });
-lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282.set('fieldAliases', {'fid': 'fid', 'Field1': 'Poço', 'Field2': 'Field2', 'Field3': 'Field3', });
-lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Nome': 'Poço', });
-lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284.set('fieldAliases', {'fid': 'fid', 'Nome': 'Nome', 'Área (m²)': 'Área (m²)', });
-lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285.set('fieldAliases', {'fid': 'fid', 'Norte': 'Norte', 'Leste': 'Leste', 'Cota': 'Cota', 'Identifica': 'Identifica', 'Profundida': 'Profundida', 'Identifi_1': 'Poço', 'Profundi_1': 'Profundi_1', 'NA Dinâmi': 'NA Dinâmi', 'NA Estatic': 'NA Estatic', 'NÍVEL DE': 'NÍVEL DE', 'TEMPERATUR': 'TEMPERATUR', 'pH': 'pH', 'CONDUTIVID': 'CONDUTIVID', 'Eh/ORP': 'Eh/ORP', 'OXIGÊNIO': 'OXIGÊNIO', 'TURBIDEZ': 'TURBIDEZ', });
-lyr_AntigoAterrodasMaritacas_286.set('fieldAliases', {'fid': 'fid', 'Nome': 'Nome', 'Área (m²)': 'Área (m²)', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287.set('fieldAliases', {'fid': 'fid', 'Poço': 'Poço', 'Norte (m)': 'Norte (m)', 'Este (m)': 'Este (m)', 'Cota': 'Cota', });
-lyr_ParqueZumbidosPalmares_288.set('fieldAliases', {'fid': 'fid', 'Nome': 'Nome', 'Área (m²)': 'Área (m²)', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289.set('fieldAliases', {'fid': 'fid', 'Name': 'Poço', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290.set('fieldAliases', {'fid': 'fid', 'Name': 'Poço', });
-lyr_reaN2_291.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaN1_292.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaN_293.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_ConjuntoHabitacional_294.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_AvdeacessoaoHortoeColgioAgrcola_295.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaK_296.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaJ_297.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaI_298.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaH_299.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaG_300.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaF_301.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaE_302.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaD_303.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaC_304.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaB_305.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaA_306.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_307.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_reaaseraverbadaPartedareaG_308.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
-lyr_Voorocas26unid_309.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'ID_PONTO_I': 'ID_PONTO_I', 'IBGE': 'IBGE', 'MUNIC__PIO': 'MUNIC__PIO', 'BACIA': 'BACIA', 'LATITUDE': 'LATITUDE', 'LONGITUDE': 'LONGITUDE', 'SITUA____O': 'Situação', 'REFER__NCI': 'Referência', 'PRIORIDADE': 'Prioridade', 'OBSERVA_____': 'Observação', });
-lyr_LocaisdeDifcilAcessoereasRurais12unid_310.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'PER__ODO_TURNO_': 'Período', 'HOR__RIO_DE_INICIO_DOS_SERVI__OS': 'Horário', 'FREQU__NCIA': 'Frequência', 'PROGRAMA____O_SEMANAL': 'Programação Semanal', 'EQUIPAMENTOS': 'Equipamentos', 'LONGITUDE': 'Longitude', 'LATITUDE': 'Latitude', });
-lyr_Contineres286unid_311.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Nome', 'bairro': 'bairro', });
-lyr_rvoreImuneaoCorte9unid_312.set('fieldAliases', {'fid': 'fid', 'nome_popular': 'Nome Popular', 'nome_cientifico': 'Nome Científico', 'legislacao': 'Legislação', });
-lyr_AcademiasaoArLivre84unid_313.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'description': 'Local', 'bairro': 'bairro', });
-lyr_Ecopontos4unid_314.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_Gesso1unid_315.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ResduosdeConstruoCivil7unid_316.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ResduosVerdes1unid_317.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ChapasdeRaioX1unid_318.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_Embalagensvaziasdeagrotxicos1unid_319.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_leodecozinhausado2unid_320.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_leolubrificanteusado1unid_321.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_Latasdetintametlicasvazias2unid_322.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ResduosPerigosos1unid_323.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_Madeiras1unid_324.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ResduosdeServiosdeSade21unid_325.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_PilhaseBaterias17unid_326.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_Pneus1unid_327.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_Lmpadas4unid_328.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ResduosdeCouro1unid_329.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ResduosEletrnicos2unid_330.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ResduosReciclveis15unid_331.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_ResduosInservveis4unid_332.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
-lyr_PBZPAEdifcioPrimeHELIPONTO_333.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', });
-lyr_PBZPAEdifcioPrimeHELIPONTO_334.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', });
-lyr_PBZPAHospitalHELIPONTO_335.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', });
-lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', });
-lyr_ClasseVB_337.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseVA_338.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseIVC_339.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseIVB_340.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseIVA_341.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseIIIC_342.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseIIIB_343.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseIIIA_344.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseII_345.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_ClasseI_346.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
-lyr_RegioCentroLeste42unid675453694m_347.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_RegioLesteNordeste50unid1233454938m_348.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_RegioNorteI45unid1043752016m_349.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_RegioNorteII36unid859331837m_350.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_RegioOesteI65unid1245065890m_351.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_RegioOesteII43unid599615871m_352.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_RegioSudeste38unid579321135m_353.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_RegioSudesteSul44unid830633497m_354.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_RegioSul20unid639964086m_355.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
-lyr_APP156unid230392892m_356.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
-lyr_reaInstitucional224unid133042345m_357.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
-lyr_reaPatrimonial33unid15776685m_358.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
-lyr_reaVerde1946unid805735618m_359.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'Processo', });
-lyr_readeUsoEspecial276unid271190268m_360.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
-lyr_LoteamentoFechado115unid52603608m_361.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
-lyr_Lote252unid7530210m_362.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
-lyr_Lote252unid_363.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Área (m²)': 'Área (m²)', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'Terceirização': 'Terceirização', });
-lyr_LoteEdificao20unid508062m_364.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
-lyr_LoteEdificao20unid_365.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'regiao': 'regiao', 'processo': 'processo', });
-lyr_LeiloLEIN97542025Homologado4unid334770m_366.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'Processo', });
-lyr_LeiloLEIN97542025Homologado4unid_367.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'status_leilao': 'status_leilao', 'processo': 'Processo', });
-lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Status', 'processo': 'Processo', });
-lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_369.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'status_leilao': 'status_leilao', 'processo': 'Processo', });
-lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Status', 'processo': 'Processo', });
-lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_371.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'status_leilao': 'status_leilao', 'processo': 'Processo', });
-lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Status', 'processo': 'Processo', });
-lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_373.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'status_leilao': 'Status', 'processo': 'Processo', });
-lyr_LoteEMDEF10unid218783m_374.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
-lyr_LoteEMDEF10unid_375.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Área (m²)': 'Área (m²)', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', });
-lyr_TRPRLCETESB2unid_376.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'matricula': 'Matrícula nº.', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', });
-lyr_TRPRLCETESB2unid_377.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'matricula': 'Matrícula nº.', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', });
-lyr_TCRAMunicipal14unid_378.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'autorizacao': 'Autorização nº. (Municipal)', });
-lyr_TCRAMunicipal14unid_379.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'autorizacao': 'Autorização nº. (Municipal)', });
-lyr_TCRACETESBPARCELAMENTO32unid_380.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', });
-lyr_TCRACETESBPARCELAMENTO32unid_381.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_cetesb': 'proc_cetesb', });
-lyr_TCRACETESB28unid_382.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', 'situacao': 'Situação', });
-lyr_TCRACETESB28unid_383.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', 'situacao': 'Situação', });
-lyr_TACMinistrioPblico9unid_384.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'ic': 'Inquérito Civil nº.', 'proc_municipal': 'Processo nº. (Municipal)', });
-lyr_TACMinistrioPblico9unid_385.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'ic': 'Inquérito Civil nº.', 'proc_municipal': 'Processo nº. (Municipal)', });
-lyr_PlantioVoluntrio1unid_386.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', });
-lyr_PlantioVoluntrio1unid_387.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', });
-lyr_CartaAnuncia20unid_388.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'doc_origem': 'Documento de origem', });
-lyr_CartaAnuncia20unid_389.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'doc_origem': 'Documento de origem', });
-lyr_AoCivilPblica1unid_390.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_municipal': 'Processo nº. (Municipal)', });
-lyr_AoCivilPblica1unid_391.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'area': 'area', 'quant': 'quant', 'proc_municipal': 'proc_municipal', });
-lyr_ProgramaAdoteUmaPraa315unid30277327m_392.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'Terceirização': 'Terceirização', 'responsavel': 'Responsável', 'm2': 'Área (m²)', });
-lyr_ComPlacaDilu161unid17007212m_393.set('fieldAliases', {'fid': 'fid', 'Adotante': 'Adotante', 'Local': 'Local', 'Programa': 'Programa', 'Possui placa?': 'Possui placa?', 'm2': 'Área (m²)', 'responsavel': 'Responsável', 'data_contrato': 'Data de Assinatura do Contrato', 'bairro': 'bairro', });
-lyr_ComPlacaEgnaldo134unid12211725m_394.set('fieldAliases', {'fid': 'fid', 'Adotante': 'Adotante', 'Local': 'Local', 'Programa': 'Programa', 'Possui placa?': 'Possui placa?', 'm2': 'Área (m²)', 'responsavel': 'Responsável', 'data_contrato': 'Data de Assinatura do Contrato', 'bairro': 'bairro', });
-lyr_SemPlacaDilu16unid774541m_395.set('fieldAliases', {'fid': 'fid', 'Adotante': 'Adotante', 'Local': 'Local', 'Programa': 'Programa', 'Possui placa?': 'Possui placa?', 'm2': 'Área (m²)', 'responsavel': 'Responsável', 'data_contrato': 'Data de Assinatura do Contrato', 'bairro': 'bairro', });
-lyr_SemPlacaEgnaldo4unid86447m_396.set('fieldAliases', {'fid': 'fid', 'Adotante': 'Adotante', 'Local': 'Local', 'Programa': 'Programa', 'Possui placa?': 'Possui placa?', 'm2': 'Área (m²)', 'responsavel': 'Responsável', 'data_contrato': 'Data de Assinatura do Contrato', 'bairro': 'bairro', });
+lyr_Quadra18VilaExposio_182.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Quadra18VilaExposio_183.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ProlongamentoSamelPark_184.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ProlongamentoSamelPark_185.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParqueVillaLobos_186.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParqueVillaLobos_187.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParquePalmeiraImperial_188.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParquePalmeiraImperial_189.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParqueFlora_190.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParqueFlora_191.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParquedosSabias_192.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParquedosSabias_193.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParagonII_194.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ParagonII_195.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Paragon_196.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Paragon_197.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_PalmeiraReal_198.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_PalmeiraReal_199.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', 'path': 'path', });
+lyr_MoradadoVerdeII_200.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_MoradadoVerdeII_201.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_MoradadaMata_202.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_MoradadaMata_203.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Monti_204.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Monti_205.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', 'path': 'path', });
+lyr_MontBlancResidence_206.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_MontBlancResidence_207.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_MarianaAlarcon_208.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_MarianaAlarcon_209.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Loteamentolamo_210.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Loteamentolamo_211.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_JardimMariaLuiza_212.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_JardimMariaLuiza_213.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_JardimHorizonte_214.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_JardimHorizonte_215.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_JardimFlora_216.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_JardimFlora_217.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_IrineuZanetiII_218.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_IrineuZanetiII_219.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Infratcnica_220.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Infratcnica_221.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_HorizResidence_222.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_HorizResidence_223.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_GlebaNossaSenhoraAuxiliadora_224.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_GlebaNossaSenhoraAuxiliadora_225.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Ferracini_226.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Ferracini_227.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_FrancaB6_228.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_FrancaB6_229.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_FazendaProgresso_230.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_FazendaProgresso_231.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_FazendaeGranjaSantaRita2_232.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_FazendaeGranjaSantaRita2_233.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_FazendaeGranjaSantaRita_234.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_FazendaeGranjaSantaRita_235.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Essence_236.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Essence_237.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Elias_238.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Elias_239.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', 'path': 'path', });
+lyr_EdifcioSolNascente_240.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_EdifcioSolNascente_241.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', 'path': 'path', });
+lyr_EdifcioRuadoSol_242.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_EdifcioRuadoSol_243.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_EdifcioResidencialHope_244.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_EdifcioResidencialHope_245.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_DiocesedeFranca_246.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_DiocesedeFranca_247.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_DaVinci_248.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_DaVinci_249.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_CondomnioIICityPetrpolis_250.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_CondomnioIICityPetrpolis_251.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_CondomnioICityPetrpolis_252.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_CondomnioICityPetrpolis_253.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Colorado_254.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Colorado_255.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_CidadeJardim_256.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_CidadeJardim_257.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ChacaraOlaria_258.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ChacaraOlaria_259.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ChacaraBelaVista_260.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_ChacaraBelaVista_261.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_BordadaMata_262.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_BordadaMata_263.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Arizona_264.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Arizona_265.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Adonis_266.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_Adonis_267.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_AbuDhabiParadiseResortResidence_268.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_AbuDhabiParadiseResortResidence_269.set('fieldAliases', {'fid': 'fid', 'layer': 'layer', });
+lyr_EtapaAprovado27unid_270.set('fieldAliases', {'fid': 'fid', 'cadastro_imobiliario': 'Cadastro Imobiliário', 'latitude': 'latitude', 'longitude': 'longitude', 'unidade_municipal': 'Unidade Municipal', 'etapa': 'Etapa', 'decreto': 'Decreto', 'tipologia': 'Tipologia', 'matricula': 'Matrícula', 'processo': 'Processo', 'proprietarios': 'Proprietarios', 'nome_empreendimento': 'Nome do Empreendimento', 'zoneamento': 'Zoneamento', 'area_verde_m2': 'Área Verde (m²)', 'area_institucional_m2': 'Área Institucional (m²)', 'area_lazer_m2': 'Área Lazer (m²)', 'lotes_m2': 'Lotes (m²)', 'unidades_lotes': 'Lotes (unid)', 'unidades_lotes_misto': 'Lotes Mistos (unid)', 'unidades_lotes_residenciais': 'Lotes Residenciais (unid)', 'lotes_comerciais': 'Lotes Comerciais', });
+lyr_EtapaDiretriz22unid_271.set('fieldAliases', {'fid': 'fid', 'cadastro_imobiliario': 'Cadastro Imobiliário', 'latitude': 'latitude', 'longitude': 'longitude', 'unidade_municipal': 'Unidade Municipal', 'etapa': 'Etapa', 'decreto': 'Decreto', 'tipologia': 'Tipologia', 'matricula': 'Matrícula', 'processo': 'Processo', 'proprietarios': 'Proprietarios', 'nome_empreendimento': 'Nome do Empreendimento', 'zoneamento': 'Zoneamento', 'area_verde_m2': 'Área Verde (m²)', 'area_institucional_m2': 'Área Institucional (m²)', 'area_lazer_m2': 'Área Lazer (m²)', 'lotes_m2': 'Lotes (m²)', 'unidades_lotes': 'Lotes (unid)', 'unidades_lotes_misto': 'Lotes Mistos (unid)', 'unidades_lotes_residenciais': 'Lotes Residenciais (unid)', 'lotes_comerciais': 'Lotes Comerciais', });
+lyr_EtapaDefinitiva7unid_272.set('fieldAliases', {'fid': 'fid', 'cadastro_imobiliario': 'Cadastro Imobiliário', 'latitude': 'latitude', 'longitude': 'longitude', 'unidade_municipal': 'Unidade Municipal', 'etapa': 'Etapa', 'decreto': 'Decreto', 'tipologia': 'Tipologia', 'matricula': 'Matrícula', 'processo': 'Processo', 'proprietarios': 'Proprietarios', 'nome_empreendimento': 'Nome do Empreendimento', 'zoneamento': 'Zoneamento', 'area_verde_m2': 'Área Verde (m²)', 'area_institucional_m2': 'Área Institucional (m²)', 'area_lazer_m2': 'Área Lazer (m²)', 'lotes_m2': 'Lotes (m²)', 'unidades_lotes': 'Lotes (unid)', 'unidades_lotes_misto': 'Lotes Mistos (unid)', 'unidades_lotes_residenciais': 'Lotes Residenciais (unid)', 'lotes_comerciais': 'Lotes Comerciais', });
+lyr_EtapaPrvia23unid_273.set('fieldAliases', {'fid': 'fid', 'cadastro_imobiliario': 'Cadastro Imobiliário', 'latitude': 'latitude', 'longitude': 'longitude', 'unidade_municipal': 'Unidade Municipal', 'etapa': 'Etapa', 'decreto': 'Decreto', 'tipologia': 'Tipologia', 'matricula': 'Matrícula', 'processo': 'Processo', 'proprietarios': 'Proprietarios', 'nome_empreendimento': 'Nome do Empreendimento', 'zoneamento': 'Zoneamento', 'area_verde_m2': 'Área Verde (m²)', 'area_institucional_m2': 'Área Institucional (m²)', 'area_lazer_m2': 'Área Lazer (m²)', 'lotes_m2': 'Lotes (m²)', 'unidades_lotes': 'Lotes (unid)', 'unidades_lotes_misto': 'Lotes Mistos (unid)', 'unidades_lotes_residenciais': 'Lotes Residenciais (unid)', 'lotes_comerciais': 'Lotes Comerciais', });
+lyr_LoteamentosClandestinos70unid_274.set('fieldAliases', {'fid': 'fid', 'processo': 'processo', 'modalidade': 'modalidade', 'nome_loteamento': 'Nome do Loteamento', 'observacao': 'Observação', 'matricula': 'Matrícula', 'quant_lotes': 'Nº de Lotes', 'area_total_m2': 'Área Total (m²)', 'decreto_reurb': 'Decreto REURB', 'situacao': 'Situação', });
+lyr_LoteamentosClandestinos70unid_275.set('fieldAliases', {'fid': 'fid', 'processo': 'processo', 'modalidade': 'modalidade', 'nome_loteamento': 'Nome do Loteamento', 'observacao': 'Observação', 'matricula': 'Matrícula', 'quant_lotes': 'Nº de Lotes', 'area_total_m2': 'Área Total (m²)', 'decreto_reurb': 'Decreto REURB', 'situacao': 'Situação', });
+lyr_FazendaPalestina105unid_276.set('fieldAliases', {'fid': 'fid', 'matricula': 'Matrícula', 'nome_loteamento': 'Nome do Loteamento', });
+lyr_FazendaPalestina105unid_277.set('fieldAliases', {'fid': 'fid', 'matricula': 'Matrícula', 'nome_loteamento': 'Nome do Loteamento', });
+lyr_APP1745unid_278.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', 'APP_M': 'APP (m)', 'AREA_HA': 'ÁREA (ha)', });
+lyr_RiosDuplos84unid_279.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', 'AREA_HA': 'ÁREA (ha)', });
+lyr_MassasDgua270unid_280.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', 'NATUREZA': 'NATUREZA', 'RIO': 'RIO', 'SETOR': 'SETOR', 'AREA_HA': 'ÁREA (ha)', });
+lyr_RiosSimples1842unid_281.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', 'COMP_KM': 'EXTENSÃO (km)', });
+lyr_Nascentes821unid_282.set('fieldAliases', {'fid': 'fid', 'GEOCODIGO': 'GEOCODIGO', 'MUNICIPIO': 'MUNICIPIO', 'UF': 'UF', 'CD_UF': 'CD_UF', 'HIDRO': 'CLASSE HIDROLÓGICA', });
+lyr_AntigoAterrodaFazendaMunicipal_283.set('fieldAliases', {'fid': 'fid', 'Nome': 'Nome', 'Área (m²)': 'Área (m²)', });
+lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284.set('fieldAliases', {'fid': 'fid', 'Field1': 'Poço', 'Field2': 'Field2', 'Field3': 'Field3', });
+lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Nome': 'Poço', });
+lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286.set('fieldAliases', {'fid': 'fid', 'Nome': 'Nome', 'Área (m²)': 'Área (m²)', });
+lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287.set('fieldAliases', {'fid': 'fid', 'Norte': 'Norte', 'Leste': 'Leste', 'Cota': 'Cota', 'Identifica': 'Identifica', 'Profundida': 'Profundida', 'Identifi_1': 'Poço', 'Profundi_1': 'Profundi_1', 'NA Dinâmi': 'NA Dinâmi', 'NA Estatic': 'NA Estatic', 'NÍVEL DE': 'NÍVEL DE', 'TEMPERATUR': 'TEMPERATUR', 'pH': 'pH', 'CONDUTIVID': 'CONDUTIVID', 'Eh/ORP': 'Eh/ORP', 'OXIGÊNIO': 'OXIGÊNIO', 'TURBIDEZ': 'TURBIDEZ', });
+lyr_AntigoAterrodasMaritacas_288.set('fieldAliases', {'fid': 'fid', 'Nome': 'Nome', 'Área (m²)': 'Área (m²)', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289.set('fieldAliases', {'fid': 'fid', 'Poço': 'Poço', 'Norte (m)': 'Norte (m)', 'Este (m)': 'Este (m)', 'Cota': 'Cota', });
+lyr_ParqueZumbidosPalmares_290.set('fieldAliases', {'fid': 'fid', 'Nome': 'Nome', 'Área (m²)': 'Área (m²)', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291.set('fieldAliases', {'fid': 'fid', 'Name': 'Poço', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292.set('fieldAliases', {'fid': 'fid', 'Name': 'Poço', });
+lyr_reaN2_293.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaN1_294.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaN_295.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_ConjuntoHabitacional_296.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_AvdeacessoaoHortoeColgioAgrcola_297.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaK_298.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaJ_299.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaI_300.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaH_301.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaG_302.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaF_303.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaE_304.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaD_305.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaC_306.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaB_307.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaA_308.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_309.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_reaaseraverbadaPartedareaG_310.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Propriedade': 'Propriedade', 'Área': 'Área', 'Matrícula': 'Matrícula', 'Área (m²)': 'Área (m²)', 'Área (ha)': 'Área (ha)', });
+lyr_Voorocas26unid_311.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'ID_PONTO_I': 'ID_PONTO_I', 'IBGE': 'IBGE', 'MUNIC__PIO': 'MUNIC__PIO', 'BACIA': 'BACIA', 'LATITUDE': 'LATITUDE', 'LONGITUDE': 'LONGITUDE', 'SITUA____O': 'Situação', 'REFER__NCI': 'Referência', 'PRIORIDADE': 'Prioridade', 'OBSERVA_____': 'Observação', });
+lyr_LocaisdeDifcilAcessoereasRurais12unid_312.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'PER__ODO_TURNO_': 'Período', 'HOR__RIO_DE_INICIO_DOS_SERVI__OS': 'Horário', 'FREQU__NCIA': 'Frequência', 'PROGRAMA____O_SEMANAL': 'Programação Semanal', 'EQUIPAMENTOS': 'Equipamentos', 'LONGITUDE': 'Longitude', 'LATITUDE': 'Latitude', });
+lyr_Contineres286unid_313.set('fieldAliases', {'fid': 'fid', 'id': 'id', 'Name': 'Nome', 'bairro': 'bairro', });
+lyr_rvoreImuneaoCorte9unid_314.set('fieldAliases', {'fid': 'fid', 'nome_popular': 'Nome Popular', 'nome_cientifico': 'Nome Científico', 'legislacao': 'Legislação', });
+lyr_AcademiasaoArLivre84unid_315.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'description': 'Local', 'bairro': 'bairro', });
+lyr_Ecopontos4unid_316.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_Gesso1unid_317.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ResduosdeConstruoCivil7unid_318.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ResduosVerdes1unid_319.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ChapasdeRaioX1unid_320.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_Embalagensvaziasdeagrotxicos1unid_321.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_leodecozinhausado2unid_322.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_leolubrificanteusado1unid_323.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_Latasdetintametlicasvazias2unid_324.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ResduosPerigosos1unid_325.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_Madeiras1unid_326.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ResduosdeServiosdeSade21unid_327.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_PilhaseBaterias17unid_328.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_Pneus1unid_329.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_Lmpadas4unid_330.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ResduosdeCouro1unid_331.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ResduosEletrnicos2unid_332.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ResduosReciclveis15unid_333.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_ResduosInservveis4unid_334.set('fieldAliases', {'fid': 'fid', 'Categoria': 'Categoria', 'Local': 'Local', 'Descrição': 'Descrição', 'Endereço': 'Endereço', 'Contato': 'Contato', });
+lyr_PBZPAEdifcioPrimeHELIPONTO_335.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', });
+lyr_PBZPAEdifcioPrimeHELIPONTO_336.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', });
+lyr_PBZPAHospitalHELIPONTO_337.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', });
+lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', });
+lyr_ClasseVB_339.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseVA_340.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseIVC_341.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseIVB_342.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseIVA_343.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseIIIC_344.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseIIIB_345.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseIIIA_346.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseII_347.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_ClasseI_348.set('fieldAliases', {'fid': 'fid', 'classe': 'Classe', 'risco_eros': 'Risco Potencial de Erosão', 'suscetibil': 'Suscetibilidade à Erosão', 'uso_solo': 'Uso do Solo Predominante', 'setores_re': 'Setores do Relevo', 'solos_pred': 'Solos Predominantes', 'substrato_': 'Substrato Rochoso', 'processos_': 'Processos Erosivos/Problemas Existentes e Esperados', 'recomendac': 'Recomendações Gerais para Ocupação Urbana', });
+lyr_RegioCentroLeste42unid675453694m_349.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_RegioLesteNordeste50unid1233454938m_350.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_RegioNorteI45unid1043752016m_351.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_RegioNorteII36unid859331837m_352.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_RegioOesteI65unid1245065890m_353.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_RegioOesteII43unid599615871m_354.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_RegioSudeste38unid579321135m_355.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_RegioSudesteSul44unid830633497m_356.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_RegioSul20unid639964086m_357.set('fieldAliases', {'fid': 'fid', 'nome': 'Bairro', 'm2': 'Área (m²)', 'regiao': 'Região', });
+lyr_APP156unid230392892m_358.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
+lyr_reaInstitucional224unid133042345m_359.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
+lyr_reaPatrimonial33unid15776685m_360.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
+lyr_reaVerde1946unid805735618m_361.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'Processo', });
+lyr_readeUsoEspecial276unid271190268m_362.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
+lyr_LoteamentoFechado115unid52603608m_363.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
+lyr_Lote252unid7530210m_364.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
+lyr_Lote252unid_365.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Área (m²)': 'Área (m²)', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'Terceirização': 'Terceirização', });
+lyr_LoteEdificao20unid508062m_366.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
+lyr_LoteEdificao20unid_367.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'regiao': 'regiao', 'processo': 'processo', });
+lyr_LeiloLEIN97542025Homologado4unid334770m_368.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'Processo', });
+lyr_LeiloLEIN97542025Homologado4unid_369.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'status_leilao': 'status_leilao', 'processo': 'Processo', });
+lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Status', 'processo': 'Processo', });
+lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_371.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'status_leilao': 'status_leilao', 'processo': 'Processo', });
+lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Status', 'processo': 'Processo', });
+lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_373.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'status_leilao': 'status_leilao', 'processo': 'Processo', });
+lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Status', 'processo': 'Processo', });
+lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_375.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'Lote/Quadra', 'm2': 'm2', 'data_inclusao': 'data_inclusao', 'status_leilao': 'Status', 'processo': 'Processo', });
+lyr_LoteEMDEF10unid218783m_376.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'descricao': 'descricao', 'm2': 'm2', 'data_inclusao': 'Data de Inclusão', 'status_leilao': 'Região', 'processo': 'processo', });
+lyr_LoteEMDEF10unid_377.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Área (m²)': 'Área (m²)', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', });
+lyr_TRPRLCETESB2unid_378.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'matricula': 'Matrícula nº.', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', });
+lyr_TRPRLCETESB2unid_379.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'matricula': 'Matrícula nº.', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', });
+lyr_TCRAMunicipal14unid_380.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'autorizacao': 'Autorização nº. (Municipal)', });
+lyr_TCRAMunicipal14unid_381.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'autorizacao': 'Autorização nº. (Municipal)', });
+lyr_TCRACETESBPARCELAMENTO32unid_382.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', });
+lyr_TCRACETESBPARCELAMENTO32unid_383.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_cetesb': 'proc_cetesb', });
+lyr_TCRACETESB28unid_384.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', 'situacao': 'Situação', });
+lyr_TCRACETESB28unid_385.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'Area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_cetesb': 'Processo CETESB nº. (e-Ambiente)', 'situacao': 'Situação', });
+lyr_TACMinistrioPblico9unid_386.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'ic': 'Inquérito Civil nº.', 'proc_municipal': 'Processo nº. (Municipal)', });
+lyr_TACMinistrioPblico9unid_387.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'ic': 'Inquérito Civil nº.', 'proc_municipal': 'Processo nº. (Municipal)', });
+lyr_PlantioVoluntrio1unid_388.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', });
+lyr_PlantioVoluntrio1unid_389.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', });
+lyr_CartaAnuncia20unid_390.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'doc_origem': 'Documento de origem', });
+lyr_CartaAnuncia20unid_391.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'doc_origem': 'Documento de origem', });
+lyr_AoCivilPblica1unid_392.set('fieldAliases', {'fid': 'fid', 'Name': 'Nome', 'area': 'Área (m²)', 'quant': 'Quantidade de mudas', 'proc_municipal': 'Processo nº. (Municipal)', });
+lyr_AoCivilPblica1unid_393.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'area': 'area', 'quant': 'quant', 'proc_municipal': 'proc_municipal', });
+lyr_ProgramaAdoteUmaPraa315unid30277327m_394.set('fieldAliases', {'fid': 'fid', 'Classe': 'Classe', 'Bairro': 'Bairro', 'Nº Cadastro Imobiliário': 'Nº Cadastro Imobiliário', 'Código da Região': 'Código da Região', '1ª Semana': '1ª Semana', '2ª Semana': '2ª Semana', '3ª Semana': '3ª Semana', '4ª Semana': '4ª Semana', '5ª Semana': '5ª Semana', 'Terceirização': 'Terceirização', 'responsavel': 'Responsável', 'm2': 'Área (m²)', });
+lyr_ComPlacaDilu161unid17007212m_395.set('fieldAliases', {'fid': 'fid', 'Adotante': 'Adotante', 'Local': 'Local', 'Programa': 'Programa', 'Possui placa?': 'Possui placa?', 'm2': 'Área (m²)', 'responsavel': 'Responsável', 'data_contrato': 'Data de Assinatura do Contrato', 'bairro': 'bairro', });
+lyr_ComPlacaEgnaldo134unid12211725m_396.set('fieldAliases', {'fid': 'fid', 'Adotante': 'Adotante', 'Local': 'Local', 'Programa': 'Programa', 'Possui placa?': 'Possui placa?', 'm2': 'Área (m²)', 'responsavel': 'Responsável', 'data_contrato': 'Data de Assinatura do Contrato', 'bairro': 'bairro', });
+lyr_SemPlacaDilu16unid774541m_397.set('fieldAliases', {'fid': 'fid', 'Adotante': 'Adotante', 'Local': 'Local', 'Programa': 'Programa', 'Possui placa?': 'Possui placa?', 'm2': 'Área (m²)', 'responsavel': 'Responsável', 'data_contrato': 'Data de Assinatura do Contrato', 'bairro': 'bairro', });
+lyr_SemPlacaEgnaldo4unid86447m_398.set('fieldAliases', {'fid': 'fid', 'Adotante': 'Adotante', 'Local': 'Local', 'Programa': 'Programa', 'Possui placa?': 'Possui placa?', 'm2': 'Área (m²)', 'responsavel': 'Responsável', 'data_contrato': 'Data de Assinatura do Contrato', 'bairro': 'bairro', });
 lyr_LimiteMunicipaldeFranca_3.set('fieldImages', {'fid': '', 'CD_MUN': '', 'NM_MUN': '', 'CD_RGI': '', 'NM_RGI': '', 'CD_RGINT': '', 'NM_RGINT': '', 'CD_UF': '', 'NM_UF': '', 'SIGLA_UF': '', 'CD_REGIA': '', 'NM_REGIA': '', 'SIGLA_RG': '', 'CD_CONCU': '', 'NM_CONCU': '', 'AREA_KM2': '', });
 lyr_reaUrbanadeFranca_4.set('fieldImages', {'fid': '', 'Código do Município': '', 'Nome do Município': '', 'UF': '', 'Código da UF': '', 'Classe de Uso': '', 'Área (ha)': '', 'Área (km²)': '', });
 lyr_ARORemanescentesFlorestais_5.set('fieldImages', {'fid': 'TextEdit', 'subclasse': 'TextEdit', 'area_m2': 'TextEdit', 'classe': 'TextEdit', 'desc_subcl': 'TextEdit', 'desc_class': 'TextEdit', });
@@ -7014,221 +7048,223 @@ lyr_ResidencialAltodaFazenda_178.set('fieldImages', {'fid': '', 'layer': '', });
 lyr_ResidencialAltodaFazenda_179.set('fieldImages', {'fid': '', 'layer': '', });
 lyr_RecantoMeneghetti_180.set('fieldImages', {'fid': '', 'layer': '', });
 lyr_RecantoMeneghetti_181.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ProlongamentoSamelPark_182.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ProlongamentoSamelPark_183.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParqueVillaLobos_184.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParqueVillaLobos_185.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParquePalmeiraImperial_186.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParquePalmeiraImperial_187.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParqueFlora_188.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParqueFlora_189.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParquedosSabias_190.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParquedosSabias_191.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParagonII_192.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ParagonII_193.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Paragon_194.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Paragon_195.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_PalmeiraReal_196.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_PalmeiraReal_197.set('fieldImages', {'fid': '', 'layer': '', 'path': '', });
-lyr_MoradadoVerdeII_198.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_MoradadoVerdeII_199.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_MoradadaMata_200.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_MoradadaMata_201.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Monti_202.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Monti_203.set('fieldImages', {'fid': '', 'layer': '', 'path': '', });
-lyr_MontBlancResidence_204.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_MontBlancResidence_205.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_MarianaAlarcon_206.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_MarianaAlarcon_207.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Loteamentolamo_208.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Loteamentolamo_209.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_JardimMariaLuiza_210.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_JardimMariaLuiza_211.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_JardimHorizonte_212.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_JardimHorizonte_213.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_JardimFlora_214.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_JardimFlora_215.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_IrineuZanetiII_216.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_IrineuZanetiII_217.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Infratcnica_218.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Infratcnica_219.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_HorizResidence_220.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_HorizResidence_221.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_GlebaNossaSenhoraAuxiliadora_222.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_GlebaNossaSenhoraAuxiliadora_223.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Ferracini_224.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Ferracini_225.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_FrancaB6_226.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_FrancaB6_227.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_FazendaProgresso_228.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_FazendaProgresso_229.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_FazendaeGranjaSantaRita2_230.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_FazendaeGranjaSantaRita2_231.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_FazendaeGranjaSantaRita_232.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_FazendaeGranjaSantaRita_233.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Essence_234.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Essence_235.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Elias_236.set('fieldImages', {'fid': 'TextEdit', 'layer': 'TextEdit', });
-lyr_Elias_237.set('fieldImages', {'fid': '', 'layer': '', 'path': '', });
-lyr_EdifcioSolNascente_238.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_EdifcioSolNascente_239.set('fieldImages', {'fid': '', 'layer': '', 'path': '', });
-lyr_EdifcioRuadoSol_240.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_EdifcioRuadoSol_241.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_EdifcioResidencialHope_242.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_EdifcioResidencialHope_243.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_DiocesedeFranca_244.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_DiocesedeFranca_245.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_DaVinci_246.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_DaVinci_247.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_CondomnioIICityPetrpolis_248.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_CondomnioIICityPetrpolis_249.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_CondomnioICityPetrpolis_250.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_CondomnioICityPetrpolis_251.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Colorado_252.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Colorado_253.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_CidadeJardim_254.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_CidadeJardim_255.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ChacaraOlaria_256.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ChacaraOlaria_257.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ChacaraBelaVista_258.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_ChacaraBelaVista_259.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_BordadaMata_260.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_BordadaMata_261.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Arizona_262.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Arizona_263.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Adonis_264.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_Adonis_265.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_AbuDhabiParadiseResortResidence_266.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_AbuDhabiParadiseResortResidence_267.set('fieldImages', {'fid': '', 'layer': '', });
-lyr_EtapaAprovado27unid_268.set('fieldImages', {'fid': 'TextEdit', 'cadastro_imobiliario': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', 'unidade_municipal': 'TextEdit', 'etapa': 'TextEdit', 'decreto': 'TextEdit', 'tipologia': 'TextEdit', 'matricula': 'TextEdit', 'processo': 'TextEdit', 'proprietarios': 'TextEdit', 'nome_empreendimento': 'TextEdit', 'zoneamento': 'TextEdit', 'area_verde_m2': 'TextEdit', 'area_institucional_m2': 'TextEdit', 'area_lazer_m2': 'TextEdit', 'lotes_m2': 'TextEdit', 'unidades_lotes': 'TextEdit', 'unidades_lotes_misto': 'TextEdit', 'unidades_lotes_residenciais': 'TextEdit', 'lotes_comerciais': 'TextEdit', });
-lyr_EtapaDiretriz22unid_269.set('fieldImages', {'fid': 'TextEdit', 'cadastro_imobiliario': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', 'unidade_municipal': 'TextEdit', 'etapa': 'TextEdit', 'decreto': 'TextEdit', 'tipologia': 'TextEdit', 'matricula': 'TextEdit', 'processo': 'TextEdit', 'proprietarios': 'TextEdit', 'nome_empreendimento': 'TextEdit', 'zoneamento': 'TextEdit', 'area_verde_m2': 'TextEdit', 'area_institucional_m2': 'TextEdit', 'area_lazer_m2': 'TextEdit', 'lotes_m2': 'TextEdit', 'unidades_lotes': 'TextEdit', 'unidades_lotes_misto': 'TextEdit', 'unidades_lotes_residenciais': 'TextEdit', 'lotes_comerciais': 'TextEdit', });
-lyr_EtapaDefinitiva7unid_270.set('fieldImages', {'fid': 'TextEdit', 'cadastro_imobiliario': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', 'unidade_municipal': 'TextEdit', 'etapa': 'TextEdit', 'decreto': 'TextEdit', 'tipologia': 'TextEdit', 'matricula': 'TextEdit', 'processo': 'TextEdit', 'proprietarios': 'TextEdit', 'nome_empreendimento': 'TextEdit', 'zoneamento': 'TextEdit', 'area_verde_m2': 'TextEdit', 'area_institucional_m2': 'TextEdit', 'area_lazer_m2': 'TextEdit', 'lotes_m2': 'TextEdit', 'unidades_lotes': 'TextEdit', 'unidades_lotes_misto': 'TextEdit', 'unidades_lotes_residenciais': 'TextEdit', 'lotes_comerciais': 'TextEdit', });
-lyr_EtapaPrvia23unid_271.set('fieldImages', {'fid': 'TextEdit', 'cadastro_imobiliario': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', 'unidade_municipal': 'TextEdit', 'etapa': 'TextEdit', 'decreto': 'TextEdit', 'tipologia': 'TextEdit', 'matricula': 'TextEdit', 'processo': 'TextEdit', 'proprietarios': 'TextEdit', 'nome_empreendimento': 'TextEdit', 'zoneamento': 'TextEdit', 'area_verde_m2': 'TextEdit', 'area_institucional_m2': 'TextEdit', 'area_lazer_m2': 'TextEdit', 'lotes_m2': 'TextEdit', 'unidades_lotes': 'TextEdit', 'unidades_lotes_misto': 'TextEdit', 'unidades_lotes_residenciais': 'TextEdit', 'lotes_comerciais': 'TextEdit', });
-lyr_LoteamentosClandestinos70unid_272.set('fieldImages', {'fid': 'TextEdit', 'processo': 'TextEdit', 'modalidade': 'TextEdit', 'nome_loteamento': 'TextEdit', 'observacao': 'TextEdit', 'matricula': 'TextEdit', 'quant_lotes': 'Range', 'area_total_m2': 'TextEdit', 'decreto_reurb': 'TextEdit', 'situacao': 'TextEdit', });
-lyr_LoteamentosClandestinos70unid_273.set('fieldImages', {'fid': 'TextEdit', 'processo': '', 'modalidade': '', 'nome_loteamento': '', 'observacao': '', 'matricula': '', 'quant_lotes': '', 'area_total_m2': '', 'decreto_reurb': '', 'situacao': '', });
-lyr_FazendaPalestina105unid_274.set('fieldImages', {'fid': 'TextEdit', 'matricula': 'TextEdit', 'nome_loteamento': 'TextEdit', });
-lyr_FazendaPalestina105unid_275.set('fieldImages', {'fid': 'TextEdit', 'matricula': 'TextEdit', 'nome_loteamento': 'TextEdit', });
-lyr_APP1745unid_276.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', 'APP_M': 'TextEdit', 'AREA_HA': 'TextEdit', });
-lyr_RiosDuplos84unid_277.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', 'AREA_HA': 'TextEdit', });
-lyr_MassasDgua270unid_278.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', 'NATUREZA': 'TextEdit', 'RIO': 'TextEdit', 'SETOR': 'TextEdit', 'AREA_HA': 'TextEdit', });
-lyr_RiosSimples1842unid_279.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', 'COMP_KM': 'TextEdit', });
-lyr_Nascentes821unid_280.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', });
-lyr_AntigoAterrodaFazendaMunicipal_281.set('fieldImages', {'fid': '', 'Nome': '', 'Área (m²)': '', });
-lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282.set('fieldImages', {'fid': 'TextEdit', 'Field1': 'TextEdit', 'Field2': 'TextEdit', 'Field3': 'TextEdit', });
-lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Nome': 'TextEdit', });
-lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284.set('fieldImages', {'fid': '', 'Nome': '', 'Área (m²)': '', });
-lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285.set('fieldImages', {'fid': 'TextEdit', 'Norte': 'TextEdit', 'Leste': 'TextEdit', 'Cota': 'TextEdit', 'Identifica': 'TextEdit', 'Profundida': 'TextEdit', 'Identifi_1': 'TextEdit', 'Profundi_1': 'TextEdit', 'NA Dinâmi': 'TextEdit', 'NA Estatic': 'TextEdit', 'NÍVEL DE': 'TextEdit', 'TEMPERATUR': 'TextEdit', 'pH': 'TextEdit', 'CONDUTIVID': 'TextEdit', 'Eh/ORP': 'TextEdit', 'OXIGÊNIO': 'TextEdit', 'TURBIDEZ': 'TextEdit', });
-lyr_AntigoAterrodasMaritacas_286.set('fieldImages', {'fid': '', 'Nome': '', 'Área (m²)': '', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287.set('fieldImages', {'fid': 'TextEdit', 'Poço': 'TextEdit', 'Norte (m)': 'TextEdit', 'Este (m)': 'TextEdit', 'Cota': 'TextEdit', });
-lyr_ParqueZumbidosPalmares_288.set('fieldImages', {'fid': '', 'Nome': '', 'Área (m²)': '', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
-lyr_reaN2_291.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaN1_292.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaN_293.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_ConjuntoHabitacional_294.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_AvdeacessoaoHortoeColgioAgrcola_295.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaK_296.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaJ_297.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaI_298.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaH_299.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaG_300.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaF_301.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaE_302.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaD_303.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaC_304.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaB_305.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaA_306.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_307.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_reaaseraverbadaPartedareaG_308.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
-lyr_Voorocas26unid_309.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'ID_PONTO_I': 'TextEdit', 'IBGE': 'TextEdit', 'MUNIC__PIO': 'TextEdit', 'BACIA': 'TextEdit', 'LATITUDE': 'TextEdit', 'LONGITUDE': 'TextEdit', 'SITUA____O': 'TextEdit', 'REFER__NCI': 'TextEdit', 'PRIORIDADE': 'TextEdit', 'OBSERVA_____': 'TextEdit', });
-lyr_LocaisdeDifcilAcessoereasRurais12unid_310.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'PER__ODO_TURNO_': 'TextEdit', 'HOR__RIO_DE_INICIO_DOS_SERVI__OS': 'TextEdit', 'FREQU__NCIA': 'TextEdit', 'PROGRAMA____O_SEMANAL': 'TextEdit', 'EQUIPAMENTOS': 'TextEdit', 'LONGITUDE': 'TextEdit', 'LATITUDE': 'TextEdit', });
-lyr_Contineres286unid_311.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'bairro': '', });
-lyr_rvoreImuneaoCorte9unid_312.set('fieldImages', {'fid': 'TextEdit', 'nome_popular': 'TextEdit', 'nome_cientifico': 'TextEdit', 'legislacao': 'TextEdit', });
-lyr_AcademiasaoArLivre84unid_313.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'bairro': '', });
-lyr_Ecopontos4unid_314.set('fieldImages', {'fid': '', 'Categoria': '', 'Local': '', 'Descrição': '', 'Endereço': '', 'Contato': '', });
-lyr_Gesso1unid_315.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_ResduosdeConstruoCivil7unid_316.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_ResduosVerdes1unid_317.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_ChapasdeRaioX1unid_318.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_Embalagensvaziasdeagrotxicos1unid_319.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_leodecozinhausado2unid_320.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_leolubrificanteusado1unid_321.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_Latasdetintametlicasvazias2unid_322.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_ResduosPerigosos1unid_323.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_Madeiras1unid_324.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_ResduosdeServiosdeSade21unid_325.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_PilhaseBaterias17unid_326.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_Pneus1unid_327.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_Lmpadas4unid_328.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_ResduosdeCouro1unid_329.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_ResduosEletrnicos2unid_330.set('fieldImages', {'fid': '', 'Categoria': '', 'Local': '', 'Descrição': '', 'Endereço': '', 'Contato': '', });
-lyr_ResduosReciclveis15unid_331.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_ResduosInservveis4unid_332.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
-lyr_PBZPAEdifcioPrimeHELIPONTO_333.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
-lyr_PBZPAEdifcioPrimeHELIPONTO_334.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
-lyr_PBZPAHospitalHELIPONTO_335.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
-lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
-lyr_ClasseVB_337.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseVA_338.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseIVC_339.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseIVB_340.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseIVA_341.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseIIIC_342.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseIIIB_343.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseIIIA_344.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseII_345.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_ClasseI_346.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
-lyr_RegioCentroLeste42unid675453694m_347.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_RegioLesteNordeste50unid1233454938m_348.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_RegioNorteI45unid1043752016m_349.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_RegioNorteII36unid859331837m_350.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_RegioOesteI65unid1245065890m_351.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_RegioOesteII43unid599615871m_352.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_RegioSudeste38unid579321135m_353.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_RegioSudesteSul44unid830633497m_354.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_RegioSul20unid639964086m_355.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
-lyr_APP156unid230392892m_356.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
-lyr_reaInstitucional224unid133042345m_357.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
-lyr_reaPatrimonial33unid15776685m_358.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
-lyr_reaVerde1946unid805735618m_359.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
-lyr_readeUsoEspecial276unid271190268m_360.set('fieldImages', {'fid': '', 'Classe': '', 'Bairro': '', 'Nº Cadastro Imobiliário': '', 'Código da Região': '', '1ª Semana': '', '2ª Semana': '', '3ª Semana': '', '4ª Semana': '', '5ª Semana': '', 'descricao': '', 'm2': '', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
-lyr_LoteamentoFechado115unid52603608m_361.set('fieldImages', {'fid': '', 'Classe': '', 'Bairro': '', 'Nº Cadastro Imobiliário': '', 'Código da Região': '', '1ª Semana': '', '2ª Semana': '', '3ª Semana': '', '4ª Semana': '', '5ª Semana': '', 'descricao': '', 'm2': '', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
-lyr_Lote252unid7530210m_362.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
-lyr_Lote252unid_363.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Área (m²)': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'Terceirização': 'TextEdit', });
-lyr_LoteEdificao20unid508062m_364.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
-lyr_LoteEdificao20unid_365.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': '', 'data_inclusao': '', 'regiao': '', 'processo': '', });
-lyr_LeiloLEIN97542025Homologado4unid334770m_366.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
-lyr_LeiloLEIN97542025Homologado4unid_367.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
-lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
-lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_369.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
-lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
-lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_371.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
-lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
-lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_373.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
-lyr_LoteEMDEF10unid218783m_374.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
-lyr_LoteEMDEF10unid_375.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Área (m²)': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', });
-lyr_TRPRLCETESB2unid_376.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': '', 'matricula': '', 'proc_cetesb': '', });
-lyr_TRPRLCETESB2unid_377.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': 'TextEdit', 'matricula': 'TextEdit', 'proc_cetesb': 'TextEdit', });
-lyr_TCRAMunicipal14unid_378.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': '', 'quant': 'Range', 'autorizacao': '', });
-lyr_TCRAMunicipal14unid_379.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': 'TextEdit', 'quant': 'Range', 'autorizacao': 'TextEdit', });
-lyr_TCRACETESBPARCELAMENTO32unid_380.set('fieldImages', {'fid': '', 'Name': '', 'Area': '', 'quant': '', 'proc_cetesb': '', });
-lyr_TCRACETESBPARCELAMENTO32unid_381.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': 'TextEdit', 'quant': 'Range', 'proc_cetesb': '', });
-lyr_TCRACETESB28unid_382.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': '', 'quant': 'Range', 'proc_cetesb': '', 'situacao': '', });
-lyr_TCRACETESB28unid_383.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': 'TextEdit', 'quant': 'Range', 'proc_cetesb': 'TextEdit', 'situacao': '', });
-lyr_TACMinistrioPblico9unid_384.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'ic': 'TextEdit', 'proc_municipal': 'TextEdit', });
-lyr_TACMinistrioPblico9unid_385.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'ic': 'TextEdit', 'proc_municipal': 'TextEdit', });
-lyr_PlantioVoluntrio1unid_386.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', });
-lyr_PlantioVoluntrio1unid_387.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', });
-lyr_CartaAnuncia20unid_388.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'doc_origem': '', });
-lyr_CartaAnuncia20unid_389.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'doc_origem': 'TextEdit', });
-lyr_AoCivilPblica1unid_390.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'proc_municipal': 'TextEdit', });
-lyr_AoCivilPblica1unid_391.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'proc_municipal': 'TextEdit', });
-lyr_ProgramaAdoteUmaPraa315unid30277327m_392.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'Terceirização': 'TextEdit', 'responsavel': 'TextEdit', 'm2': 'TextEdit', });
-lyr_ComPlacaDilu161unid17007212m_393.set('fieldImages', {'fid': 'TextEdit', 'Adotante': 'TextEdit', 'Local': 'TextEdit', 'Programa': 'TextEdit', 'Possui placa?': 'TextEdit', 'm2': 'TextEdit', 'responsavel': 'TextEdit', 'data_contrato': 'DateTime', 'bairro': '', });
-lyr_ComPlacaEgnaldo134unid12211725m_394.set('fieldImages', {'fid': 'TextEdit', 'Adotante': 'TextEdit', 'Local': 'TextEdit', 'Programa': 'TextEdit', 'Possui placa?': 'TextEdit', 'm2': 'TextEdit', 'responsavel': 'TextEdit', 'data_contrato': 'DateTime', 'bairro': '', });
-lyr_SemPlacaDilu16unid774541m_395.set('fieldImages', {'fid': 'TextEdit', 'Adotante': 'TextEdit', 'Local': 'TextEdit', 'Programa': 'TextEdit', 'Possui placa?': 'TextEdit', 'm2': 'TextEdit', 'responsavel': 'TextEdit', 'data_contrato': '', 'bairro': '', });
-lyr_SemPlacaEgnaldo4unid86447m_396.set('fieldImages', {'fid': 'TextEdit', 'Adotante': 'TextEdit', 'Local': 'TextEdit', 'Programa': 'TextEdit', 'Possui placa?': 'TextEdit', 'm2': 'TextEdit', 'responsavel': 'TextEdit', 'data_contrato': 'DateTime', 'bairro': '', });
+lyr_Quadra18VilaExposio_182.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Quadra18VilaExposio_183.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ProlongamentoSamelPark_184.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ProlongamentoSamelPark_185.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParqueVillaLobos_186.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParqueVillaLobos_187.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParquePalmeiraImperial_188.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParquePalmeiraImperial_189.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParqueFlora_190.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParqueFlora_191.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParquedosSabias_192.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParquedosSabias_193.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParagonII_194.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ParagonII_195.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Paragon_196.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Paragon_197.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_PalmeiraReal_198.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_PalmeiraReal_199.set('fieldImages', {'fid': '', 'layer': '', 'path': '', });
+lyr_MoradadoVerdeII_200.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_MoradadoVerdeII_201.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_MoradadaMata_202.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_MoradadaMata_203.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Monti_204.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Monti_205.set('fieldImages', {'fid': '', 'layer': '', 'path': '', });
+lyr_MontBlancResidence_206.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_MontBlancResidence_207.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_MarianaAlarcon_208.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_MarianaAlarcon_209.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Loteamentolamo_210.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Loteamentolamo_211.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_JardimMariaLuiza_212.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_JardimMariaLuiza_213.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_JardimHorizonte_214.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_JardimHorizonte_215.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_JardimFlora_216.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_JardimFlora_217.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_IrineuZanetiII_218.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_IrineuZanetiII_219.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Infratcnica_220.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Infratcnica_221.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_HorizResidence_222.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_HorizResidence_223.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_GlebaNossaSenhoraAuxiliadora_224.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_GlebaNossaSenhoraAuxiliadora_225.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Ferracini_226.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Ferracini_227.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_FrancaB6_228.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_FrancaB6_229.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_FazendaProgresso_230.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_FazendaProgresso_231.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_FazendaeGranjaSantaRita2_232.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_FazendaeGranjaSantaRita2_233.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_FazendaeGranjaSantaRita_234.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_FazendaeGranjaSantaRita_235.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Essence_236.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Essence_237.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Elias_238.set('fieldImages', {'fid': 'TextEdit', 'layer': 'TextEdit', });
+lyr_Elias_239.set('fieldImages', {'fid': '', 'layer': '', 'path': '', });
+lyr_EdifcioSolNascente_240.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_EdifcioSolNascente_241.set('fieldImages', {'fid': '', 'layer': '', 'path': '', });
+lyr_EdifcioRuadoSol_242.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_EdifcioRuadoSol_243.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_EdifcioResidencialHope_244.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_EdifcioResidencialHope_245.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_DiocesedeFranca_246.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_DiocesedeFranca_247.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_DaVinci_248.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_DaVinci_249.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_CondomnioIICityPetrpolis_250.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_CondomnioIICityPetrpolis_251.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_CondomnioICityPetrpolis_252.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_CondomnioICityPetrpolis_253.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Colorado_254.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Colorado_255.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_CidadeJardim_256.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_CidadeJardim_257.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ChacaraOlaria_258.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ChacaraOlaria_259.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ChacaraBelaVista_260.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_ChacaraBelaVista_261.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_BordadaMata_262.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_BordadaMata_263.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Arizona_264.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Arizona_265.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Adonis_266.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_Adonis_267.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_AbuDhabiParadiseResortResidence_268.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_AbuDhabiParadiseResortResidence_269.set('fieldImages', {'fid': '', 'layer': '', });
+lyr_EtapaAprovado27unid_270.set('fieldImages', {'fid': 'TextEdit', 'cadastro_imobiliario': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', 'unidade_municipal': 'TextEdit', 'etapa': 'TextEdit', 'decreto': 'TextEdit', 'tipologia': 'TextEdit', 'matricula': 'TextEdit', 'processo': 'TextEdit', 'proprietarios': 'TextEdit', 'nome_empreendimento': 'TextEdit', 'zoneamento': 'TextEdit', 'area_verde_m2': 'TextEdit', 'area_institucional_m2': 'TextEdit', 'area_lazer_m2': 'TextEdit', 'lotes_m2': 'TextEdit', 'unidades_lotes': 'TextEdit', 'unidades_lotes_misto': 'TextEdit', 'unidades_lotes_residenciais': 'TextEdit', 'lotes_comerciais': 'TextEdit', });
+lyr_EtapaDiretriz22unid_271.set('fieldImages', {'fid': 'TextEdit', 'cadastro_imobiliario': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', 'unidade_municipal': 'TextEdit', 'etapa': 'TextEdit', 'decreto': 'TextEdit', 'tipologia': 'TextEdit', 'matricula': 'TextEdit', 'processo': 'TextEdit', 'proprietarios': 'TextEdit', 'nome_empreendimento': 'TextEdit', 'zoneamento': 'TextEdit', 'area_verde_m2': 'TextEdit', 'area_institucional_m2': 'TextEdit', 'area_lazer_m2': 'TextEdit', 'lotes_m2': 'TextEdit', 'unidades_lotes': 'TextEdit', 'unidades_lotes_misto': 'TextEdit', 'unidades_lotes_residenciais': 'TextEdit', 'lotes_comerciais': 'TextEdit', });
+lyr_EtapaDefinitiva7unid_272.set('fieldImages', {'fid': 'TextEdit', 'cadastro_imobiliario': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', 'unidade_municipal': 'TextEdit', 'etapa': 'TextEdit', 'decreto': 'TextEdit', 'tipologia': 'TextEdit', 'matricula': 'TextEdit', 'processo': 'TextEdit', 'proprietarios': 'TextEdit', 'nome_empreendimento': 'TextEdit', 'zoneamento': 'TextEdit', 'area_verde_m2': 'TextEdit', 'area_institucional_m2': 'TextEdit', 'area_lazer_m2': 'TextEdit', 'lotes_m2': 'TextEdit', 'unidades_lotes': 'TextEdit', 'unidades_lotes_misto': 'TextEdit', 'unidades_lotes_residenciais': 'TextEdit', 'lotes_comerciais': 'TextEdit', });
+lyr_EtapaPrvia23unid_273.set('fieldImages', {'fid': 'TextEdit', 'cadastro_imobiliario': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', 'unidade_municipal': 'TextEdit', 'etapa': 'TextEdit', 'decreto': 'TextEdit', 'tipologia': 'TextEdit', 'matricula': 'TextEdit', 'processo': 'TextEdit', 'proprietarios': 'TextEdit', 'nome_empreendimento': 'TextEdit', 'zoneamento': 'TextEdit', 'area_verde_m2': 'TextEdit', 'area_institucional_m2': 'TextEdit', 'area_lazer_m2': 'TextEdit', 'lotes_m2': 'TextEdit', 'unidades_lotes': 'TextEdit', 'unidades_lotes_misto': 'TextEdit', 'unidades_lotes_residenciais': 'TextEdit', 'lotes_comerciais': 'TextEdit', });
+lyr_LoteamentosClandestinos70unid_274.set('fieldImages', {'fid': 'TextEdit', 'processo': 'TextEdit', 'modalidade': 'TextEdit', 'nome_loteamento': 'TextEdit', 'observacao': 'TextEdit', 'matricula': 'TextEdit', 'quant_lotes': 'Range', 'area_total_m2': 'TextEdit', 'decreto_reurb': 'TextEdit', 'situacao': 'TextEdit', });
+lyr_LoteamentosClandestinos70unid_275.set('fieldImages', {'fid': 'TextEdit', 'processo': '', 'modalidade': '', 'nome_loteamento': '', 'observacao': '', 'matricula': '', 'quant_lotes': '', 'area_total_m2': '', 'decreto_reurb': '', 'situacao': '', });
+lyr_FazendaPalestina105unid_276.set('fieldImages', {'fid': 'TextEdit', 'matricula': 'TextEdit', 'nome_loteamento': 'TextEdit', });
+lyr_FazendaPalestina105unid_277.set('fieldImages', {'fid': 'TextEdit', 'matricula': 'TextEdit', 'nome_loteamento': 'TextEdit', });
+lyr_APP1745unid_278.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', 'APP_M': 'TextEdit', 'AREA_HA': 'TextEdit', });
+lyr_RiosDuplos84unid_279.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', 'AREA_HA': 'TextEdit', });
+lyr_MassasDgua270unid_280.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', 'NATUREZA': 'TextEdit', 'RIO': 'TextEdit', 'SETOR': 'TextEdit', 'AREA_HA': 'TextEdit', });
+lyr_RiosSimples1842unid_281.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', 'COMP_KM': 'TextEdit', });
+lyr_Nascentes821unid_282.set('fieldImages', {'fid': 'TextEdit', 'GEOCODIGO': 'TextEdit', 'MUNICIPIO': 'TextEdit', 'UF': 'TextEdit', 'CD_UF': 'Range', 'HIDRO': 'TextEdit', });
+lyr_AntigoAterrodaFazendaMunicipal_283.set('fieldImages', {'fid': '', 'Nome': '', 'Área (m²)': '', });
+lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284.set('fieldImages', {'fid': 'TextEdit', 'Field1': 'TextEdit', 'Field2': 'TextEdit', 'Field3': 'TextEdit', });
+lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Nome': 'TextEdit', });
+lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286.set('fieldImages', {'fid': '', 'Nome': '', 'Área (m²)': '', });
+lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287.set('fieldImages', {'fid': 'TextEdit', 'Norte': 'TextEdit', 'Leste': 'TextEdit', 'Cota': 'TextEdit', 'Identifica': 'TextEdit', 'Profundida': 'TextEdit', 'Identifi_1': 'TextEdit', 'Profundi_1': 'TextEdit', 'NA Dinâmi': 'TextEdit', 'NA Estatic': 'TextEdit', 'NÍVEL DE': 'TextEdit', 'TEMPERATUR': 'TextEdit', 'pH': 'TextEdit', 'CONDUTIVID': 'TextEdit', 'Eh/ORP': 'TextEdit', 'OXIGÊNIO': 'TextEdit', 'TURBIDEZ': 'TextEdit', });
+lyr_AntigoAterrodasMaritacas_288.set('fieldImages', {'fid': '', 'Nome': '', 'Área (m²)': '', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289.set('fieldImages', {'fid': 'TextEdit', 'Poço': 'TextEdit', 'Norte (m)': 'TextEdit', 'Este (m)': 'TextEdit', 'Cota': 'TextEdit', });
+lyr_ParqueZumbidosPalmares_290.set('fieldImages', {'fid': '', 'Nome': '', 'Área (m²)': '', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
+lyr_reaN2_293.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaN1_294.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaN_295.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_ConjuntoHabitacional_296.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_AvdeacessoaoHortoeColgioAgrcola_297.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaK_298.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaJ_299.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaI_300.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaH_301.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaG_302.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaF_303.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaE_304.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaD_305.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaC_306.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaB_307.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaA_308.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_309.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_reaaseraverbadaPartedareaG_310.set('fieldImages', {'fid': '', 'id': '', 'Propriedade': '', 'Área': '', 'Matrícula': '', 'Área (m²)': '', 'Área (ha)': '', });
+lyr_Voorocas26unid_311.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'ID_PONTO_I': 'TextEdit', 'IBGE': 'TextEdit', 'MUNIC__PIO': 'TextEdit', 'BACIA': 'TextEdit', 'LATITUDE': 'TextEdit', 'LONGITUDE': 'TextEdit', 'SITUA____O': 'TextEdit', 'REFER__NCI': 'TextEdit', 'PRIORIDADE': 'TextEdit', 'OBSERVA_____': 'TextEdit', });
+lyr_LocaisdeDifcilAcessoereasRurais12unid_312.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'PER__ODO_TURNO_': 'TextEdit', 'HOR__RIO_DE_INICIO_DOS_SERVI__OS': 'TextEdit', 'FREQU__NCIA': 'TextEdit', 'PROGRAMA____O_SEMANAL': 'TextEdit', 'EQUIPAMENTOS': 'TextEdit', 'LONGITUDE': 'TextEdit', 'LATITUDE': 'TextEdit', });
+lyr_Contineres286unid_313.set('fieldImages', {'fid': 'TextEdit', 'id': 'TextEdit', 'Name': 'TextEdit', 'bairro': '', });
+lyr_rvoreImuneaoCorte9unid_314.set('fieldImages', {'fid': 'TextEdit', 'nome_popular': 'TextEdit', 'nome_cientifico': 'TextEdit', 'legislacao': 'TextEdit', });
+lyr_AcademiasaoArLivre84unid_315.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'description': 'TextEdit', 'bairro': '', });
+lyr_Ecopontos4unid_316.set('fieldImages', {'fid': '', 'Categoria': '', 'Local': '', 'Descrição': '', 'Endereço': '', 'Contato': '', });
+lyr_Gesso1unid_317.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_ResduosdeConstruoCivil7unid_318.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_ResduosVerdes1unid_319.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_ChapasdeRaioX1unid_320.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_Embalagensvaziasdeagrotxicos1unid_321.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_leodecozinhausado2unid_322.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_leolubrificanteusado1unid_323.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_Latasdetintametlicasvazias2unid_324.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_ResduosPerigosos1unid_325.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_Madeiras1unid_326.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_ResduosdeServiosdeSade21unid_327.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_PilhaseBaterias17unid_328.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_Pneus1unid_329.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_Lmpadas4unid_330.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_ResduosdeCouro1unid_331.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_ResduosEletrnicos2unid_332.set('fieldImages', {'fid': '', 'Categoria': '', 'Local': '', 'Descrição': '', 'Endereço': '', 'Contato': '', });
+lyr_ResduosReciclveis15unid_333.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_ResduosInservveis4unid_334.set('fieldImages', {'fid': 'TextEdit', 'Categoria': 'TextEdit', 'Local': 'TextEdit', 'Descrição': 'TextEdit', 'Endereço': 'TextEdit', 'Contato': 'TextEdit', });
+lyr_PBZPAEdifcioPrimeHELIPONTO_335.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
+lyr_PBZPAEdifcioPrimeHELIPONTO_336.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
+lyr_PBZPAHospitalHELIPONTO_337.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
+lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', });
+lyr_ClasseVB_339.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseVA_340.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseIVC_341.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseIVB_342.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseIVA_343.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseIIIC_344.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseIIIB_345.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseIIIA_346.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseII_347.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_ClasseI_348.set('fieldImages', {'fid': 'TextEdit', 'classe': 'TextEdit', 'risco_eros': 'TextEdit', 'suscetibil': 'TextEdit', 'uso_solo': 'TextEdit', 'setores_re': 'TextEdit', 'solos_pred': 'TextEdit', 'substrato_': 'TextEdit', 'processos_': 'TextEdit', 'recomendac': 'TextEdit', });
+lyr_RegioCentroLeste42unid675453694m_349.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_RegioLesteNordeste50unid1233454938m_350.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_RegioNorteI45unid1043752016m_351.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_RegioNorteII36unid859331837m_352.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_RegioOesteI65unid1245065890m_353.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_RegioOesteII43unid599615871m_354.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_RegioSudeste38unid579321135m_355.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_RegioSudesteSul44unid830633497m_356.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_RegioSul20unid639964086m_357.set('fieldImages', {'fid': 'TextEdit', 'nome': 'TextEdit', 'm2': 'TextEdit', 'regiao': 'TextEdit', });
+lyr_APP156unid230392892m_358.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
+lyr_reaInstitucional224unid133042345m_359.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
+lyr_reaPatrimonial33unid15776685m_360.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
+lyr_reaVerde1946unid805735618m_361.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
+lyr_readeUsoEspecial276unid271190268m_362.set('fieldImages', {'fid': '', 'Classe': '', 'Bairro': '', 'Nº Cadastro Imobiliário': '', 'Código da Região': '', '1ª Semana': '', '2ª Semana': '', '3ª Semana': '', '4ª Semana': '', '5ª Semana': '', 'descricao': '', 'm2': '', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
+lyr_LoteamentoFechado115unid52603608m_363.set('fieldImages', {'fid': '', 'Classe': '', 'Bairro': '', 'Nº Cadastro Imobiliário': '', 'Código da Região': '', '1ª Semana': '', '2ª Semana': '', '3ª Semana': '', '4ª Semana': '', '5ª Semana': '', 'descricao': '', 'm2': '', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
+lyr_Lote252unid7530210m_364.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
+lyr_Lote252unid_365.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Área (m²)': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'Terceirização': 'TextEdit', });
+lyr_LoteEdificao20unid508062m_366.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
+lyr_LoteEdificao20unid_367.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': '', 'data_inclusao': '', 'regiao': '', 'processo': '', });
+lyr_LeiloLEIN97542025Homologado4unid334770m_368.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
+lyr_LeiloLEIN97542025Homologado4unid_369.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
+lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
+lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_371.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
+lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
+lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_373.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': '', 'processo': 'TextEdit', });
+lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
+lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_375.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': 'TextEdit', 'm2': 'TextEdit', 'data_inclusao': 'DateTime', 'status_leilao': 'TextEdit', 'processo': 'TextEdit', });
+lyr_LoteEMDEF10unid218783m_376.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'descricao': '', 'm2': 'TextEdit', 'data_inclusao': '', 'status_leilao': '', 'processo': '', });
+lyr_LoteEMDEF10unid_377.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Área (m²)': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', });
+lyr_TRPRLCETESB2unid_378.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': '', 'matricula': '', 'proc_cetesb': '', });
+lyr_TRPRLCETESB2unid_379.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': 'TextEdit', 'matricula': 'TextEdit', 'proc_cetesb': 'TextEdit', });
+lyr_TCRAMunicipal14unid_380.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': '', 'quant': 'Range', 'autorizacao': '', });
+lyr_TCRAMunicipal14unid_381.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': 'TextEdit', 'quant': 'Range', 'autorizacao': 'TextEdit', });
+lyr_TCRACETESBPARCELAMENTO32unid_382.set('fieldImages', {'fid': '', 'Name': '', 'Area': '', 'quant': '', 'proc_cetesb': '', });
+lyr_TCRACETESBPARCELAMENTO32unid_383.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': 'TextEdit', 'quant': 'Range', 'proc_cetesb': '', });
+lyr_TCRACETESB28unid_384.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': '', 'quant': 'Range', 'proc_cetesb': '', 'situacao': '', });
+lyr_TCRACETESB28unid_385.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'Area': 'TextEdit', 'quant': 'Range', 'proc_cetesb': 'TextEdit', 'situacao': '', });
+lyr_TACMinistrioPblico9unid_386.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'ic': 'TextEdit', 'proc_municipal': 'TextEdit', });
+lyr_TACMinistrioPblico9unid_387.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'ic': 'TextEdit', 'proc_municipal': 'TextEdit', });
+lyr_PlantioVoluntrio1unid_388.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', });
+lyr_PlantioVoluntrio1unid_389.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', });
+lyr_CartaAnuncia20unid_390.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'doc_origem': '', });
+lyr_CartaAnuncia20unid_391.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'doc_origem': 'TextEdit', });
+lyr_AoCivilPblica1unid_392.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'proc_municipal': 'TextEdit', });
+lyr_AoCivilPblica1unid_393.set('fieldImages', {'fid': 'TextEdit', 'Name': 'TextEdit', 'area': 'TextEdit', 'quant': 'Range', 'proc_municipal': 'TextEdit', });
+lyr_ProgramaAdoteUmaPraa315unid30277327m_394.set('fieldImages', {'fid': 'TextEdit', 'Classe': 'TextEdit', 'Bairro': 'TextEdit', 'Nº Cadastro Imobiliário': 'TextEdit', 'Código da Região': 'TextEdit', '1ª Semana': 'TextEdit', '2ª Semana': 'TextEdit', '3ª Semana': 'TextEdit', '4ª Semana': 'TextEdit', '5ª Semana': 'TextEdit', 'Terceirização': 'TextEdit', 'responsavel': 'TextEdit', 'm2': 'TextEdit', });
+lyr_ComPlacaDilu161unid17007212m_395.set('fieldImages', {'fid': 'TextEdit', 'Adotante': 'TextEdit', 'Local': 'TextEdit', 'Programa': 'TextEdit', 'Possui placa?': 'TextEdit', 'm2': 'TextEdit', 'responsavel': 'TextEdit', 'data_contrato': 'DateTime', 'bairro': '', });
+lyr_ComPlacaEgnaldo134unid12211725m_396.set('fieldImages', {'fid': 'TextEdit', 'Adotante': 'TextEdit', 'Local': 'TextEdit', 'Programa': 'TextEdit', 'Possui placa?': 'TextEdit', 'm2': 'TextEdit', 'responsavel': 'TextEdit', 'data_contrato': 'DateTime', 'bairro': '', });
+lyr_SemPlacaDilu16unid774541m_397.set('fieldImages', {'fid': 'TextEdit', 'Adotante': 'TextEdit', 'Local': 'TextEdit', 'Programa': 'TextEdit', 'Possui placa?': 'TextEdit', 'm2': 'TextEdit', 'responsavel': 'TextEdit', 'data_contrato': '', 'bairro': '', });
+lyr_SemPlacaEgnaldo4unid86447m_398.set('fieldImages', {'fid': 'TextEdit', 'Adotante': 'TextEdit', 'Local': 'TextEdit', 'Programa': 'TextEdit', 'Possui placa?': 'TextEdit', 'm2': 'TextEdit', 'responsavel': 'TextEdit', 'data_contrato': 'DateTime', 'bairro': '', });
 lyr_LimiteMunicipaldeFranca_3.set('fieldLabels', {'fid': 'hidden field', 'CD_MUN': 'no label', 'NM_MUN': 'no label', 'CD_RGI': 'no label', 'NM_RGI': 'no label', 'CD_RGINT': 'no label', 'NM_RGINT': 'no label', 'CD_UF': 'no label', 'NM_UF': 'no label', 'SIGLA_UF': 'no label', 'CD_REGIA': 'no label', 'NM_REGIA': 'no label', 'SIGLA_RG': 'no label', 'CD_CONCU': 'no label', 'NM_CONCU': 'no label', 'AREA_KM2': 'no label', });
 lyr_reaUrbanadeFranca_4.set('fieldLabels', {'fid': 'hidden field', 'Código do Município': 'inline label - visible with data', 'Nome do Município': 'inline label - visible with data', 'UF': 'inline label - visible with data', 'Código da UF': 'hidden field', 'Classe de Uso': 'hidden field', 'Área (ha)': 'hidden field', 'Área (km²)': 'inline label - visible with data', });
 lyr_ARORemanescentesFlorestais_5.set('fieldLabels', {'fid': 'hidden field', 'subclasse': 'inline label - visible with data', 'area_m2': 'inline label - visible with data', 'classe': 'inline label - visible with data', 'desc_subcl': 'inline label - visible with data', 'desc_class': 'inline label - visible with data', });
@@ -7408,221 +7444,223 @@ lyr_ResidencialAltodaFazenda_178.set('fieldLabels', {'fid': 'hidden field', 'lay
 lyr_ResidencialAltodaFazenda_179.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
 lyr_RecantoMeneghetti_180.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
 lyr_RecantoMeneghetti_181.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ProlongamentoSamelPark_182.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ProlongamentoSamelPark_183.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParqueVillaLobos_184.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParqueVillaLobos_185.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParquePalmeiraImperial_186.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParquePalmeiraImperial_187.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParqueFlora_188.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParqueFlora_189.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParquedosSabias_190.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParquedosSabias_191.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParagonII_192.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ParagonII_193.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Paragon_194.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Paragon_195.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_PalmeiraReal_196.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_PalmeiraReal_197.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', 'path': 'hidden field', });
-lyr_MoradadoVerdeII_198.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_MoradadoVerdeII_199.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_MoradadaMata_200.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_MoradadaMata_201.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Monti_202.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Monti_203.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', 'path': 'hidden field', });
-lyr_MontBlancResidence_204.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_MontBlancResidence_205.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_MarianaAlarcon_206.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_MarianaAlarcon_207.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Loteamentolamo_208.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Loteamentolamo_209.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_JardimMariaLuiza_210.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_JardimMariaLuiza_211.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_JardimHorizonte_212.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_JardimHorizonte_213.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_JardimFlora_214.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_JardimFlora_215.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_IrineuZanetiII_216.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_IrineuZanetiII_217.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Infratcnica_218.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Infratcnica_219.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_HorizResidence_220.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_HorizResidence_221.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_GlebaNossaSenhoraAuxiliadora_222.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_GlebaNossaSenhoraAuxiliadora_223.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Ferracini_224.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Ferracini_225.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_FrancaB6_226.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_FrancaB6_227.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_FazendaProgresso_228.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_FazendaProgresso_229.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_FazendaeGranjaSantaRita2_230.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_FazendaeGranjaSantaRita2_231.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_FazendaeGranjaSantaRita_232.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_FazendaeGranjaSantaRita_233.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Essence_234.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Essence_235.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Elias_236.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Elias_237.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', 'path': 'hidden field', });
-lyr_EdifcioSolNascente_238.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_EdifcioSolNascente_239.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', 'path': 'hidden field', });
-lyr_EdifcioRuadoSol_240.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_EdifcioRuadoSol_241.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_EdifcioResidencialHope_242.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_EdifcioResidencialHope_243.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_DiocesedeFranca_244.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_DiocesedeFranca_245.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_DaVinci_246.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_DaVinci_247.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_CondomnioIICityPetrpolis_248.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_CondomnioIICityPetrpolis_249.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_CondomnioICityPetrpolis_250.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_CondomnioICityPetrpolis_251.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Colorado_252.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Colorado_253.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_CidadeJardim_254.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_CidadeJardim_255.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ChacaraOlaria_256.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ChacaraOlaria_257.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ChacaraBelaVista_258.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_ChacaraBelaVista_259.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_BordadaMata_260.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_BordadaMata_261.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Arizona_262.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Arizona_263.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Adonis_264.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_Adonis_265.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_AbuDhabiParadiseResortResidence_266.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_AbuDhabiParadiseResortResidence_267.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
-lyr_EtapaAprovado27unid_268.set('fieldLabels', {'fid': 'hidden field', 'cadastro_imobiliario': 'inline label - visible with data', 'latitude': 'hidden field', 'longitude': 'hidden field', 'unidade_municipal': 'hidden field', 'etapa': 'inline label - visible with data', 'decreto': 'inline label - visible with data', 'tipologia': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'proprietarios': 'inline label - visible with data', 'nome_empreendimento': 'inline label - visible with data', 'zoneamento': 'inline label - visible with data', 'area_verde_m2': 'inline label - visible with data', 'area_institucional_m2': 'inline label - visible with data', 'area_lazer_m2': 'inline label - visible with data', 'lotes_m2': 'inline label - visible with data', 'unidades_lotes': 'inline label - visible with data', 'unidades_lotes_misto': 'inline label - visible with data', 'unidades_lotes_residenciais': 'inline label - visible with data', 'lotes_comerciais': 'inline label - visible with data', });
-lyr_EtapaDiretriz22unid_269.set('fieldLabels', {'fid': 'hidden field', 'cadastro_imobiliario': 'inline label - visible with data', 'latitude': 'hidden field', 'longitude': 'hidden field', 'unidade_municipal': 'hidden field', 'etapa': 'inline label - visible with data', 'decreto': 'inline label - visible with data', 'tipologia': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'proprietarios': 'inline label - visible with data', 'nome_empreendimento': 'inline label - visible with data', 'zoneamento': 'inline label - visible with data', 'area_verde_m2': 'inline label - visible with data', 'area_institucional_m2': 'inline label - visible with data', 'area_lazer_m2': 'inline label - visible with data', 'lotes_m2': 'inline label - visible with data', 'unidades_lotes': 'inline label - visible with data', 'unidades_lotes_misto': 'inline label - visible with data', 'unidades_lotes_residenciais': 'inline label - visible with data', 'lotes_comerciais': 'inline label - visible with data', });
-lyr_EtapaDefinitiva7unid_270.set('fieldLabels', {'fid': 'hidden field', 'cadastro_imobiliario': 'inline label - visible with data', 'latitude': 'hidden field', 'longitude': 'hidden field', 'unidade_municipal': 'hidden field', 'etapa': 'inline label - visible with data', 'decreto': 'inline label - visible with data', 'tipologia': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'proprietarios': 'inline label - visible with data', 'nome_empreendimento': 'inline label - visible with data', 'zoneamento': 'inline label - visible with data', 'area_verde_m2': 'inline label - visible with data', 'area_institucional_m2': 'inline label - visible with data', 'area_lazer_m2': 'inline label - visible with data', 'lotes_m2': 'inline label - visible with data', 'unidades_lotes': 'inline label - visible with data', 'unidades_lotes_misto': 'inline label - visible with data', 'unidades_lotes_residenciais': 'inline label - visible with data', 'lotes_comerciais': 'inline label - visible with data', });
-lyr_EtapaPrvia23unid_271.set('fieldLabels', {'fid': 'hidden field', 'cadastro_imobiliario': 'inline label - visible with data', 'latitude': 'hidden field', 'longitude': 'hidden field', 'unidade_municipal': 'hidden field', 'etapa': 'inline label - visible with data', 'decreto': 'inline label - visible with data', 'tipologia': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'proprietarios': 'inline label - visible with data', 'nome_empreendimento': 'inline label - visible with data', 'zoneamento': 'inline label - visible with data', 'area_verde_m2': 'inline label - visible with data', 'area_institucional_m2': 'inline label - visible with data', 'area_lazer_m2': 'inline label - visible with data', 'lotes_m2': 'inline label - visible with data', 'unidades_lotes': 'inline label - visible with data', 'unidades_lotes_misto': 'inline label - visible with data', 'unidades_lotes_residenciais': 'inline label - visible with data', 'lotes_comerciais': 'inline label - visible with data', });
-lyr_LoteamentosClandestinos70unid_272.set('fieldLabels', {'fid': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'modalidade': 'inline label - visible with data', 'nome_loteamento': 'inline label - visible with data', 'observacao': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'quant_lotes': 'inline label - visible with data', 'area_total_m2': 'inline label - visible with data', 'decreto_reurb': 'inline label - visible with data', 'situacao': 'inline label - visible with data', });
-lyr_LoteamentosClandestinos70unid_273.set('fieldLabels', {'fid': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'modalidade': 'inline label - visible with data', 'nome_loteamento': 'inline label - visible with data', 'observacao': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'quant_lotes': 'inline label - visible with data', 'area_total_m2': 'inline label - visible with data', 'decreto_reurb': 'inline label - visible with data', 'situacao': 'inline label - visible with data', });
-lyr_FazendaPalestina105unid_274.set('fieldLabels', {'fid': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'nome_loteamento': 'no label', });
-lyr_FazendaPalestina105unid_275.set('fieldLabels', {'fid': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'nome_loteamento': 'no label', });
-lyr_APP1745unid_276.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'hidden field', 'HIDRO': 'inline label - visible with data', 'APP_M': 'inline label - visible with data', 'AREA_HA': 'inline label - always visible', });
-lyr_RiosDuplos84unid_277.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'hidden field', 'HIDRO': 'inline label - visible with data', 'AREA_HA': 'inline label - visible with data', });
-lyr_MassasDgua270unid_278.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'hidden field', 'HIDRO': 'inline label - visible with data', 'NATUREZA': 'inline label - visible with data', 'RIO': 'inline label - visible with data', 'SETOR': 'inline label - visible with data', 'AREA_HA': 'inline label - visible with data', });
-lyr_RiosSimples1842unid_279.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'inline label - visible with data', 'HIDRO': 'inline label - visible with data', 'COMP_KM': 'inline label - visible with data', });
-lyr_Nascentes821unid_280.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'hidden field', 'HIDRO': 'inline label - visible with data', });
-lyr_AntigoAterrodaFazendaMunicipal_281.set('fieldLabels', {'fid': 'hidden field', 'Nome': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', });
-lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_282.set('fieldLabels', {'fid': 'hidden field', 'Field1': 'inline label - visible with data', 'Field2': 'hidden field', 'Field3': 'hidden field', });
-lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_283.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Nome': 'inline label - visible with data', });
-lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_284.set('fieldLabels', {'fid': 'hidden field', 'Nome': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', });
-lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_285.set('fieldLabels', {'fid': 'hidden field', 'Norte': 'hidden field', 'Leste': 'hidden field', 'Cota': 'hidden field', 'Identifica': 'hidden field', 'Profundida': 'hidden field', 'Identifi_1': 'inline label - visible with data', 'Profundi_1': 'hidden field', 'NA Dinâmi': 'hidden field', 'NA Estatic': 'hidden field', 'NÍVEL DE': 'hidden field', 'TEMPERATUR': 'hidden field', 'pH': 'hidden field', 'CONDUTIVID': 'hidden field', 'Eh/ORP': 'hidden field', 'OXIGÊNIO': 'hidden field', 'TURBIDEZ': 'hidden field', });
-lyr_AntigoAterrodasMaritacas_286.set('fieldLabels', {'fid': 'hidden field', 'Nome': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_287.set('fieldLabels', {'fid': 'hidden field', 'Poço': 'inline label - visible with data', 'Norte (m)': 'hidden field', 'Este (m)': 'hidden field', 'Cota': 'hidden field', });
-lyr_ParqueZumbidosPalmares_288.set('fieldLabels', {'fid': 'hidden field', 'Nome': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_289.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
-lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_290.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
-lyr_reaN2_291.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaN1_292.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaN_293.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_ConjuntoHabitacional_294.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_AvdeacessoaoHortoeColgioAgrcola_295.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaK_296.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaJ_297.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaI_298.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaH_299.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaG_300.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaF_301.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaE_302.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaD_303.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaC_304.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaB_305.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaA_306.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_307.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_reaaseraverbadaPartedareaG_308.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
-lyr_Voorocas26unid_309.set('fieldLabels', {'fid': 'hidden field', 'Name': 'hidden field', 'ID_PONTO_I': 'hidden field', 'IBGE': 'hidden field', 'MUNIC__PIO': 'hidden field', 'BACIA': 'hidden field', 'LATITUDE': 'hidden field', 'LONGITUDE': 'hidden field', 'SITUA____O': 'hidden field', 'REFER__NCI': 'inline label - visible with data', 'PRIORIDADE': 'hidden field', 'OBSERVA_____': 'inline label - visible with data', });
-lyr_LocaisdeDifcilAcessoereasRurais12unid_310.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'PER__ODO_TURNO_': 'inline label - visible with data', 'HOR__RIO_DE_INICIO_DOS_SERVI__OS': 'inline label - visible with data', 'FREQU__NCIA': 'inline label - visible with data', 'PROGRAMA____O_SEMANAL': 'inline label - visible with data', 'EQUIPAMENTOS': 'inline label - visible with data', 'LONGITUDE': 'inline label - visible with data', 'LATITUDE': 'inline label - visible with data', });
-lyr_Contineres286unid_311.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Name': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
-lyr_rvoreImuneaoCorte9unid_312.set('fieldLabels', {'fid': 'hidden field', 'nome_popular': 'inline label - visible with data', 'nome_cientifico': 'inline label - visible with data', 'legislacao': 'inline label - visible with data', });
-lyr_AcademiasaoArLivre84unid_313.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'description': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
-lyr_Ecopontos4unid_314.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_Gesso1unid_315.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ResduosdeConstruoCivil7unid_316.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ResduosVerdes1unid_317.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ChapasdeRaioX1unid_318.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_Embalagensvaziasdeagrotxicos1unid_319.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_leodecozinhausado2unid_320.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_leolubrificanteusado1unid_321.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_Latasdetintametlicasvazias2unid_322.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ResduosPerigosos1unid_323.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_Madeiras1unid_324.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ResduosdeServiosdeSade21unid_325.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_PilhaseBaterias17unid_326.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_Pneus1unid_327.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_Lmpadas4unid_328.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ResduosdeCouro1unid_329.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ResduosEletrnicos2unid_330.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ResduosReciclveis15unid_331.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_ResduosInservveis4unid_332.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
-lyr_PBZPAEdifcioPrimeHELIPONTO_333.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
-lyr_PBZPAEdifcioPrimeHELIPONTO_334.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
-lyr_PBZPAHospitalHELIPONTO_335.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
-lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_336.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
-lyr_ClasseVB_337.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseVA_338.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseIVC_339.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseIVB_340.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseIVA_341.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseIIIC_342.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseIIIB_343.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseIIIA_344.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseII_345.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_ClasseI_346.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
-lyr_RegioCentroLeste42unid675453694m_347.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_RegioLesteNordeste50unid1233454938m_348.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_RegioNorteI45unid1043752016m_349.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_RegioNorteII36unid859331837m_350.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_RegioOesteI65unid1245065890m_351.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_RegioOesteII43unid599615871m_352.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_RegioSudeste38unid579321135m_353.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_RegioSudesteSul44unid830633497m_354.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_RegioSul20unid639964086m_355.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
-lyr_APP156unid230392892m_356.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
-lyr_reaInstitucional224unid133042345m_357.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
-lyr_reaPatrimonial33unid15776685m_358.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
-lyr_reaVerde1946unid805735618m_359.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
-lyr_readeUsoEspecial276unid271190268m_360.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'hidden field', });
-lyr_LoteamentoFechado115unid52603608m_361.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'hidden field', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'hidden field', });
-lyr_Lote252unid7530210m_362.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
-lyr_Lote252unid_363.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'Terceirização': 'hidden field', });
-lyr_LoteEdificao20unid508062m_364.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
-lyr_LoteEdificao20unid_365.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'regiao': 'hidden field', 'processo': 'inline label - visible with data', });
-lyr_LeiloLEIN97542025Homologado4unid334770m_366.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
-lyr_LeiloLEIN97542025Homologado4unid_367.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
-lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_368.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
-lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_369.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
-lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_370.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
-lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_371.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
-lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_372.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
-lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_373.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
-lyr_LoteEMDEF10unid218783m_374.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'no label', 'processo': 'inline label - visible with data', });
-lyr_LoteEMDEF10unid_375.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', });
-lyr_TRPRLCETESB2unid_376.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', });
-lyr_TRPRLCETESB2unid_377.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', });
-lyr_TCRAMunicipal14unid_378.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'autorizacao': 'inline label - visible with data', });
-lyr_TCRAMunicipal14unid_379.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'autorizacao': 'inline label - visible with data', });
-lyr_TCRACETESBPARCELAMENTO32unid_380.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', });
-lyr_TCRACETESBPARCELAMENTO32unid_381.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', });
-lyr_TCRACETESB28unid_382.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', 'situacao': 'inline label - visible with data', });
-lyr_TCRACETESB28unid_383.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', 'situacao': 'inline label - visible with data', });
-lyr_TACMinistrioPblico9unid_384.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'ic': 'inline label - visible with data', 'proc_municipal': 'inline label - visible with data', });
-lyr_TACMinistrioPblico9unid_385.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'ic': 'inline label - visible with data', 'proc_municipal': 'inline label - visible with data', });
-lyr_PlantioVoluntrio1unid_386.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', });
-lyr_PlantioVoluntrio1unid_387.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', });
-lyr_CartaAnuncia20unid_388.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'doc_origem': 'inline label - visible with data', });
-lyr_CartaAnuncia20unid_389.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'doc_origem': 'inline label - visible with data', });
-lyr_AoCivilPblica1unid_390.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_municipal': 'inline label - visible with data', });
-lyr_AoCivilPblica1unid_391.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_municipal': 'inline label - visible with data', });
-lyr_ProgramaAdoteUmaPraa315unid30277327m_392.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'Terceirização': 'hidden field', 'responsavel': 'inline label - visible with data', 'm2': 'inline label - visible with data', });
-lyr_ComPlacaDilu161unid17007212m_393.set('fieldLabels', {'fid': 'hidden field', 'Adotante': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Programa': 'inline label - visible with data', 'Possui placa?': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'responsavel': 'inline label - visible with data', 'data_contrato': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
-lyr_ComPlacaEgnaldo134unid12211725m_394.set('fieldLabels', {'fid': 'hidden field', 'Adotante': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Programa': 'inline label - visible with data', 'Possui placa?': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'responsavel': 'inline label - visible with data', 'data_contrato': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
-lyr_SemPlacaDilu16unid774541m_395.set('fieldLabels', {'fid': 'hidden field', 'Adotante': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Programa': 'inline label - visible with data', 'Possui placa?': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'responsavel': 'inline label - visible with data', 'data_contrato': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
-lyr_SemPlacaEgnaldo4unid86447m_396.set('fieldLabels', {'fid': 'hidden field', 'Adotante': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Programa': 'inline label - visible with data', 'Possui placa?': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'responsavel': 'inline label - visible with data', 'data_contrato': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
-lyr_SemPlacaEgnaldo4unid86447m_396.on('precompose', function(evt) {
+lyr_Quadra18VilaExposio_182.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Quadra18VilaExposio_183.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ProlongamentoSamelPark_184.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ProlongamentoSamelPark_185.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParqueVillaLobos_186.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParqueVillaLobos_187.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParquePalmeiraImperial_188.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParquePalmeiraImperial_189.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParqueFlora_190.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParqueFlora_191.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParquedosSabias_192.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParquedosSabias_193.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParagonII_194.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ParagonII_195.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Paragon_196.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Paragon_197.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_PalmeiraReal_198.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_PalmeiraReal_199.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', 'path': 'hidden field', });
+lyr_MoradadoVerdeII_200.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_MoradadoVerdeII_201.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_MoradadaMata_202.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_MoradadaMata_203.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Monti_204.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Monti_205.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', 'path': 'hidden field', });
+lyr_MontBlancResidence_206.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_MontBlancResidence_207.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_MarianaAlarcon_208.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_MarianaAlarcon_209.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Loteamentolamo_210.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Loteamentolamo_211.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_JardimMariaLuiza_212.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_JardimMariaLuiza_213.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_JardimHorizonte_214.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_JardimHorizonte_215.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_JardimFlora_216.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_JardimFlora_217.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_IrineuZanetiII_218.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_IrineuZanetiII_219.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Infratcnica_220.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Infratcnica_221.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_HorizResidence_222.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_HorizResidence_223.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_GlebaNossaSenhoraAuxiliadora_224.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_GlebaNossaSenhoraAuxiliadora_225.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Ferracini_226.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Ferracini_227.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_FrancaB6_228.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_FrancaB6_229.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_FazendaProgresso_230.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_FazendaProgresso_231.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_FazendaeGranjaSantaRita2_232.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_FazendaeGranjaSantaRita2_233.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_FazendaeGranjaSantaRita_234.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_FazendaeGranjaSantaRita_235.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Essence_236.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Essence_237.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Elias_238.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Elias_239.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', 'path': 'hidden field', });
+lyr_EdifcioSolNascente_240.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_EdifcioSolNascente_241.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', 'path': 'hidden field', });
+lyr_EdifcioRuadoSol_242.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_EdifcioRuadoSol_243.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_EdifcioResidencialHope_244.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_EdifcioResidencialHope_245.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_DiocesedeFranca_246.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_DiocesedeFranca_247.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_DaVinci_248.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_DaVinci_249.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_CondomnioIICityPetrpolis_250.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_CondomnioIICityPetrpolis_251.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_CondomnioICityPetrpolis_252.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_CondomnioICityPetrpolis_253.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Colorado_254.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Colorado_255.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_CidadeJardim_256.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_CidadeJardim_257.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ChacaraOlaria_258.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ChacaraOlaria_259.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ChacaraBelaVista_260.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_ChacaraBelaVista_261.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_BordadaMata_262.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_BordadaMata_263.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Arizona_264.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Arizona_265.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Adonis_266.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_Adonis_267.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_AbuDhabiParadiseResortResidence_268.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_AbuDhabiParadiseResortResidence_269.set('fieldLabels', {'fid': 'hidden field', 'layer': 'inline label - visible with data', });
+lyr_EtapaAprovado27unid_270.set('fieldLabels', {'fid': 'hidden field', 'cadastro_imobiliario': 'inline label - visible with data', 'latitude': 'hidden field', 'longitude': 'hidden field', 'unidade_municipal': 'hidden field', 'etapa': 'inline label - visible with data', 'decreto': 'inline label - visible with data', 'tipologia': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'proprietarios': 'inline label - visible with data', 'nome_empreendimento': 'inline label - visible with data', 'zoneamento': 'inline label - visible with data', 'area_verde_m2': 'inline label - visible with data', 'area_institucional_m2': 'inline label - visible with data', 'area_lazer_m2': 'inline label - visible with data', 'lotes_m2': 'inline label - visible with data', 'unidades_lotes': 'inline label - visible with data', 'unidades_lotes_misto': 'inline label - visible with data', 'unidades_lotes_residenciais': 'inline label - visible with data', 'lotes_comerciais': 'inline label - visible with data', });
+lyr_EtapaDiretriz22unid_271.set('fieldLabels', {'fid': 'hidden field', 'cadastro_imobiliario': 'inline label - visible with data', 'latitude': 'hidden field', 'longitude': 'hidden field', 'unidade_municipal': 'hidden field', 'etapa': 'inline label - visible with data', 'decreto': 'inline label - visible with data', 'tipologia': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'proprietarios': 'inline label - visible with data', 'nome_empreendimento': 'inline label - visible with data', 'zoneamento': 'inline label - visible with data', 'area_verde_m2': 'inline label - visible with data', 'area_institucional_m2': 'inline label - visible with data', 'area_lazer_m2': 'inline label - visible with data', 'lotes_m2': 'inline label - visible with data', 'unidades_lotes': 'inline label - visible with data', 'unidades_lotes_misto': 'inline label - visible with data', 'unidades_lotes_residenciais': 'inline label - visible with data', 'lotes_comerciais': 'inline label - visible with data', });
+lyr_EtapaDefinitiva7unid_272.set('fieldLabels', {'fid': 'hidden field', 'cadastro_imobiliario': 'inline label - visible with data', 'latitude': 'hidden field', 'longitude': 'hidden field', 'unidade_municipal': 'hidden field', 'etapa': 'inline label - visible with data', 'decreto': 'inline label - visible with data', 'tipologia': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'proprietarios': 'inline label - visible with data', 'nome_empreendimento': 'inline label - visible with data', 'zoneamento': 'inline label - visible with data', 'area_verde_m2': 'inline label - visible with data', 'area_institucional_m2': 'inline label - visible with data', 'area_lazer_m2': 'inline label - visible with data', 'lotes_m2': 'inline label - visible with data', 'unidades_lotes': 'inline label - visible with data', 'unidades_lotes_misto': 'inline label - visible with data', 'unidades_lotes_residenciais': 'inline label - visible with data', 'lotes_comerciais': 'inline label - visible with data', });
+lyr_EtapaPrvia23unid_273.set('fieldLabels', {'fid': 'hidden field', 'cadastro_imobiliario': 'inline label - visible with data', 'latitude': 'hidden field', 'longitude': 'hidden field', 'unidade_municipal': 'hidden field', 'etapa': 'inline label - visible with data', 'decreto': 'inline label - visible with data', 'tipologia': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'proprietarios': 'inline label - visible with data', 'nome_empreendimento': 'inline label - visible with data', 'zoneamento': 'inline label - visible with data', 'area_verde_m2': 'inline label - visible with data', 'area_institucional_m2': 'inline label - visible with data', 'area_lazer_m2': 'inline label - visible with data', 'lotes_m2': 'inline label - visible with data', 'unidades_lotes': 'inline label - visible with data', 'unidades_lotes_misto': 'inline label - visible with data', 'unidades_lotes_residenciais': 'inline label - visible with data', 'lotes_comerciais': 'inline label - visible with data', });
+lyr_LoteamentosClandestinos70unid_274.set('fieldLabels', {'fid': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'modalidade': 'inline label - visible with data', 'nome_loteamento': 'inline label - visible with data', 'observacao': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'quant_lotes': 'inline label - visible with data', 'area_total_m2': 'inline label - visible with data', 'decreto_reurb': 'inline label - visible with data', 'situacao': 'inline label - visible with data', });
+lyr_LoteamentosClandestinos70unid_275.set('fieldLabels', {'fid': 'inline label - visible with data', 'processo': 'inline label - visible with data', 'modalidade': 'inline label - visible with data', 'nome_loteamento': 'inline label - visible with data', 'observacao': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'quant_lotes': 'inline label - visible with data', 'area_total_m2': 'inline label - visible with data', 'decreto_reurb': 'inline label - visible with data', 'situacao': 'inline label - visible with data', });
+lyr_FazendaPalestina105unid_276.set('fieldLabels', {'fid': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'nome_loteamento': 'no label', });
+lyr_FazendaPalestina105unid_277.set('fieldLabels', {'fid': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'nome_loteamento': 'no label', });
+lyr_APP1745unid_278.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'hidden field', 'HIDRO': 'inline label - visible with data', 'APP_M': 'inline label - visible with data', 'AREA_HA': 'inline label - always visible', });
+lyr_RiosDuplos84unid_279.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'hidden field', 'HIDRO': 'inline label - visible with data', 'AREA_HA': 'inline label - visible with data', });
+lyr_MassasDgua270unid_280.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'hidden field', 'HIDRO': 'inline label - visible with data', 'NATUREZA': 'inline label - visible with data', 'RIO': 'inline label - visible with data', 'SETOR': 'inline label - visible with data', 'AREA_HA': 'inline label - visible with data', });
+lyr_RiosSimples1842unid_281.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'inline label - visible with data', 'HIDRO': 'inline label - visible with data', 'COMP_KM': 'inline label - visible with data', });
+lyr_Nascentes821unid_282.set('fieldLabels', {'fid': 'hidden field', 'GEOCODIGO': 'hidden field', 'MUNICIPIO': 'hidden field', 'UF': 'hidden field', 'CD_UF': 'hidden field', 'HIDRO': 'inline label - visible with data', });
+lyr_AntigoAterrodaFazendaMunicipal_283.set('fieldLabels', {'fid': 'hidden field', 'Nome': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', });
+lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAVATZ6unid_284.set('fieldLabels', {'fid': 'hidden field', 'Field1': 'inline label - visible with data', 'Field2': 'hidden field', 'Field3': 'hidden field', });
+lyr_AntigoAterrodaFazendaMunicipalPoosdeMonitoramento15unid_285.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Nome': 'inline label - visible with data', });
+lyr_reaBdaFazendaMunicipalAntigareadoClubedeHipismo_286.set('fieldLabels', {'fid': 'hidden field', 'Nome': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', });
+lyr_reaBdaFazendaMunicipalPoosdeMonitoramentoEngesolve7unid_287.set('fieldLabels', {'fid': 'hidden field', 'Norte': 'hidden field', 'Leste': 'hidden field', 'Cota': 'hidden field', 'Identifica': 'hidden field', 'Profundida': 'hidden field', 'Identifi_1': 'inline label - visible with data', 'Profundi_1': 'hidden field', 'NA Dinâmi': 'hidden field', 'NA Estatic': 'hidden field', 'NÍVEL DE': 'hidden field', 'TEMPERATUR': 'hidden field', 'pH': 'hidden field', 'CONDUTIVID': 'hidden field', 'Eh/ORP': 'hidden field', 'OXIGÊNIO': 'hidden field', 'TURBIDEZ': 'hidden field', });
+lyr_AntigoAterrodasMaritacas_288.set('fieldLabels', {'fid': 'hidden field', 'Nome': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento1Etapa28unid_289.set('fieldLabels', {'fid': 'hidden field', 'Poço': 'inline label - visible with data', 'Norte (m)': 'hidden field', 'Este (m)': 'hidden field', 'Cota': 'hidden field', });
+lyr_ParqueZumbidosPalmares_290.set('fieldLabels', {'fid': 'hidden field', 'Nome': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento3Etapa5unid_291.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
+lyr_AntigoAterrodasMaritacasPoosdeMonitoramento2Etapa41unid_292.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
+lyr_reaN2_293.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaN1_294.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaN_295.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_ConjuntoHabitacional_296.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_AvdeacessoaoHortoeColgioAgrcola_297.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaK_298.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaJ_299.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaI_300.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaH_301.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaG_302.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaF_303.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaE_304.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaD_305.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaC_306.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaB_307.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaA_308.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaAverbada355235ReservaFlorestalLegalPartedareaG_309.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_reaaseraverbadaPartedareaG_310.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Propriedade': 'inline label - visible with data', 'Área': 'inline label - visible with data', 'Matrícula': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Área (ha)': 'inline label - visible with data', });
+lyr_Voorocas26unid_311.set('fieldLabels', {'fid': 'hidden field', 'Name': 'hidden field', 'ID_PONTO_I': 'hidden field', 'IBGE': 'hidden field', 'MUNIC__PIO': 'hidden field', 'BACIA': 'hidden field', 'LATITUDE': 'hidden field', 'LONGITUDE': 'hidden field', 'SITUA____O': 'hidden field', 'REFER__NCI': 'inline label - visible with data', 'PRIORIDADE': 'hidden field', 'OBSERVA_____': 'inline label - visible with data', });
+lyr_LocaisdeDifcilAcessoereasRurais12unid_312.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'PER__ODO_TURNO_': 'inline label - visible with data', 'HOR__RIO_DE_INICIO_DOS_SERVI__OS': 'inline label - visible with data', 'FREQU__NCIA': 'inline label - visible with data', 'PROGRAMA____O_SEMANAL': 'inline label - visible with data', 'EQUIPAMENTOS': 'inline label - visible with data', 'LONGITUDE': 'inline label - visible with data', 'LATITUDE': 'inline label - visible with data', });
+lyr_Contineres286unid_313.set('fieldLabels', {'fid': 'hidden field', 'id': 'hidden field', 'Name': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
+lyr_rvoreImuneaoCorte9unid_314.set('fieldLabels', {'fid': 'hidden field', 'nome_popular': 'inline label - visible with data', 'nome_cientifico': 'inline label - visible with data', 'legislacao': 'inline label - visible with data', });
+lyr_AcademiasaoArLivre84unid_315.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'description': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
+lyr_Ecopontos4unid_316.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_Gesso1unid_317.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ResduosdeConstruoCivil7unid_318.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ResduosVerdes1unid_319.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ChapasdeRaioX1unid_320.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_Embalagensvaziasdeagrotxicos1unid_321.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_leodecozinhausado2unid_322.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_leolubrificanteusado1unid_323.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_Latasdetintametlicasvazias2unid_324.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ResduosPerigosos1unid_325.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_Madeiras1unid_326.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ResduosdeServiosdeSade21unid_327.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_PilhaseBaterias17unid_328.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_Pneus1unid_329.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_Lmpadas4unid_330.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ResduosdeCouro1unid_331.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ResduosEletrnicos2unid_332.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ResduosReciclveis15unid_333.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_ResduosInservveis4unid_334.set('fieldLabels', {'fid': 'hidden field', 'Categoria': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Descrição': 'inline label - visible with data', 'Endereço': 'inline label - visible with data', 'Contato': 'inline label - visible with data', });
+lyr_PBZPAEdifcioPrimeHELIPONTO_335.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
+lyr_PBZPAEdifcioPrimeHELIPONTO_336.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
+lyr_PBZPAHospitalHELIPONTO_337.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
+lyr_PlanoBsicodeZonadeProteodeAerdromoPBZPA_338.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', });
+lyr_ClasseVB_339.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseVA_340.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseIVC_341.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseIVB_342.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseIVA_343.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseIIIC_344.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseIIIB_345.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseIIIA_346.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseII_347.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_ClasseI_348.set('fieldLabels', {'fid': 'hidden field', 'classe': 'inline label - visible with data', 'risco_eros': 'inline label - visible with data', 'suscetibil': 'inline label - visible with data', 'uso_solo': 'inline label - visible with data', 'setores_re': 'inline label - visible with data', 'solos_pred': 'inline label - visible with data', 'substrato_': 'inline label - visible with data', 'processos_': 'inline label - visible with data', 'recomendac': 'inline label - visible with data', });
+lyr_RegioCentroLeste42unid675453694m_349.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_RegioLesteNordeste50unid1233454938m_350.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_RegioNorteI45unid1043752016m_351.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_RegioNorteII36unid859331837m_352.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_RegioOesteI65unid1245065890m_353.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_RegioOesteII43unid599615871m_354.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_RegioSudeste38unid579321135m_355.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_RegioSudesteSul44unid830633497m_356.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_RegioSul20unid639964086m_357.set('fieldLabels', {'fid': 'hidden field', 'nome': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'regiao': 'inline label - visible with data', });
+lyr_APP156unid230392892m_358.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
+lyr_reaInstitucional224unid133042345m_359.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
+lyr_reaPatrimonial33unid15776685m_360.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
+lyr_reaVerde1946unid805735618m_361.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
+lyr_readeUsoEspecial276unid271190268m_362.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'hidden field', });
+lyr_LoteamentoFechado115unid52603608m_363.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'hidden field', 'm2': 'inline label - visible with data', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'hidden field', });
+lyr_Lote252unid7530210m_364.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
+lyr_Lote252unid_365.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'Terceirização': 'hidden field', });
+lyr_LoteEdificao20unid508062m_366.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'hidden field', 'processo': 'inline label - visible with data', });
+lyr_LoteEdificao20unid_367.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'regiao': 'hidden field', 'processo': 'inline label - visible with data', });
+lyr_LeiloLEIN97542025Homologado4unid334770m_368.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
+lyr_LeiloLEIN97542025Homologado4unid_369.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
+lyr_LeiloLEIN97542025Proc35162004100002652520256922unid352000m_370.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
+lyr_LeiloLEIN97542025Proc35162004100002652520256922unid_371.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
+lyr_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_372.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
+lyr_LeiloLEIN97542025Proc351620041000007954202537196unid_373.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
+lyr_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_374.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
+lyr_LeiloLEIN97542025Proc35162004100002198620254518unid_375.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'inline label - visible with data', 'processo': 'inline label - visible with data', });
+lyr_LoteEMDEF10unid218783m_376.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'descricao': 'inline label - visible with data', 'm2': 'hidden field', 'data_inclusao': 'hidden field', 'status_leilao': 'no label', 'processo': 'inline label - visible with data', });
+lyr_LoteEMDEF10unid_377.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Área (m²)': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', });
+lyr_TRPRLCETESB2unid_378.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', });
+lyr_TRPRLCETESB2unid_379.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'matricula': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', });
+lyr_TCRAMunicipal14unid_380.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'autorizacao': 'inline label - visible with data', });
+lyr_TCRAMunicipal14unid_381.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'autorizacao': 'inline label - visible with data', });
+lyr_TCRACETESBPARCELAMENTO32unid_382.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', });
+lyr_TCRACETESBPARCELAMENTO32unid_383.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', });
+lyr_TCRACETESB28unid_384.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', 'situacao': 'inline label - visible with data', });
+lyr_TCRACETESB28unid_385.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'Area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_cetesb': 'inline label - visible with data', 'situacao': 'inline label - visible with data', });
+lyr_TACMinistrioPblico9unid_386.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'ic': 'inline label - visible with data', 'proc_municipal': 'inline label - visible with data', });
+lyr_TACMinistrioPblico9unid_387.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'ic': 'inline label - visible with data', 'proc_municipal': 'inline label - visible with data', });
+lyr_PlantioVoluntrio1unid_388.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', });
+lyr_PlantioVoluntrio1unid_389.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', });
+lyr_CartaAnuncia20unid_390.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'doc_origem': 'inline label - visible with data', });
+lyr_CartaAnuncia20unid_391.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'doc_origem': 'inline label - visible with data', });
+lyr_AoCivilPblica1unid_392.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_municipal': 'inline label - visible with data', });
+lyr_AoCivilPblica1unid_393.set('fieldLabels', {'fid': 'hidden field', 'Name': 'inline label - visible with data', 'area': 'inline label - visible with data', 'quant': 'inline label - visible with data', 'proc_municipal': 'inline label - visible with data', });
+lyr_ProgramaAdoteUmaPraa315unid30277327m_394.set('fieldLabels', {'fid': 'hidden field', 'Classe': 'inline label - visible with data', 'Bairro': 'inline label - visible with data', 'Nº Cadastro Imobiliário': 'inline label - visible with data', 'Código da Região': 'hidden field', '1ª Semana': 'hidden field', '2ª Semana': 'hidden field', '3ª Semana': 'hidden field', '4ª Semana': 'hidden field', '5ª Semana': 'hidden field', 'Terceirização': 'hidden field', 'responsavel': 'inline label - visible with data', 'm2': 'inline label - visible with data', });
+lyr_ComPlacaDilu161unid17007212m_395.set('fieldLabels', {'fid': 'hidden field', 'Adotante': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Programa': 'inline label - visible with data', 'Possui placa?': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'responsavel': 'inline label - visible with data', 'data_contrato': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
+lyr_ComPlacaEgnaldo134unid12211725m_396.set('fieldLabels', {'fid': 'hidden field', 'Adotante': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Programa': 'inline label - visible with data', 'Possui placa?': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'responsavel': 'inline label - visible with data', 'data_contrato': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
+lyr_SemPlacaDilu16unid774541m_397.set('fieldLabels', {'fid': 'hidden field', 'Adotante': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Programa': 'inline label - visible with data', 'Possui placa?': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'responsavel': 'inline label - visible with data', 'data_contrato': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
+lyr_SemPlacaEgnaldo4unid86447m_398.set('fieldLabels', {'fid': 'hidden field', 'Adotante': 'inline label - visible with data', 'Local': 'inline label - visible with data', 'Programa': 'inline label - visible with data', 'Possui placa?': 'inline label - visible with data', 'm2': 'inline label - visible with data', 'responsavel': 'inline label - visible with data', 'data_contrato': 'inline label - visible with data', 'bairro': 'inline label - visible with data', });
+lyr_SemPlacaEgnaldo4unid86447m_398.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
