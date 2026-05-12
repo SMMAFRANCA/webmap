@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_SantAnita_136 = function(feature, resolution){
+var style_ResidencialValeVerde_137 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -16,12 +16,12 @@ var style_SantAnita_136 = function(feature, resolution){
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
-    var placement = 'point';
+    var placement = 'line';
     if ("" !== null) {
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.3679999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

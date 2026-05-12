@@ -1,25 +1,5 @@
 var size = 0;
 var placement = 'point';
-function categories_ResidencialMarthaHelena_162(feature, value, size, resolution, labelText,
-                       labelFont, labelFill, bufferColor, bufferWidth,
-                       placement) {
-                var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case '0':
-                    return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,0,0,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case 'Zona de Uso Residencial':
-                    return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(158,127,254,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;}};
 
 var style_ResidencialMarthaHelena_162 = function(feature, resolution){
     var context = {
@@ -28,7 +8,7 @@ var style_ResidencialMarthaHelena_162 = function(feature, resolution){
     };
     
     var labelText = ""; 
-    var value = feature.get("layer");
+    var value = feature.get("");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
@@ -40,10 +20,12 @@ var style_ResidencialMarthaHelena_162 = function(feature, resolution){
     if ("" !== null) {
         labelText = String("");
     }
-    
-    var style = categories_ResidencialMarthaHelena_162(feature, value, size, resolution, labelText,
-                            labelFont, labelFill, bufferColor,
-                            bufferWidth, placement);
+    var style = [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(159,128,255,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
 
     return style;
 };

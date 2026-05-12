@@ -4,31 +4,7 @@ function categories_VittaSoVicente_106(feature, value, size, resolution, labelTe
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case '_Haty_Asfalto':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case '_Haty_Quadras':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case '_Haty_Verde':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case 'HATCH LAZER':
+                switch(valueStr) {case 'AREA LAZER':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,145,103,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -36,7 +12,23 @@ case 'HATCH LAZER':
                               bufferWidth)
     })];
                     break;
-case 'HATCH PASSSEIO':
+case 'AREA VERDE':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'LOTES QUADRAS':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'PASSEIO':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -44,7 +36,15 @@ case 'HATCH PASSSEIO':
                               bufferWidth)
     })];
                     break;
-case 'hatch vaga estacionamento':
+case 'RUAS':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'VAGAS DE ESTACIONAMENTO':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,168,103,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,

@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_ResidencialValeVerde_138(feature, value, size, resolution, labelText,
+function categories_ResidencialValeVerde_136(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
@@ -36,14 +36,6 @@ case 'LOTES MISTOS':
                               bufferWidth)
     })];
                     break;
-case 'PASSSEIO':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
 case 'RUAS':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
@@ -51,9 +43,17 @@ case 'RUAS':
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })];
+                    break;
+case 'PASSEIO':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
                     break;}};
 
-var style_ResidencialValeVerde_138 = function(feature, resolution){
+var style_ResidencialValeVerde_136 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -73,7 +73,7 @@ var style_ResidencialValeVerde_138 = function(feature, resolution){
         labelText = String("");
     }
     
-    var style = categories_ResidencialValeVerde_138(feature, value, size, resolution, labelText,
+    var style = categories_ResidencialValeVerde_136(feature, value, size, resolution, labelText,
                             labelFont, labelFill, bufferColor,
                             bufferWidth, placement);
 

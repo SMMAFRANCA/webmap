@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ServidoRamal138kVFranca4Guanabara_132 = function(feature, resolution){
+var style_ServidoRamal138kVFranca4Guanabara_130 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}

@@ -12,7 +12,7 @@ function categories_ParquedosSabias_192(feature, value, size, resolution, labelT
                               bufferWidth)
     })];
                     break;
-case 'ÃREA INSTITUCIONAL':
+case 'AREA INSTITUCIONAL':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -20,7 +20,7 @@ case 'ÃREA INSTITUCIONAL':
                               bufferWidth)
     })];
                     break;
-case 'ÃREA VERDE':
+case 'AREA VERDE':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -44,7 +44,7 @@ case 'LOTES RESIDENCIAIS':
                               bufferWidth)
     })];
                     break;
-case 'PASSSEIO':
+case 'PASSEIO':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,

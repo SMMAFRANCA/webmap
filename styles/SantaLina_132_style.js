@@ -1,27 +1,27 @@
 var size = 0;
 var placement = 'point';
-function categories_SantaLina_134(feature, value, size, resolution, labelText,
+function categories_SantaLina_132(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case '_Haty_Asfalto':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case '_Haty_Quadras':
+                switch(valueStr) {case 'LOTES QUADRAS':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })];
+                    break;
+case 'RUAS':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
                     break;}};
 
-var style_SantaLina_134 = function(feature, resolution){
+var style_SantaLina_132 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -41,7 +41,7 @@ var style_SantaLina_134 = function(feature, resolution){
         labelText = String("");
     }
     
-    var style = categories_SantaLina_134(feature, value, size, resolution, labelText,
+    var style = categories_SantaLina_132(feature, value, size, resolution, labelText,
                             labelFont, labelFill, bufferColor,
                             bufferWidth, placement);
 

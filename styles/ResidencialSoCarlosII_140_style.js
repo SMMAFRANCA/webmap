@@ -1,10 +1,10 @@
 var size = 0;
 var placement = 'point';
-function categories_SoCarlosII_130(feature, value, size, resolution, labelText,
+function categories_ResidencialSoCarlosII_140(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case 'ÃREA INSTITUCIONAL':
+                switch(valueStr) {case 'AREA INSTITUCIONAL':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -12,7 +12,7 @@ function categories_SoCarlosII_130(feature, value, size, resolution, labelText,
                               bufferWidth)
     })];
                     break;
-case 'ÃREA VERDE':
+case 'AREA VERDE':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -36,7 +36,7 @@ case 'LOTES RESIDENCIAIS':
                               bufferWidth)
     })];
                     break;
-case 'PASSSEIO':
+case 'PASSEIO':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -53,7 +53,7 @@ case 'RUAS':
     })];
                     break;}};
 
-var style_SoCarlosII_130 = function(feature, resolution){
+var style_ResidencialSoCarlosII_140 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -73,7 +73,7 @@ var style_SoCarlosII_130 = function(feature, resolution){
         labelText = String("");
     }
     
-    var style = categories_SoCarlosII_130(feature, value, size, resolution, labelText,
+    var style = categories_ResidencialSoCarlosII_140(feature, value, size, resolution, labelText,
                             labelFont, labelFill, bufferColor,
                             bufferWidth, placement);
 

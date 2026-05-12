@@ -44,17 +44,17 @@ case 'LOTES MISTOS':
                               bufferWidth)
     })];
                     break;
-case 'PASSSEIO':
+case 'RUAS':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })];
                     break;
-case 'RUAS':
+case 'PASSEIO':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

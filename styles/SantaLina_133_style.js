@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_SantaLina_135 = function(feature, resolution){
+var style_SantaLina_133 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}

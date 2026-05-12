@@ -60,7 +60,7 @@ case 'RUAS':
                               bufferWidth)
     })];
                     break;
-case 'SERVIDÃƒO':
+case 'SERVIDAO':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(99,190,170,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,

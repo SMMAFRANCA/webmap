@@ -4,15 +4,7 @@ function categories_JardimHorizonte_214(feature, value, size, resolution, labelT
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case '_Haty_Asfalto':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case '_Haty_Institucional':
+                switch(valueStr) {case 'AREA INSTITUCIONAL':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -20,7 +12,7 @@ case '_Haty_Institucional':
                               bufferWidth)
     })];
                     break;
-case '_Haty_Verde':
+case 'AREA VERDE':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -28,17 +20,9 @@ case '_Haty_Verde':
                               bufferWidth)
     })];
                     break;
-case 'hatch lote comercial':
+case 'LOTES COMERCIAIS':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(63,12,14,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case 'HATCH PASSSEIO':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -55,6 +39,30 @@ case 'LOTES MISTOS':
 case 'LOTES RESIDENCIAIS':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(10,12,103,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'PASSEIO':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'RUAS':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+default:
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(99,61,212,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

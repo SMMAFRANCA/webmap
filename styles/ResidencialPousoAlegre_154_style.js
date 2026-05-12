@@ -4,7 +4,7 @@ function categories_ResidencialPousoAlegre_154(feature, value, size, resolution,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case 'HATCH - AREA INSTITUCIONAL':
+                switch(valueStr) {case 'AREA INSTITUCIONAL':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -12,7 +12,7 @@ function categories_ResidencialPousoAlegre_154(feature, value, size, resolution,
                               bufferWidth)
     })];
                     break;
-case 'HATCH - ÃREA VERDE':
+case 'AREA VERDE':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -20,7 +20,7 @@ case 'HATCH - ÃREA VERDE':
                               bufferWidth)
     })];
                     break;
-case 'HATCH - LOTES':
+case 'LOTES QUADRAS':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -28,7 +28,7 @@ case 'HATCH - LOTES':
                               bufferWidth)
     })];
                     break;
-case 'HATCH - PASSSEIO':
+case 'PASSEIO':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -36,7 +36,7 @@ case 'HATCH - PASSSEIO':
                               bufferWidth)
     })];
                     break;
-case 'HATCH - RUAS':
+case 'RUAS':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -44,7 +44,7 @@ case 'HATCH - RUAS':
                               bufferWidth)
     })];
                     break;
-case 'HATCH - SERVIDÃƒO':
+case 'SERVIDAO':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(99,190,170,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -52,7 +52,7 @@ case 'HATCH - SERVIDÃƒO':
                               bufferWidth)
     })];
                     break;
-case 'HATCH - VIELA':
+case 'VIELA':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(71,25,76,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,

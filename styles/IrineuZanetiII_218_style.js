@@ -12,22 +12,6 @@ function categories_IrineuZanetiII_218(feature, value, size, resolution, labelTe
                               bufferWidth)
     })];
                     break;
-case 'ÃREA INSTITUCIONAL':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
-case 'ÃREA VERDE':
-                    return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
-                    break;
 case 'LOTES':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
@@ -36,17 +20,33 @@ case 'LOTES':
                               bufferWidth)
     })];
                     break;
-case 'PASSSEIO':
+case 'RUAS':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })];
                     break;
-case 'RUAS':
+case 'AREA INSTITUCIONAL':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'AREA VERDE':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
+                    break;
+case 'PASSEIO':
+                    return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

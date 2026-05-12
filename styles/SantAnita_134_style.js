@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_TCRACETESB28unid_384 = function(feature, resolution){
+var style_SantAnita_134 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_TCRACETESB28unid_384 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(177,182,47,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

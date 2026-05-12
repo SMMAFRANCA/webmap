@@ -28,7 +28,7 @@ case 'AREA VERDE':
                               bufferWidth)
     })];
                     break;
-case 'LOTES':
+case 'LOTES QUADRAS':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
@@ -36,7 +36,7 @@ case 'LOTES':
                               bufferWidth)
     })];
                     break;
-case 'PASSSEIO':
+case 'PASSEIO':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
