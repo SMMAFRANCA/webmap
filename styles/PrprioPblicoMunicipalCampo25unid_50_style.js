@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_PrprioPblicoMunicipalCampo18unid_50 = function(feature, resolution){
+var style_PrprioPblicoMunicipalCampo25unid_50 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
