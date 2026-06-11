@@ -777,3 +777,29 @@ function exp_label_FazendaPalestina105unid_283_eval_expression(context) {
         return ('Faz. Palestina Matr: ' + feature.get('matricula') );
     }
 }
+
+
+function exp_label_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoAvatz42unid_290_eval_expression(context) {
+    // poco || ' - ' || empresa
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    } else {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    }
+}
+
+
+function exp_label_AntigoAterrodaFazendaMunicipalPoosdeMonitoramentoGeoAnaltica15unid_291_eval_expression(context) {
+    // poco || ' - ' || empresa
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    } else {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    }
+}
