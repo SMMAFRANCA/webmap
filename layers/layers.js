@@ -17,6 +17,7 @@ var wms_layers = [];
 
         var lyr_GoogleSatellite_1 = new ol.layer.Tile({
             'title': 'Google Satellite',
+            'type':'base',
             'opacity': 1.000000,
             
             
