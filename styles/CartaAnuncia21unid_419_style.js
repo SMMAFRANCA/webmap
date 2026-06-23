@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_LoteamentosClandestinos70unid_297 = function(feature, resolution){
+var style_CartaAnuncia21unid_419 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,8 @@ var style_LoteamentosClandestinos70unid_297 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(229,7,46,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2.508}),fill: new ol.style.Fill({color: 'rgba(229,7,46,0.30196078431372547)'}),
+        image: new ol.style.Circle({radius: 6.0 + size,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(121,85,72,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
