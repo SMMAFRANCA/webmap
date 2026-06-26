@@ -13,9 +13,11 @@ var style_reaaseraverbadaPartedareaG_334 = function(feature, resolution){
     var labelFill = "#000000";
     var bufferColor = "";
     var bufferWidth = 0;
-    var textAlign = "left";
-    var offsetX = 0;
-    var offsetY = 0;
+    var textAlign = 'left';
+    var offsetX = 8;
+    var offsetY = 3;
+    var overflow = false;
+    var repeat = 0;
     var placement = 'point';
     if ("" !== null) {
         labelText = String("");
@@ -24,7 +26,7 @@ var style_reaaseraverbadaPartedareaG_334 = function(feature, resolution){
         stroke: new ol.style.Stroke({color: 'rgba(250,250,250,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.268}),fill: new ol.style.Fill({color: 'rgba(255,255,0,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
 
     return style;

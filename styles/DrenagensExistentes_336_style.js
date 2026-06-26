@@ -2,14 +2,14 @@ var size = 0;
 var placement = 'point';
 function categories_DrenagensExistentes_336(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
-                       placement) {
-                var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case 'BACIA CONTENCAO':
+                       placement, textAlign, offsetX, offsetY, overflow, repeat) {
+    var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
+    switch(valueStr) {case 'BACIA CONTENCAO':
                     return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(255,255,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'BOCA DE LOBO':
@@ -17,7 +17,7 @@ case 'BOCA DE LOBO':
         stroke: new ol.style.Stroke({color: 'rgba(0,255,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'CAIXA':
@@ -25,7 +25,7 @@ case 'CAIXA':
         stroke: new ol.style.Stroke({color: 'rgba(127,63,111,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'CANALETA':
@@ -33,7 +33,7 @@ case 'CANALETA':
         stroke: new ol.style.Stroke({color: 'rgba(63,95,127,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'DIAMETRO 1000':
@@ -41,7 +41,7 @@ case 'DIAMETRO 1000':
         stroke: new ol.style.Stroke({color: 'rgba(63,255,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.888}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'DIAMETRO 1200':
@@ -49,7 +49,7 @@ case 'DIAMETRO 1200':
         stroke: new ol.style.Stroke({color: 'rgba(127,0,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3.268}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'DIAMETRO 1500':
@@ -57,7 +57,7 @@ case 'DIAMETRO 1500':
         stroke: new ol.style.Stroke({color: 'rgba(38,76,47,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3.6479999999999997}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'DIAMETRO 400':
@@ -65,7 +65,7 @@ case 'DIAMETRO 400':
         stroke: new ol.style.Stroke({color: 'rgba(0,0,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'DIAMETRO 600':
@@ -73,7 +73,7 @@ case 'DIAMETRO 600':
         stroke: new ol.style.Stroke({color: 'rgba(255,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.128}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'DIAMETRO 800':
@@ -81,7 +81,7 @@ case 'DIAMETRO 800':
         stroke: new ol.style.Stroke({color: 'rgba(255,0,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'DISSIPADOR':
@@ -89,7 +89,7 @@ case 'DISSIPADOR':
         stroke: new ol.style.Stroke({color: 'rgba(165,0,82,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'PV':
@@ -97,7 +97,7 @@ case 'PV':
         stroke: new ol.style.Stroke({color: 'rgba(255,127,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;}};
 
@@ -113,9 +113,11 @@ var style_DrenagensExistentes_336 = function(feature, resolution){
     var labelFill = "#000000";
     var bufferColor = "";
     var bufferWidth = 0;
-    var textAlign = "left";
-    var offsetX = 0;
-    var offsetY = 0;
+    var textAlign = 'left';
+    var offsetX = 8;
+    var offsetY = 3;
+    var overflow = false;
+    var repeat = 0;
     var placement = 'line';
     if ("" !== null) {
         labelText = String("");
@@ -123,7 +125,7 @@ var style_DrenagensExistentes_336 = function(feature, resolution){
     
     var style = categories_DrenagensExistentes_336(feature, value, size, resolution, labelText,
                             labelFont, labelFill, bufferColor,
-                            bufferWidth, placement);
+                            bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
     return style;
 };

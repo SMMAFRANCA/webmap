@@ -13,9 +13,11 @@ var style_AntigoAterrodaFazendaMunicipalPMsGsAvatz15unid_307 = function(feature,
     var labelFill = "#323232";
     var bufferColor = "#fafafa";
     var bufferWidth = 3.0;
-    var textAlign = "left";
-    var offsetX = 0;
-    var offsetY = 0;
+    var textAlign = 'left';
+    var offsetX = 8;
+    var offsetY = 3;
+    var overflow = false;
+    var repeat = 0;
     var placement = 'point';
     if (exp_label_AntigoAterrodaFazendaMunicipalPMsGsAvatz15unid_307_eval_expression(context) !== null) {
         labelText = String(exp_label_AntigoAterrodaFazendaMunicipalPMsGsAvatz15unid_307_eval_expression(context));
@@ -25,7 +27,7 @@ var style_AntigoAterrodaFazendaMunicipalPMsGsAvatz15unid_307 = function(feature,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(229,7,46,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
 
     return style;

@@ -13,9 +13,11 @@ var style_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_402 = func
     var labelFill = "#323232";
     var bufferColor = "#fafafa";
     var bufferWidth = 3.0;
-    var textAlign = "left";
+    var textAlign = 'center';
     var offsetX = 0;
     var offsetY = 0;
+    var overflow = false;
+    var repeat = 0;
     var placement = 'point';
     if ("" !== null) {
         labelText = String("");
@@ -24,7 +26,7 @@ var style_LeiloLEIN97542025Proc35162004100002198620254518unid2092083m_402 = func
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.608}),fill: new ol.style.Fill({color: 'rgba(153,149,27,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
 
     return style;

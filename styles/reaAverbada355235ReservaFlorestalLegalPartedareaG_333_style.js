@@ -13,9 +13,11 @@ var style_reaAverbada355235ReservaFlorestalLegalPartedareaG_333 = function(featu
     var labelFill = "#000000";
     var bufferColor = "";
     var bufferWidth = 0;
-    var textAlign = "left";
-    var offsetX = 0;
-    var offsetY = 0;
+    var textAlign = 'left';
+    var offsetX = 8;
+    var offsetY = 3;
+    var overflow = false;
+    var repeat = 0;
     var placement = 'point';
     if ("" !== null) {
         labelText = String("");
@@ -24,7 +26,7 @@ var style_reaAverbada355235ReservaFlorestalLegalPartedareaG_333 = function(featu
         stroke: new ol.style.Stroke({color: 'rgba(250,250,250,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.748}),fill: new ol.style.Fill({color: 'rgba(0,247,233,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
 
     return style;

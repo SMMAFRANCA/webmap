@@ -13,9 +13,11 @@ var style_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_400 = fun
     var labelFill = "#323232";
     var bufferColor = "#fafafa";
     var bufferWidth = 3.0;
-    var textAlign = "left";
+    var textAlign = 'center';
     var offsetX = 0;
     var offsetY = 0;
+    var overflow = false;
+    var repeat = 0;
     var placement = 'point';
     if ("" !== null) {
         labelText = String("");
@@ -24,7 +26,7 @@ var style_LeiloLEIN97542025Proc351620041000007954202537196unid3240462m_400 = fun
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.608}),fill: new ol.style.Fill({color: 'rgba(164,113,88,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
 
     return style;

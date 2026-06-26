@@ -2,14 +2,14 @@ var size = 0;
 var placement = 'point';
 function categories_Arteris_284(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
-                       placement) {
-                var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-                switch(valueStr) {case 'OAE EXISTENTE':
+                       placement, textAlign, offsetX, offsetY, overflow, repeat) {
+    var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
+    switch(valueStr) {case 'OAE EXISTENTE':
                     return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(125,69,130,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'OAE PROJETADA':
@@ -17,7 +17,7 @@ case 'OAE PROJETADA':
         fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'PASSARELA EXISTENTE':
@@ -25,7 +25,7 @@ case 'PASSARELA EXISTENTE':
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(233,35,48,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'PASSEIO PROJETADO':
@@ -33,7 +33,7 @@ case 'PASSEIO PROJETADO':
         fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'PAVIMENTO DO DISPOSITIVO':
@@ -41,7 +41,7 @@ case 'PAVIMENTO DO DISPOSITIVO':
         fill: new ol.style.Fill({color: 'rgba(99,123,192,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'PAVIMENTO EXISTENTE':
@@ -49,7 +49,7 @@ case 'PAVIMENTO EXISTENTE':
         fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'PAVIMENTO PREFEITURA':
@@ -57,7 +57,7 @@ case 'PAVIMENTO PREFEITURA':
         fill: new ol.style.Fill({color: 'rgba(10,12,103,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;
 case 'AREA DESAPROPRIADA':
@@ -65,7 +65,7 @@ case 'AREA DESAPROPRIADA':
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(0,63,127,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
-                              bufferWidth)
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
                     break;}};
 
@@ -81,9 +81,11 @@ var style_Arteris_284 = function(feature, resolution){
     var labelFill = "#000000";
     var bufferColor = "";
     var bufferWidth = 0;
-    var textAlign = "left";
-    var offsetX = 0;
-    var offsetY = 0;
+    var textAlign = 'left';
+    var offsetX = 8;
+    var offsetY = 3;
+    var overflow = false;
+    var repeat = 0;
     var placement = 'point';
     if ("" !== null) {
         labelText = String("");
@@ -91,7 +93,7 @@ var style_Arteris_284 = function(feature, resolution){
     
     var style = categories_Arteris_284(feature, value, size, resolution, labelText,
                             labelFont, labelFill, bufferColor,
-                            bufferWidth, placement);
+                            bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
     return style;
 };
