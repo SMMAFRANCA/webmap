@@ -4,54 +4,61 @@ function categories_CondomnioICityPetrpolis_272(feature, value, size, resolution
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-    switch(valueStr) {case 'AREA INSTITUCIONAL':
-                    return [ new ol.style.Style({
+    switch(valueStr) {
+        case 'AREA INSTITUCIONAL':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'AREA LAZER':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'AREA LAZER':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,145,103,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'AREA VERDE':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'AREA VERDE':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'LOTES QUADRAS':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'LOTES QUADRAS':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'PASSEIO':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'PASSEIO':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'RUAS':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'RUAS':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;}};
+			break;
+    }};
 
 var style_CondomnioICityPetrpolis_272 = function(feature, resolution){
     var context = {
@@ -76,8 +83,8 @@ var style_CondomnioICityPetrpolis_272 = function(feature, resolution){
     }
     
     var style = categories_CondomnioICityPetrpolis_272(feature, value, size, resolution, labelText,
-                            labelFont, labelFill, bufferColor,
-                            bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
+                          labelFont, labelFill, bufferColor,
+                          bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
     return style;
 };

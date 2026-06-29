@@ -4,22 +4,25 @@ function categories_PBZPAEdifcioPrimeHELIPONTO_364(feature, value, size, resolut
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-    switch(valueStr) {case 'HELIPONTO':
-                    return [ new ol.style.Style({
+    switch(valueStr) {
+        case 'HELIPONTO':
+            return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'RAMPA':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'RAMPA':
+            return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(33,209,20,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;}};
+			break;
+    }};
 
 var style_PBZPAEdifcioPrimeHELIPONTO_364 = function(feature, resolution){
     var context = {
@@ -44,8 +47,8 @@ var style_PBZPAEdifcioPrimeHELIPONTO_364 = function(feature, resolution){
     }
     
     var style = categories_PBZPAEdifcioPrimeHELIPONTO_364(feature, value, size, resolution, labelText,
-                            labelFont, labelFill, bufferColor,
-                            bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
+                          labelFont, labelFill, bufferColor,
+                          bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
     return style;
 };

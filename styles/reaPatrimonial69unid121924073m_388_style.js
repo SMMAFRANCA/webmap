@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_reaPatrimonial68unid121924073m_388 = function(feature, resolution){
+var style_reaPatrimonial69unid121924073m_388 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}

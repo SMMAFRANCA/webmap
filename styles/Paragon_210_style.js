@@ -4,86 +4,97 @@ function categories_Paragon_210(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
-    switch(valueStr) {case 'APP':
-                    return [ new ol.style.Style({
+    switch(valueStr) {
+        case 'APP':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(0,191,255,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'AREA INSTITUCIONAL':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'AREA INSTITUCIONAL':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'AREA LAZER':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'AREA LAZER':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(188,145,103,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'AREA NON EDIFICANDI':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'AREA NON EDIFICANDI':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(67,127,130,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'AREA VERDE':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'AREA VERDE':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'LOTES MISTOS':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'LOTES MISTOS':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(189,13,17,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'LOTES RESIDENCIAIS':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'LOTES RESIDENCIAIS':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(10,12,103,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'PASSEIO':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'PASSEIO':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'RUAS':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'RUAS':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;
-case 'VIELA':
-                    return [ new ol.style.Style({
+			break;
+
+        case 'VIELA':
+            return [ new ol.style.Style({
         fill: new ol.style.Fill({color: 'rgba(71,25,76,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
-                    break;}};
+			break;
+    }};
 
 var style_Paragon_210 = function(feature, resolution){
     var context = {
@@ -108,8 +119,8 @@ var style_Paragon_210 = function(feature, resolution){
     }
     
     var style = categories_Paragon_210(feature, value, size, resolution, labelText,
-                            labelFont, labelFill, bufferColor,
-                            bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
+                          labelFont, labelFill, bufferColor,
+                          bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
     return style;
 };
