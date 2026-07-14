@@ -4,18 +4,20 @@ var map = new ol.Map({
     renderer: 'canvas',
     layers: layersList,
     view: new ol.View({
-         maxZoom: 21, minZoom: 1, projection: new ol.proj.Projection({
+        constrainResolution: true,
+        maxZoom: 21,
+        minZoom: 1,
+        
+        projection: new ol.proj.Projection({
             code: 'EPSG:31983',
             //extent: [228566.637530, 7248774.000000, 734094.500000, 7740908.029506],
-            units: 'm'})
+            units: 'm'
+        })
     })
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([223215.000737, 7699987.750491, 287069.426201, 7741660.188040], map.getSize());
-
-//full zooms only
-map.getView().setProperties({constrainResolution: true});
+map.getView().fit([223423.826983, 7699987.750491, 286860.599955, 7741660.188040], map.getSize());
 
 //change cursor
 function pointerOnFeature(evt) {
@@ -156,7 +158,10 @@ var doHover = false;
 function createPopupField(currentFeature, currentFeatureKeys, layer) {
     var popupText = '';
     for (var i = 0; i < currentFeatureKeys.length; i++) {
-        if (currentFeatureKeys[i] != 'geometry' && currentFeatureKeys[i] != 'layerObject' && currentFeatureKeys[i] != 'idO') {
+        if (currentFeatureKeys[i] != 'geometry' &&
+            currentFeatureKeys[i] != 'layerObject' &&
+            currentFeatureKeys[i] != 'idO' &&
+            currentFeatureKeys[i] != '_mvtLayer_') {
             var popupField = '';
             if (layer.get('fieldLabels')[currentFeatureKeys[i]] == "hidden field") {
                 continue;

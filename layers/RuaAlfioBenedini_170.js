@@ -1,0 +1,1 @@
+var json_RuaAlfioBenedini_170 = {"type":"FeatureCollection","name":"RuaAlfioBenedini_170","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[{"type":"Feature","properties":{"fid":"1","nome":"Rua Alfio Benedini"},"geometry":{"type":"Point","coordinates":[-47.4239204,-20.5809462]}}]}
