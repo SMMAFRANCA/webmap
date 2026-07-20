@@ -7,7 +7,16 @@ function categories_DrenagensExistentes_394(feature, value, size, resolution, la
     switch(valueStr) {
         case 'BACIA CONTENCAO':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,255,0,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'BOCA DE LOBO':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(10,190,192,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -16,7 +25,70 @@ function categories_DrenagensExistentes_394(feature, value, size, resolution, la
 
         case 'CAIXA':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(127,63,111,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(127,63,111,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'CANALETA':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(63,95,127,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'DIAMETRO 1000':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(54,190,14,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.888}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'DIAMETRO 1200':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(99,12,192,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3.268}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'DIAMETRO 1500':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(36,65,47,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3.6479999999999997}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'DIAMETRO 400':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,255,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'DIAMETRO 600':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(188,12,14,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.128}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'DIAMETRO 800':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(188,12,192,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2.508}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -25,7 +97,16 @@ function categories_DrenagensExistentes_394(feature, value, size, resolution, la
 
         case 'DISSIPADOR':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(165,0,82,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(165,0,82,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'PV':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(188,101,14,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -50,7 +131,7 @@ var style_DrenagensExistentes_394 = function(feature, resolution){
     var offsetY = 3;
     var overflow = false;
     var repeat = 0;
-    var placement = 'point';
+    var placement = 'line';
     if ("" !== null) {
         labelText = String("");
     }
