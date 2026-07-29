@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ParqueAmbientalSebastioAlvesBranquinhoBosquedosAngicos_89 = function(feature, resolution){
+var style_PARQUE_AMBIENTAL_SEBASTIAO_ALVES_BRANQUINHO_91 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}

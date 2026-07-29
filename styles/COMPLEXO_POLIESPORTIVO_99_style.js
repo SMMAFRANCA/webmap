@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ComplexoPoliesportivo_95 = function(feature, resolution){
+var style_COMPLEXO_POLIESPORTIVO_99 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}

@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_JardimZoobotnico_100 = function(feature, resolution){
+var style_PARQUE_DOS_TRABALHADORES_88 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -24,7 +24,7 @@ var style_JardimZoobotnico_100 = function(feature, resolution){
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 8.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(89,255,0,1.0)'})}),
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(253,218,236,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
