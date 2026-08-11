@@ -19,8 +19,8 @@ var style_CENTRO_DE_EDUCACAO_INTEGRADA_77 = function(feature, resolution){
     var overflow = false;
     var repeat = 0;
     var placement = 'point';
-    if (feature.get("unidade_escolar") !== null) {
-        labelText = String(feature.get("unidade_escolar"));
+    if (feature.get("UNIDADE_ESCOLAR") !== null) {
+        labelText = String(feature.get("UNIDADE_ESCOLAR"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 8.0 + size,
