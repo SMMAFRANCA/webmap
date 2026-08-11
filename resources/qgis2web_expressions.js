@@ -766,20 +766,7 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_label_FazendaPalestina105unid_356_eval_expression(context) {
-    // 'Faz. Palestina Matr: ' || matricula
-
-    var feature = context.feature;
-    
-    if (feature.properties) {
-        return ('Faz. Palestina Matr: ' + feature.get('matricula') );
-    } else {
-        return ('Faz. Palestina Matr: ' + feature.get('matricula') );
-    }
-}
-
-
-function exp_label_AntigoAterrodaFazMunicipalPMsGsAvatz15unid_363_eval_expression(context) {
+function exp_label_AntigoAterrodaFazMunicipalPMsGsAvatz15unid_362_eval_expression(context) {
     // poco || ' - ' || empresa
 
     var feature = context.feature;
@@ -792,7 +779,7 @@ function exp_label_AntigoAterrodaFazMunicipalPMsGsAvatz15unid_363_eval_expressio
 }
 
 
-function exp_label_AntigoAterrodaFazMunicipalPMsguaAvatz18unid_364_eval_expression(context) {
+function exp_label_AntigoAterrodaFazMunicipalPMsguaAvatz18unid_363_eval_expression(context) {
     // poco || ' - ' || empresa
 
     var feature = context.feature;
@@ -805,7 +792,7 @@ function exp_label_AntigoAterrodaFazMunicipalPMsguaAvatz18unid_364_eval_expressi
 }
 
 
-function exp_label_AntigoAterrodaFazMunicipalPMsguaGeoAnaltica15unid_365_eval_expression(context) {
+function exp_label_AntigoAterrodaFazMunicipalPMsguaGeoAnaltica15unid_364_eval_expression(context) {
     // poco || ' - ' || empresa
 
     var feature = context.feature;
