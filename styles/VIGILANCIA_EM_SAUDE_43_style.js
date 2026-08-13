@@ -9,7 +9,7 @@ var style_VIGILANCIA_EM_SAUDE_43 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("");
-    var labelFont = "13.0px \'Open Sans\', sans-serif";
+    var labelFont = "9.1px \'Arial\', sans-serif";
     var labelFill = "#323232";
     var bufferColor = "#fafafa";
     var bufferWidth = 3.0;
@@ -19,8 +19,8 @@ var style_VIGILANCIA_EM_SAUDE_43 = function(feature, resolution){
     var overflow = false;
     var repeat = 0;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("EQUIPAMENTO_DE_SAUDE") !== null) {
+        labelText = String(feature.get("EQUIPAMENTO_DE_SAUDE"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 8.0 + size,

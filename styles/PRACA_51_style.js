@@ -9,18 +9,18 @@ var style_PRACA_51 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("");
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
-    var bufferColor = "";
-    var bufferWidth = 0;
+    var labelFont = "9.1px \'Arial\', sans-serif";
+    var labelFill = "#323232";
+    var bufferColor = "#fafafa";
+    var bufferWidth = 3.0;
     var textAlign = 'left';
     var offsetX = 8;
     var offsetY = 3;
     var overflow = false;
     var repeat = 0;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("PROPRIO_MUNICIPAL") !== null) {
+        labelText = String(feature.get("PROPRIO_MUNICIPAL"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 8.0 + size,

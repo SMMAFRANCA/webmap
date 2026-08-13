@@ -1,5 +1,127 @@
 var size = 0;
 var placement = 'point';
+function categories_MasteplanBildVitta_278(feature, value, size, resolution, labelText,
+                       labelFont, labelFill, bufferColor, bufferWidth,
+                       placement, textAlign, offsetX, offsetY, overflow, repeat) {
+    var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
+    switch(valueStr) {
+        case 'APP':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(0,191,255,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'AREA INSTITUCIONAL':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'AREA LAZER':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(188,145,103,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'AREA NON EDIFICANDI':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(67,127,130,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'AREA REMANESCENTE':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(125,69,130,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'AREA VERDE':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(10,65,28,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'DESMEMBRAMENTO DOACAO':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(165,165,0,0.5019607843137255)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(165,165,0,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'EIXOS':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(188,12,14,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'LOTES COMERCIAIS':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(63,12,14,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'LOTES RESIDENCIAIS':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(10,12,103,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'PASSEIO':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'RUAS':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
+        case 'SERVIDAO':
+            return [ new ol.style.Style({
+        fill: new ol.style.Fill({color: 'rgba(99,190,170,0.5019607843137255)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+    }};
 
 var style_MasteplanBildVitta_278 = function(feature, resolution){
     var context = {
@@ -8,27 +130,24 @@ var style_MasteplanBildVitta_278 = function(feature, resolution){
     };
     
     var labelText = ""; 
-    var value = feature.get("");
-    var labelFont = "13.0px \'Open Sans\', sans-serif";
-    var labelFill = "#323232";
-    var bufferColor = "#fafafa";
-    var bufferWidth = 3.0;
+    var value = feature.get("layer");
+    var labelFont = "10px, sans-serif";
+    var labelFill = "#000000";
+    var bufferColor = "";
+    var bufferWidth = 0;
     var textAlign = 'left';
     var offsetX = 8;
     var offsetY = 3;
     var overflow = false;
     var repeat = 0;
     var placement = 'point';
-    if (feature.get("Nome") !== null) {
-        labelText = String(feature.get("Nome"));
+    if ("" !== null) {
+        labelText = String("");
     }
-    var style = [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 8.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(255,255,255,1.0)'})}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
-    })];
+    
+    var style = categories_MasteplanBildVitta_278(feature, value, size, resolution, labelText,
+                          labelFont, labelFill, bufferColor,
+                          bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
     return style;
 };
