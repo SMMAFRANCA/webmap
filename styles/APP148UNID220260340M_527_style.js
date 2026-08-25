@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_AREA_VERDE2013UNID835945972M_523 = function(feature, resolution){
+var style_APP148UNID220260340M_527 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -23,7 +23,7 @@ var style_AREA_VERDE2013UNID835945972M_523 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.608}),fill: new ol.style.Fill({color: 'rgba(69,178,22,0.5019607843137255)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.608}),fill: new ol.style.Fill({color: 'rgba(227,26,28,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
