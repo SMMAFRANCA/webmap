@@ -385,19 +385,19 @@ function fnc_strpos(values, context) {
 };
 
 function fnc_left(values, context) {
-    return String(values[0]).substr(0, values[1]);
+    return false;
 };
 
 function fnc_right(values, context) {
-     return String(values[0]).substr(0, values[1]);
+    return false;
 };
 
 function fnc_rpad(values, context) {
-    return String(values[0]).padEnd(values[1], values[2]);
+    return false;
 };
 
 function fnc_lpad(values, context) {
-    return String(values[0]).padStart(values[1], values[2]);
+    return false;
 };
 
 function fnc_format(values, context) {
@@ -763,3 +763,69 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_label_PortaldosIndaias_47_eval_expression(context) {
+    // 'Portal dos Indaias - Matrícula 9.787' || '\n' || 'Área: ' || area || ' m²'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (((('Portal dos Indaias - Matrícula 9.787' + '\n') + 'Área: ') + feature.get('area') ) + ' m²');
+    } else {
+        return (((('Portal dos Indaias - Matrícula 9.787' + '\n') + 'Área: ') + feature.get('area') ) + ' m²');
+    }
+}
+
+
+function exp_label_FazendaPalestina105unid_249_eval_expression(context) {
+    // 'Faz. Palestina Matr: ' || matricula
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ('Faz. Palestina Matr: ' + feature.get('matricula') );
+    } else {
+        return ('Faz. Palestina Matr: ' + feature.get('matricula') );
+    }
+}
+
+
+function exp_label_AntigoAterrodaFazendaMunicipalPMsGsAvatz15unid_256_eval_expression(context) {
+    // poco || ' - ' || empresa
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    } else {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    }
+}
+
+
+function exp_label_AntigoAterrodaFazendaMunicipalPMsguaAvatz18unid_257_eval_expression(context) {
+    // poco || ' - ' || empresa
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    } else {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    }
+}
+
+
+function exp_label_AntigoAterrodaFazendaMunicipalPMsguaGeoAnaltica15unid_258_eval_expression(context) {
+    // poco || ' - ' || empresa
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    } else {
+        return ((feature.get('poco')  + ' - ') + feature.get('empresa') );
+    }
+}

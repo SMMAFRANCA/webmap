@@ -4,20 +4,15 @@ var map = new ol.Map({
     renderer: 'canvas',
     layers: layersList,
     view: new ol.View({
-        constrainResolution: true,
-        maxZoom: 21,
-        minZoom: 1,
-        
-        projection: new ol.proj.Projection({
-            code: 'EPSG:31983',
-            //extent: [228566.637530, 7689454.761062, 276902.898345, 7740956.112701],
-            units: 'm'
-        })
+         maxZoom: 28, minZoom: 1
     })
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([228566.637530, 7689454.761062, 276902.898345, 7740956.112701], map.getSize());
+map.getView().fit([-5299556.070205, -2366518.908908, -5242299.207794, -2320955.230815], map.getSize());
+
+//full zooms only
+map.getView().setProperties({constrainResolution: true});
 
 //change cursor
 function pointerOnFeature(evt) {
@@ -152,16 +147,13 @@ var featureOverlay = new ol.layer.Vector({
     updateWhileInteracting: true // optional, for instant visual feedback
 });
 
-var doHighlight = true;
+var doHighlight = false;
 var doHover = false;
 
 function createPopupField(currentFeature, currentFeatureKeys, layer) {
     var popupText = '';
     for (var i = 0; i < currentFeatureKeys.length; i++) {
-        if (currentFeatureKeys[i] != 'geometry' &&
-            currentFeatureKeys[i] != 'layerObject' &&
-            currentFeatureKeys[i] != 'idO' &&
-            currentFeatureKeys[i] != '_mvtLayer_') {
+        if (currentFeatureKeys[i] != 'geometry' && currentFeatureKeys[i] != 'layerObject' && currentFeatureKeys[i] != 'idO') {
             var popupField = '';
             if (layer.get('fieldLabels')[currentFeatureKeys[i]] == "hidden field") {
                 continue;
@@ -299,7 +291,7 @@ function onPointerMove(evt) {
                     highlightStyle = new ol.style.Style({
                         image: new ol.style.Circle({
                             fill: new ol.style.Fill({
-                                color: "rgba(255, 255, 0, 1.00)"
+                                color: "rgba(255, 255, 255, 1.00)"
                             }),
                             radius: radius
                         })
@@ -310,7 +302,7 @@ function onPointerMove(evt) {
 
                     highlightStyle = new ol.style.Style({
                         stroke: new ol.style.Stroke({
-                            color: 'rgba(255, 255, 0, 1.00)',
+                            color: 'rgba(255, 255, 255, 1.00)',
                             lineDash: null,
                             width: featureWidth
                         })
@@ -319,7 +311,7 @@ function onPointerMove(evt) {
                 } else {
                     highlightStyle = new ol.style.Style({
                         fill: new ol.style.Fill({
-                            color: 'rgba(255, 255, 0, 1.00)'
+                            color: 'rgba(255, 255, 255, 1.00)'
                         })
                     })
                 }
@@ -506,7 +498,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-left-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">FRANCA/SP - Web Map</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">FRANCA/SP - SEINFRA - GTA</h2>';
         return titleElement;
     })(),
     target: 'top-left-container'
