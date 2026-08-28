@@ -1,1 +1,0 @@
-var json_MasteplanBildVitta_174 = {"type":"FeatureCollection","name":"MasteplanBildVitta_174","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[{"type":"Feature","properties":{"fid":"1","Nome":"Masteplan Bild/Vitta"},"geometry":{"type":"Point","coordinates":[-47.4190775,-20.5177426]}}]}
