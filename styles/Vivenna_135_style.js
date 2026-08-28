@@ -1,13 +1,13 @@
 var size = 0;
 var placement = 'point';
-function categories_VIVENNA_135(feature, value, size, resolution, labelText,
+function categories_Vivenna_135(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
     switch(valueStr) {
         case 'APP':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(0,191,255,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(0,191,255,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -16,7 +16,7 @@ function categories_VIVENNA_135(feature, value, size, resolution, labelText,
 
         case 'AREA INSTITUCIONAL':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(99,78,58,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -25,7 +25,7 @@ function categories_VIVENNA_135(feature, value, size, resolution, labelText,
 
         case 'AREA LAZER':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(188,145,103,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(188,145,103,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -34,7 +34,7 @@ function categories_VIVENNA_135(feature, value, size, resolution, labelText,
 
         case 'LOTES MISTOS':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(189,13,17,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(189,13,17,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -43,7 +43,7 @@ function categories_VIVENNA_135(feature, value, size, resolution, labelText,
 
         case 'LOTES RESIDENCIAIS':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(10,12,103,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(10,12,103,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -52,7 +52,7 @@ function categories_VIVENNA_135(feature, value, size, resolution, labelText,
 
         case 'PASSEIO':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(67,127,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -61,7 +61,7 @@ function categories_VIVENNA_135(feature, value, size, resolution, labelText,
 
         case 'RUAS':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(81,83,86,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -70,7 +70,7 @@ function categories_VIVENNA_135(feature, value, size, resolution, labelText,
 
         case 'VIELA':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(71,25,76,0.5019607843137255)'}),
+        fill: new ol.style.Fill({color: 'rgba(71,25,76,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -78,14 +78,14 @@ function categories_VIVENNA_135(feature, value, size, resolution, labelText,
 			break;
     }};
 
-var style_VIVENNA_135 = function(feature, resolution){
+var style_Vivenna_135 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
     };
     
     var labelText = ""; 
-    var value = feature.get("CLASSE");
+    var value = feature.get("layer");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
@@ -100,7 +100,7 @@ var style_VIVENNA_135 = function(feature, resolution){
         labelText = String("");
     }
     
-    var style = categories_VIVENNA_135(feature, value, size, resolution, labelText,
+    var style = categories_Vivenna_135(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
