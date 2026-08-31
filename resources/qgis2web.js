@@ -506,7 +506,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-left-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">FRANCA/SP - Web Map</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">FRANCA/SP - CADASTRO TÉCNICO MULTIFINALITÁRIO (CTM)</h2>';
         return titleElement;
     })(),
     target: 'top-left-container'

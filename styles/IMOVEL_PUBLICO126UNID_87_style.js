@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_IMOVEL_PUBLICO125UNID_87 = function(feature, resolution){
+var style_IMOVEL_PUBLICO126UNID_87 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
