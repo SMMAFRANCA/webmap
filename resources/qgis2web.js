@@ -299,7 +299,7 @@ function onPointerMove(evt) {
                     highlightStyle = new ol.style.Style({
                         image: new ol.style.Circle({
                             fill: new ol.style.Fill({
-                                color: "rgba(255, 255, 0, 1.00)"
+                                color: "rgba(255, 255, 0, 0.30)"
                             }),
                             radius: radius
                         })
@@ -310,7 +310,7 @@ function onPointerMove(evt) {
 
                     highlightStyle = new ol.style.Style({
                         stroke: new ol.style.Stroke({
-                            color: 'rgba(255, 255, 0, 1.00)',
+                            color: 'rgba(255, 255, 0, 0.30)',
                             lineDash: null,
                             width: featureWidth
                         })
@@ -319,7 +319,7 @@ function onPointerMove(evt) {
                 } else {
                     highlightStyle = new ol.style.Style({
                         fill: new ol.style.Fill({
-                            color: 'rgba(255, 255, 0, 1.00)'
+                            color: 'rgba(255, 255, 0, 0.30)'
                         })
                     })
                 }
@@ -506,7 +506,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-left-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">FRANCA/SP - CADASTRO TÉCNICO MULTIFINALITÁRIO (CTM)</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">FRANCA/SP - CADASTRO TÉCNICO MULTIFINALITÁRIO (CTM+)</h2>';
         return titleElement;
     })(),
     target: 'top-left-container'
