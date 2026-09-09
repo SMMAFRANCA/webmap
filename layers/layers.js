@@ -3758,7 +3758,7 @@ var lyr_JARDIM_FLORA_220 = new ol.layer.Vector({
     <img src="styles/legend/JARDIM_FLORA_220_5.png" /> LOTES COMERCIAIS<br />\
     <img src="styles/legend/JARDIM_FLORA_220_6.png" /> PASSEIO<br />\
     <img src="styles/legend/JARDIM_FLORA_220_7.png" /> RUAS<br />\
-    <img src="styles/legend/JARDIM_FLORA_220_8.png" /> LOTES MISTOS<br />' });
+    <img src="styles/legend/JARDIM_FLORA_220_8.png" /> LOTES<br />' });
 var format_JARDIM_COLORADO_221 = new ol.format.GeoJSON();
 var features_JARDIM_COLORADO_221 = format_JARDIM_COLORADO_221.readFeatures(json_JARDIM_COLORADO_221, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:31983'});

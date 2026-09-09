@@ -77,9 +77,9 @@ function categories_JARDIM_FLORA_220(feature, value, size, resolution, labelText
     })];
 			break;
 
-        case 'LOTES MISTOS':
+        case 'LOTES':
             return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(189,13,17,0.5019607843137255)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(188,171,167,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
