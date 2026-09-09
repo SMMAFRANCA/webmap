@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_IRREGULAR174UNID_254 = function(feature, resolution){
+var style_IRREGULAR179UNID_254 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
