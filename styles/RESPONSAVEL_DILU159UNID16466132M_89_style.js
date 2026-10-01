@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_BACIA_RIO_CANOAS_LC_1002006_6 = function(feature, resolution){
+var style_RESPONSAVEL_DILU159UNID16466132M_89 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -9,21 +9,22 @@ var style_BACIA_RIO_CANOAS_LC_1002006_6 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("");
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
-    var bufferColor = "";
-    var bufferWidth = 0;
+    var labelFont = "9.1px \'Open Sans\', sans-serif";
+    var labelFill = "#323232";
+    var bufferColor = "#fafafa";
+    var bufferWidth = 3.0;
     var textAlign = 'left';
     var offsetX = 8;
     var offsetY = 3;
     var overflow = false;
     var repeat = 0;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("ADOTANTE") !== null) {
+        labelText = String(feature.get("ADOTANTE"));
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(15,157,88,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.748}),fill: new ol.style.Fill({color: 'rgba(255,158,23,0.0)'}),
+        image: new ol.style.Circle({radius: 8.0 + size,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(190,207,80,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)

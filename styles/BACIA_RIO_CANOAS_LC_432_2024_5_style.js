@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_BACIA_RIO_CANOAS_LC_4322024_5 = function(feature, resolution){
+var style_BACIA_RIO_CANOAS_LC_432_2024_5 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
