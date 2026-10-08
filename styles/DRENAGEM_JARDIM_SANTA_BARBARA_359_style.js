@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_DRENAGEM_JARDIM_SANTA_BARBARADREnAGEM_JARDIM_SANTA_BARBARA_359(feature, value, size, resolution, labelText,
+function categories_DRENAGEM_JARDIM_SANTA_BARBARA_359(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
@@ -69,7 +69,7 @@ function categories_DRENAGEM_JARDIM_SANTA_BARBARADREnAGEM_JARDIM_SANTA_BARBARA_3
 			break;
     }};
 
-var style_DRENAGEM_JARDIM_SANTA_BARBARADREnAGEM_JARDIM_SANTA_BARBARA_359 = function(feature, resolution){
+var style_DRENAGEM_JARDIM_SANTA_BARBARA_359 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -91,7 +91,7 @@ var style_DRENAGEM_JARDIM_SANTA_BARBARADREnAGEM_JARDIM_SANTA_BARBARA_359 = funct
         labelText = String("");
     }
     
-    var style = categories_DRENAGEM_JARDIM_SANTA_BARBARADREnAGEM_JARDIM_SANTA_BARBARA_359(feature, value, size, resolution, labelText,
+    var style = categories_DRENAGEM_JARDIM_SANTA_BARBARA_359(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
