@@ -1,1 +1,0 @@
-var json_CONTENCAO_VIARIA_131 = {"type":"FeatureCollection","name":"CONTENCAO_VIARIA_131","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}

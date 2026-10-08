@@ -1,1 +1,0 @@
-var json_AREA_LAZER_PARQUE_CONTINENTAL_136 = {"type":"FeatureCollection","name":"AREA_LAZER_PARQUE_CONTINENTAL_136","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}

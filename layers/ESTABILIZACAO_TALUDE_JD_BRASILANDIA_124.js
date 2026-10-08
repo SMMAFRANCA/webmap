@@ -1,1 +1,0 @@
-var json_ESTABILIZACAO_TALUDE_JD_BRASILANDIA_124 = {"type":"FeatureCollection","name":"ESTABILIZACAO_TALUDE_JD_BRASILANDIA_124","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}

@@ -1,1 +1,0 @@
-var json_CONSTRUCAO_CEPEL_SAO_JOSE_132 = {"type":"FeatureCollection","name":"CONSTRUCAO_CEPEL_SAO_JOSE_132","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}
