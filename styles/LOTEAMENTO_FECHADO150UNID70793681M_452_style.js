@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_LOTEAMENTO_FECHADO146UNID70632440M_452 = function(feature, resolution){
+var style_LOTEAMENTO_FECHADO150UNID70793681M_452 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
