@@ -1,0 +1,1 @@
+var json_REFORCO_ESTRUTURAL_COLEGIO_CHAMPAGNAT_240 = {"type":"FeatureCollection","name":"REFORCO_ESTRUTURAL_COLEGIO_CHAMPAGNAT_240","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"xy_coordinate_resolution":1e-07,"features":[]}
