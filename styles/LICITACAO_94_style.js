@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_NA_FILA_94 = function(feature, resolution){
+var style_LICITACAO_94 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -23,7 +23,7 @@ var style_NA_FILA_94 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.748}),fill: new ol.style.Fill({color: 'rgba(77,239,0,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.748}),fill: new ol.style.Fill({color: 'rgba(77,239,241,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
