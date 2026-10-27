@@ -763,3 +763,43 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_PROJETOS_PUBLICOS_100rule0_eval_expression(context) {
+    // ETAPA = 'LICITAÇÃO'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('ETAPA')  == 'LICITAÇÃO');
+    } else {
+        return (feature.get('ETAPA')  == 'LICITAÇÃO');
+    }
+}
+
+
+function exp_PROJETOS_PUBLICOS_100rule1_eval_expression(context) {
+    // ETAPA = 'ORÇAMENTO'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('ETAPA')  == 'ORÇAMENTO');
+    } else {
+        return (feature.get('ETAPA')  == 'ORÇAMENTO');
+    }
+}
+
+
+function exp_PROJETOS_PUBLICOS_100rule2_eval_expression(context) {
+    // ETAPA = 'PROJETO'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('ETAPA')  == 'PROJETO');
+    } else {
+        return (feature.get('ETAPA')  == 'PROJETO');
+    }
+}
