@@ -1,10 +1,19 @@
 var size = 0;
 var placement = 'point';
-function categories_DRENAGEM_VEREDAS_DE_FRANCA_319(feature, value, size, resolution, labelText,
+function categories_DRENAGEM_SANTA_FE_320(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
     switch(valueStr) {
+        case 'BACIA CONTENCAO':
+            return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(255,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
+    })];
+			break;
+
         case 'BOCA DE LOBO':
             return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(10,190,192,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.748}),
@@ -69,7 +78,7 @@ function categories_DRENAGEM_VEREDAS_DE_FRANCA_319(feature, value, size, resolut
 			break;
     }};
 
-var style_DRENAGEM_VEREDAS_DE_FRANCA_319 = function(feature, resolution){
+var style_DRENAGEM_SANTA_FE_320 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -91,7 +100,7 @@ var style_DRENAGEM_VEREDAS_DE_FRANCA_319 = function(feature, resolution){
         labelText = String("");
     }
     
-    var style = categories_DRENAGEM_VEREDAS_DE_FRANCA_319(feature, value, size, resolution, labelText,
+    var style = categories_DRENAGEM_SANTA_FE_320(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 

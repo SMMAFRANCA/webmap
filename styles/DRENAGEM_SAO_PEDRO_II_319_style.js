@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_DRENAGEM_SAO_PEDRO_II_320(feature, value, size, resolution, labelText,
+function categories_DRENAGEM_SAO_PEDRO_II_319(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
@@ -87,7 +87,7 @@ function categories_DRENAGEM_SAO_PEDRO_II_320(feature, value, size, resolution, 
 			break;
     }};
 
-var style_DRENAGEM_SAO_PEDRO_II_320 = function(feature, resolution){
+var style_DRENAGEM_SAO_PEDRO_II_319 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -109,7 +109,7 @@ var style_DRENAGEM_SAO_PEDRO_II_320 = function(feature, resolution){
         labelText = String("");
     }
     
-    var style = categories_DRENAGEM_SAO_PEDRO_II_320(feature, value, size, resolution, labelText,
+    var style = categories_DRENAGEM_SAO_PEDRO_II_319(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement, textAlign, offsetX, offsetY, overflow, repeat);
 
